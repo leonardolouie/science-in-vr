@@ -363,7 +363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splashImage: {fileID: 1836764312}
-  loadLevel: MainForm
+  loadLevel: SCIVREUI
 --- !u!1 &1836764310
 GameObject:
   m_ObjectHideFlags: 0

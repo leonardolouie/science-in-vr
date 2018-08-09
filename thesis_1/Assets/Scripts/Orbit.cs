@@ -9,7 +9,7 @@ public class Orbit : MonoBehaviour {
 	public GameObject axis;
 	public float axisSpeed;
 	public static int flag;
-	public int a;
+	public int planetPosition;
 	// Update is called once per frames
 	void Update () {
 		OrbitAround ();
@@ -20,7 +20,7 @@ public class Orbit : MonoBehaviour {
 	}
 	void OnMouseOver(){
 		if (Input.GetMouseButtonUp (0)) {
-			flag = a;
+			flag = planetPosition;
 		} 
 	
 	}

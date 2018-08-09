@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class creatingusers : MonoBehaviour {
 
-	// Use this for initialization
+	//site
 
 
 	string CreateUserUrl="https://scivre.000webhostapp.com/inserdata.php";

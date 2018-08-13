@@ -11,6 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/UI - BUILDER/Scenes - All Elements In One Place/SCIVREUI.unity
     guid: f00b59b463d95804db39802dd3cb7d67
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/solarsystem_scene/SolarSystem.unity
     guid: 84d2af3de1cb8c0449f0bed30fe2a5c8

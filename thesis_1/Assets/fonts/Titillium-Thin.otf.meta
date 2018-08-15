@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: e22c43ac5d7ce8448bbc0450a78235a7
+timeCreated: 1534287866
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Titillium
+  fontNames:
+  - Titillium
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 69764a540cdb695408d50a0d2635e3e6, type: 3}
+  - {fileID: 12800000, guid: b7116e74f0c77254a817f5b6455c88e6, type: 3}
+  - {fileID: 12800000, guid: 0be82956d14177747a12b091cffb1eb2, type: 3}
+  - {fileID: 12800000, guid: ccd9bb098adc46343a2a9d39394706e4, type: 3}
+  - {fileID: 12800000, guid: 287fffcbd453dc74ab6cb701dc24ba58, type: 3}
+  - {fileID: 12800000, guid: 83eeef1c63eb26f46880a7d36748f852, type: 3}
+  - {fileID: 12800000, guid: 7355969c01ffb674d8ae72c0d9cd6fd1, type: 3}
+  - {fileID: 12800000, guid: 25bd2f0d6c43708428ecd2d5c5bc493e, type: 3}
+  - {fileID: 12800000, guid: c6f283ed9b0c7784b9aec1fb09fd8139, type: 3}
+  - {fileID: 12800000, guid: 880e573e9e13d1f4e848b38ddd97be14, type: 3}
+  - {fileID: 12800000, guid: a689687f1e87f7a47bf9b22a0ca78b16, type: 3}
+  - {fileID: 12800000, guid: e1fd34ff13ca1c449b37f8851fad4398, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

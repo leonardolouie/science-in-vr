@@ -2,6 +2,7 @@
 
 public class PlayAnim : MonoBehaviour {
 
+
 	public GameObject transInObject;
 	public Animation transOutAnim;
 	public Animation transInAnim;

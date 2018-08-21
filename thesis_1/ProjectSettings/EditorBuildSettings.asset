@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Splash.unity
     guid: 6268c79bffac9164a88749c45a5b4c14
   - enabled: 1
-    path: Assets/UI - BUILDER/Scenes - All Elements In One Place/SCIVREUI.unity
+    path: Assets/Scenes/SCIVREUI.unity
     guid: f00b59b463d95804db39802dd3cb7d67
   - enabled: 1
     path: Assets/Scenes/solarsystem_scene/SolarSystem.unity

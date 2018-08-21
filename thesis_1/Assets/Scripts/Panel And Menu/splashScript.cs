@@ -6,6 +6,7 @@ using UnityEngine;
 public class splashScript : MonoBehaviour {
 
 	public Image splashImage;
+	public TextMesh a;
 	public string loadLevel;
 
 	IEnumerator Start()

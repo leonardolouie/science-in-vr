@@ -1,17 +1,12 @@
 ﻿using UnityEngine;
 
 public class pZoom : TouchLogic {
-
-	public float zoomSpeed = 5.0f;
-
 	private Vector2 currTouch1 = Vector2.zero,
 	lastTouch1 = Vector2.zero,
 	currTouch2 = Vector2.zero,
 	lastTouch2 = Vector2.zero;
-
 	private float currDist = 0.0f,
 	lastDist = 0.0f;
-
 	public static float zoomFactor = 0.0f;
 	void OnTouchMovedAnywhere()
 	{
@@ -45,12 +40,7 @@ public class pZoom : TouchLogic {
 			currDist = 0.0f;
 			lastDist = 0.0f;
 		}
-
-		zoomFactor = Mathf.Clamp (lastDist - currDist, -30.0f, 30.0f);
-
-		Camera.main.transform.Translate (Vector3.back * zoomFactor * zoomSpeed * Time.deltaTime);
-		
-
-
+		//the below zoomFactor will be pass to the camera orbit script, serves as the memory of the zoom
+		zoomFactor = Mathf.Clamp (lastDist - currDist, -700f, 700f);
 	}
 }

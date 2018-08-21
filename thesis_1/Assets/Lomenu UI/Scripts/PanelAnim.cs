@@ -27,7 +27,7 @@ public class PanelAnim : MonoBehaviour {
 	public void newPanel(int newPage)
 	{
 		if (newPage != currentPanelIndex)
-			StartCoroutine ("ChangePage", newPage);
+			StartCoroutine (ChangePage(newPage));
 	}
 
 	public IEnumerator ChangePage (int newPage)

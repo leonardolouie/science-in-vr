@@ -2551,13 +2551,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 291181825}
   m_TextComponent: {fileID: 627984318}
   m_Placeholder: {fileID: 534714553}
-  m_ContentType: 5
+  m_ContentType: 2
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 6
+  m_KeyboardType: 4
   m_LineType: 0
   m_HideMobileInput: 0
-  m_CharacterValidation: 4
+  m_CharacterValidation: 1
   m_CharacterLimit: 18
   m_OnEndEdit:
     m_PersistentCalls:
@@ -12289,12 +12289,6 @@ MonoBehaviour:
   txtlname: {fileID: 803872181}
   txtusername: {fileID: 1865768385}
   txtpassword: {fileID: 2077870214}
-  student_id: 
-  fname: 
-  mname: 
-  lname: 
-  username: 
-  password: 
 --- !u!1 &1201966630
 GameObject:
   m_ObjectHideFlags: 0

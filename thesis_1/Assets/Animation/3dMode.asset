@@ -29,7 +29,7 @@ MonoBehaviour:
     m_Settings:
       excludeSkybox: 1
   antialiasing:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       method: 0
       fxaaSettings:
@@ -42,9 +42,9 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 0
     m_Settings:
-      intensity: 1
-      radius: 0.3
-      sampleCount: 10
+      intensity: 0.22
+      radius: 0.0001
+      sampleCount: 6
       downsampling: 1
       forceForwardCompatibility: 0
       ambientOnly: 0
@@ -102,8 +102,8 @@ MonoBehaviour:
       bloom:
         intensity: 2.78
         threshold: 1.22
-        softKnee: 0.36
-        radius: 2.5
+        softKnee: 0.221
+        radius: 1.84
         antiFlicker: 1
       lensDirt:
         texture: {fileID: 0}
@@ -134,9 +134,9 @@ MonoBehaviour:
       colorWheels:
         mode: 1
         log:
-          slope: {r: 1, g: 0.8220949, b: 0.9890593, a: 0}
-          power: {r: 0.97532815, g: 0.95065784, b: 1, a: 0}
-          offset: {r: 0.94069755, g: 1, b: 0.9443453, a: 0}
+          slope: {r: 1, g: 0.3582241, b: 0.7049149, a: 0}
+          power: {r: 0.556123, g: 1, b: 0.7370938, a: 0}
+          offset: {r: 0.769908, g: 0.689211, b: 1, a: 0}
         linear:
           lift: {r: 1, g: 1, b: 1, a: 0}
           gamma: {r: 1, g: 1, b: 1, a: 0}

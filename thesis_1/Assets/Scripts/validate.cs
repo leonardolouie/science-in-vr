@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro.EditorUtilities;
 public class validate : MonoBehaviour {
-	
+
 	bool aa = true;
 	public Text try2;
 	public Image def,solar,anatomy,try1;
@@ -29,7 +29,7 @@ public class validate : MonoBehaviour {
 		try2.text = (try1.fillAmount * 100f).ToString ();
 	}
 	public void test(){
-		if (user.text == "username" && pass.text == "password") {
+		if (user.text == "123456" && pass.text == "password") {
 			mainPanel.SetActive (true);
 			loginPanel.SetActive (false);
 		} else

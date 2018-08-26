@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class creatingusers : MonoBehaviour {
 
 	//site
-	string CreateUserUrl="http://192.168.0.31:81/superweb/webscivre/public/api/register";
+	string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapiregister";
 
 
 	public InputField txtstudent_id;
@@ -48,11 +48,10 @@ public class creatingusers : MonoBehaviour {
 		form.AddField ("name", username);
 
 		//WWW www = new WWW(CreateUserUrl,form);
-<<<<<<< HEAD
+
 		WWW www = new WWW(CreateUserUrl, form);
-=======
-		WWW www = new WWW ("http://localhost:81/superweb/webscivre/public/api/register", form);
->>>>>>> c73db53bda661b4a8829a0fcb1c933b5a528f6c9
+
+	
 		yield return www;
 		Debug.Log (www.text);
 

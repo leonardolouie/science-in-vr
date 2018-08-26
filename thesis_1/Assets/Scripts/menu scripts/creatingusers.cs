@@ -35,7 +35,6 @@ public class creatingusers : MonoBehaviour {
 		
 
 	IEnumerator  CreateUser(string student_id, string password, string fname, string mname, string lname, string username)
-
 	{
 
 		WWWForm form = new WWWForm ();
@@ -49,12 +48,15 @@ public class creatingusers : MonoBehaviour {
 		form.AddField ("name", username);
 
 		//WWW www = new WWW(CreateUserUrl,form);
+<<<<<<< HEAD
 		WWW www = new WWW(CreateUserUrl, form);
+=======
+		WWW www = new WWW ("http://localhost:81/superweb/webscivre/public/api/register", form);
+>>>>>>> c73db53bda661b4a8829a0fcb1c933b5a528f6c9
 		yield return www;
 		Debug.Log (www.text);
 
 	}
-
 
 
 

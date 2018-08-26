@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.Networking;
 
 
 public class creatingusers : MonoBehaviour {
@@ -17,10 +17,26 @@ public class creatingusers : MonoBehaviour {
 	public  InputField txtlname;
 	public  InputField txtusername;
 	public  InputField txtpassword;
+	public  Text errorfield;
 
 
 
-	//public string student_id, fname, mname,lname,username,password;
+	public bool checkConnectionfail()
+	{
+
+		if (Application.internetReachability == NetworkReachability.NotReachable) {
+			return true;
+		} 
+		else 
+		{
+			return false;
+		}
+
+
+	}
+
+
+
 
 	void Start () {
 		
@@ -29,7 +45,20 @@ public class creatingusers : MonoBehaviour {
 	// Update is called once per frame
 	public void  Register(){
 
-		StartCoroutine(CreateUser (txtstudent_id.text, txtpassword.text, txtfname.text, txtmname.text, txtlname.text, txtusername.text));
+		if(txtstudent_id.text != "" && txtfname.text !="" && txtmname.text != "" && txtlname.text != "" && txtlname.text != "" && txtpassword.text !="" )
+
+		{
+			StartCoroutine(CreateUser (txtstudent_id.text, txtpassword.text, txtfname.text, txtmname.text, txtlname.text, txtusername.text));
+
+		}
+
+		else
+		{
+
+			errorfield.text = "All fields are required";
+		}
+
+
 
 	}
 		
@@ -55,9 +84,63 @@ public class creatingusers : MonoBehaviour {
 		yield return www;
 		Debug.Log (www.text);
 
+
+
+
+
+		//	first if checking internet connection ang web serve response pare
+		if (checkConnectionfail () == true) {
+			
+			errorfield.text = "Error: Internet Connection";
+		} 
+		else 
+		
+		{
+			//Checking web server response
+			if (www.error == null) {
+				if (www.text == "Successfully Registered") 
+				{
+
+				} else {
+
+					errorfield.text = www.text;
+
+
+				}
+			} 
+
+
+
+			else 
+			{
+				errorfield.text = "Cannot connect to web server" + www.error;
+				
+			}
+		
+		
+		}
+		
+
+	}
+
+	   
+	
+	
+	
+	
 	}
 
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+

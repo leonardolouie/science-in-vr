@@ -6,7 +6,7 @@ using UnityEngine.Networking;
 
 
 public class creatingusers : MonoBehaviour {
-
+	
 	//site
 	string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapiregister";
 
@@ -21,19 +21,7 @@ public class creatingusers : MonoBehaviour {
 
 
 
-	public bool checkConnectionfail()
-	{
 
-		if (Application.internetReachability == NetworkReachability.NotReachable) {
-			return true;
-		} 
-		else 
-		{
-			return false;
-		}
-
-
-	}
 
 
 
@@ -66,30 +54,14 @@ public class creatingusers : MonoBehaviour {
 	IEnumerator  CreateUser(string student_id, string password, string fname, string mname, string lname, string username)
 	{
 
-		WWWForm form = new WWWForm ();
-
-
-		form.AddField ("id", student_id);
-		form.AddField ("password", password);
-		form.AddField ("fname", fname);
-		form.AddField ("mname", mname);
-		form.AddField ("lname", lname);
-		form.AddField ("name", username);
-
-		//WWW www = new WWW(CreateUserUrl,form);
-
-		WWW www = new WWW(CreateUserUrl, form);
-
-	
-		yield return www;
-		Debug.Log (www.text);
-
+		errorfield.text = "";
 
 
 
 
 		//	first if checking internet connection ang web serve response pare
-		if (checkConnectionfail () == true) {
+		if (Validation1.checkConnectionfail() == true) 
+		{
 			
 			errorfield.text = "Error: Internet Connection";
 		} 
@@ -97,10 +69,32 @@ public class creatingusers : MonoBehaviour {
 		
 		{
 			//Checking web server response
+			WWWForm form = new WWWForm ();
+
+
+			form.AddField ("id", student_id);
+			form.AddField ("password", password);
+			form.AddField ("fname", fname);
+			form.AddField ("mname", mname);
+			form.AddField ("lname", lname);
+			form.AddField ("name", username);
+
+			//WWW www = new WWW(CreateUserUrl,form);
+
+			WWW www = new WWW(CreateUserUrl, form);
+
+
+			yield return www;
+			Debug.Log (www.text);
+
+
+
+
+
 			if (www.error == null) {
 				if (www.text == "Successfully Registered") 
 				{
-
+					errorfield.text = "Sucessfully registered new account";
 				} else {
 
 					errorfield.text = www.text;

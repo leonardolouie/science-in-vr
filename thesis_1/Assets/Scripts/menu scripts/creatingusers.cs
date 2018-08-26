@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class creatingusers : MonoBehaviour {
 
 	//site
-	string CreateUserUrl="http://localhost:81/superweb/webscivre/public/api/register";
+	string CreateUserUrl="http://192.168.0.31:81/superweb/webscivre/public/api/register";
 
 
 	public InputField txtstudent_id;
@@ -49,26 +49,9 @@ public class creatingusers : MonoBehaviour {
 		form.AddField ("name", username);
 
 		//WWW www = new WWW(CreateUserUrl,form);
-		WWW www = new WWW("http://localhost:81/superweb/webscivre/public/api/register", form);
+		WWW www = new WWW(CreateUserUrl, form);
 		yield return www;
-
-
-
 		Debug.Log (www.text);
-		string json = JsonUtility.ToJson (www);
-
-		string jsonData = "";
-		if (string.IsNullOrEmpty (www)) 
-		{
-			/*jsonData = System.Text.Encoding.UTF8.GetString(www.bytes, 3, www.bytes.Length - 3);  // Skip thr first 3 bytes (i.e. the UTF8 BOM)
-			JSONObject json = new JSONObject(jsonData);   // JSONObject works now*/
-
-		}
-
-		else 
-		{
-			Debug.Log (www.text);
-		}
 
 	}
 

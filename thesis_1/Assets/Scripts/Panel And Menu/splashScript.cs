@@ -4,11 +4,9 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class splashScript : MonoBehaviour {
-
+	public GameObject carousel;
 	public Image splashImage;
-	public TextMesh a;
 	public string loadLevel;
-
 	IEnumerator Start()
 	{
 		splashImage.canvasRenderer.SetAlpha (0.0f);
@@ -17,10 +15,7 @@ public class splashScript : MonoBehaviour {
 		yield return new WaitForSeconds (2.5f);
 		FadeOut ();
 		yield return new WaitForSeconds (2.5f);
-		if (MainMenu.load == null)
-			SceneManager.LoadScene (loadLevel);
-		else
-			SceneManager.LoadScene (MainMenu.load);
+		carousel.SetActive (true);
 	}
 	void FadeIn()
 	{
@@ -29,5 +24,12 @@ public class splashScript : MonoBehaviour {
 	void FadeOut()
 	{
 		splashImage.CrossFadeAlpha (0.0f, 2.5f, false);
+	}
+	public void loadScenes(){
+		//animation goes here before loading the scenes
+		if (MainMenu.load == null)
+			SceneManager.LoadScene (loadLevel);
+		else
+			SceneManager.LoadScene (MainMenu.load);
 	}
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
 public class login : MonoBehaviour {
 
@@ -57,32 +58,45 @@ public class login : MonoBehaviour {
 			form.AddField ("name", username);
 			form.AddField ("password", password);
 
-			WWW www = new WWW(CreateUserUrl,form);
-			Debug.Log ("wait");
-
-			yield return www;
-
-			Debug.Log (www.text);
 
 
 
-			if (www.error == null) {
-				
-				if (www.text == "You are sucessfully Login") {
-					//Lipat ka ng Module sa Main Menu
-					errorfield.text = "Succesfully Logged in"; 
-				} 
-				else {
-
-					errorfield.text = www.text;
-				}
-
-			} else 
+	
+			using (UnityWebRequest www = UnityWebRequest.Post (CreateUserUrl, form)) 
 			{
 
-				errorfield.text = "Cannot connect to web server" + www.error;
+				yield return www.SendWebRequest();
+
+
+				if (www.error != null)
+				{
+					errorfield.text = "Error webserver request error: "+ www.error;
+				}
+				else
+				{ 
+					Debug.Log ("Response" + www.downloadHandler.text);
+
+					Validation1.UserDetail userDetail = JsonUtility.FromJson<Validation1.UserDetail> (www.downloadHandler.text);
+					//reponse details			
+					if (userDetail.status == 1) 
+					{
+						errorfield.text = userDetail.message;
+
+					} 
+					else
+					{
+						errorfield.text = userDetail.message;
+					}
+
+
+
+				}
+
 			}
 
+
+
+		
 		}
 
 

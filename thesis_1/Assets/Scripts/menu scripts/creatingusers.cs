@@ -26,6 +26,8 @@ public class creatingusers : MonoBehaviour {
 
 
 
+
+
 	void Start () {
 		
 	}
@@ -81,60 +83,40 @@ public class creatingusers : MonoBehaviour {
 
 			//WWW www = new WWW(CreateUserUrl,form);
 
-			WWW www = new WWW(CreateUserUrl, form);
+						using (UnityWebRequest www = UnityWebRequest.Post (CreateUserUrl, form)) 
+						{
+
+							yield return www.SendWebRequest();
 
 
-			yield return www;
-			Debug.Log (www.text);
-
-
-
-
-
-			if (www.error == null) {
-				if (www.text == "Successfully Registered") 
-				{
-					errorfield.text = "Sucessfully registered new account";
-				} else {
-
-					errorfield.text = www.text;
-
-
-				}
-			} 
-
-
-
-			else 
-			{
-				errorfield.text = "Cannot connect to web server" + www.error;
+						if (www.error != null)
+							{
+								errorfield.text = "Error webserver request error: "+ www.error;
+							}
+							else
+							{ 
+							Debug.Log ("Response" + www.downloadHandler.text);
+							  
+							Validation1.UserDetail userDetail = JsonUtility.FromJson<Validation1.UserDetail> (www.downloadHandler.text);
+								//reponse details			
+								if (userDetail.status == 1) 
+								{
+								errorfield.text = userDetail.message;
+												
+								} 
+								else
+								{
+									errorfield.text = www.downloadHandler.text;
+								}
+						
+						
 				
+						}
+		
+				}
+		
+
 			}
-		
-		
-		}
-		
-
 	}
-
-	   
+}		
 	
-	
-	
-	
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

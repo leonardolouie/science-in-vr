@@ -18,6 +18,30 @@ public class Validation1 : MonoBehaviour {
 
 	}
 
+	//Getting Data
+
+
+	[System.Serializable]
+
+	public class UserDetail
+	{
+		//ang variable na ito ay dapat katulad sa Json na nireponse
+		public string message="";
+		public int status;
+		Data data;
+
+	}
+
+	[System.Serializable]
+
+	public class Data
+	{
+
+
+
+	}
+
+
 
 
 }

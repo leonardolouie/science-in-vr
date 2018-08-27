@@ -5,18 +5,9 @@ using UnityEngine.UI;
 using UnityEngine.Networking;
 
 public class login : MonoBehaviour {
-<<<<<<< HEAD
-	public GameObject mainPanel,logInPanel;
-	string CreateUserUrl="http://192.168.0.31:81/superweb/webscivre/public/api/webscivreapilogin";
- 	public InputField name;
-	public InputField passwords;
-	public void Login()
-	{
-		StartCoroutine (LoginDB (name.text, passwords.text));
-=======
 
 	string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapilogin";
- 	public InputField name;
+	public InputField name;
 	public InputField password;
 
 	public  Text errorfield;
@@ -38,10 +29,9 @@ public class login : MonoBehaviour {
 		}
 
 
->>>>>>> e7a5340293d5c932f02fefa06fdaf264de8a3acf
 	}
-		IEnumerator LoginDB(string username, string password)
-		{
+	IEnumerator LoginDB(string username, string password)
+	{
 		errorfield.text = "";
 
 
@@ -51,14 +41,6 @@ public class login : MonoBehaviour {
 			errorfield.text = "Error: Internet Connection";
 
 
-<<<<<<< HEAD
-		if (www.text == "You are sucessfully Login" || (name.text == "adminako" && passwords.text == "hayaan mo na")){
-			//Lipat ka ng Module sa Main Menu
-			logInPanel.SetActive(false);
-			//pwede dito mo ilagay yung pag sync ng data, para sa load screen
-			mainPanel.SetActive (true);
-=======
->>>>>>> e7a5340293d5c932f02fefa06fdaf264de8a3acf
 		} 
 		else 
 		{
@@ -74,7 +56,7 @@ public class login : MonoBehaviour {
 
 
 
-	
+
 			using (UnityWebRequest www = UnityWebRequest.Post (CreateUserUrl, form)) 
 			{
 

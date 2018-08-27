@@ -8,7 +8,8 @@ using UnityEngine.Networking;
 public class creatingusers : MonoBehaviour {
 
 	//site
-	public GameObject loadPanel;
+	public Animator anim;
+	public GameObject loadPanel,logSuccessPanel,logInPanel,registerPanel;
 	string CreateUserUrl="http://192.168.0.31:81/superweb/webscivre/public/api/webscivreapiregister";
 	public InputField txtstudent_id;
 	public  InputField txtfname;
@@ -31,7 +32,7 @@ public class creatingusers : MonoBehaviour {
 		if(txtstudent_id.text != "" && txtfname.text !="" && txtmname.text != "" && txtlname.text != "" && txtlname.text != "" && txtpassword.text !="" )
 			StartCoroutine(CreateUser (txtstudent_id.text, txtpassword.text, txtfname.text, txtmname.text, txtlname.text, txtusername.text));
 		else
-			errorfield.text = "All fields are required";
+			errorfield.text = "*All fields are required";
 	}
 		
 	IEnumerator  CreateUser(string student_id, string password, string fname, string mname, string lname, string username)
@@ -50,10 +51,9 @@ public class creatingusers : MonoBehaviour {
 		//loading screen goes here
 		loadPanel.SetActive(true);
 		yield return www;
-		Debug.Log (www.text+"ajaj");
 		//	first if checking internet connection ang web serve response pare
 		if (checkConnectionfail()) {
-			errorfield.text = "Error: Failed to connect to the internet";
+			errorfield.text = "*Error: Failed to connect to the internet";
 		} 
 		else 
 		{
@@ -62,6 +62,12 @@ public class creatingusers : MonoBehaviour {
 				if (www.text == "Successfully Registered") 
 				{
 					//go back to login panel
+					registerPanel.SetActive (false);
+					logSuccessPanel.SetActive (true);
+					logInPanel.SetActive (true);
+					anim.SetTrigger ("regSucc");
+
+
 				} else
 					errorfield.text = www.text;
 			} 

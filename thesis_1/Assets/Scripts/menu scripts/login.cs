@@ -9,13 +9,15 @@ public class login : MonoBehaviour {
 	string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapilogin";
 	public InputField name;
 	public InputField password;
+	public Text student_name;
+	public Text id;
+
 
 	public  Text errorfield;
 	void Start ()
 	{
 
 	}	
-
 
 	public void Login()
 	{
@@ -77,6 +79,8 @@ public class login : MonoBehaviour {
 					{
 						errorfield.text = userDetail.message;
 
+						StartCoroutine (fetch (username));
+
 					} 
 					else
 					{
@@ -93,5 +97,72 @@ public class login : MonoBehaviour {
 
 		}
 	}
+
+
+	IEnumerator fetch(string name)
+	{
+
+		string SetUrl = "localhost:81/superweb/webscivre/public/api/webscivreapifetch";
+
+		if (Validation1.checkConnectionfail() == true)
+		{
+
+			Debug.Log ("Error: Internet Connection");
+
+
+		} 
+		else 
+		{
+
+
+			WWWForm form = new WWWForm ();
+			form.AddField ("name", name);
+
+
+
+
+			using (UnityWebRequest www = UnityWebRequest.Post (SetUrl, form)) 
+			{
+
+				yield return www.SendWebRequest();
+
+
+				if (www.error != null)
+				{
+					Debug.Log("Error webserver request error: "+ www.error);
+				}
+				else
+				{ 
+					Debug.Log ("Response" + www.downloadHandler.text);
+
+					Validation1.UserData userData= JsonUtility.FromJson<Validation1.UserData> (www.downloadHandler.text);
+					//reponse details	
+					PlayerPrefs.SetInt("id", userData.id);
+					PlayerPrefs.SetString ("first_name", userData.first_name);
+					PlayerPrefs.SetString ("middle_name", userData.middle_name);
+					PlayerPrefs.SetString ("last_name", userData.last_name);
+
+
+
+
+					id.text += PlayerPrefs.GetInt ("id").ToString();
+					//student_name.text = PlayerPrefs.GetString ("firs_name");
+
+
+
+					 
+				}
+
+			}
+
+
+
+		}
+	}
+
+
+
+
+
 
 }

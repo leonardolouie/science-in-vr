@@ -8,9 +8,8 @@ using UnityEngine.Networking;
 public class creatingusers : MonoBehaviour {
 
 	//site
-	string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapiregister";
-
-
+	public GameObject loadPanel;
+	string CreateUserUrl="http://192.168.0.31:81/superweb/webscivre/public/api/webscivreapiregister";
 	public InputField txtstudent_id;
 	public  InputField txtfname;
 	public  InputField txtmname;
@@ -18,12 +17,8 @@ public class creatingusers : MonoBehaviour {
 	public  InputField txtusername;
 	public  InputField txtpassword;
 	public  Text errorfield;
-
-
-
-	public bool checkConnectionfail()
+	private bool checkConnectionfail()
 	{
-
 		if (Application.internetReachability == NetworkReachability.NotReachable) {
 			return true;
 		} 
@@ -31,44 +26,18 @@ public class creatingusers : MonoBehaviour {
 		{
 			return false;
 		}
-
-
 	}
-
-
-
-
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
 	public void  Register(){
-
 		if(txtstudent_id.text != "" && txtfname.text !="" && txtmname.text != "" && txtlname.text != "" && txtlname.text != "" && txtpassword.text !="" )
-
-		{
 			StartCoroutine(CreateUser (txtstudent_id.text, txtpassword.text, txtfname.text, txtmname.text, txtlname.text, txtusername.text));
-
-		}
-
 		else
-		{
-
 			errorfield.text = "All fields are required";
-		}
-
-
-
 	}
 		
-
 	IEnumerator  CreateUser(string student_id, string password, string fname, string mname, string lname, string username)
 	{
 
 		WWWForm form = new WWWForm ();
-
-
 		form.AddField ("id", student_id);
 		form.AddField ("password", password);
 		form.AddField ("fname", fname);
@@ -76,71 +45,29 @@ public class creatingusers : MonoBehaviour {
 		form.AddField ("lname", lname);
 		form.AddField ("name", username);
 
-		//WWW www = new WWW(CreateUserUrl,form);
-
 		WWW www = new WWW(CreateUserUrl, form);
 
-	
+		//loading screen goes here
+		loadPanel.SetActive(true);
 		yield return www;
-		Debug.Log (www.text);
-
-
-
-
-
+		Debug.Log (www.text+"ajaj");
 		//	first if checking internet connection ang web serve response pare
-		if (checkConnectionfail () == true) {
-			
-			errorfield.text = "Error: Internet Connection";
+		if (checkConnectionfail()) {
+			errorfield.text = "Error: Failed to connect to the internet";
 		} 
 		else 
-		
 		{
 			//Checking web server response
 			if (www.error == null) {
 				if (www.text == "Successfully Registered") 
 				{
-
-				} else {
-
+					//go back to login panel
+				} else
 					errorfield.text = www.text;
-
-
-				}
 			} 
-
-
-
 			else 
-			{
-				errorfield.text = "Cannot connect to web server" + www.error;
-				
-			}
-		
-		
+				errorfield.text = "Cannot connect to web server"/*www.error*/;
 		}
-		
-
+		loadPanel.SetActive (false);
 	}
-
-	   
-	
-	
-	
-	
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

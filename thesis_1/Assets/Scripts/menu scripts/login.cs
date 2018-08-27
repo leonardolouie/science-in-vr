@@ -6,17 +6,15 @@ using UnityEngine.Networking;
 
 public class login : MonoBehaviour {
 
-	string CreateUserUrl="http://192.168.0.31:81/superweb/webscivre/public/api/webscivreapilogin";
+	string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapilogin";
  	public InputField name;
 	public InputField password;
-<<<<<<< HEAD
+
 	public  Text errorfield;
-	void Start () {
+	void Start ()
+	{
 
-	}
-	//qweqweqweqweqwe
-
-	// Update is called once per frame
+	}	
 
 
 	public void Login()
@@ -25,22 +23,15 @@ public class login : MonoBehaviour {
 
 			StartCoroutine (LoginDB (name.text, password.text));
 
-		}
-		else 
-		{
+		} else {
 			errorfield.text = "All fields are required";
 
 		}
 
-=======
-	public void Login()
-	{
-		StartCoroutine (LoginDB (name.text, password.text));
->>>>>>> cedbc6e40fa10e9e109e1a5b59d5ffb3750f5953
-	}
 
-	IEnumerator LoginDB(string username, string password)
-	{
+	}
+		IEnumerator LoginDB(string username, string password)
+		{
 		errorfield.text = "";
 
 
@@ -62,8 +53,6 @@ public class login : MonoBehaviour {
 
 			form.AddField ("name", username);
 			form.AddField ("password", password);
-
-<<<<<<< HEAD
 
 
 
@@ -101,24 +90,7 @@ public class login : MonoBehaviour {
 			}
 
 
-=======
-		form.AddField ("name", username);
-		form.AddField ("password", password);
-	
-		WWW www = new WWW(CreateUserUrl,form);
-		Debug.Log ("wait");
-		yield return www;
 
-		Debug.Log (www.text);
-
-		if (www.text == "You are sucessfully Login") {
-			//Lipat ka ng Module sa Main Menu
-		} 
-		else {
-			//male password
->>>>>>> cedbc6e40fa10e9e109e1a5b59d5ffb3750f5953
-
-		
 		}
 	}
 

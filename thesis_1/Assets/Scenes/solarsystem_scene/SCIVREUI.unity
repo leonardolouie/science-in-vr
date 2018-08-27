@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -8650,7 +8650,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a3b0f9571525bd4083afc2c95dbc293, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadPanel: {fileID: 0}
   txtstudent_id: {fileID: 0}
   txtfname: {fileID: 0}
   txtmname: {fileID: 0}
@@ -10769,7 +10768,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1065273059
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12554,7 +12553,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a3b0f9571525bd4083afc2c95dbc293, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadPanel: {fileID: 1932057359}
   txtstudent_id: {fileID: 1653065015}
   txtfname: {fileID: 98164149}
   txtmname: {fileID: 713983806}
@@ -14338,7 +14336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1431060508
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19066,8 +19064,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0.014705896, b: 0.014705896, a: 0}
-        key1: {r: 0.91764706, g: 0.39607844, b: 0, a: 1}
+        key0: {r: 0, g: 0.95862055, b: 1, a: 0}
+        key1: {r: 1, g: 0.029411793, b: 0.049492765, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 1}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}

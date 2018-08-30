@@ -13,12 +13,12 @@ public class textcontrol : MonoBehaviour {
 	public Text txtfourth;
 
 
-	List<string> question = new List<string>{"Teacher in history","Programming is"};
-	List<string> firstChoice= new List<string>{"Sir Arjay", "fun"};
-	List<string> secondChoice= new List<string>{"Jayson", "hindi masaya"};
-	List<string> thirdChoice= new List<string>{"qeqweqeqeqe3", "qweqeqew6"};
-	List<string> fourthChoice= new List<string>{"qeqweqeqeqe4", "qweqeqew7"};
-	List<string> correctAnswer = new List<string>{"1","1"};
+	List<string> question = new List<string>{"Teacher in history","Programming is", "Third Largest Planet"};
+	List<string> firstChoice= new List<string>{"Sir Arjay", "fun", "Earth"};
+	List<string> secondChoice= new List<string>{"Jayson", "hindi masaya","Jupiter"};
+	List<string> thirdChoice= new List<string>{"qeqweqeqeqe3", "qweqeqew6","Saturn"};
+	List<string> fourthChoice= new List<string>{"qeqweqeqeqe4", "qweqeqew7","Jupiter"};
+	List<string> correctAnswer = new List<string>{"1","1","1"};
 
 	public int answer =0;
 	int randomquestionIndex;

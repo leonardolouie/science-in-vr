@@ -1,35 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System.Linq;
-
+﻿
 [System.Serializable]
-public class questions:  MonoBehaviour {
-	/*public void answer1()
-	{
-		useranswer = 1;
-		GetRandomQuestion ();
-	}
+public class Questions{
+
+	public string tanong;
+	public string firstchoice;
+	public string secondchoice;
+	public string thirdchoice;
+	public string fourthchoice;
+	public string correctanswer;
 
 
-	public void answer2()
-	{
 
-		useranswer = 2;
-		GetRandomQuestion ();
-	}
 
-	public void answer3()
-	{
 
-		useranswer = 3;
-		GetRandomQuestion ();
-	}
-
-	public void answer4()
-	{
-		useranswer = 4;
-		GetRandomQuestion ();
-	}
-*/
 }

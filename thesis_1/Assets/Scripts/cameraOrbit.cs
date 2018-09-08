@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 
 public class cameraOrbit : MonoBehaviour {
-	private Touch touch = new Touch();
 	protected Transform xFormCamera;
 	protected Transform xFormaParent;
 
@@ -15,13 +14,67 @@ public class cameraOrbit : MonoBehaviour {
 
 	public bool cameraDisabled = false;
 
+
+    //USE FOR CHANGING THE PIVOT
+    public Transform[] views;
+    public float transSpeed = 2;
+    public Transform currentView,startPos;
 	// Use this for initialization
 	void Start () {
 		this.xFormCamera = this.transform;
 		this.xFormaParent = this.transform.parent;
 	}
+    void Update()
+    {
+       
+        if (planetDialogue.selectedPlanet == 0)
+        {
+            currentView = startPos.transform;
+        }
+        if (planetDialogue.selectedPlanet == 1)
+        {
+            currentView = views[0];
+        }
+        if (planetDialogue.selectedPlanet == 2)
+        {
+            currentView = views[1];
+        }
+        if (planetDialogue.selectedPlanet == 3)
+        {
+            currentView = views[2];
+        }
+        if (planetDialogue.selectedPlanet == 4)
+        {
+            currentView = views[3];
+        }
+        if (planetDialogue.selectedPlanet == 5)
+        {
+            currentView = views[4];
+        }
+        if (planetDialogue.selectedPlanet == 6)
+        {
+            currentView = views[5];
+        }
+        if (planetDialogue.selectedPlanet == 7)
+        {
+            currentView = views[6];
+        }
+        if (planetDialogue.selectedPlanet == 8)
+        {
+            currentView = views[7];
+        }
+        /*if (planetDialogue.selectedPlanet == 9)
+        {
+            currentView = views[8];
+        }*/
+        //if (planetDialogue.selectedPlanet == 1)
+        //currentView = views [1];    INTENDED FOR PLLUTO
+    }
+
 	// Update is called once per frame
 	void LateUpdate () {
+        
+       
 		if (Input.GetKeyDown (KeyCode.LeftShift)) {
 			cameraDisabled = !cameraDisabled;
 		}
@@ -48,7 +101,7 @@ public class cameraOrbit : MonoBehaviour {
 			scrollAmount *= (this.cameraDistance * 0.3f);
 			this.cameraDistance += scrollAmount * -1f;
 			//this is the boundaries
-			this.cameraDistance = Mathf.Clamp (this.cameraDistance, 200f, 1500f);
+			this.cameraDistance = Mathf.Clamp (this.cameraDistance, planetDialogue.minZoom, planetDialogue.maxZoom);
 			break;
 		}
 
@@ -59,5 +112,6 @@ public class cameraOrbit : MonoBehaviour {
 			this.xFormCamera.localPosition = new Vector3 (0f, 0f, Mathf.Lerp (this.xFormCamera.localPosition.z, this.cameraDistance * -1f, Time.deltaTime * scrollDampening));
 		}
 
+        this.xFormaParent.position = Vector3.Lerp(this.xFormaParent.position, currentView.position, Time.deltaTime * transSpeed);
 	}
 }

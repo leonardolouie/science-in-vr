@@ -6,7 +6,8 @@ using UnityEngine.Networking;
 
 public class login : MonoBehaviour {
 
-	string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapilogin";
+	//string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapilogin";
+	string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapiregister"; //aj link
 	public InputField name;
 	public InputField password;
 	public Text student_name;
@@ -78,7 +79,6 @@ public class login : MonoBehaviour {
 					if (userDetail.status == 1) 
 					{
 						errorfield.text = userDetail.message;
-
 						StartCoroutine (fetch (username));
 
 					} 

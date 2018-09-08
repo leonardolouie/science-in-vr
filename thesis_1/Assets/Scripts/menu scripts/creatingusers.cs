@@ -8,7 +8,8 @@ using UnityEngine.Networking;
 public class creatingusers : MonoBehaviour {
 
 		//site
-		string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapiregister";
+		//string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapiregister";
+		string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapiregister"; //aj link
 
 
 		public InputField txtstudent_id;
@@ -18,16 +19,6 @@ public class creatingusers : MonoBehaviour {
 		public  InputField txtusername;
 		public  InputField txtpassword;
 		public  Text errorfield;
-
-
-
-
-
-
-
-
-
-
 		void Start () {
 
 		}

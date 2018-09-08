@@ -12,7 +12,10 @@ public class glaze : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-	}	
+	}
+	public void try1(){
+		
+	}
 	// Update is called once per frame
 	void Update () {
 		if (gazeAt) {
@@ -28,7 +31,6 @@ public class glaze : MonoBehaviour {
 			ret = true;
 	}
 	public void PointerDown(){
-		Debug.Log ("ashlfkashf");
 		gazeAt = false;
 	}
 
@@ -37,4 +39,5 @@ public class glaze : MonoBehaviour {
 		gazeAt = false;
 		ret = false;
 	}
+		
 }

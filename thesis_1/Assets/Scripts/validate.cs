@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro.EditorUtilities;
 public class validate : MonoBehaviour {
 
 	bool aa = true;

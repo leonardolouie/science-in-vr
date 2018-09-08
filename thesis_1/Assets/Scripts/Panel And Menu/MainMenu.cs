@@ -12,6 +12,10 @@ public class MainMenu : MonoBehaviour {
 	}
 	public void Home(){
 		SceneManager.LoadScene("Splash");
-		load = "MainForm";
+		load = "SCIVREUI";
+	}
+	//showAgain the carousel
+	public void showAgain(){
+			PlayerPrefs.SetInt ("show", 0);
 	}
 }

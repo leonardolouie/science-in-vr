@@ -10,12 +10,16 @@ public class MainMenu : MonoBehaviour {
 		SceneManager.LoadScene ("Splash");
 		load = "SolarSystem";
 	}
+
 	public void Home(){
 		SceneManager.LoadScene("Splash");
 		load = "SCIVREUI";
 	}
 	//showAgain the carousel
-	public void showAgain(){
-			PlayerPrefs.SetInt ("show", 0);
+
+	public void logOut(){
+		PlayerPrefs.DeleteAll ();
+		SceneManager.LoadScene ("Splash");
+		load = "SCIVREUI";
 	}
 }

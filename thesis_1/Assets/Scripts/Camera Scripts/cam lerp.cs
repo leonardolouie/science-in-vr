@@ -21,8 +21,6 @@ public class CameraTransition : MonoBehaviour {
 		//currentView or this is the default view
 		if (Orbit.flag == 0)
 			currentView = views [0];
-
-
 		//planet views
 		if (Orbit.flag == 1) {
 			currentView = views [1];

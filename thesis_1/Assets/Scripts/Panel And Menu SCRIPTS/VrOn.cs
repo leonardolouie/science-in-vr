@@ -9,6 +9,7 @@ public class VrOn : MonoBehaviour {
 	public Image ret1,splashPanel;
 	public GameObject[] objects;
 	public GameObject canvasSplash;
+
 	// Use this for initialization
 	void Update(){
 		if (glaze.ret || planetDialogue.ret)
@@ -24,7 +25,9 @@ public class VrOn : MonoBehaviour {
 		//canvas splash screen goes here
 		canvasSplash.SetActive(true);
 		yield return new WaitForSeconds (3f);
+		FindObjectOfType<planetDialogue> ().planetNumber (0);
 		UnityEngine.XR.XRSettings.LoadDeviceByName (vrOn);
+		UnityEngine.XR.XRSettings.enabled = true;
 		objects [0].GetComponent<GvrPointerInputModule> ().enabled = true;
 		objects [1].SetActive (true);
 		objects [2].SetActive (true);
@@ -33,7 +36,7 @@ public class VrOn : MonoBehaviour {
 		yield return new WaitForSeconds(2f);
 		canvasSplash.SetActive (false);
 		isVROn = true;
-		UnityEngine.XR.XRSettings.enabled = true;
+
 		//SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
 		Debug.Log ("VR IS NOW ON");
 		//Application.LoadLevel(Application.LoadLevel);

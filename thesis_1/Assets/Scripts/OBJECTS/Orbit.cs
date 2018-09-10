@@ -25,7 +25,7 @@ public class Orbit : MonoBehaviour {
 	
 	}
 	void OrbitAround(){
-		transform.RotateAround (sun.transform.position, Vector3.up, speed * Time.deltaTime);
+		transform.RotateAround (sun.transform.localPosition, Vector3.up, speed * Time.deltaTime);
 	}
 	void spin(){
 		transform.RotateAround (axis.transform.position, Vector3.up, axisSpeed * Time.deltaTime);

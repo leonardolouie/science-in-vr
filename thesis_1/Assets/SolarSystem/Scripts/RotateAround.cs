@@ -41,10 +41,11 @@ public class RotateAround : MonoBehaviour {
         //transform.Translate(Vector3.right * Time.deltaTime * (defaultEarthYear / rotationAroundSunDays) * (globalValuesScript.globalPlanetRotationAroundSun) * (rotationAroundSunDays / defaultEarthYear));
 
 
+		if (centerMass != null) {
+			transform.RotateAround (centerMass.position, Vector3.up, Time.deltaTime * (defaultEarthYear / rotationAroundSunDays) * (globalValuesScript.globalPlanetRotationAroundSun) * Time.deltaTime);
 
-        transform.RotateAround(centerMass.position, Vector3.up, Time.deltaTime * (defaultEarthYear / rotationAroundSunDays) * (globalValuesScript.globalPlanetRotationAroundSun) * Time.deltaTime);
-
-        transform.Rotate(-Vector3.up * Time.deltaTime * planetSpeedRotation * globalValuesScript.globalPlanetRotationAroundSun);
+			transform.Rotate (-Vector3.up * Time.deltaTime * planetSpeedRotation * globalValuesScript.globalPlanetRotationAroundSun);
+		}
     }
     
 }

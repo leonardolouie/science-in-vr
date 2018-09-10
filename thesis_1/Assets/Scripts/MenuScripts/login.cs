@@ -12,59 +12,52 @@ public class login : MonoBehaviour {
 	public InputField password;
 	public Text student_name;
 	public Text id;
-
-
 	public  Text errorfield;
-	void Start ()
-	{
+	public GameObject loginPanel, registerPanel,mainMenuPanel;
 
-	}	
+
+	void Start(){
+		if (PlayerPrefs.GetInt ("isLogged") == 1) {
+			// dito ilalagay ung syncing ng data kung naka save, at nakapag Login na thru internet
+			loginPanel.SetActive (false);
+			registerPanel.SetActive (false);
+			mainMenuPanel.SetActive (true);
+		}
+	}
+
 
 	public void Login()
 	{
 		if (name.text != "" && password.text != "") {
-
 			StartCoroutine (LoginDB (name.text, password.text));
+		} 
+		else 
+		{
+			PlayerPrefs.SetInt ("isLogged", 1);
+			loginPanel.SetActive (false);
+			registerPanel.SetActive (false);
+			mainMenuPanel.SetActive (true);
 
-		} else {
-			errorfield.text = "All fields are required";
-
+			//errorfield.text = "All fields are required";
 		}
-
-
 	}
 	IEnumerator LoginDB(string username, string password)
 	{
 		errorfield.text = "";
-
-
 		if (Validation1.checkConnectionfail() == true)
 		{
-
 			errorfield.text = "Error: Internet Connection";
-
-
 		} 
 		else 
 		{
-
-
-
 			WWWForm form = new WWWForm ();
-
-
 
 			form.AddField ("name", username);
 			form.AddField ("password", password);
-
-
-
-
+		
 			using (UnityWebRequest www = UnityWebRequest.Post (CreateUserUrl, form)) 
 			{
-
 				yield return www.SendWebRequest();
-
 
 				if (www.error != null)
 				{
@@ -73,7 +66,6 @@ public class login : MonoBehaviour {
 				else
 				{ 
 					Debug.Log ("Response" + www.downloadHandler.text);
-
 					Validation1.UserDetail userDetail = JsonUtility.FromJson<Validation1.UserDetail> (www.downloadHandler.text);
 					//reponse details			
 					if (userDetail.status == 1) 
@@ -86,15 +78,8 @@ public class login : MonoBehaviour {
 					{
 						errorfield.text = userDetail.message;
 					}
-
-
-
 				}
-
 			}
-
-
-
 		}
 	}
 
@@ -106,26 +91,16 @@ public class login : MonoBehaviour {
 
 		if (Validation1.checkConnectionfail() == true)
 		{
-
 			Debug.Log ("Error: Internet Connection");
-
-
 		} 
 		else 
 		{
-
-
 			WWWForm form = new WWWForm ();
 			form.AddField ("name", name);
 
-
-
-
 			using (UnityWebRequest www = UnityWebRequest.Post (SetUrl, form)) 
 			{
-
 				yield return www.SendWebRequest();
-
 
 				if (www.error != null)
 				{
@@ -134,7 +109,6 @@ public class login : MonoBehaviour {
 				else
 				{ 
 					Debug.Log ("Response" + www.downloadHandler.text);
-
 					Validation1.UserData userData= JsonUtility.FromJson<Validation1.UserData> (www.downloadHandler.text);
 					//reponse details	
 					PlayerPrefs.SetInt("id", userData.id);
@@ -142,27 +116,10 @@ public class login : MonoBehaviour {
 					PlayerPrefs.SetString ("middle_name", userData.middle_name);
 					PlayerPrefs.SetString ("last_name", userData.last_name);
 
-
-
-
 					id.text += PlayerPrefs.GetInt ("id").ToString();
 					//student_name.text = PlayerPrefs.GetString ("firs_name");
-
-
-
-					 
 				}
-
 			}
-
-
-
 		}
 	}
-
-
-
-
-
-
 }

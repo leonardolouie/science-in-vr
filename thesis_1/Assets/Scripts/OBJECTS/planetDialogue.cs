@@ -12,15 +12,18 @@ public class planetDialogue : MonoBehaviour {
 
 	public static bool ret;
 	private bool gazeAt;
-
+	public static bool hasSelect;
 	public GameObject border;
 
-    public float gazeTime = 2f;
+  	float gazeTime = 2f;
     private float timer;
 
-	public static float minZoom=200f,maxZoom=1500f;
+	public static float minZoom,maxZoom;
     public static int selectedPlanet;
     public int planetNo;
+	void Start(){
+		defaultView ();
+	}
 	void Update () {
 		if (VrOn.isVROn) {
 			if (gazeAt) {
@@ -40,15 +43,19 @@ public class planetDialogue : MonoBehaviour {
 	}
 	public void PointerDown(){
 		if (VrOn.isVROn) {
+			//means the vr is on , here you can add all the events when ur in vr mode
+			hasSelect = true;
 			gazeAt = false;
+			selectedPlanet = planetNo;
 		} else {
 			FindObjectOfType<DialogueManager> ().StartDialogue (dialogue);
 			//dito pwede ung double tap ilagay this is the change of pivot
 			//lerp = true;
+			hasSelect = true;
             selectedPlanet = planetNo;
 			StartCoroutine (popUpBorder ());
-             minZoom=100f;
-             maxZoom = 300f;
+             minZoom=14f;
+             maxZoom = 20f;
 		}
 			
 	}
@@ -66,9 +73,18 @@ public class planetDialogue : MonoBehaviour {
 		border.SetActive (false);
 	}
 
+
+
     public void defaultView() {
         selectedPlanet = 0;
-        minZoom = 200f;
-        maxZoom = 1500f;
+		minZoom = 10f;
+		maxZoom = 100f;
     }
+
+	public void hasSelected(bool a){
+		hasSelect = a;
+	}
+	public void planetNumber(int a){
+		planetNo = a;
+	}
 }

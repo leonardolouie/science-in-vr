@@ -7,6 +7,7 @@ public class splashScript : MonoBehaviour {
 	public Image splashImage;
 	public Text a;
 	public string loadLevel;
+	public Toggle carouselToggle;
 
 	IEnumerator Start()
 	{
@@ -18,7 +19,7 @@ public class splashScript : MonoBehaviour {
 		yield return new WaitForSeconds (1f);
 		FadeOut ();
 		yield return new WaitForSeconds (2.5f);
-		if (PlayerPrefs.GetInt ("show", 0) == 0)
+		if ((PlayerPrefs.GetInt ("show", 0) == 0))
 			carousel.SetActive (true);
 		else
 			loadScenes ();
@@ -34,12 +35,14 @@ public class splashScript : MonoBehaviour {
 		splashImage.CrossFadeAlpha (0.0f, 2.5f, false);
 	}
 
-	public void dontShow(){
-		PlayerPrefs.SetInt ("show", 1);
-	}
 	public void loadScenes(){
 		//animation goes here before loading the scenes
         //meaning the carousel has been loaded
+		if(carouselToggle.isOn){
+			PlayerPrefs.SetInt ("show", 1);
+		}
+	
+
         if (MainMenu.load == null)
         {
             SceneManager.LoadScene(loadLevel);

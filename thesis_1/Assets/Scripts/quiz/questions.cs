@@ -9,8 +9,4 @@ public class Questions{
 	public string fourthchoice;
 	public string correctanswer;
 
-
-
-
-
 }

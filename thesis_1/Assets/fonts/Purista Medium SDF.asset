@@ -977,7 +977,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Purista Medium SDF Material
   m_Shader: {fileID: 4800000, guid: dca26082f9cb439469295791d9f76fe5, type: 3}
-  m_ShaderKeywords: UNITY_UI_CLIP_RECT
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -1009,7 +1009,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Ambient: 0.5
-    - _Bevel: 0.462
+    - _Bevel: 1
     - _BevelClamp: 0.726
     - _BevelOffset: 0.018
     - _BevelRoundness: 0.381
@@ -1067,7 +1067,7 @@ Material:
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+    - _UnderlayColor: {r: 1, g: 0.16911763, b: 0.16911763, a: 0.5}
 --- !u!28 &28977075764047248
 Texture2D:
   m_ObjectHideFlags: 0

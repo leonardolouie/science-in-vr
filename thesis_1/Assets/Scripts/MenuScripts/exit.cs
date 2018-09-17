@@ -13,10 +13,12 @@ public class exit : MonoBehaviour {
 		if (mode.value == 1) {
 			normal.canvasRenderer.SetAlpha (.4f);
 			vr.canvasRenderer.SetAlpha (1f);
+			PlayerPrefs.SetInt ("isVrOn", 1);
 		} 
 		else{
 			normal.canvasRenderer.SetAlpha (1f);
 			vr.canvasRenderer.SetAlpha (.4f);
+			PlayerPrefs.SetInt ("isVrOn", 0);
 		}
 	}
 	public void QuitGame()

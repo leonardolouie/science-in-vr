@@ -5,7 +5,7 @@ public class cameraTransitions : MonoBehaviour {
 	protected Transform xFormaParent;
 
 	protected Vector3 localRotation;
-	protected float cameraDistance = 50;
+	protected float cameraDistance = 930;
 
 	public float mouseSensitivity = 4f;
 	public float scrollSensitivity = 2f;

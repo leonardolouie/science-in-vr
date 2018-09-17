@@ -13,7 +13,6 @@ public class planetDialogue : MonoBehaviour {
 	public static bool ret;
 	private bool gazeAt;
 	public static bool hasSelect;
-	public GameObject border;
 
   	float gazeTime = 2f;
     private float timer;
@@ -53,9 +52,9 @@ public class planetDialogue : MonoBehaviour {
 			//lerp = true;
 			hasSelect = true;
             selectedPlanet = planetNo;
-			StartCoroutine (popUpBorder ());
-             minZoom=14f;
-             maxZoom = 20f;
+
+             minZoom= 250f;
+             maxZoom = 500f;
 		}
 			
 	}
@@ -67,18 +66,13 @@ public class planetDialogue : MonoBehaviour {
             ret = false;
         }
 	}
-	IEnumerator popUpBorder(){
-		border.SetActive (true);
-		yield return new WaitForSeconds (10f);
-		border.SetActive (false);
-	}
 
 
 
     public void defaultView() {
         selectedPlanet = 0;
-		minZoom = 10f;
-		maxZoom = 100f;
+		minZoom = 300f;
+		maxZoom = 1200f;
     }
 
 	public void hasSelected(bool a){

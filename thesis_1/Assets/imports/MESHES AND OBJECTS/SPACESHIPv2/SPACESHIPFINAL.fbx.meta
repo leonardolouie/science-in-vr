@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 4b801819b1220e34aab196de914b3331
+timeCreated: 1537082879
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube.000
+    100004: Cube.001
+    100006: Cylinder.004
+    100008: Cylinder.005
+    100010: Cylinder.006
+    100012: Cylinder.007
+    100014: Plane.001
+    400000: //RootNode
+    400002: Cube.000
+    400004: Cube.001
+    400006: Cylinder.004
+    400008: Cylinder.005
+    400010: Cylinder.006
+    400012: Cylinder.007
+    400014: Plane.001
+    2100000: BASECOLOR2
+    2100002: redWire
+    2100004: BASECOLOR3
+    2100006: etc
+    2100008: BASECOLOR
+    2100010: BLUE
+    2100012: SIDELIGHTORNANGE
+    2100014: WHITELIGHT
+    2100016: WIRES
+    2100018: WIRES2
+    2100020: blueLight
+    2100022: base_monitor
+    2100024: base_monitor_2
+    2100026: TUBES
+    2100028: No Name
+    2300000: //RootNode
+    2300002: Cube.000
+    2300004: Cube.001
+    2300006: Cylinder.004
+    2300008: Cylinder.005
+    2300010: Cylinder.006
+    2300012: Cylinder.007
+    2300014: Plane.001
+    3300000: //RootNode
+    3300002: Cube.000
+    3300004: Cube.001
+    3300006: Cylinder.004
+    3300008: Cylinder.005
+    3300010: Cylinder.006
+    3300012: Cylinder.007
+    3300014: Plane.001
+    4300000: Cylinder
+    4300002: Cylinder.007
+    4300004: Cube.001
+    4300006: Plane.001
+    4300008: Cube.000
+    4300010: Cylinder.006
+    4300012: Cylinder.005
+    4300014: Cylinder.004
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BASECOLOR
+    second: {fileID: 2100000, guid: 29c75b4a30e031d448697a09921a994e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BASECOLOR2
+    second: {fileID: 2100000, guid: 743832b3355d64945abf39c27af12592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BASECOLOR3
+    second: {fileID: 2100000, guid: 2089b9718905bca4b9178081c961f2d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLUE
+    second: {fileID: 2100000, guid: 89f86b96288b741408543e59cf129c62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SIDELIGHTORNANGE
+    second: {fileID: 2100000, guid: 0017a9126cec16e429679b99653594c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TUBES
+    second: {fileID: 2100000, guid: c873dfaf391489046bd28432be1a6af2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WHITELIGHT
+    second: {fileID: 2100000, guid: ceb74390bc0aec143bc8135aace98d80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WIRES
+    second: {fileID: 2100000, guid: 2290dc2d8f6adc44f920ac2eb22060de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WIRES2
+    second: {fileID: 2100000, guid: 36e0cbef2e2384643b39e533065b0e97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base_monitor
+    second: {fileID: 2100000, guid: 8e1736aaa18dd91408ddb90eea26b29d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base_monitor_2
+    second: {fileID: 2100000, guid: e9e297ae5fe6da14dbcf9e7270edbbae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blueLight
+    second: {fileID: 2100000, guid: f43347bedc4c0c74e9c30cff3aac1a9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: etc
+    second: {fileID: 2100000, guid: 58d80e67b599ac94a892ece8d423391e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: redWire
+    second: {fileID: 2100000, guid: 69e9de313e436ca40a3ce01bd6f29721, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 21
+    secondaryUVAreaDistortion: 34
+    secondaryUVHardAngle: 113
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

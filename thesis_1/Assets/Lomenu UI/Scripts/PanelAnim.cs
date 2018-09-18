@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class PanelAnim : MonoBehaviour {
 
 	public List<GameObject> pages = new List<GameObject>();
-	public int currentPanelIndex = 0;
+	int currentPanelIndex = 0;
 	public GameObject currentPanel;
 	public CanvasGroup canvasGroup;
 
@@ -29,6 +29,7 @@ public class PanelAnim : MonoBehaviour {
 		if (newPage != currentPanelIndex)
 			StartCoroutine (ChangePage(newPage));
 	}
+
 
 	public IEnumerator ChangePage (int newPage)
 	{

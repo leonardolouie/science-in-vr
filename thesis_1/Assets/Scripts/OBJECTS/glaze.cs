@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class glaze : MonoBehaviour {
-
 	public static bool ret;
 	public float gazeTime = 2f;
 	private float timer;

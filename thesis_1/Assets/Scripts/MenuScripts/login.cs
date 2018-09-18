@@ -7,22 +7,25 @@ using UnityEngine.Networking;
 public class login : MonoBehaviour {
 
 	//string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapilogin";
-	string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapiregister"; //aj link
+	string Url="localhost:81/scivre/public/api/webscivreapilogin"; //aj link
 	public InputField name;
 	public InputField password;
-	public Text student_name;
 	public Text id;
-	public  Text errorfield;
+	public Text errorfield;
 	public GameObject loginPanel, registerPanel,mainMenuPanel;
+	public Text Hello;
+	public Text fullname;
+	public Text student_id;
+	public Text user;
 
 
 	void Start(){
-		if (PlayerPrefs.GetInt ("isLogged") == 1) {
+		/*if (PlayerPrefs.GetInt ("isLogged") == 1) {
 			// dito ilalagay ung syncing ng data kung naka save, at nakapag Login na thru internet
 			loginPanel.SetActive (false);
 			registerPanel.SetActive (false);
 			mainMenuPanel.SetActive (true);
-		}
+		}*/
 	}
 
 
@@ -32,30 +35,30 @@ public class login : MonoBehaviour {
 			StartCoroutine (LoginDB (name.text, password.text));
 		} 
 		else 
-		{
-			PlayerPrefs.SetInt ("isLogged", 1);
+ 		{
+			/*PlayerPrefs.SetInt ("isLogged", 1);
 			loginPanel.SetActive (false);
 			registerPanel.SetActive (false);
-			mainMenuPanel.SetActive (true);
+			mainMenuPanel.SetActive (true);*/
 
-			//errorfield.text = "All fields are required";
+			errorfield.text = "All fields are required";
 		}
 	}
 	IEnumerator LoginDB(string username, string password)
 	{
 		errorfield.text = "";
-		if (Validation1.checkConnectionfail() == true)
+		/*if (Validation1.checkConnectionfail() == true)
 		{
 			errorfield.text = "Error: Internet Connection";
 		} 
 		else 
-		{
+		{*/
 			WWWForm form = new WWWForm ();
 
 			form.AddField ("name", username);
 			form.AddField ("password", password);
 		
-			using (UnityWebRequest www = UnityWebRequest.Post (CreateUserUrl, form)) 
+			using (UnityWebRequest www = UnityWebRequest.Post (Url, form)) 
 			{
 				yield return www.SendWebRequest();
 
@@ -71,7 +74,15 @@ public class login : MonoBehaviour {
 					if (userDetail.status == 1) 
 					{
 						errorfield.text = userDetail.message;
+						loginPanel.SetActive (false);
+						registerPanel.SetActive (false);
+						mainMenuPanel.SetActive (true);
 						StartCoroutine (fetch (username));
+						Hello.text = "Hi!, "+PlayerPrefs.GetString ("first_name");
+						fullname.text = PlayerPrefs.GetString ("first_name")+" "+PlayerPrefs.GetString ("middle_name")+" "+PlayerPrefs.GetString ("last_name");
+						student_id.text = PlayerPrefs.GetInt ("id")+" ";
+						user.text = PlayerPrefs.GetString ("name")+" ";
+					    
 
 					} 
 					else
@@ -79,7 +90,7 @@ public class login : MonoBehaviour {
 						errorfield.text = userDetail.message;
 					}
 				}
-			}
+			//}
 		}
 	}
 
@@ -87,9 +98,9 @@ public class login : MonoBehaviour {
 	IEnumerator fetch(string name)
 	{
 
-		string SetUrl = "localhost:81/superweb/webscivre/public/api/webscivreapifetch";
+		string SetUrl = "localhost:81/scivre/public/api/webscivreapifetch";
 
-		if (Validation1.checkConnectionfail() == true)
+		if(Validation1.checkConnectionfail() == true)
 		{
 			Debug.Log ("Error: Internet Connection");
 		} 
@@ -115,8 +126,11 @@ public class login : MonoBehaviour {
 					PlayerPrefs.SetString ("first_name", userData.first_name);
 					PlayerPrefs.SetString ("middle_name", userData.middle_name);
 					PlayerPrefs.SetString ("last_name", userData.last_name);
+					PlayerPrefs.SetString ("name", userData.name);
+					PlayerPrefs.SetInt ("isLogged", 1);
 
-					id.text += PlayerPrefs.GetInt ("id").ToString();
+
+					//id.text = PlayerPrefs.GetInt ("id").ToString();
 					//student_name.text = PlayerPrefs.GetString ("firs_name");
 				}
 			}

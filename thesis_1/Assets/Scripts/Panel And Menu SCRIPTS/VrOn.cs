@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.VR;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using TMPro.EditorUtilities;
 public class VrOn : MonoBehaviour {
 	public static bool isVROn = false;
 

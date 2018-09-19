@@ -4,22 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 public class validate : MonoBehaviour {
 
-<<<<<<< HEAD
-	bool aa = true;
-	public Text try2;
-=======
->>>>>>> 3449df699d20d674a6ddf41dc4ea985108cf02d0
+
 	public Image def,solar,anatomy;
 	Image a;
 	public GameObject mainPanel,loginPanel;
 	public InputField user,pass;
 	// Use this for initialization
-<<<<<<< HEAD
 	void Update(){
 		
 	}
-=======
->>>>>>> 3449df699d20d674a6ddf41dc4ea985108cf02d0
+
+
 	public void test(){
 		if (user.text == "123456" && pass.text == "password") {
 			mainPanel.SetActive (true);

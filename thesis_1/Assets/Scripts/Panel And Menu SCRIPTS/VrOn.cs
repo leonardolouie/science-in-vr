@@ -12,7 +12,7 @@ public class VrOn : MonoBehaviour {
 	// Use this for initialization
 	void Update(){
 		if (isVROn) {
-			if (glaze.ret || planetDialogue.ret)
+			if (glaze.ret)
 				ret1.fillAmount += 1f / 2f * Time.deltaTime;
 			else
 				ret1.fillAmount = 0f;

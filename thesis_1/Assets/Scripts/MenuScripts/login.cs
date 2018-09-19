@@ -49,15 +49,16 @@ public class login : MonoBehaviour {
 
 
 	IEnumerator loadFetch(){
+
+
+		loginPanel.SetActive (false);
+		registerPanel.SetActive (false);
 		canvasLoad.SetActive (true);
 		lblLoader.text = "LOADING DATA...";
 		fetching = true;
 		yield return new WaitForSeconds (5f);
 		canvasLoad.SetActive (false);
 		fetching = false;
-
-		loginPanel.SetActive (false);
-		registerPanel.SetActive (false);
 		mainMenuPanel.SetActive (true);
 		Hello.text = "WELCOME BACK "+PlayerPrefs.GetString ("first_name");
 		fullname.text = PlayerPrefs.GetString ("first_name")+" "+PlayerPrefs.GetString ("middle_name")+" "+PlayerPrefs.GetString ("last_name");
@@ -70,10 +71,7 @@ public class login : MonoBehaviour {
 	void Start(){
 		if (PlayerPrefs.GetInt ("isLogged") == 1) {
 			StartCoroutine (loadFetch ());
-
-
 			// dito ilalagay ung syncing ng data kung naka save, at nakapag Login na thru internet
-
 		}
 	}
 

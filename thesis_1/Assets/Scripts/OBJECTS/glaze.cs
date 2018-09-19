@@ -2,12 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-
+using UnityEngine.UI;
 public class glaze : MonoBehaviour {
 	public static bool ret;
 	public float gazeTime = 2f;
 	private float timer;
 	private bool gazeAt;
+
+
+	public GameObject canvasPlanets, canvasInfo;
+	public Dialogue dialogue;
+	public Text planetName,planetInfo;
+	public bool planet = false;
 	// Use this for initialization
 	void Start () {
 
@@ -31,6 +37,12 @@ public class glaze : MonoBehaviour {
 	}
 	public void PointerDown(){
 		gazeAt = false;
+		if (planet) {
+			planetName.text = dialogue.name;
+			planetInfo.text = dialogue.sentences;
+			canvasInfo.SetActive (true);
+			canvasPlanets.SetActive (false);
+		}
 	}
 
 	public void PointerExit(){

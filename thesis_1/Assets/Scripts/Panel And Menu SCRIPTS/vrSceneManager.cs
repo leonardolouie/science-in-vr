@@ -9,6 +9,8 @@ public class vrSceneManager : MonoBehaviour {
 	public GameObject[] planetPrefabs;
 
 
+
+
 	public GameObject splashPanel,text,planetSpawner,fade;
 	public Image vrOffSplashImage,FADEPHOTO;
 	MainMenu m;
@@ -46,6 +48,8 @@ public class vrSceneManager : MonoBehaviour {
 		fade.SetActive (false);
 
 		yield return null;
+
+
 
 		// any actions goes here
 	}

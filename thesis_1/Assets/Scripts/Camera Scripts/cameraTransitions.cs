@@ -27,6 +27,8 @@ public class cameraTransitions : MonoBehaviour {
 			this.xFormaParent = this.transform.parent;
 			startPos = currentView;
 		}
+		currentView = views [8];
+
 	}
     void Update()
     {
@@ -56,7 +58,6 @@ public class cameraTransitions : MonoBehaviour {
 
 	// Update is called once per frame
 	void LateUpdate () {
-
 		if (!VrOn.isVROn) {
 			if (Input.GetKeyDown (KeyCode.LeftShift)) {
 				cameraDisabled = !cameraDisabled;
@@ -88,6 +89,8 @@ public class cameraTransitions : MonoBehaviour {
 				this.cameraDistance = Mathf.Clamp (this.cameraDistance, planetDialogue.minZoom, planetDialogue.maxZoom);
 				break;
 			}
+
+
 			Quaternion QT = Quaternion.Euler (localRotation.y, localRotation.x, 0);
 			this.xFormaParent.rotation = Quaternion.Lerp (this.xFormaParent.rotation, QT, Time.deltaTime * orbitDampening);
 
@@ -98,9 +101,10 @@ public class cameraTransitions : MonoBehaviour {
 		} 
 
 
+		/*
 		else 
 		{
 			transform.position = Vector3.Lerp (transform.position, currentView.position, Time.deltaTime * transSpeed);
-		}
+		}*/
 	}
 }

@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour {
 	public static string load;
 	public void SolarSystem(){
 		SceneManager.LoadScene ("Splash");
+		PlayerPrefs.SetInt ("isVrOn",0);
 		load = "SolarSystem";
 	}
 

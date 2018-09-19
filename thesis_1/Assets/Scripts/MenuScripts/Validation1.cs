@@ -29,7 +29,7 @@ public class Validation1 : MonoBehaviour {
 	public class UserData
 	{
 		//ang variable na ito ay dapat katulad sa Json na nireponse
-		public  int id;
+		public  int student_id;
 		public  string first_name = "";
 		public  string middle_name = "";
 		public  string last_name = "";

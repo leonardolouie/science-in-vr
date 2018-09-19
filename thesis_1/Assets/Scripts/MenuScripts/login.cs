@@ -7,7 +7,7 @@ using UnityEngine.Networking;
 public class login : MonoBehaviour {
 
 	//string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapilogin";
-	string Url="localhost:81/scivre/public/api/webscivreapilogin"; //aj link
+	string LoginUrl="https://scivre.herokuapp.com/api/webscivreapilogin";
 	public InputField name;
 	public InputField password;
 	public Text id;
@@ -19,13 +19,62 @@ public class login : MonoBehaviour {
 	public Text user;
 
 
+
+
+	public GameObject canvasLoad;
+	public Text lblLoader;
+	public RectTransform main;
+	public float timeStep;
+	public float oneStepAngle;
+
+	public bool fetching = false;
+	float startTime;
+
+
+
+
+
+	void Update(){
+		if (Time.time - startTime >= timeStep && fetching) {
+			Vector3 angle = main.localEulerAngles;
+			angle.z += oneStepAngle;
+
+			main.localEulerAngles = angle;
+
+			startTime = Time.time;
+		}
+	}
+
+
+
+
+	IEnumerator loadFetch(){
+		canvasLoad.SetActive (true);
+		lblLoader.text = "LOADING DATA...";
+		fetching = true;
+		yield return new WaitForSeconds (5f);
+		canvasLoad.SetActive (false);
+		fetching = false;
+
+		loginPanel.SetActive (false);
+		registerPanel.SetActive (false);
+		mainMenuPanel.SetActive (true);
+		Hello.text = "WELCOME BACK "+PlayerPrefs.GetString ("first_name");
+		fullname.text = PlayerPrefs.GetString ("first_name")+" "+PlayerPrefs.GetString ("middle_name")+" "+PlayerPrefs.GetString ("last_name");
+		student_id.text = PlayerPrefs.GetString ("id")+" ";
+		user.text = PlayerPrefs.GetString ("name")+" ";
+	}
+
+
+
 	void Start(){
-		/*if (PlayerPrefs.GetInt ("isLogged") == 1) {
+		if (PlayerPrefs.GetInt ("isLogged") == 1) {
+			StartCoroutine (loadFetch ());
+
+
 			// dito ilalagay ung syncing ng data kung naka save, at nakapag Login na thru internet
-			loginPanel.SetActive (false);
-			registerPanel.SetActive (false);
-			mainMenuPanel.SetActive (true);
-		}*/
+
+		}
 	}
 
 
@@ -36,40 +85,49 @@ public class login : MonoBehaviour {
 		} 
 		else 
  		{
-			/*PlayerPrefs.SetInt ("isLogged", 1);
-			loginPanel.SetActive (false);
-			registerPanel.SetActive (false);
-			mainMenuPanel.SetActive (true);*/
 
-			errorfield.text = "All fields are required";
+				errorfield.text = "All fields are required";
 		}
 	}
-	IEnumerator LoginDB(string username, string password)
+	IEnumerator LoginDB(string username, string passwordkoto)
 	{
+		canvasLoad.SetActive (true);
+		lblLoader.text = "LOGGING IN...";
+		fetching = true;
+
 		errorfield.text = "";
-		/*if (Validation1.checkConnectionfail() == true)
+		if (Validation1.checkConnectionfail() == true)
 		{
 			errorfield.text = "Error: Internet Connection";
+			canvasLoad.SetActive (false);
+			fetching = false;
 		} 
 		else 
-		{*/
+		{
 			WWWForm form = new WWWForm ();
-
+			//Debug.Log ("the username is" r username + password);
 			form.AddField ("name", username);
-			form.AddField ("password", password);
-		
-			using (UnityWebRequest www = UnityWebRequest.Post (Url, form)) 
+			form.AddField ("password", passwordkoto);
+			
+			using (UnityWebRequest www = UnityWebRequest.Post (LoginUrl, form)) 
 			{
+				www.chunkedTransfer = false;
+				//loading for accessing web kung existing ba accoutn    VALIDATING
 				yield return www.SendWebRequest();
 
 				if (www.error != null)
 				{
 					errorfield.text = "Error webserver request error: "+ www.error;
+					canvasLoad.SetActive (false);
+					fetching = false;
 				}
 				else
 				{ 
 					Debug.Log ("Response" + www.downloadHandler.text);
 					Validation1.UserDetail userDetail = JsonUtility.FromJson<Validation1.UserDetail> (www.downloadHandler.text);
+					Debug.Log (userDetail.status.ToString());
+
+
 					//reponse details			
 					if (userDetail.status == 1) 
 					{
@@ -78,39 +136,51 @@ public class login : MonoBehaviour {
 						registerPanel.SetActive (false);
 						mainMenuPanel.SetActive (true);
 						StartCoroutine (fetch (username));
-						Hello.text = "Hi!, "+PlayerPrefs.GetString ("first_name");
+
+
+						// animate loading for fetching 
+						lblLoader.text = "SYNCING DATA...";
+						yield return fetch (username);
+						//retrieving data from account info
+						Hello.text = "WELCOME " + PlayerPrefs.GetString ("first_name");
 						fullname.text = PlayerPrefs.GetString ("first_name")+" "+PlayerPrefs.GetString ("middle_name")+" "+PlayerPrefs.GetString ("last_name");
-						student_id.text = PlayerPrefs.GetInt ("id")+" ";
+						student_id.text = PlayerPrefs.GetString ("id")+" ";
 						user.text = PlayerPrefs.GetString ("name")+" ";
-					    
+						canvasLoad.SetActive (false);
+						fetching = false;
 
 					} 
 					else
 					{
 						errorfield.text = userDetail.message;
+						canvasLoad.SetActive (false);
+						fetching = false;
 					}
 				}
-			//}
+			}
 		}
 	}
 
 
-	IEnumerator fetch(string name)
+	IEnumerator fetch(string uname)
 	{
 
-		string SetUrl = "localhost:81/scivre/public/api/webscivreapifetch";
+		string SetUrl = "https://scivre.herokuapp.com/api/webscivreapifetch";
 
 		if(Validation1.checkConnectionfail() == true)
 		{
 			Debug.Log ("Error: Internet Connection");
+			canvasLoad.SetActive (false);
+			fetching = false;
 		} 
 		else 
 		{
 			WWWForm form = new WWWForm ();
-			form.AddField ("name", name);
+			form.AddField ("name", uname);
 
 			using (UnityWebRequest www = UnityWebRequest.Post (SetUrl, form)) 
 			{
+				www.chunkedTransfer = false;
 				yield return www.SendWebRequest();
 
 				if (www.error != null)
@@ -121,17 +191,14 @@ public class login : MonoBehaviour {
 				{ 
 					Debug.Log ("Response" + www.downloadHandler.text);
 					Validation1.UserData userData= JsonUtility.FromJson<Validation1.UserData> (www.downloadHandler.text);
-					//reponse details	
-					PlayerPrefs.SetInt("id", userData.id);
+					//reponse detail
+					PlayerPrefs.SetString ("id", userData.student_id.ToString("(12,0)"));
 					PlayerPrefs.SetString ("first_name", userData.first_name);
 					PlayerPrefs.SetString ("middle_name", userData.middle_name);
 					PlayerPrefs.SetString ("last_name", userData.last_name);
 					PlayerPrefs.SetString ("name", userData.name);
 					PlayerPrefs.SetInt ("isLogged", 1);
 
-
-					//id.text = PlayerPrefs.GetInt ("id").ToString();
-					//student_name.text = PlayerPrefs.GetString ("firs_name");
 				}
 			}
 		}

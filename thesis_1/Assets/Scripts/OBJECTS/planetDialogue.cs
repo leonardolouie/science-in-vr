@@ -53,8 +53,12 @@ public class planetDialogue : MonoBehaviour {
 			hasSelect = true;
             selectedPlanet = planetNo;
 
-             minZoom= 250f;
-             maxZoom = 500f;
+			if (selectedPlanet == 9)
+				defaultView ();
+			else {
+				minZoom = 250f;
+				maxZoom = 500f;
+			}
 		}
 			
 	}
@@ -68,9 +72,7 @@ public class planetDialogue : MonoBehaviour {
 	}
 
 
-
     public void defaultView() {
-        selectedPlanet = 0;
 		minZoom = 300f;
 		maxZoom = 1200f;
     }

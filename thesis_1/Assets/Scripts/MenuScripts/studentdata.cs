@@ -53,7 +53,7 @@ public class studentdata : MonoBehaviour {
 
 					Validation1.UserData userData= JsonUtility.FromJson<Validation1.UserData> (www.downloadHandler.text);
 					//reponse details	
-					PlayerPrefs.SetInt("id", userData.id);
+					PlayerPrefs.SetString("id", userData.student_id.ToString());
 
 
 				}

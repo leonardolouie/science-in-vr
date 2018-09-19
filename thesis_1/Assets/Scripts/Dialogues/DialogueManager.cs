@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class DialogueManager : MonoBehaviour {
 	// Use this for initialization
 	public Image label;
-	float delay = .05f;
+	float delay = .005f;
 	public Text nameText,labelName;
 	public Text dialogueText;
 	public static bool flag = true;

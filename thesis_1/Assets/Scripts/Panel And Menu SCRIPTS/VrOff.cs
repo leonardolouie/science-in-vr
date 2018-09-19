@@ -11,7 +11,6 @@ public class VrOff : MonoBehaviour {
 			vrOff ();
 		}
 	}
-
 	public void vrOff(){
 		StartCoroutine (activatorVr ("none"));
 	}
@@ -24,12 +23,14 @@ public class VrOff : MonoBehaviour {
 		objects [2].SetActive (false);
 		//splashPanel.CrossFadeAlpha(0.0f,2.0f,false);
 		yield return new WaitForSeconds (2f);
-		UnityEngine.XR.XRSettings.LoadDeviceByName (vrOff);
-		UnityEngine.XR.XRSettings.enabled = false;
+
 		//canvasSplash.SetActive (false);
 
 		//SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
 		Debug.Log ("VR IS NOW OFF");
 		//Application.LoadLevel(Application.LoadLevel);
+		UnityEngine.XR.XRSettings.LoadDeviceByName (vrOff);
+		yield return null;
+		UnityEngine.XR.XRSettings.enabled = false;
 	}
 }

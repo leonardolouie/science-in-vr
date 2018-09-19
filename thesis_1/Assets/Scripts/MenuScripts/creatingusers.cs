@@ -9,7 +9,7 @@ public class creatingusers : MonoBehaviour {
 
 		//site
 		//string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapiregister";
-		string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapiregister"; //aj link
+		public string CreateUserUrl = "https://scivre.herokuapp.com/api/webscivreapiregister";
 
 
 		public InputField txtstudent_id;
@@ -19,13 +19,20 @@ public class creatingusers : MonoBehaviour {
 		public  InputField txtusername;
 		public  InputField txtpassword;
 		public  Text errorfield;
+
+
+
+		//public GameObject button, canvasLoad;
+		
+
+
 		void Start () {
 
 		}
 
 		// Update is called once per frame
 		public void  Register(){
-
+			
 			if(txtstudent_id.text != "" && txtfname.text !="" && txtmname.text != "" && txtlname.text != "" && txtlname.text != "" && txtpassword.text !="" )
 
 			{
@@ -55,7 +62,6 @@ public class creatingusers : MonoBehaviour {
 			//	first if checking internet connection ang web serve response pare
 			if (Validation1.checkConnectionfail() == true) 
 			{
-
 				errorfield.text = "Error: Internet Connection";
 			} 
 			else 
@@ -76,7 +82,7 @@ public class creatingusers : MonoBehaviour {
 
 				using (UnityWebRequest www = UnityWebRequest.Post (CreateUserUrl, form)) 
 				{
-
+					www.chunkedTransfer = false;
 					yield return www.SendWebRequest();
 
 

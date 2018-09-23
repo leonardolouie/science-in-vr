@@ -9,6 +9,13 @@ public class splashScript : MonoBehaviour {
 	public string loadLevel;
 	public Toggle carouselToggle;
 
+
+
+	private void Awake(){
+		Application.targetFrameRate = 60;
+	}
+
+
 	IEnumerator Start()
 	{
 		splashImage.canvasRenderer.SetAlpha (0.0f);

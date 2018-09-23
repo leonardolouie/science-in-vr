@@ -41,7 +41,7 @@ public class textcontrol : MonoBehaviour {
 
 
     public GameObject resultpanel;
-    public GameObject Quizpanel;
+	public GameObject Quizpanel,correctImage,wrongImage;
 
 
 
@@ -106,11 +106,10 @@ public class textcontrol : MonoBehaviour {
 
             txtcorrectanswer.text = correctanswer.ToString();
             txtwronganswer.text = wronganswer.ToString();
-
-            int avg = (correctanswer / numberofloop) * 100;
-            txtAverage.text = avg.ToString() + "%";
+			float a = (float)correctanswer;
+			txtAverage.text = ((a / 15) * 100).ToString("0") + "%";
             PlayerPrefs.SetInt("SolarScore", correctanswer);
-
+		
 
         }
 	
@@ -126,14 +125,19 @@ public class textcontrol : MonoBehaviour {
         if (answer == System.Convert.ToInt32(currentQuestion.correctanswer))
         {
             //Dito yung animation kapag tama
-           
+			correctImage.SetActive(true);
+			wrongImage.SetActive (false);
+			correctImage.GetComponent<Animator> ().SetTrigger ("correct");
+
             correctanswer++;
             return true;
         }
         else
         {
             //Dito yung animation kapag maliii
-          
+			wrongImage.SetActive(true);
+			correctImage.SetActive (false);
+			wrongImage.GetComponent<Animator> ().SetTrigger ("correct");
             wronganswer++;
             Handheld.Vibrate();
             return false;

@@ -23,4 +23,11 @@ public class MainMenu : MonoBehaviour {
 		SceneManager.LoadScene ("Splash");
 		load = "SCIVREUI";
 	}
+
+	public void Quiz(){
+		SceneManager.LoadScene (3);
+	}
+	public void backFromQuiz(){
+		SceneManager.LoadScene (1);
+	}
 }

@@ -9,7 +9,7 @@ public class creatingusers : MonoBehaviour {
 
 		//site
 		//string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapiregister";
-		public string CreateUserUrl = "https://scivre.herokuapp.com/api/webscivreapiregister";
+	string CreateUserUrl = "https://scivre.herokuapp.com/api/webscivreapiregister";
 
 
 		public InputField txtstudent_id;
@@ -25,94 +25,94 @@ public class creatingusers : MonoBehaviour {
 		//public GameObject button, canvasLoad;
 		
 
+	void Start () {
 
-		void Start () {
+	}
 
-		}
+	// Update is called once per frame
+	public void  Register(){
 
-		// Update is called once per frame
-		public void  Register(){
-			
-			if(txtstudent_id.text != "" && txtfname.text !="" && txtmname.text != "" && txtlname.text != "" && txtlname.text != "" && txtpassword.text !="" )
+		if(txtstudent_id.text != "" && txtfname.text !="" && txtmname.text != "" && txtlname.text != "" && txtlname.text != "" && txtpassword.text !="" )
 
-			{
-				StartCoroutine(CreateUser (txtstudent_id.text, txtpassword.text, txtfname.text, txtmname.text, txtlname.text, txtusername.text));
-
-			}
-
-			else
-			{
-
-				errorfield.text = "All fields are required";
-			}
-
-
+		{
+			StartCoroutine(CreateUser (txtstudent_id.text, txtpassword.text, txtfname.text, txtmname.text, txtlname.text, txtusername.text));
 
 		}
 
-
-		IEnumerator  CreateUser(string student_id, string password, string fname, string mname, string lname, string username)
+		else
 		{
 
-			errorfield.text = "";
+			errorfield.text = "All fields are required";
+		}
+
+
+
+	}
+
+
+	IEnumerator  CreateUser(string student_id, string password, string fname, string mname, string lname, string username)
+	{
+
+		errorfield.text = "";
 
 
 
 
-			//	first if checking internet connection ang web serve response pare
-			if (Validation1.checkConnectionfail() == true) 
+		//	first if checking internet connection ang web serve response pare
+		if (Validation1.checkConnectionfail() == true) 
+		{
+
+			errorfield.text = "Error: Internet Connection";
+		} 
+		else 
+
+		{
+			//Checking web server response
+			WWWForm form = new WWWForm ();
+
+
+			form.AddField ("id", student_id);
+			form.AddField ("password", password);
+			form.AddField ("fname", fname);
+			form.AddField ("mname", mname);
+			form.AddField ("lname", lname);
+			form.AddField ("name", username);
+
+
+
+			using (UnityWebRequest www = UnityWebRequest.Post (CreateUserUrl, form)) 
 			{
-				errorfield.text = "Error: Internet Connection";
-			} 
-			else 
+				www.chunkedTransfer = false;
+				yield return www.SendWebRequest();
 
-			{
-				//Checking web server response
-				WWWForm form = new WWWForm ();
-
-
-				form.AddField ("id", student_id);
-				form.AddField ("password", password);
-				form.AddField ("fname", fname);
-				form.AddField ("mname", mname);
-				form.AddField ("lname", lname);
-				form.AddField ("name", username);
-
-				//WWW www = new WWW(CreateUserUrl,form);
-
-				using (UnityWebRequest www = UnityWebRequest.Post (CreateUserUrl, form)) 
+				Debug.Log (www.error+" ");
+				if (www.error != null)
 				{
-					www.chunkedTransfer = false;
-					yield return www.SendWebRequest();
+					errorfield.text = "Error webserver request error: "+ www.error;
+				}
+				else
+				{ 
+					Debug.Log ("Response" + www.downloadHandler.text);
 
-
-					if (www.error != null)
+					Validation1.UserDetail userDetail = JsonUtility.FromJson<Validation1.UserDetail> (www.downloadHandler.text);
+					//reponse details			
+					if (userDetail.status == 1) 
 					{
-						errorfield.text = "Error webserver request error: "+ www.error;
-					}
+						errorfield.text = userDetail.message;
+
+					} 
 					else
-					{ 
-						Debug.Log ("Response" + www.downloadHandler.text);
-
-						Validation1.UserDetail userDetail = JsonUtility.FromJson<Validation1.UserDetail> (www.downloadHandler.text);
-						//reponse details			
-						if (userDetail.status == 1) 
-						{
-							errorfield.text = userDetail.message;
-
-						} 
-						else
-						{
-							errorfield.text = www.downloadHandler.text;
-						}
-
-
-
+					{
+						errorfield.text = www.downloadHandler.text;
 					}
+
+
 
 				}
 
-
 			}
+
+
 		}
-	}		
+	}	
+}

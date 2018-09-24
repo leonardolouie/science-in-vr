@@ -6,7 +6,6 @@ using UnityEngine.Networking;
 
 public class login : MonoBehaviour {
 
-	//string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapilogin";
 	string LoginUrl="https://scivre.herokuapp.com/api/webscivreapilogin";
 	public InputField name;
 	public InputField password;
@@ -82,9 +81,9 @@ public class login : MonoBehaviour {
 			StartCoroutine (LoginDB (name.text, password.text));
 		} 
 		else 
- 		{
+		{
 
-				errorfield.text = "All fields are required";
+			errorfield.text = "All fields are required";
 		}
 	}
 	IEnumerator LoginDB(string username, string passwordkoto)
@@ -106,7 +105,7 @@ public class login : MonoBehaviour {
 			//Debug.Log ("the username is" r username + password);
 			form.AddField ("name", username);
 			form.AddField ("password", passwordkoto);
-			
+
 			using (UnityWebRequest www = UnityWebRequest.Post (LoginUrl, form)) 
 			{
 				www.chunkedTransfer = false;

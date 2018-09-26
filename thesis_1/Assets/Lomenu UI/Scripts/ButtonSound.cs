@@ -17,6 +17,6 @@ private AudioSource source { get { return GetComponent<AudioSource>(); } }
 	}
 	
 	void PlaySound () {
-		//source.PlayOneShot(sound);
+		source.PlayOneShot(sound);
 	}
 }

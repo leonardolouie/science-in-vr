@@ -10,7 +10,7 @@ public class creatingusers : MonoBehaviour {
 		//site
 		//string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapiregister";
 	string CreateUserUrl = "https://scivre.herokuapp.com/api/webscivreapiregister";
-
+	//string CreateUserUrl = "http://localhost/scivre/public/api/webscivreapiregister";
 
 		public InputField txtstudent_id;
 		public  InputField txtfname;
@@ -18,7 +18,15 @@ public class creatingusers : MonoBehaviour {
 		public  InputField txtlname;
 		public  InputField txtusername;
 		public  InputField txtpassword;
+		public  InputField txtretype;
 		public  Text errorfield;
+	 
+
+		public GameObject canvasLoad;
+		public Text lblLoader;
+
+
+		public bool fetching = false;
 
 
 
@@ -32,11 +40,17 @@ public class creatingusers : MonoBehaviour {
 	// Update is called once per frame
 	public void  Register(){
 
-		if(txtstudent_id.text != "" && txtfname.text !="" && txtmname.text != "" && txtlname.text != "" && txtlname.text != "" && txtpassword.text !="" )
+		if(txtstudent_id.text != "" && txtfname.text !="" && txtmname.text != "" && txtlname.text != "" && txtlname.text != "" && txtpassword.text !="" && txtretype.text != "" && txtusername.text != "")
 
-		{
-			StartCoroutine(CreateUser (txtstudent_id.text, txtpassword.text, txtfname.text, txtmname.text, txtlname.text, txtusername.text));
+		{ 
 
+
+
+			if (Validation1.CheckPasswordMatch(txtpassword.text, txtretype.text) == true) {
+				StartCoroutine (CreateUser (txtstudent_id.text, txtpassword.text, txtfname.text, txtmname.text, txtlname.text, txtusername.text));
+			} else {
+				errorfield.text = "Password did not match";
+			}
 		}
 
 		else
@@ -55,8 +69,9 @@ public class creatingusers : MonoBehaviour {
 
 		errorfield.text = "";
 
-
-
+		canvasLoad.SetActive (true);
+		lblLoader.text = "Creating account..... wait for response";
+		fetching = true;
 
 		//	first if checking internet connection ang web serve response pare
 		if (Validation1.checkConnectionfail() == true) 
@@ -71,7 +86,7 @@ public class creatingusers : MonoBehaviour {
 			WWWForm form = new WWWForm ();
 
 
-			form.AddField ("id", student_id);
+			form.AddField ("student_id", student_id);
 			form.AddField ("password", password);
 			form.AddField ("fname", fname);
 			form.AddField ("mname", mname);
@@ -99,7 +114,17 @@ public class creatingusers : MonoBehaviour {
 					if (userDetail.status == 1) 
 					{
 						errorfield.text = userDetail.message;
+					txtstudent_id.text = "";
+					txtfname.text = "";
+					txtmname.text = "";
+					txtlname.text = ""; 
+					txtlname.text = "";
+					txtpassword.text = "";
+					txtretype.text = ""; 
+					txtusername.text = "";
 
+					     
+					       
 					} 
 					else
 					{

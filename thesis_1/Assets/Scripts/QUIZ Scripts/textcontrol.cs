@@ -6,10 +6,14 @@ using System.Linq;
 
 public class textcontrol : MonoBehaviour {
 
-	// Use this for initialization
+
 
 
 	public Questions[] question;
+	public Questions[] skeletal;
+
+
+
 
 
 	int answer =0;
@@ -51,12 +55,15 @@ public class textcontrol : MonoBehaviour {
 
 
 
+
+
     void Awake() 
 	{
 
 
 		if (unansweredQuestion == null || unansweredQuestion.Count == 0) 
 		{    
+			//Dito pinapasa yung question
 			unansweredQuestion = question.ToList<Questions>();
 		}
 
@@ -103,7 +110,6 @@ public class textcontrol : MonoBehaviour {
             Debug.Log("Quiz Finish"+"Correct Answer is"+correctanswer+"and wrong answer is"+wronganswer);
             resultpanel.SetActive(true);
             Quizpanel.SetActive(false);
-
             txtcorrectanswer.text = correctanswer.ToString();
             txtwronganswer.text = wronganswer.ToString();
 			float a = (float)correctanswer;

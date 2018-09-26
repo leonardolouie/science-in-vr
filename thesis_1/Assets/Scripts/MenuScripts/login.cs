@@ -7,6 +7,7 @@ using UnityEngine.Networking;
 public class login : MonoBehaviour {
 
 	string LoginUrl="https://scivre.herokuapp.com/api/webscivreapilogin";
+	//string LoginUrl="http://localhost/scivre/public/api/webscivreapilogin";
 	public InputField name;
 	public InputField password;
 	public Text id;
@@ -100,8 +101,7 @@ public class login : MonoBehaviour {
 			fetching = false;
 		} 
 		else 
-		{
-			WWWForm form = new WWWForm ();
+		{			WWWForm form = new WWWForm ();
 			//Debug.Log ("the username is" r username + password);
 			form.AddField ("name", username);
 			form.AddField ("password", passwordkoto);

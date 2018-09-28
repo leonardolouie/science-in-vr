@@ -2,9 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 using System.Linq;
+using UnityEngine.SceneManagement;
+
 
 public class textcontrol : MonoBehaviour {
+
+
+	//for sounds 
+
+
+
+
+
 
 
 
@@ -33,7 +44,7 @@ public class textcontrol : MonoBehaviour {
 	private static List<string> correctAnswer;
 	public Text txtquestion;
     public Text over;
-    public Text prompt;
+    //public Text prompt;
     public Text questionnumber;
 	public Text txtfirst;
 	public Text txtsecond;
@@ -42,6 +53,7 @@ public class textcontrol : MonoBehaviour {
     public Text txtcorrectanswer;
     public Text txtwronganswer;
     public Text txtAverage;
+	public Text quizName;
 
 
     public GameObject resultpanel;
@@ -56,15 +68,22 @@ public class textcontrol : MonoBehaviour {
 
 
 
-
     void Awake() 
-	{
+	{      
+		
 
 
 		if (unansweredQuestion == null || unansweredQuestion.Count == 0) 
 		{    
 			//Dito pinapasa yung question
-			unansweredQuestion = question.ToList<Questions>();
+			if (PlayerPrefs.GetInt ("quizNo") == 1) {
+				unansweredQuestion = question.ToList<Questions> ();
+				quizName.text= "SOLAR SYSTEM";
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 2) {
+				unansweredQuestion = skeletal.ToList<Questions> ();
+				quizName.text= "SKELETAL SYSTEM";
+			}
 		}
 
 
@@ -114,8 +133,20 @@ public class textcontrol : MonoBehaviour {
             txtwronganswer.text = wronganswer.ToString();
 			float a = (float)correctanswer;
 			txtAverage.text = ((a / 15) * 100).ToString("0") + "%";
-            PlayerPrefs.SetInt("SolarScore", correctanswer);
+			if (PlayerPrefs.GetInt ("quizNo") == 1) {
+				PlayerPrefs.SetInt ("solarScore", correctanswer);
+				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 1));
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 2) {
+				PlayerPrefs.SetInt ("skeletalScore", correctanswer);
+						StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 2));
+			}
+				
+
+			Debug.Log(PlayerPrefs.GetInt("solarScore"));
+			Debug.Log(PlayerPrefs.GetInt("skeletalScore"));
 		
+
 
         }
 	
@@ -134,7 +165,7 @@ public class textcontrol : MonoBehaviour {
 			correctImage.SetActive(true);
 			wrongImage.SetActive (false);
 			correctImage.GetComponent<Animator> ().SetTrigger ("correct");
-
+			SoundManager.Playsound ("correctAnswer");
             correctanswer++;
             return true;
         }
@@ -144,6 +175,7 @@ public class textcontrol : MonoBehaviour {
 			wrongImage.SetActive(true);
 			correctImage.SetActive (false);
 			wrongImage.GetComponent<Animator> ().SetTrigger ("correct");
+
             wronganswer++;
             Handheld.Vibrate();
             return false;
@@ -203,6 +235,51 @@ public class textcontrol : MonoBehaviour {
 
 	}
 
+
+
+
+
+
+	IEnumerator sendscore (string name, int score, int lesson_id)
+	{
+
+		string SetUrl = "https://scivre.herokuapp.com/api/webscivreapisave";
+
+		if(Validation1.checkConnectionfail() == true)
+		{
+			Debug.Log ("Error: Internet Connection");
+		
+
+		} 
+		else 
+		{
+			WWWForm form = new WWWForm ();
+			form.AddField ("name", name);
+			form.AddField ("score", score);
+			form.AddField ("lesson_id", lesson_id);
+			Debug.Log (lesson_id);
+		   
+
+			using (UnityWebRequest www = UnityWebRequest.Post (SetUrl, form)) 
+			{
+				www.chunkedTransfer = false;
+				yield return www.SendWebRequest();
+
+				if (www.error != null)
+				{
+					Debug.Log("Error webserver request error: "+ www.error);
+				}
+				else
+				{ 
+					Debug.Log ("Response" + www.downloadHandler.text);
+					Validation1.UserData userData= JsonUtility.FromJson<Validation1.UserData> (www.downloadHandler.text);
+
+				
+
+				}
+			}
+		}
+	}
 
 
 

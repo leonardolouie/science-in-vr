@@ -24,7 +24,8 @@ public class MainMenu : MonoBehaviour {
 		load = "SCIVREUI";
 	}
 
-	public void Quiz(){
+	public void Quiz(int a){
+		PlayerPrefs.SetInt ("quizNo", a);
 		SceneManager.LoadScene (3);
 	}
 	public void backFromQuiz(){

@@ -11,6 +11,23 @@ public class Validation1 : MonoBehaviour {
 		else 
 			return false;
 	}
+
+	public static bool CheckPasswordMatch(string password, string retype)
+
+	{
+
+		if (password == retype)
+			return true;
+		else
+			return false;
+
+	}
+
+
+
+
+
+
 	[System.Serializable]
 	public class UserDetail
 	{

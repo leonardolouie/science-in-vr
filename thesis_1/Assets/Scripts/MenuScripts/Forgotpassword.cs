@@ -16,6 +16,7 @@ public class Forgotpassword : MonoBehaviour {
 	public GameObject loginPanel, changePanel, checkPanel;
 
 	public Text errorfield;
+	public Text errorfieldchange;
 	public Text accountname;
 
 
@@ -203,7 +204,7 @@ public class Forgotpassword : MonoBehaviour {
 				StartCoroutine (Changepass (password.text, username.text));
 			} else {
 
-				errorfield.text = "Password did not match";
+				errorfieldchange.text = "Password did not match";
 			}
 
 		}
@@ -211,7 +212,7 @@ public class Forgotpassword : MonoBehaviour {
 		else 
 		{
 
-         	errorfield.text = "All fields are required";
+         	errorfieldchange.text = "All fields are required";
 		}
 
 	}
@@ -230,7 +231,7 @@ public class Forgotpassword : MonoBehaviour {
 		if (Validation1.checkConnectionfail() == true) 
 		{
 
-			errorfield.text = "Error: Internet Connection";
+			errorfieldchange.text = "Error: Internet Connection";
 			canvasLoad.SetActive(false);
 		} 
 		else 
@@ -238,6 +239,7 @@ public class Forgotpassword : MonoBehaviour {
 		{
 			//Checking web server response
 			WWWForm form = new WWWForm ();
+			Debug.Log (password);
 			form.AddField ("password", password);
 			form.AddField ("name", name);
 
@@ -251,7 +253,7 @@ public class Forgotpassword : MonoBehaviour {
 				Debug.Log (www.error+" ");
 				if (www.error != null)
 				{
-					errorfield.text = "Error webserver request error: "+ www.error;
+					errorfieldchange.text = "Error webserver request error: "+ www.error;
 				}
 				else
 				{ 
@@ -260,10 +262,11 @@ public class Forgotpassword : MonoBehaviour {
 					Validation1.UserDetail userDetail = JsonUtility.FromJson<Validation1.UserDetail> (www.downloadHandler.text);
 					//reponse details			
 					if (userDetail.status == 1) 
-					{
+					{   
+						
 						lblLoader.text = "Password Successfully Updated";
 						yield return new WaitForSeconds (3f);
-						errorfield.text = userDetail.message;
+						errorfieldchange.text = userDetail.message;
 						canvasLoad.SetActive(false);
 					  
 
@@ -282,7 +285,8 @@ public class Forgotpassword : MonoBehaviour {
 					} 
 					else
 					{
-						errorfield.text = www.downloadHandler.text;
+						errorfieldchange.text = www.downloadHandler.text;
+						changePanel.SetActive (false);
 					}
 
 

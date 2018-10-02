@@ -24,7 +24,7 @@ public class changepass : MonoBehaviour {
 
 			if (Validation1.CheckPasswordMatch (password.text, retype.text) == true) {
 
-				//StartCoroutine (Changepass (password.text));
+				StartCoroutine (Changepass (password.text));
 			} else {
 
 				errorfield.text = "Password did not match";
@@ -61,6 +61,7 @@ public class changepass : MonoBehaviour {
 
 
 		form.AddField ("password", password);
+	     
 
 
 

@@ -21,7 +21,13 @@ public class textcontrol : MonoBehaviour {
 
 
 	public Questions[] question;
+	public Questions[] digistive;
+	public Questions[] muscular;
 	public Questions[] skeletal;
+	public Questions[] respiratory;
+	public Questions[] circulatory;
+	public Questions[] urinary;
+
 
 
 
@@ -81,9 +87,23 @@ public class textcontrol : MonoBehaviour {
 				quizName.text= "SOLAR SYSTEM";
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 2) {
+				unansweredQuestion = digistive.ToList<Questions> ();
+				quizName.text= "SKELETAL SYSTEM";
+			}
+
+
+			if (PlayerPrefs.GetInt ("quizNo") == 3) {
 				unansweredQuestion = skeletal.ToList<Questions> ();
 				quizName.text= "SKELETAL SYSTEM";
 			}
+			if (PlayerPrefs.GetInt ("quizNo") == 4) {
+				unansweredQuestion = muscular.ToList<Questions> ();
+				quizName.text= "SKELETAL SYSTEM";
+			}
+
+		
+		
+		
 		}
 
 

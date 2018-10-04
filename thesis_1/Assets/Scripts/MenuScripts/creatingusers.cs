@@ -187,7 +187,7 @@ public class creatingusers : MonoBehaviour {
 		PlayerPrefs.SetString ("first_name",txtfname.text);
 		PlayerPrefs.SetString ("middle_name", txtmname.text);
 		PlayerPrefs.SetString ("last_name", txtlname.text);
-		PlayerPrefs.SetString ("name", txtmname.text);
+		PlayerPrefs.SetString ("name", txtusername.text);
 		PlayerPrefs.SetInt ("isLogged", 1);
 
 

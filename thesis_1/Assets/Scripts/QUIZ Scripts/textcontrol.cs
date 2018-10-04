@@ -111,8 +111,16 @@ public class textcontrol : MonoBehaviour {
 				quizName.text= "MUSCULAR SYSTEM";
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 5) {
-				unansweredQuestion = muscular.ToList<Questions> ();
+				unansweredQuestion = respiratory.ToList<Questions> ();
 				quizName.text= "RESPIRATORY SYSTEM";
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 6) {
+				unansweredQuestion = circulatory.ToList<Questions> ();
+				quizName.text= "CIRCULATORY SYSTEM";
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 7) {
+				unansweredQuestion = urinary.ToList<Questions> ();
+				quizName.text= "URINARY SYSTEM";
 			}
 
 		
@@ -180,11 +188,23 @@ public class textcontrol : MonoBehaviour {
 
 			if (PlayerPrefs.GetInt ("quizNo") == 3) {
 				PlayerPrefs.SetInt ("Score3", correctanswer);
-						StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 3));
+				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 3));
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 4) {
 				PlayerPrefs.SetInt ("Score4", correctanswer);
-				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 3));
+				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 4));
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 5) {
+				PlayerPrefs.SetInt ("Score4", correctanswer);
+				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 5));
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 6) {
+				PlayerPrefs.SetInt ("Score4", correctanswer);
+				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 6));
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 7) {
+				PlayerPrefs.SetInt ("Score4", correctanswer);
+				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 7));
 			}
 				
 

@@ -195,15 +195,15 @@ public class textcontrol : MonoBehaviour {
 				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 4));
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 5) {
-				PlayerPrefs.SetInt ("Score4", correctanswer);
+				PlayerPrefs.SetInt ("Score5", correctanswer);
 				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 5));
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 6) {
-				PlayerPrefs.SetInt ("Score4", correctanswer);
+				PlayerPrefs.SetInt ("Score6", correctanswer);
 				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 6));
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 7) {
-				PlayerPrefs.SetInt ("Score4", correctanswer);
+				PlayerPrefs.SetInt ("Score7", correctanswer);
 				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 7));
 			}
 				

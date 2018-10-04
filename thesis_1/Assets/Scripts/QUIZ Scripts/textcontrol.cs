@@ -60,12 +60,19 @@ public class textcontrol : MonoBehaviour {
     public Text txtwronganswer;
     public Text txtAverage;
 	public Text quizName;
+	public Text quizkoto;
 
 
     public GameObject resultpanel;
 	public GameObject Quizpanel,correctImage,wrongImage;
 
 
+
+	public void retry(){
+
+		SceneManager.LoadScene (3);
+
+	}
 
 
 
@@ -85,16 +92,19 @@ public class textcontrol : MonoBehaviour {
 			if (PlayerPrefs.GetInt ("quizNo") == 1) {
 				unansweredQuestion = question.ToList<Questions> ();
 				quizName.text= "SOLAR SYSTEM";
+				quizkoto.text="SOLAR SYSTEM";
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 2) {
 				unansweredQuestion = digistive.ToList<Questions> ();
 				quizName.text= "DIGISTIVE SYSTEM";
+				quizkoto.text="DIGISTIVE SYSTEM";
 			}
 
 
 			if (PlayerPrefs.GetInt ("quizNo") == 3) {
 				unansweredQuestion = skeletal.ToList<Questions> ();
 				quizName.text= "SKELETAL SYSTEM";
+				quizkoto.text="SKELETAL SYSTEM";
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 4) {
 				unansweredQuestion = muscular.ToList<Questions> ();

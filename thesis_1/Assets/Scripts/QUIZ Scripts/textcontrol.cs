@@ -60,6 +60,7 @@ public class textcontrol : MonoBehaviour {
     public Text txtwronganswer;
     public Text txtAverage;
 	public Text quizName;
+	public Text quizkoto;
 
 
     public GameObject resultpanel;
@@ -67,6 +68,11 @@ public class textcontrol : MonoBehaviour {
 
 
 
+	public void retry(){
+
+		SceneManager.LoadScene (3);
+
+	}
 
 
 
@@ -74,7 +80,8 @@ public class textcontrol : MonoBehaviour {
 
 
 
-    void Awake() 
+
+    public void start() 
 	{      
 		
 
@@ -85,20 +92,35 @@ public class textcontrol : MonoBehaviour {
 			if (PlayerPrefs.GetInt ("quizNo") == 1) {
 				unansweredQuestion = question.ToList<Questions> ();
 				quizName.text= "SOLAR SYSTEM";
+				quizkoto.text="SOLAR SYSTEM";
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 2) {
 				unansweredQuestion = digistive.ToList<Questions> ();
-				quizName.text= "SKELETAL SYSTEM";
+				quizName.text= "DIGISTIVE SYSTEM";
+				quizkoto.text="DIGISTIVE SYSTEM";
 			}
 
 
 			if (PlayerPrefs.GetInt ("quizNo") == 3) {
 				unansweredQuestion = skeletal.ToList<Questions> ();
 				quizName.text= "SKELETAL SYSTEM";
+				quizkoto.text="SKELETAL SYSTEM";
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 4) {
 				unansweredQuestion = muscular.ToList<Questions> ();
-				quizName.text= "SKELETAL SYSTEM";
+				quizName.text= "MUSCULAR SYSTEM";
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 5) {
+				unansweredQuestion = respiratory.ToList<Questions> ();
+				quizName.text= "RESPIRATORY SYSTEM";
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 6) {
+				unansweredQuestion = circulatory.ToList<Questions> ();
+				quizName.text= "CIRCULATORY SYSTEM";
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 7) {
+				unansweredQuestion = urinary.ToList<Questions> ();
+				quizName.text= "URINARY SYSTEM";
 			}
 
 		
@@ -153,18 +175,44 @@ public class textcontrol : MonoBehaviour {
             txtwronganswer.text = wronganswer.ToString();
 			float a = (float)correctanswer;
 			txtAverage.text = ((a / 15) * 100).ToString("0") + "%";
+		
 			if (PlayerPrefs.GetInt ("quizNo") == 1) {
-				PlayerPrefs.SetInt ("solarScore", correctanswer);
+				PlayerPrefs.SetInt ("Score1", correctanswer);
 				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 1));
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 2) {
-				PlayerPrefs.SetInt ("skeletalScore", correctanswer);
-						StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 2));
+				PlayerPrefs.SetInt ("Score2", correctanswer);
+				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 2));
+			}
+
+
+			if (PlayerPrefs.GetInt ("quizNo") == 3) {
+				PlayerPrefs.SetInt ("Score3", correctanswer);
+				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 3));
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 4) {
+				PlayerPrefs.SetInt ("Score4", correctanswer);
+				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 4));
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 5) {
+				PlayerPrefs.SetInt ("Score5", correctanswer);
+				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 5));
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 6) {
+				PlayerPrefs.SetInt ("Score6", correctanswer);
+				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 6));
+			}
+			if (PlayerPrefs.GetInt ("quizNo") == 7) {
+				PlayerPrefs.SetInt ("Score7", correctanswer);
+				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 7));
 			}
 				
 
-			Debug.Log(PlayerPrefs.GetInt("solarScore"));
-			Debug.Log(PlayerPrefs.GetInt("skeletalScore"));
+			for (int x = 1; x <= 4; x++) {
+
+				Debug.Log(PlayerPrefs.GetInt("Score"+x , 0));
+
+			}
 		
 
 
@@ -201,6 +249,7 @@ public class textcontrol : MonoBehaviour {
             return false;
         }
 	}
+
 
 	public void answer1 ()
 	{

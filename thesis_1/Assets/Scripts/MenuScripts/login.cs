@@ -210,6 +210,7 @@ public class login : MonoBehaviour {
 		fullname.text = PlayerPrefs.GetString ("first_name")+" "+PlayerPrefs.GetString ("middle_name")+" "+PlayerPrefs.GetString ("last_name");
 		student_id.text = PlayerPrefs.GetString ("id")+" ";
 		user.text = PlayerPrefs.GetString ("name")+" ";
+
 	}
 
 

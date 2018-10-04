@@ -4,10 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour {
 	// Use this for initialization
-	public Image label;
+
 	float delay = .005f;
-	public Text nameText,labelName;
 	public Text dialogueText;
+	public Text nameText,labelName;
+	public Image label;
 	public static bool flag = true;
 	public void StartDialogue(Dialogue dialogue)
 	{
@@ -32,7 +33,7 @@ public class DialogueManager : MonoBehaviour {
 	}
 	void EndDialouge()
 	{
-		Debug.Log ("END");
+		Debug.Log ("dialogueEnded");
 	}
 	void labelAnim(){
 		labelName.text = "";

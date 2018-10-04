@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: ec046a579aaf9884cbe67dc6d6b2309b
+timeCreated: 1538238113
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: mat0.052
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: main_body
+    7400000: main_body|Mesh_0000.rip|Take 001|BaseLayer
+    7400002: main_body|Mesh_0001.rip|Take 001|BaseLayer
+    7400004: main_body|Mesh_0002.rip|Take 001|BaseLayer
+    7400006: main_body|Mesh_0003.rip|Take 001|BaseLayer
+    7400008: main_body|Mesh_0004.rip|Take 001|BaseLayer
+    7400010: main_body|Mesh_0005.rip|Take 001|BaseLayer
+    7400012: main_body|Mesh_0006.rip|Take 001|BaseLayer
+    7400014: main_body|Mesh_0007.rip|Take 001|BaseLayer
+    7400016: main_body|Mesh_0008.rip|Take 001|BaseLayer
+    7400018: main_body|Mesh_0009.rip|Take 001|BaseLayer
+    7400020: main_body|Mesh_0010.rip|Take 001|BaseLayer
+    7400022: main_body|Mesh_0011.rip|Take 001|BaseLayer
+    7400024: main_body|Mesh_0012.rip|Take 001|BaseLayer
+    7400026: main_body|Mesh_0013.rip|Take 001|BaseLayer
+    7400028: main_body|Mesh_0014.rip|Take 001|BaseLayer
+    7400030: main_body|Mesh_0015.rip|Take 001|BaseLayer
+    7400032: main_body|Mesh_0016.rip|Take 001|BaseLayer
+    7400034: main_body|Mesh_0017.rip|Take 001|BaseLayer
+    7400036: main_body|Mesh_0018.rip|Take 001|BaseLayer
+    7400038: main_body|Mesh_0019.rip|Take 001|BaseLayer
+    7400040: main_body|Mesh_0020.rip|Take 001|BaseLayer
+    7400042: main_body|Mesh_0021.rip|Take 001|BaseLayer
+    7400044: main_body|Mesh_0022.rip|Take 001|BaseLayer
+    7400046: main_body|Mesh_0023.rip|Take 001|BaseLayer
+    7400048: main_body|Mesh_0024.rip|Take 001|BaseLayer
+    7400050: main_body|Mesh_0025.rip|Take 001|BaseLayer
+    7400052: main_body|Mesh_0026.rip|Take 001|BaseLayer
+    7400054: main_body|Mesh_0027.rip|Take 001|BaseLayer
+    7400056: main_body|Mesh_0028.rip|Take 001|BaseLayer
+    7400058: main_body|Mesh_0029.rip|Take 001|BaseLayer
+    7400060: main_body|Mesh_0030.rip|Take 001|BaseLayer
+    7400062: main_body|Mesh_0031.rip|Take 001|BaseLayer
+    7400064: main_body|Mesh_0032.rip|Take 001|BaseLayer
+    7400066: main_body|Mesh_0033.rip|Take 001|BaseLayer
+    7400068: main_body|Mesh_0034.rip|Take 001|BaseLayer
+    7400070: main_body|Mesh_0035.rip|Take 001|BaseLayer
+    7400072: main_body|Mesh_0036.rip|Take 001|BaseLayer
+    7400074: main_body|Mesh_0037.rip|Take 001|BaseLayer
+    7400076: main_body|Mesh_0038.rip|Take 001|BaseLayer
+    7400078: main_body|Mesh_0039.rip|Take 001|BaseLayer
+    7400080: main_body|Mesh_0040.rip|Take 001|BaseLayer
+    7400082: main_body|Mesh_0041.rip|Take 001|BaseLayer
+    7400084: main_body|Mesh_0042.rip|Take 001|BaseLayer
+    7400086: main_body|Mesh_0043.rip|Take 001|BaseLayer
+    7400088: main_body|Mesh_0044.rip|Take 001|BaseLayer
+    7400090: main_body|Mesh_0045.rip|Take 001|BaseLayer
+    7400092: main_body|Mesh_0046.rip|Take 001|BaseLayer
+    7400094: main_body|Mesh_0047.rip|Take 001|BaseLayer
+    7400096: main_body|Mesh_0048.rip|Take 001|BaseLayer
+    7400098: main_body|Mesh_0049.rip|Take 001|BaseLayer
+    7400100: main_body|Mesh_0050.rip|Take 001|BaseLayer
+    7400102: main_body|Mesh_0051.rip|Take 001|BaseLayer
+    7400104: main_body|Mesh_0052.rip|Take 001|BaseLayer
+    7400106: main_body|Mesh_0053.rip|Take 001|BaseLayer
+    7400108: main_body|Mesh_0054.rip|Take 001|BaseLayer
+    7400110: main_body|Mesh_0055.rip|Take 001|BaseLayer
+    7400112: main_body|Mesh_0056.rip|Take 001|BaseLayer
+    7400114: main_body|Mesh_0057.rip|Take 001|BaseLayer
+    7400116: main_body|Mesh_0058.rip|Take 001|BaseLayer
+    7400118: main_body|Mesh_0059.rip|Take 001|BaseLayer
+    7400120: main_body|Mesh_0060.rip|Take 001|BaseLayer
+    7400122: main_body|Mesh_0061.rip|Take 001|BaseLayer
+    7400124: main_body|Mesh_0062.rip|Take 001|BaseLayer
+    7400126: main_body|Mesh_0063.rip|Take 001|BaseLayer
+    7400128: main_body|Mesh_0064.rip|Take 001|BaseLayer
+    7400130: main_body|Mesh_0065.rip|Take 001|BaseLayer
+    7400132: main_body|Mesh_0066.rip|Take 001|BaseLayer
+    7400134: main_body|Mesh_0067.rip|Take 001|BaseLayer
+    7400136: main_body|Mesh_0068.rip|Take 001|BaseLayer
+    7400138: main_body|Mesh_0069.rip|Take 001|BaseLayer
+    7400140: main_body|Mesh_0070.rip|Take 001|BaseLayer
+    7400142: main_body|Mesh_0071.rip|Take 001|BaseLayer
+    7400144: main_body|Mesh_0072.rip|Take 001|BaseLayer
+    7400146: main_body|Mesh_0073.rip|Take 001|BaseLayer
+    7400148: main_body|Mesh_0074.rip|Take 001|BaseLayer
+    7400150: main_body|Mesh_0075.rip|Take 001|BaseLayer
+    7400152: main_body|Mesh_0076.rip|Take 001|BaseLayer
+    7400154: main_body|Mesh_0077.rip|Take 001|BaseLayer
+    7400156: main_body|Mesh_0078.rip|Take 001|BaseLayer
+    7400158: main_body|Mesh_0079.rip|Take 001|BaseLayer
+    7400160: main_body|Mesh_0080.rip|Take 001|BaseLayer
+    7400162: main_body|Mesh_0081.rip|Take 001|BaseLayer
+    7400164: main_body|Mesh_0082.rip|Take 001|BaseLayer
+    7400166: main_body|Mesh_0083.rip|Take 001|BaseLayer
+    7400168: main_body|Mesh_0084.rip|Take 001|BaseLayer
+    7400170: main_body|Mesh_0085.rip|Take 001|BaseLayer
+    7400172: main_body|Mesh_0086.rip|Take 001|BaseLayer
+    7400174: main_body|Mesh_0087.rip|Take 001|BaseLayer
+    7400176: main_body|Mesh_0088.rip|Take 001|BaseLayer
+    7400178: main_body|Mesh_0089.rip|Take 001|BaseLayer
+    7400180: main_body|Mesh_0090.rip|Take 001|BaseLayer
+    7400182: main_body|Mesh_0091.rip|Take 001|BaseLayer
+    7400184: main_body|Mesh_0092.rip|Take 001|BaseLayer
+    7400186: main_body|Mesh_0093.rip|Take 001|BaseLayer
+    7400188: main_body|Mesh_0094.rip|Take 001|BaseLayer
+    7400190: main_body|Mesh_0095.rip|Take 001|BaseLayer
+    7400192: main_body|Mesh_0096.rip|Take 001|BaseLayer
+    7400194: main_body|Mesh_0097.rip|Take 001|BaseLayer
+    7400196: main_body|Mesh_0098.rip|Take 001|BaseLayer
+    7400198: main_body|Mesh_0099.rip|Take 001|BaseLayer
+    7400200: main_body|Mesh_0100.rip|Take 001|BaseLayer
+    7400202: main_body|Mesh_0101.rip|Take 001|BaseLayer
+    7400204: main_body|Mesh_0102.rip|Take 001|BaseLayer
+    7400206: main_body|Mesh_0103.rip|Take 001|BaseLayer
+    7400208: main_body|Mesh_0104.rip|Take 001|BaseLayer
+    7400210: main_body|Mesh_0105.rip|Take 001|BaseLayer
+    7400212: main_body|Mesh_0106.rip|Take 001|BaseLayer
+    7400214: main_body|Mesh_0107.rip|Take 001|BaseLayer
+    7400216: main_body|Mesh_0108.rip|Take 001|BaseLayer
+    7400218: main_body|Mesh_0109.rip|Take 001|BaseLayer
+    7400220: main_body|Mesh_0110.rip|Take 001|BaseLayer
+    7400222: main_body|Mesh_0111.rip|Take 001|BaseLayer
+    7400224: main_body|Mesh_0112.rip|Take 001|BaseLayer
+    7400226: main_body|Mesh_0113.rip|Take 001|BaseLayer
+    7400228: main_body|Mesh_0114.rip|Take 001|BaseLayer
+    7400230: main_body|Mesh_0115.rip|Take 001|BaseLayer
+    7400232: main_body|Mesh_0116.rip|Take 001|BaseLayer
+    7400234: main_body|Mesh_0117.rip|Take 001|BaseLayer
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 20
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -21,7 +21,6 @@ public class cameraTransitions : MonoBehaviour {
 	private Transform startPos;
 	// Use this for initialization
 	void Start () {
-		
 		if (!VrOn.isVROn) {
 			this.xFormCamera = this.transform;
 			this.xFormaParent = this.transform.parent;

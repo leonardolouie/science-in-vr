@@ -1,0 +1,3164 @@
+fileFormatVersion: 2
+guid: c455808d7ca45434fa8c6fdd15343cfd
+timeCreated: 1538651549
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: anus
+    100002: appendix
+    100004: ascending_colon
+    100006: cecum
+    100008: common_bile_duct
+    100010: common_hepatic_duct_l
+    100012: cystic_duct
+    100014: descending_colon
+    100016: //RootNode
+    100018: duodenum
+    100020: esophagus
+    100022: gallbladder
+    100024: jejunum
+    100026: l_lobe
+    100028: lleum
+    100030: main_body
+    100032: Mesh_0108.rip
+    100034: Mesh_0108.rip.003
+    100036: pancreas
+    100038: r_Lobe
+    100040: rectum
+    100042: sigmoid_colon
+    100044: spleen
+    100046: stomach
+    100048: tranverse_colon
+    100050: anus.001
+    100052: appendix.001
+    100054: ascending_colon.001
+    100056: cecum.001
+    100058: common_bile_duct.001
+    100060: common_hepatic_duct_l.001
+    100062: cystic_duct.001
+    100064: descending_colon.001
+    100066: duodenum.001
+    100068: esophagus.001
+    100070: gallbladder.001
+    100072: jejunum.001
+    100074: l_lobe.001
+    100076: lleum.001
+    100078: Mesh_0108.rip.001
+    100080: Mesh_0108.rip.002
+    100082: pancreas.001
+    100084: r_Lobe.001
+    100086: rectum.001
+    100088: sigmoid_colon.001
+    100090: spleen.001
+    100092: stomach.001
+    100094: tranverse_colon.001
+    400000: anus
+    400002: appendix
+    400004: ascending_colon
+    400006: cecum
+    400008: common_bile_duct
+    400010: common_hepatic_duct_l
+    400012: cystic_duct
+    400014: descending_colon
+    400016: //RootNode
+    400018: duodenum
+    400020: esophagus
+    400022: gallbladder
+    400024: jejunum
+    400026: l_lobe
+    400028: lleum
+    400030: main_body
+    400032: Mesh_0108.rip
+    400034: Mesh_0108.rip.003
+    400036: pancreas
+    400038: r_Lobe
+    400040: rectum
+    400042: sigmoid_colon
+    400044: spleen
+    400046: stomach
+    400048: tranverse_colon
+    400050: anus.001
+    400052: appendix.001
+    400054: ascending_colon.001
+    400056: cecum.001
+    400058: common_bile_duct.001
+    400060: common_hepatic_duct_l.001
+    400062: cystic_duct.001
+    400064: descending_colon.001
+    400066: duodenum.001
+    400068: esophagus.001
+    400070: gallbladder.001
+    400072: jejunum.001
+    400074: l_lobe.001
+    400076: lleum.001
+    400078: Mesh_0108.rip.001
+    400080: Mesh_0108.rip.002
+    400082: pancreas.001
+    400084: r_Lobe.001
+    400086: rectum.001
+    400088: sigmoid_colon.001
+    400090: spleen.001
+    400092: stomach.001
+    400094: tranverse_colon.001
+    2100000: digestive
+    2100002: mat0.052
+    2300000: anus
+    2300002: appendix
+    2300004: ascending_colon
+    2300006: cecum
+    2300008: common_bile_duct
+    2300010: common_hepatic_duct_l
+    2300012: cystic_duct
+    2300014: descending_colon
+    2300016: duodenum
+    2300018: esophagus
+    2300020: gallbladder
+    2300022: jejunum
+    2300024: l_lobe
+    2300026: lleum
+    2300028: main_body
+    2300030: Mesh_0108.rip
+    2300032: Mesh_0108.rip.003
+    2300034: pancreas
+    2300036: r_Lobe
+    2300038: rectum
+    2300040: sigmoid_colon
+    2300042: spleen
+    2300044: stomach
+    2300046: tranverse_colon
+    2300048: anus.001
+    2300050: appendix.001
+    2300052: ascending_colon.001
+    2300054: cecum.001
+    2300056: common_bile_duct.001
+    2300058: common_hepatic_duct_l.001
+    2300060: cystic_duct.001
+    2300062: descending_colon.001
+    2300064: duodenum.001
+    2300066: esophagus.001
+    2300068: gallbladder.001
+    2300070: jejunum.001
+    2300072: l_lobe.001
+    2300074: lleum.001
+    2300076: Mesh_0108.rip.001
+    2300078: Mesh_0108.rip.002
+    2300080: pancreas.001
+    2300082: r_Lobe.001
+    2300084: rectum.001
+    2300086: sigmoid_colon.001
+    2300088: spleen.001
+    2300090: stomach.001
+    2300092: tranverse_colon.001
+    3300000: anus
+    3300002: appendix
+    3300004: ascending_colon
+    3300006: cecum
+    3300008: common_bile_duct
+    3300010: common_hepatic_duct_l
+    3300012: cystic_duct
+    3300014: descending_colon
+    3300016: duodenum
+    3300018: esophagus
+    3300020: gallbladder
+    3300022: jejunum
+    3300024: l_lobe
+    3300026: lleum
+    3300028: main_body
+    3300030: Mesh_0108.rip
+    3300032: Mesh_0108.rip.003
+    3300034: pancreas
+    3300036: r_Lobe
+    3300038: rectum
+    3300040: sigmoid_colon
+    3300042: spleen
+    3300044: stomach
+    3300046: tranverse_colon
+    3300048: anus.001
+    3300050: appendix.001
+    3300052: ascending_colon.001
+    3300054: cecum.001
+    3300056: common_bile_duct.001
+    3300058: common_hepatic_duct_l.001
+    3300060: cystic_duct.001
+    3300062: descending_colon.001
+    3300064: duodenum.001
+    3300066: esophagus.001
+    3300068: gallbladder.001
+    3300070: jejunum.001
+    3300072: l_lobe.001
+    3300074: lleum.001
+    3300076: Mesh_0108.rip.001
+    3300078: Mesh_0108.rip.002
+    3300080: pancreas.001
+    3300082: r_Lobe.001
+    3300084: rectum.001
+    3300086: sigmoid_colon.001
+    3300088: spleen.001
+    3300090: stomach.001
+    3300092: tranverse_colon.001
+    4300000: Mesh_0108.rip.003
+    4300002: common_bile_duct
+    4300004: common_hepatic_duct_l
+    4300006: anus
+    4300008: cystic_duct
+    4300010: gallbladder
+    4300012: esophagus
+    4300014: duodenum
+    4300016: pancreas
+    4300018: rectum
+    4300020: appendix
+    4300022: sigmoid_colon
+    4300024: spleen
+    4300026: cecum
+    4300028: stomach
+    4300030: l_lobe
+    4300032: r_Lobe
+    4300034: tranverse_colon
+    4300036: descending_colon
+    4300038: jejunum
+    4300040: lleum
+    4300042: ascending_colon
+    4300044: main_body
+    4300046: Mesh_0108.rip
+    4300048: Mesh_0108.rip.002
+    4300050: common_bile_duct.001
+    4300052: common_hepatic_duct_l.001
+    4300054: anus.001
+    4300056: cystic_duct.001
+    4300058: gallbladder.001
+    4300060: esophagus.001
+    4300062: duodenum.001
+    4300064: pancreas.001
+    4300066: rectum.001
+    4300068: appendix.001
+    4300070: sigmoid_colon.001
+    4300072: spleen.001
+    4300074: cecum.001
+    4300076: stomach.001
+    4300078: l_lobe.001
+    4300080: r_Lobe.001
+    4300082: tranverse_colon.001
+    4300084: descending_colon.001
+    4300086: jejunum.001
+    4300088: lleum.001
+    4300090: ascending_colon.001
+    4300092: Mesh_0108.rip.001
+    7400000: Mesh_0108.rip.003|Mesh_0000.rip|Take 001|BaseLayer
+    7400002: Mesh_0108.rip.003|Mesh_0001.rip|Take 001|BaseLayer
+    7400004: Mesh_0108.rip.003|Mesh_0002.rip|Take 001|BaseLayer
+    7400006: Mesh_0108.rip.003|Mesh_0003.rip|Take 001|BaseLayer
+    7400008: Mesh_0108.rip.003|Mesh_0004.rip|Take 001|BaseLayer
+    7400010: Mesh_0108.rip.003|Mesh_0005.rip|Take 001|BaseLayer
+    7400012: Mesh_0108.rip.003|Mesh_0006.rip|Take 001|BaseLayer
+    7400014: Mesh_0108.rip.003|Mesh_0007.rip|Take 001|BaseLayer
+    7400016: Mesh_0108.rip.003|Mesh_0008.rip|Take 001|BaseLayer
+    7400018: Mesh_0108.rip.003|Mesh_0009.rip|Take 001|BaseLayer
+    7400020: Mesh_0108.rip.003|Mesh_0010.rip|Take 001|BaseLayer
+    7400022: Mesh_0108.rip.003|Mesh_0011.rip|Take 001|BaseLayer
+    7400024: Mesh_0108.rip.003|Mesh_0012.rip|Take 001|BaseLayer
+    7400026: Mesh_0108.rip.003|Mesh_0013.rip|Take 001|BaseLayer
+    7400028: Mesh_0108.rip.003|Mesh_0014.rip|Take 001|BaseLayer
+    7400030: Mesh_0108.rip.003|Mesh_0015.rip|Take 001|BaseLayer
+    7400032: Mesh_0108.rip.003|Mesh_0016.rip|Take 001|BaseLayer
+    7400034: Mesh_0108.rip.003|Mesh_0017.rip|Take 001|BaseLayer
+    7400036: Mesh_0108.rip.003|Mesh_0018.rip|Take 001|BaseLayer
+    7400038: Mesh_0108.rip.003|Mesh_0019.rip|Take 001|BaseLayer
+    7400040: Mesh_0108.rip.003|Mesh_0020.rip|Take 001|BaseLayer
+    7400042: Mesh_0108.rip.003|Mesh_0021.rip|Take 001|BaseLayer
+    7400044: Mesh_0108.rip.003|Mesh_0022.rip|Take 001|BaseLayer
+    7400046: Mesh_0108.rip.003|Mesh_0023.rip|Take 001|BaseLayer
+    7400048: Mesh_0108.rip.003|Mesh_0024.rip|Take 001|BaseLayer
+    7400050: Mesh_0108.rip.003|Mesh_0025.rip|Take 001|BaseLayer
+    7400052: Mesh_0108.rip.003|Mesh_0026.rip|Take 001|BaseLayer
+    7400054: Mesh_0108.rip.003|Mesh_0027.rip|Take 001|BaseLayer
+    7400056: Mesh_0108.rip.003|Mesh_0028.rip|Take 001|BaseLayer
+    7400058: Mesh_0108.rip.003|Mesh_0029.rip|Take 001|BaseLayer
+    7400060: Mesh_0108.rip.003|Mesh_0030.rip|Take 001|BaseLayer
+    7400062: Mesh_0108.rip.003|Mesh_0031.rip|Take 001|BaseLayer
+    7400064: Mesh_0108.rip.003|Mesh_0032.rip|Take 001|BaseLayer
+    7400066: Mesh_0108.rip.003|Mesh_0033.rip|Take 001|BaseLayer
+    7400068: Mesh_0108.rip.003|Mesh_0034.rip|Take 001|BaseLayer
+    7400070: Mesh_0108.rip.003|Mesh_0035.rip|Take 001|BaseLayer
+    7400072: Mesh_0108.rip.003|Mesh_0036.rip|Take 001|BaseLayer
+    7400074: Mesh_0108.rip.003|Mesh_0037.rip|Take 001|BaseLayer
+    7400076: Mesh_0108.rip.003|Mesh_0038.rip|Take 001|BaseLayer
+    7400078: Mesh_0108.rip.003|Mesh_0039.rip|Take 001|BaseLayer
+    7400080: Mesh_0108.rip.003|Mesh_0040.rip|Take 001|BaseLayer
+    7400082: Mesh_0108.rip.003|Mesh_0041.rip|Take 001|BaseLayer
+    7400084: Mesh_0108.rip.003|Mesh_0042.rip|Take 001|BaseLayer
+    7400086: Mesh_0108.rip.003|Mesh_0043.rip|Take 001|BaseLayer
+    7400088: Mesh_0108.rip.003|Mesh_0044.rip|Take 001|BaseLayer
+    7400090: Mesh_0108.rip.003|Mesh_0045.rip|Take 001|BaseLayer
+    7400092: Mesh_0108.rip.003|Mesh_0046.rip|Take 001|BaseLayer
+    7400094: Mesh_0108.rip.003|Mesh_0047.rip|Take 001|BaseLayer
+    7400096: Mesh_0108.rip.003|Mesh_0048.rip|Take 001|BaseLayer
+    7400098: Mesh_0108.rip.003|Mesh_0049.rip|Take 001|BaseLayer
+    7400100: Mesh_0108.rip.003|Mesh_0050.rip|Take 001|BaseLayer
+    7400102: Mesh_0108.rip.003|Mesh_0051.rip|Take 001|BaseLayer
+    7400104: Mesh_0108.rip.003|Mesh_0052.rip|Take 001|BaseLayer
+    7400106: Mesh_0108.rip.003|Mesh_0053.rip|Take 001|BaseLayer
+    7400108: Mesh_0108.rip.003|Mesh_0054.rip|Take 001|BaseLayer
+    7400110: Mesh_0108.rip.003|Mesh_0055.rip|Take 001|BaseLayer
+    7400112: Mesh_0108.rip.003|Mesh_0056.rip|Take 001|BaseLayer
+    7400114: Mesh_0108.rip.003|Mesh_0057.rip|Take 001|BaseLayer
+    7400116: Mesh_0108.rip.003|Mesh_0058.rip|Take 001|BaseLayer
+    7400118: Mesh_0108.rip.003|Mesh_0059.rip|Take 001|BaseLayer
+    7400120: Mesh_0108.rip.003|Mesh_0060.rip|Take 001|BaseLayer
+    7400122: Mesh_0108.rip.003|Mesh_0061.rip|Take 001|BaseLayer
+    7400124: Mesh_0108.rip.003|Mesh_0062.rip|Take 001|BaseLayer
+    7400126: Mesh_0108.rip.003|Mesh_0063.rip|Take 001|BaseLayer
+    7400128: Mesh_0108.rip.003|Mesh_0064.rip|Take 001|BaseLayer
+    7400130: Mesh_0108.rip.003|Mesh_0065.rip|Take 001|BaseLayer
+    7400132: Mesh_0108.rip.003|Mesh_0066.rip|Take 001|BaseLayer
+    7400134: Mesh_0108.rip.003|Mesh_0067.rip|Take 001|BaseLayer
+    7400136: Mesh_0108.rip.003|Mesh_0068.rip|Take 001|BaseLayer
+    7400138: Mesh_0108.rip.003|Mesh_0069.rip|Take 001|BaseLayer
+    7400140: Mesh_0108.rip.003|Mesh_0070.rip|Take 001|BaseLayer
+    7400142: Mesh_0108.rip.003|Mesh_0071.rip|Take 001|BaseLayer
+    7400144: Mesh_0108.rip.003|Mesh_0072.rip|Take 001|BaseLayer
+    7400146: Mesh_0108.rip.003|Mesh_0073.rip|Take 001|BaseLayer
+    7400148: Mesh_0108.rip.003|Mesh_0074.rip|Take 001|BaseLayer
+    7400150: Mesh_0108.rip.003|Mesh_0075.rip|Take 001|BaseLayer
+    7400152: Mesh_0108.rip.003|Mesh_0076.rip|Take 001|BaseLayer
+    7400154: Mesh_0108.rip.003|Mesh_0077.rip|Take 001|BaseLayer
+    7400156: Mesh_0108.rip.003|Mesh_0078.rip|Take 001|BaseLayer
+    7400158: Mesh_0108.rip.003|Mesh_0079.rip|Take 001|BaseLayer
+    7400160: Mesh_0108.rip.003|Mesh_0080.rip|Take 001|BaseLayer
+    7400162: Mesh_0108.rip.003|Mesh_0081.rip|Take 001|BaseLayer
+    7400164: Mesh_0108.rip.003|Mesh_0082.rip|Take 001|BaseLayer
+    7400166: Mesh_0108.rip.003|Mesh_0083.rip|Take 001|BaseLayer
+    7400168: Mesh_0108.rip.003|Mesh_0084.rip|Take 001|BaseLayer
+    7400170: Mesh_0108.rip.003|Mesh_0085.rip|Take 001|BaseLayer
+    7400172: Mesh_0108.rip.003|Mesh_0086.rip|Take 001|BaseLayer
+    7400174: Mesh_0108.rip.003|Mesh_0087.rip|Take 001|BaseLayer
+    7400176: Mesh_0108.rip.003|Mesh_0088.rip|Take 001|BaseLayer
+    7400178: Mesh_0108.rip.003|Mesh_0089.rip|Take 001|BaseLayer
+    7400180: Mesh_0108.rip.003|Mesh_0090.rip|Take 001|BaseLayer
+    7400182: Mesh_0108.rip.003|Mesh_0091.rip|Take 001|BaseLayer
+    7400184: Mesh_0108.rip.003|Mesh_0092.rip|Take 001|BaseLayer
+    7400186: Mesh_0108.rip.003|Mesh_0093.rip|Take 001|BaseLayer
+    7400188: Mesh_0108.rip.003|Mesh_0094.rip|Take 001|BaseLayer
+    7400190: Mesh_0108.rip.003|Mesh_0095.rip|Take 001|BaseLayer
+    7400192: Mesh_0108.rip.003|Mesh_0096.rip|Take 001|BaseLayer
+    7400194: Mesh_0108.rip.003|Mesh_0097.rip|Take 001|BaseLayer
+    7400196: Mesh_0108.rip.003|Mesh_0098.rip|Take 001|BaseLayer
+    7400198: Mesh_0108.rip.003|Mesh_0099.rip|Take 001|BaseLayer
+    7400200: Mesh_0108.rip.003|Mesh_0100.rip|Take 001|BaseLayer
+    7400202: Mesh_0108.rip.003|Mesh_0101.rip|Take 001|BaseLayer
+    7400204: Mesh_0108.rip.003|Mesh_0102.rip|Take 001|BaseLayer
+    7400206: Mesh_0108.rip.003|Mesh_0103.rip|Take 001|BaseLayer
+    7400208: Mesh_0108.rip.003|Mesh_0104.rip|Take 001|BaseLayer
+    7400210: Mesh_0108.rip.003|Mesh_0105.rip|Take 001|BaseLayer
+    7400212: Mesh_0108.rip.003|Mesh_0106.rip|Take 001|BaseLayer
+    7400214: Mesh_0108.rip.003|Mesh_0107.rip|Take 001|BaseLayer
+    7400216: Mesh_0108.rip.003|Mesh_0108.rip|Take 001|BaseLayer
+    7400218: Mesh_0108.rip.003|Mesh_0109.rip|Take 001|BaseLayer
+    7400220: Mesh_0108.rip.003|Mesh_0110.rip|Take 001|BaseLayer
+    7400222: Mesh_0108.rip.003|Mesh_0111.rip|Take 001|BaseLayer
+    7400224: Mesh_0108.rip.003|Mesh_0112.rip|Take 001|BaseLayer
+    7400226: Mesh_0108.rip.003|Mesh_0113.rip|Take 001|BaseLayer
+    7400228: Mesh_0108.rip.003|Mesh_0114.rip|Take 001|BaseLayer
+    7400230: Mesh_0108.rip.003|Mesh_0115.rip|Take 001|BaseLayer
+    7400232: Mesh_0108.rip.003|Mesh_0116.rip|Take 001|BaseLayer
+    7400234: Mesh_0108.rip.003|Mesh_0117.rip|Take 001|BaseLayer
+    7400236: common_bile_duct|Mesh_0000.rip|Take 001|BaseLayer
+    7400238: common_bile_duct|Mesh_0001.rip|Take 001|BaseLayer
+    7400240: common_bile_duct|Mesh_0002.rip|Take 001|BaseLayer
+    7400242: common_bile_duct|Mesh_0003.rip|Take 001|BaseLayer
+    7400244: common_bile_duct|Mesh_0004.rip|Take 001|BaseLayer
+    7400246: common_bile_duct|Mesh_0005.rip|Take 001|BaseLayer
+    7400248: common_bile_duct|Mesh_0006.rip|Take 001|BaseLayer
+    7400250: common_bile_duct|Mesh_0007.rip|Take 001|BaseLayer
+    7400252: common_bile_duct|Mesh_0008.rip|Take 001|BaseLayer
+    7400254: common_bile_duct|Mesh_0009.rip|Take 001|BaseLayer
+    7400256: common_bile_duct|Mesh_0010.rip|Take 001|BaseLayer
+    7400258: common_bile_duct|Mesh_0011.rip|Take 001|BaseLayer
+    7400260: common_bile_duct|Mesh_0012.rip|Take 001|BaseLayer
+    7400262: common_bile_duct|Mesh_0013.rip|Take 001|BaseLayer
+    7400264: common_bile_duct|Mesh_0014.rip|Take 001|BaseLayer
+    7400266: common_bile_duct|Mesh_0015.rip|Take 001|BaseLayer
+    7400268: common_bile_duct|Mesh_0016.rip|Take 001|BaseLayer
+    7400270: common_bile_duct|Mesh_0017.rip|Take 001|BaseLayer
+    7400272: common_bile_duct|Mesh_0018.rip|Take 001|BaseLayer
+    7400274: common_bile_duct|Mesh_0019.rip|Take 001|BaseLayer
+    7400276: common_bile_duct|Mesh_0020.rip|Take 001|BaseLayer
+    7400278: common_bile_duct|Mesh_0021.rip|Take 001|BaseLayer
+    7400280: common_bile_duct|Mesh_0022.rip|Take 001|BaseLayer
+    7400282: common_bile_duct|Mesh_0023.rip|Take 001|BaseLayer
+    7400284: common_bile_duct|Mesh_0024.rip|Take 001|BaseLayer
+    7400286: common_bile_duct|Mesh_0025.rip|Take 001|BaseLayer
+    7400288: common_bile_duct|Mesh_0026.rip|Take 001|BaseLayer
+    7400290: common_bile_duct|Mesh_0027.rip|Take 001|BaseLayer
+    7400292: common_bile_duct|Mesh_0028.rip|Take 001|BaseLayer
+    7400294: common_bile_duct|Mesh_0029.rip|Take 001|BaseLayer
+    7400296: common_bile_duct|Mesh_0030.rip|Take 001|BaseLayer
+    7400298: common_bile_duct|Mesh_0031.rip|Take 001|BaseLayer
+    7400300: common_bile_duct|Mesh_0032.rip|Take 001|BaseLayer
+    7400302: common_bile_duct|Mesh_0033.rip|Take 001|BaseLayer
+    7400304: common_bile_duct|Mesh_0034.rip|Take 001|BaseLayer
+    7400306: common_bile_duct|Mesh_0035.rip|Take 001|BaseLayer
+    7400308: common_bile_duct|Mesh_0036.rip|Take 001|BaseLayer
+    7400310: common_bile_duct|Mesh_0037.rip|Take 001|BaseLayer
+    7400312: common_bile_duct|Mesh_0038.rip|Take 001|BaseLayer
+    7400314: common_bile_duct|Mesh_0039.rip|Take 001|BaseLayer
+    7400316: common_bile_duct|Mesh_0040.rip|Take 001|BaseLayer
+    7400318: common_bile_duct|Mesh_0041.rip|Take 001|BaseLayer
+    7400320: common_bile_duct|Mesh_0042.rip|Take 001|BaseLayer
+    7400322: common_bile_duct|Mesh_0043.rip|Take 001|BaseLayer
+    7400324: common_bile_duct|Mesh_0044.rip|Take 001|BaseLayer
+    7400326: common_bile_duct|Mesh_0045.rip|Take 001|BaseLayer
+    7400328: common_bile_duct|Mesh_0046.rip|Take 001|BaseLayer
+    7400330: common_bile_duct|Mesh_0047.rip|Take 001|BaseLayer
+    7400332: common_bile_duct|Mesh_0048.rip|Take 001|BaseLayer
+    7400334: common_bile_duct|Mesh_0049.rip|Take 001|BaseLayer
+    7400336: common_bile_duct|Mesh_0050.rip|Take 001|BaseLayer
+    7400338: common_bile_duct|Mesh_0051.rip|Take 001|BaseLayer
+    7400340: common_bile_duct|Mesh_0052.rip|Take 001|BaseLayer
+    7400342: common_bile_duct|Mesh_0053.rip|Take 001|BaseLayer
+    7400344: common_bile_duct|Mesh_0054.rip|Take 001|BaseLayer
+    7400346: common_bile_duct|Mesh_0055.rip|Take 001|BaseLayer
+    7400348: common_bile_duct|Mesh_0056.rip|Take 001|BaseLayer
+    7400350: common_bile_duct|Mesh_0057.rip|Take 001|BaseLayer
+    7400352: common_bile_duct|Mesh_0058.rip|Take 001|BaseLayer
+    7400354: common_bile_duct|Mesh_0059.rip|Take 001|BaseLayer
+    7400356: common_bile_duct|Mesh_0060.rip|Take 001|BaseLayer
+    7400358: common_bile_duct|Mesh_0061.rip|Take 001|BaseLayer
+    7400360: common_bile_duct|Mesh_0062.rip|Take 001|BaseLayer
+    7400362: common_bile_duct|Mesh_0063.rip|Take 001|BaseLayer
+    7400364: common_bile_duct|Mesh_0064.rip|Take 001|BaseLayer
+    7400366: common_bile_duct|Mesh_0065.rip|Take 001|BaseLayer
+    7400368: common_bile_duct|Mesh_0066.rip|Take 001|BaseLayer
+    7400370: common_bile_duct|Mesh_0067.rip|Take 001|BaseLayer
+    7400372: common_bile_duct|Mesh_0068.rip|Take 001|BaseLayer
+    7400374: common_bile_duct|Mesh_0069.rip|Take 001|BaseLayer
+    7400376: common_bile_duct|Mesh_0070.rip|Take 001|BaseLayer
+    7400378: common_bile_duct|Mesh_0071.rip|Take 001|BaseLayer
+    7400380: common_bile_duct|Mesh_0072.rip|Take 001|BaseLayer
+    7400382: common_bile_duct|Mesh_0073.rip|Take 001|BaseLayer
+    7400384: common_bile_duct|Mesh_0074.rip|Take 001|BaseLayer
+    7400386: common_bile_duct|Mesh_0075.rip|Take 001|BaseLayer
+    7400388: common_bile_duct|Mesh_0076.rip|Take 001|BaseLayer
+    7400390: common_bile_duct|Mesh_0077.rip|Take 001|BaseLayer
+    7400392: common_bile_duct|Mesh_0078.rip|Take 001|BaseLayer
+    7400394: common_bile_duct|Mesh_0079.rip|Take 001|BaseLayer
+    7400396: common_bile_duct|Mesh_0080.rip|Take 001|BaseLayer
+    7400398: common_bile_duct|Mesh_0081.rip|Take 001|BaseLayer
+    7400400: common_bile_duct|Mesh_0082.rip|Take 001|BaseLayer
+    7400402: common_bile_duct|Mesh_0083.rip|Take 001|BaseLayer
+    7400404: common_bile_duct|Mesh_0084.rip|Take 001|BaseLayer
+    7400406: common_bile_duct|Mesh_0085.rip|Take 001|BaseLayer
+    7400408: common_bile_duct|Mesh_0086.rip|Take 001|BaseLayer
+    7400410: common_bile_duct|Mesh_0087.rip|Take 001|BaseLayer
+    7400412: common_bile_duct|Mesh_0088.rip|Take 001|BaseLayer
+    7400414: common_bile_duct|Mesh_0089.rip|Take 001|BaseLayer
+    7400416: common_bile_duct|Mesh_0090.rip|Take 001|BaseLayer
+    7400418: common_bile_duct|Mesh_0091.rip|Take 001|BaseLayer
+    7400420: common_bile_duct|Mesh_0092.rip|Take 001|BaseLayer
+    7400422: common_bile_duct|Mesh_0093.rip|Take 001|BaseLayer
+    7400424: common_bile_duct|Mesh_0094.rip|Take 001|BaseLayer
+    7400426: common_bile_duct|Mesh_0095.rip|Take 001|BaseLayer
+    7400428: common_bile_duct|Mesh_0096.rip|Take 001|BaseLayer
+    7400430: common_bile_duct|Mesh_0097.rip|Take 001|BaseLayer
+    7400432: common_bile_duct|Mesh_0098.rip|Take 001|BaseLayer
+    7400434: common_bile_duct|Mesh_0099.rip|Take 001|BaseLayer
+    7400436: common_bile_duct|Mesh_0100.rip|Take 001|BaseLayer
+    7400438: common_bile_duct|Mesh_0101.rip|Take 001|BaseLayer
+    7400440: common_bile_duct|Mesh_0102.rip|Take 001|BaseLayer
+    7400442: common_bile_duct|Mesh_0103.rip|Take 001|BaseLayer
+    7400444: common_bile_duct|Mesh_0104.rip|Take 001|BaseLayer
+    7400446: common_bile_duct|Mesh_0105.rip|Take 001|BaseLayer
+    7400448: common_bile_duct|Mesh_0106.rip|Take 001|BaseLayer
+    7400450: common_bile_duct|Mesh_0107.rip|Take 001|BaseLayer
+    7400452: common_bile_duct|Mesh_0108.rip|Take 001|BaseLayer
+    7400454: common_bile_duct|Mesh_0109.rip|Take 001|BaseLayer
+    7400456: common_bile_duct|Mesh_0110.rip|Take 001|BaseLayer
+    7400458: common_bile_duct|Mesh_0111.rip|Take 001|BaseLayer
+    7400460: common_bile_duct|Mesh_0112.rip|Take 001|BaseLayer
+    7400462: common_bile_duct|Mesh_0113.rip|Take 001|BaseLayer
+    7400464: common_bile_duct|Mesh_0114.rip|Take 001|BaseLayer
+    7400466: common_bile_duct|Mesh_0115.rip|Take 001|BaseLayer
+    7400468: common_bile_duct|Mesh_0116.rip|Take 001|BaseLayer
+    7400470: common_bile_duct|Mesh_0117.rip|Take 001|BaseLayer
+    7400472: common_hepatic_duct_l|Mesh_0000.rip|Take 001|BaseLayer
+    7400474: common_hepatic_duct_l|Mesh_0001.rip|Take 001|BaseLayer
+    7400476: common_hepatic_duct_l|Mesh_0002.rip|Take 001|BaseLayer
+    7400478: common_hepatic_duct_l|Mesh_0003.rip|Take 001|BaseLayer
+    7400480: common_hepatic_duct_l|Mesh_0004.rip|Take 001|BaseLayer
+    7400482: common_hepatic_duct_l|Mesh_0005.rip|Take 001|BaseLayer
+    7400484: common_hepatic_duct_l|Mesh_0006.rip|Take 001|BaseLayer
+    7400486: common_hepatic_duct_l|Mesh_0007.rip|Take 001|BaseLayer
+    7400488: common_hepatic_duct_l|Mesh_0008.rip|Take 001|BaseLayer
+    7400490: common_hepatic_duct_l|Mesh_0009.rip|Take 001|BaseLayer
+    7400492: common_hepatic_duct_l|Mesh_0010.rip|Take 001|BaseLayer
+    7400494: common_hepatic_duct_l|Mesh_0011.rip|Take 001|BaseLayer
+    7400496: common_hepatic_duct_l|Mesh_0012.rip|Take 001|BaseLayer
+    7400498: common_hepatic_duct_l|Mesh_0013.rip|Take 001|BaseLayer
+    7400500: common_hepatic_duct_l|Mesh_0014.rip|Take 001|BaseLayer
+    7400502: common_hepatic_duct_l|Mesh_0015.rip|Take 001|BaseLayer
+    7400504: common_hepatic_duct_l|Mesh_0016.rip|Take 001|BaseLayer
+    7400506: common_hepatic_duct_l|Mesh_0017.rip|Take 001|BaseLayer
+    7400508: common_hepatic_duct_l|Mesh_0018.rip|Take 001|BaseLayer
+    7400510: common_hepatic_duct_l|Mesh_0019.rip|Take 001|BaseLayer
+    7400512: common_hepatic_duct_l|Mesh_0020.rip|Take 001|BaseLayer
+    7400514: common_hepatic_duct_l|Mesh_0021.rip|Take 001|BaseLayer
+    7400516: common_hepatic_duct_l|Mesh_0022.rip|Take 001|BaseLayer
+    7400518: common_hepatic_duct_l|Mesh_0023.rip|Take 001|BaseLayer
+    7400520: common_hepatic_duct_l|Mesh_0024.rip|Take 001|BaseLayer
+    7400522: common_hepatic_duct_l|Mesh_0025.rip|Take 001|BaseLayer
+    7400524: common_hepatic_duct_l|Mesh_0026.rip|Take 001|BaseLayer
+    7400526: common_hepatic_duct_l|Mesh_0027.rip|Take 001|BaseLayer
+    7400528: common_hepatic_duct_l|Mesh_0028.rip|Take 001|BaseLayer
+    7400530: common_hepatic_duct_l|Mesh_0029.rip|Take 001|BaseLayer
+    7400532: common_hepatic_duct_l|Mesh_0030.rip|Take 001|BaseLayer
+    7400534: common_hepatic_duct_l|Mesh_0031.rip|Take 001|BaseLayer
+    7400536: common_hepatic_duct_l|Mesh_0032.rip|Take 001|BaseLayer
+    7400538: common_hepatic_duct_l|Mesh_0033.rip|Take 001|BaseLayer
+    7400540: common_hepatic_duct_l|Mesh_0034.rip|Take 001|BaseLayer
+    7400542: common_hepatic_duct_l|Mesh_0035.rip|Take 001|BaseLayer
+    7400544: common_hepatic_duct_l|Mesh_0036.rip|Take 001|BaseLayer
+    7400546: common_hepatic_duct_l|Mesh_0037.rip|Take 001|BaseLayer
+    7400548: common_hepatic_duct_l|Mesh_0038.rip|Take 001|BaseLayer
+    7400550: common_hepatic_duct_l|Mesh_0039.rip|Take 001|BaseLayer
+    7400552: common_hepatic_duct_l|Mesh_0040.rip|Take 001|BaseLayer
+    7400554: common_hepatic_duct_l|Mesh_0041.rip|Take 001|BaseLayer
+    7400556: common_hepatic_duct_l|Mesh_0042.rip|Take 001|BaseLayer
+    7400558: common_hepatic_duct_l|Mesh_0043.rip|Take 001|BaseLayer
+    7400560: common_hepatic_duct_l|Mesh_0044.rip|Take 001|BaseLayer
+    7400562: common_hepatic_duct_l|Mesh_0045.rip|Take 001|BaseLayer
+    7400564: common_hepatic_duct_l|Mesh_0046.rip|Take 001|BaseLayer
+    7400566: common_hepatic_duct_l|Mesh_0047.rip|Take 001|BaseLayer
+    7400568: common_hepatic_duct_l|Mesh_0048.rip|Take 001|BaseLayer
+    7400570: common_hepatic_duct_l|Mesh_0049.rip|Take 001|BaseLayer
+    7400572: common_hepatic_duct_l|Mesh_0050.rip|Take 001|BaseLayer
+    7400574: common_hepatic_duct_l|Mesh_0051.rip|Take 001|BaseLayer
+    7400576: common_hepatic_duct_l|Mesh_0052.rip|Take 001|BaseLayer
+    7400578: common_hepatic_duct_l|Mesh_0053.rip|Take 001|BaseLayer
+    7400580: common_hepatic_duct_l|Mesh_0054.rip|Take 001|BaseLayer
+    7400582: common_hepatic_duct_l|Mesh_0055.rip|Take 001|BaseLayer
+    7400584: common_hepatic_duct_l|Mesh_0056.rip|Take 001|BaseLayer
+    7400586: common_hepatic_duct_l|Mesh_0057.rip|Take 001|BaseLayer
+    7400588: common_hepatic_duct_l|Mesh_0058.rip|Take 001|BaseLayer
+    7400590: common_hepatic_duct_l|Mesh_0059.rip|Take 001|BaseLayer
+    7400592: common_hepatic_duct_l|Mesh_0060.rip|Take 001|BaseLayer
+    7400594: common_hepatic_duct_l|Mesh_0061.rip|Take 001|BaseLayer
+    7400596: common_hepatic_duct_l|Mesh_0062.rip|Take 001|BaseLayer
+    7400598: common_hepatic_duct_l|Mesh_0063.rip|Take 001|BaseLayer
+    7400600: common_hepatic_duct_l|Mesh_0064.rip|Take 001|BaseLayer
+    7400602: common_hepatic_duct_l|Mesh_0065.rip|Take 001|BaseLayer
+    7400604: common_hepatic_duct_l|Mesh_0066.rip|Take 001|BaseLayer
+    7400606: common_hepatic_duct_l|Mesh_0067.rip|Take 001|BaseLayer
+    7400608: common_hepatic_duct_l|Mesh_0068.rip|Take 001|BaseLayer
+    7400610: common_hepatic_duct_l|Mesh_0069.rip|Take 001|BaseLayer
+    7400612: common_hepatic_duct_l|Mesh_0070.rip|Take 001|BaseLayer
+    7400614: common_hepatic_duct_l|Mesh_0071.rip|Take 001|BaseLayer
+    7400616: common_hepatic_duct_l|Mesh_0072.rip|Take 001|BaseLayer
+    7400618: common_hepatic_duct_l|Mesh_0073.rip|Take 001|BaseLayer
+    7400620: common_hepatic_duct_l|Mesh_0074.rip|Take 001|BaseLayer
+    7400622: common_hepatic_duct_l|Mesh_0075.rip|Take 001|BaseLayer
+    7400624: common_hepatic_duct_l|Mesh_0076.rip|Take 001|BaseLayer
+    7400626: common_hepatic_duct_l|Mesh_0077.rip|Take 001|BaseLayer
+    7400628: common_hepatic_duct_l|Mesh_0078.rip|Take 001|BaseLayer
+    7400630: common_hepatic_duct_l|Mesh_0079.rip|Take 001|BaseLayer
+    7400632: common_hepatic_duct_l|Mesh_0080.rip|Take 001|BaseLayer
+    7400634: common_hepatic_duct_l|Mesh_0081.rip|Take 001|BaseLayer
+    7400636: common_hepatic_duct_l|Mesh_0082.rip|Take 001|BaseLayer
+    7400638: common_hepatic_duct_l|Mesh_0083.rip|Take 001|BaseLayer
+    7400640: common_hepatic_duct_l|Mesh_0084.rip|Take 001|BaseLayer
+    7400642: common_hepatic_duct_l|Mesh_0085.rip|Take 001|BaseLayer
+    7400644: common_hepatic_duct_l|Mesh_0086.rip|Take 001|BaseLayer
+    7400646: common_hepatic_duct_l|Mesh_0087.rip|Take 001|BaseLayer
+    7400648: common_hepatic_duct_l|Mesh_0088.rip|Take 001|BaseLayer
+    7400650: common_hepatic_duct_l|Mesh_0089.rip|Take 001|BaseLayer
+    7400652: common_hepatic_duct_l|Mesh_0090.rip|Take 001|BaseLayer
+    7400654: common_hepatic_duct_l|Mesh_0091.rip|Take 001|BaseLayer
+    7400656: common_hepatic_duct_l|Mesh_0092.rip|Take 001|BaseLayer
+    7400658: common_hepatic_duct_l|Mesh_0093.rip|Take 001|BaseLayer
+    7400660: common_hepatic_duct_l|Mesh_0094.rip|Take 001|BaseLayer
+    7400662: common_hepatic_duct_l|Mesh_0095.rip|Take 001|BaseLayer
+    7400664: common_hepatic_duct_l|Mesh_0096.rip|Take 001|BaseLayer
+    7400666: common_hepatic_duct_l|Mesh_0097.rip|Take 001|BaseLayer
+    7400668: common_hepatic_duct_l|Mesh_0098.rip|Take 001|BaseLayer
+    7400670: common_hepatic_duct_l|Mesh_0099.rip|Take 001|BaseLayer
+    7400672: common_hepatic_duct_l|Mesh_0100.rip|Take 001|BaseLayer
+    7400674: common_hepatic_duct_l|Mesh_0101.rip|Take 001|BaseLayer
+    7400676: common_hepatic_duct_l|Mesh_0102.rip|Take 001|BaseLayer
+    7400678: common_hepatic_duct_l|Mesh_0103.rip|Take 001|BaseLayer
+    7400680: common_hepatic_duct_l|Mesh_0104.rip|Take 001|BaseLayer
+    7400682: common_hepatic_duct_l|Mesh_0105.rip|Take 001|BaseLayer
+    7400684: common_hepatic_duct_l|Mesh_0106.rip|Take 001|BaseLayer
+    7400686: common_hepatic_duct_l|Mesh_0107.rip|Take 001|BaseLayer
+    7400688: common_hepatic_duct_l|Mesh_0108.rip|Take 001|BaseLayer
+    7400690: common_hepatic_duct_l|Mesh_0109.rip|Take 001|BaseLayer
+    7400692: common_hepatic_duct_l|Mesh_0110.rip|Take 001|BaseLayer
+    7400694: common_hepatic_duct_l|Mesh_0111.rip|Take 001|BaseLayer
+    7400696: common_hepatic_duct_l|Mesh_0112.rip|Take 001|BaseLayer
+    7400698: common_hepatic_duct_l|Mesh_0113.rip|Take 001|BaseLayer
+    7400700: common_hepatic_duct_l|Mesh_0114.rip|Take 001|BaseLayer
+    7400702: common_hepatic_duct_l|Mesh_0115.rip|Take 001|BaseLayer
+    7400704: common_hepatic_duct_l|Mesh_0116.rip|Take 001|BaseLayer
+    7400706: common_hepatic_duct_l|Mesh_0117.rip|Take 001|BaseLayer
+    7400708: anus|Mesh_0000.rip|Take 001|BaseLayer
+    7400710: anus|Mesh_0001.rip|Take 001|BaseLayer
+    7400712: anus|Mesh_0002.rip|Take 001|BaseLayer
+    7400714: anus|Mesh_0003.rip|Take 001|BaseLayer
+    7400716: anus|Mesh_0004.rip|Take 001|BaseLayer
+    7400718: anus|Mesh_0005.rip|Take 001|BaseLayer
+    7400720: anus|Mesh_0006.rip|Take 001|BaseLayer
+    7400722: anus|Mesh_0007.rip|Take 001|BaseLayer
+    7400724: anus|Mesh_0008.rip|Take 001|BaseLayer
+    7400726: anus|Mesh_0009.rip|Take 001|BaseLayer
+    7400728: anus|Mesh_0010.rip|Take 001|BaseLayer
+    7400730: anus|Mesh_0011.rip|Take 001|BaseLayer
+    7400732: anus|Mesh_0012.rip|Take 001|BaseLayer
+    7400734: anus|Mesh_0013.rip|Take 001|BaseLayer
+    7400736: anus|Mesh_0014.rip|Take 001|BaseLayer
+    7400738: anus|Mesh_0015.rip|Take 001|BaseLayer
+    7400740: anus|Mesh_0016.rip|Take 001|BaseLayer
+    7400742: anus|Mesh_0017.rip|Take 001|BaseLayer
+    7400744: anus|Mesh_0018.rip|Take 001|BaseLayer
+    7400746: anus|Mesh_0019.rip|Take 001|BaseLayer
+    7400748: anus|Mesh_0020.rip|Take 001|BaseLayer
+    7400750: anus|Mesh_0021.rip|Take 001|BaseLayer
+    7400752: anus|Mesh_0022.rip|Take 001|BaseLayer
+    7400754: anus|Mesh_0023.rip|Take 001|BaseLayer
+    7400756: anus|Mesh_0024.rip|Take 001|BaseLayer
+    7400758: anus|Mesh_0025.rip|Take 001|BaseLayer
+    7400760: anus|Mesh_0026.rip|Take 001|BaseLayer
+    7400762: anus|Mesh_0027.rip|Take 001|BaseLayer
+    7400764: anus|Mesh_0028.rip|Take 001|BaseLayer
+    7400766: anus|Mesh_0029.rip|Take 001|BaseLayer
+    7400768: anus|Mesh_0030.rip|Take 001|BaseLayer
+    7400770: anus|Mesh_0031.rip|Take 001|BaseLayer
+    7400772: anus|Mesh_0032.rip|Take 001|BaseLayer
+    7400774: anus|Mesh_0033.rip|Take 001|BaseLayer
+    7400776: anus|Mesh_0034.rip|Take 001|BaseLayer
+    7400778: anus|Mesh_0035.rip|Take 001|BaseLayer
+    7400780: anus|Mesh_0036.rip|Take 001|BaseLayer
+    7400782: anus|Mesh_0037.rip|Take 001|BaseLayer
+    7400784: anus|Mesh_0038.rip|Take 001|BaseLayer
+    7400786: anus|Mesh_0039.rip|Take 001|BaseLayer
+    7400788: anus|Mesh_0040.rip|Take 001|BaseLayer
+    7400790: anus|Mesh_0041.rip|Take 001|BaseLayer
+    7400792: anus|Mesh_0042.rip|Take 001|BaseLayer
+    7400794: anus|Mesh_0043.rip|Take 001|BaseLayer
+    7400796: anus|Mesh_0044.rip|Take 001|BaseLayer
+    7400798: anus|Mesh_0045.rip|Take 001|BaseLayer
+    7400800: anus|Mesh_0046.rip|Take 001|BaseLayer
+    7400802: anus|Mesh_0047.rip|Take 001|BaseLayer
+    7400804: anus|Mesh_0048.rip|Take 001|BaseLayer
+    7400806: anus|Mesh_0049.rip|Take 001|BaseLayer
+    7400808: anus|Mesh_0050.rip|Take 001|BaseLayer
+    7400810: anus|Mesh_0051.rip|Take 001|BaseLayer
+    7400812: anus|Mesh_0052.rip|Take 001|BaseLayer
+    7400814: anus|Mesh_0053.rip|Take 001|BaseLayer
+    7400816: anus|Mesh_0054.rip|Take 001|BaseLayer
+    7400818: anus|Mesh_0055.rip|Take 001|BaseLayer
+    7400820: anus|Mesh_0056.rip|Take 001|BaseLayer
+    7400822: anus|Mesh_0057.rip|Take 001|BaseLayer
+    7400824: anus|Mesh_0058.rip|Take 001|BaseLayer
+    7400826: anus|Mesh_0059.rip|Take 001|BaseLayer
+    7400828: anus|Mesh_0060.rip|Take 001|BaseLayer
+    7400830: anus|Mesh_0061.rip|Take 001|BaseLayer
+    7400832: anus|Mesh_0062.rip|Take 001|BaseLayer
+    7400834: anus|Mesh_0063.rip|Take 001|BaseLayer
+    7400836: anus|Mesh_0064.rip|Take 001|BaseLayer
+    7400838: anus|Mesh_0065.rip|Take 001|BaseLayer
+    7400840: anus|Mesh_0066.rip|Take 001|BaseLayer
+    7400842: anus|Mesh_0067.rip|Take 001|BaseLayer
+    7400844: anus|Mesh_0068.rip|Take 001|BaseLayer
+    7400846: anus|Mesh_0069.rip|Take 001|BaseLayer
+    7400848: anus|Mesh_0070.rip|Take 001|BaseLayer
+    7400850: anus|Mesh_0071.rip|Take 001|BaseLayer
+    7400852: anus|Mesh_0072.rip|Take 001|BaseLayer
+    7400854: anus|Mesh_0073.rip|Take 001|BaseLayer
+    7400856: anus|Mesh_0074.rip|Take 001|BaseLayer
+    7400858: anus|Mesh_0075.rip|Take 001|BaseLayer
+    7400860: anus|Mesh_0076.rip|Take 001|BaseLayer
+    7400862: anus|Mesh_0077.rip|Take 001|BaseLayer
+    7400864: anus|Mesh_0078.rip|Take 001|BaseLayer
+    7400866: anus|Mesh_0079.rip|Take 001|BaseLayer
+    7400868: anus|Mesh_0080.rip|Take 001|BaseLayer
+    7400870: anus|Mesh_0081.rip|Take 001|BaseLayer
+    7400872: anus|Mesh_0082.rip|Take 001|BaseLayer
+    7400874: anus|Mesh_0083.rip|Take 001|BaseLayer
+    7400876: anus|Mesh_0084.rip|Take 001|BaseLayer
+    7400878: anus|Mesh_0085.rip|Take 001|BaseLayer
+    7400880: anus|Mesh_0086.rip|Take 001|BaseLayer
+    7400882: anus|Mesh_0087.rip|Take 001|BaseLayer
+    7400884: anus|Mesh_0088.rip|Take 001|BaseLayer
+    7400886: anus|Mesh_0089.rip|Take 001|BaseLayer
+    7400888: anus|Mesh_0090.rip|Take 001|BaseLayer
+    7400890: anus|Mesh_0091.rip|Take 001|BaseLayer
+    7400892: anus|Mesh_0092.rip|Take 001|BaseLayer
+    7400894: anus|Mesh_0093.rip|Take 001|BaseLayer
+    7400896: anus|Mesh_0094.rip|Take 001|BaseLayer
+    7400898: anus|Mesh_0095.rip|Take 001|BaseLayer
+    7400900: anus|Mesh_0096.rip|Take 001|BaseLayer
+    7400902: anus|Mesh_0097.rip|Take 001|BaseLayer
+    7400904: anus|Mesh_0098.rip|Take 001|BaseLayer
+    7400906: anus|Mesh_0099.rip|Take 001|BaseLayer
+    7400908: anus|Mesh_0100.rip|Take 001|BaseLayer
+    7400910: anus|Mesh_0101.rip|Take 001|BaseLayer
+    7400912: anus|Mesh_0102.rip|Take 001|BaseLayer
+    7400914: anus|Mesh_0103.rip|Take 001|BaseLayer
+    7400916: anus|Mesh_0104.rip|Take 001|BaseLayer
+    7400918: anus|Mesh_0105.rip|Take 001|BaseLayer
+    7400920: anus|Mesh_0106.rip|Take 001|BaseLayer
+    7400922: anus|Mesh_0107.rip|Take 001|BaseLayer
+    7400924: anus|Mesh_0108.rip|Take 001|BaseLayer
+    7400926: anus|Mesh_0109.rip|Take 001|BaseLayer
+    7400928: anus|Mesh_0110.rip|Take 001|BaseLayer
+    7400930: anus|Mesh_0111.rip|Take 001|BaseLayer
+    7400932: anus|Mesh_0112.rip|Take 001|BaseLayer
+    7400934: anus|Mesh_0113.rip|Take 001|BaseLayer
+    7400936: anus|Mesh_0114.rip|Take 001|BaseLayer
+    7400938: anus|Mesh_0115.rip|Take 001|BaseLayer
+    7400940: anus|Mesh_0116.rip|Take 001|BaseLayer
+    7400942: anus|Mesh_0117.rip|Take 001|BaseLayer
+    7400944: cystic_duct|Mesh_0000.rip|Take 001|BaseLayer
+    7400946: cystic_duct|Mesh_0001.rip|Take 001|BaseLayer
+    7400948: cystic_duct|Mesh_0002.rip|Take 001|BaseLayer
+    7400950: cystic_duct|Mesh_0003.rip|Take 001|BaseLayer
+    7400952: cystic_duct|Mesh_0004.rip|Take 001|BaseLayer
+    7400954: cystic_duct|Mesh_0005.rip|Take 001|BaseLayer
+    7400956: cystic_duct|Mesh_0006.rip|Take 001|BaseLayer
+    7400958: cystic_duct|Mesh_0007.rip|Take 001|BaseLayer
+    7400960: cystic_duct|Mesh_0008.rip|Take 001|BaseLayer
+    7400962: cystic_duct|Mesh_0009.rip|Take 001|BaseLayer
+    7400964: cystic_duct|Mesh_0010.rip|Take 001|BaseLayer
+    7400966: cystic_duct|Mesh_0011.rip|Take 001|BaseLayer
+    7400968: cystic_duct|Mesh_0012.rip|Take 001|BaseLayer
+    7400970: cystic_duct|Mesh_0013.rip|Take 001|BaseLayer
+    7400972: cystic_duct|Mesh_0014.rip|Take 001|BaseLayer
+    7400974: cystic_duct|Mesh_0015.rip|Take 001|BaseLayer
+    7400976: cystic_duct|Mesh_0016.rip|Take 001|BaseLayer
+    7400978: cystic_duct|Mesh_0017.rip|Take 001|BaseLayer
+    7400980: cystic_duct|Mesh_0018.rip|Take 001|BaseLayer
+    7400982: cystic_duct|Mesh_0019.rip|Take 001|BaseLayer
+    7400984: cystic_duct|Mesh_0020.rip|Take 001|BaseLayer
+    7400986: cystic_duct|Mesh_0021.rip|Take 001|BaseLayer
+    7400988: cystic_duct|Mesh_0022.rip|Take 001|BaseLayer
+    7400990: cystic_duct|Mesh_0023.rip|Take 001|BaseLayer
+    7400992: cystic_duct|Mesh_0024.rip|Take 001|BaseLayer
+    7400994: cystic_duct|Mesh_0025.rip|Take 001|BaseLayer
+    7400996: cystic_duct|Mesh_0026.rip|Take 001|BaseLayer
+    7400998: cystic_duct|Mesh_0027.rip|Take 001|BaseLayer
+    7401000: cystic_duct|Mesh_0028.rip|Take 001|BaseLayer
+    7401002: cystic_duct|Mesh_0029.rip|Take 001|BaseLayer
+    7401004: cystic_duct|Mesh_0030.rip|Take 001|BaseLayer
+    7401006: cystic_duct|Mesh_0031.rip|Take 001|BaseLayer
+    7401008: cystic_duct|Mesh_0032.rip|Take 001|BaseLayer
+    7401010: cystic_duct|Mesh_0033.rip|Take 001|BaseLayer
+    7401012: cystic_duct|Mesh_0034.rip|Take 001|BaseLayer
+    7401014: cystic_duct|Mesh_0035.rip|Take 001|BaseLayer
+    7401016: cystic_duct|Mesh_0036.rip|Take 001|BaseLayer
+    7401018: cystic_duct|Mesh_0037.rip|Take 001|BaseLayer
+    7401020: cystic_duct|Mesh_0038.rip|Take 001|BaseLayer
+    7401022: cystic_duct|Mesh_0039.rip|Take 001|BaseLayer
+    7401024: cystic_duct|Mesh_0040.rip|Take 001|BaseLayer
+    7401026: cystic_duct|Mesh_0041.rip|Take 001|BaseLayer
+    7401028: cystic_duct|Mesh_0042.rip|Take 001|BaseLayer
+    7401030: cystic_duct|Mesh_0043.rip|Take 001|BaseLayer
+    7401032: cystic_duct|Mesh_0044.rip|Take 001|BaseLayer
+    7401034: cystic_duct|Mesh_0045.rip|Take 001|BaseLayer
+    7401036: cystic_duct|Mesh_0046.rip|Take 001|BaseLayer
+    7401038: cystic_duct|Mesh_0047.rip|Take 001|BaseLayer
+    7401040: cystic_duct|Mesh_0048.rip|Take 001|BaseLayer
+    7401042: cystic_duct|Mesh_0049.rip|Take 001|BaseLayer
+    7401044: cystic_duct|Mesh_0050.rip|Take 001|BaseLayer
+    7401046: cystic_duct|Mesh_0051.rip|Take 001|BaseLayer
+    7401048: cystic_duct|Mesh_0052.rip|Take 001|BaseLayer
+    7401050: cystic_duct|Mesh_0053.rip|Take 001|BaseLayer
+    7401052: cystic_duct|Mesh_0054.rip|Take 001|BaseLayer
+    7401054: cystic_duct|Mesh_0055.rip|Take 001|BaseLayer
+    7401056: cystic_duct|Mesh_0056.rip|Take 001|BaseLayer
+    7401058: cystic_duct|Mesh_0057.rip|Take 001|BaseLayer
+    7401060: cystic_duct|Mesh_0058.rip|Take 001|BaseLayer
+    7401062: cystic_duct|Mesh_0059.rip|Take 001|BaseLayer
+    7401064: cystic_duct|Mesh_0060.rip|Take 001|BaseLayer
+    7401066: cystic_duct|Mesh_0061.rip|Take 001|BaseLayer
+    7401068: cystic_duct|Mesh_0062.rip|Take 001|BaseLayer
+    7401070: cystic_duct|Mesh_0063.rip|Take 001|BaseLayer
+    7401072: cystic_duct|Mesh_0064.rip|Take 001|BaseLayer
+    7401074: cystic_duct|Mesh_0065.rip|Take 001|BaseLayer
+    7401076: cystic_duct|Mesh_0066.rip|Take 001|BaseLayer
+    7401078: cystic_duct|Mesh_0067.rip|Take 001|BaseLayer
+    7401080: cystic_duct|Mesh_0068.rip|Take 001|BaseLayer
+    7401082: cystic_duct|Mesh_0069.rip|Take 001|BaseLayer
+    7401084: cystic_duct|Mesh_0070.rip|Take 001|BaseLayer
+    7401086: cystic_duct|Mesh_0071.rip|Take 001|BaseLayer
+    7401088: cystic_duct|Mesh_0072.rip|Take 001|BaseLayer
+    7401090: cystic_duct|Mesh_0073.rip|Take 001|BaseLayer
+    7401092: cystic_duct|Mesh_0074.rip|Take 001|BaseLayer
+    7401094: cystic_duct|Mesh_0075.rip|Take 001|BaseLayer
+    7401096: cystic_duct|Mesh_0076.rip|Take 001|BaseLayer
+    7401098: cystic_duct|Mesh_0077.rip|Take 001|BaseLayer
+    7401100: cystic_duct|Mesh_0078.rip|Take 001|BaseLayer
+    7401102: cystic_duct|Mesh_0079.rip|Take 001|BaseLayer
+    7401104: cystic_duct|Mesh_0080.rip|Take 001|BaseLayer
+    7401106: cystic_duct|Mesh_0081.rip|Take 001|BaseLayer
+    7401108: cystic_duct|Mesh_0082.rip|Take 001|BaseLayer
+    7401110: cystic_duct|Mesh_0083.rip|Take 001|BaseLayer
+    7401112: cystic_duct|Mesh_0084.rip|Take 001|BaseLayer
+    7401114: cystic_duct|Mesh_0085.rip|Take 001|BaseLayer
+    7401116: cystic_duct|Mesh_0086.rip|Take 001|BaseLayer
+    7401118: cystic_duct|Mesh_0087.rip|Take 001|BaseLayer
+    7401120: cystic_duct|Mesh_0088.rip|Take 001|BaseLayer
+    7401122: cystic_duct|Mesh_0089.rip|Take 001|BaseLayer
+    7401124: cystic_duct|Mesh_0090.rip|Take 001|BaseLayer
+    7401126: cystic_duct|Mesh_0091.rip|Take 001|BaseLayer
+    7401128: cystic_duct|Mesh_0092.rip|Take 001|BaseLayer
+    7401130: cystic_duct|Mesh_0093.rip|Take 001|BaseLayer
+    7401132: cystic_duct|Mesh_0094.rip|Take 001|BaseLayer
+    7401134: cystic_duct|Mesh_0095.rip|Take 001|BaseLayer
+    7401136: cystic_duct|Mesh_0096.rip|Take 001|BaseLayer
+    7401138: cystic_duct|Mesh_0097.rip|Take 001|BaseLayer
+    7401140: cystic_duct|Mesh_0098.rip|Take 001|BaseLayer
+    7401142: cystic_duct|Mesh_0099.rip|Take 001|BaseLayer
+    7401144: cystic_duct|Mesh_0100.rip|Take 001|BaseLayer
+    7401146: cystic_duct|Mesh_0101.rip|Take 001|BaseLayer
+    7401148: cystic_duct|Mesh_0102.rip|Take 001|BaseLayer
+    7401150: cystic_duct|Mesh_0103.rip|Take 001|BaseLayer
+    7401152: cystic_duct|Mesh_0104.rip|Take 001|BaseLayer
+    7401154: cystic_duct|Mesh_0105.rip|Take 001|BaseLayer
+    7401156: cystic_duct|Mesh_0106.rip|Take 001|BaseLayer
+    7401158: cystic_duct|Mesh_0107.rip|Take 001|BaseLayer
+    7401160: cystic_duct|Mesh_0108.rip|Take 001|BaseLayer
+    7401162: cystic_duct|Mesh_0109.rip|Take 001|BaseLayer
+    7401164: cystic_duct|Mesh_0110.rip|Take 001|BaseLayer
+    7401166: cystic_duct|Mesh_0111.rip|Take 001|BaseLayer
+    7401168: cystic_duct|Mesh_0112.rip|Take 001|BaseLayer
+    7401170: cystic_duct|Mesh_0113.rip|Take 001|BaseLayer
+    7401172: cystic_duct|Mesh_0114.rip|Take 001|BaseLayer
+    7401174: cystic_duct|Mesh_0115.rip|Take 001|BaseLayer
+    7401176: cystic_duct|Mesh_0116.rip|Take 001|BaseLayer
+    7401178: cystic_duct|Mesh_0117.rip|Take 001|BaseLayer
+    7401180: gallbladder|Mesh_0000.rip|Take 001|BaseLayer
+    7401182: gallbladder|Mesh_0001.rip|Take 001|BaseLayer
+    7401184: gallbladder|Mesh_0002.rip|Take 001|BaseLayer
+    7401186: gallbladder|Mesh_0003.rip|Take 001|BaseLayer
+    7401188: gallbladder|Mesh_0004.rip|Take 001|BaseLayer
+    7401190: gallbladder|Mesh_0005.rip|Take 001|BaseLayer
+    7401192: gallbladder|Mesh_0006.rip|Take 001|BaseLayer
+    7401194: gallbladder|Mesh_0007.rip|Take 001|BaseLayer
+    7401196: gallbladder|Mesh_0008.rip|Take 001|BaseLayer
+    7401198: gallbladder|Mesh_0009.rip|Take 001|BaseLayer
+    7401200: gallbladder|Mesh_0010.rip|Take 001|BaseLayer
+    7401202: gallbladder|Mesh_0011.rip|Take 001|BaseLayer
+    7401204: gallbladder|Mesh_0012.rip|Take 001|BaseLayer
+    7401206: gallbladder|Mesh_0013.rip|Take 001|BaseLayer
+    7401208: gallbladder|Mesh_0014.rip|Take 001|BaseLayer
+    7401210: gallbladder|Mesh_0015.rip|Take 001|BaseLayer
+    7401212: gallbladder|Mesh_0016.rip|Take 001|BaseLayer
+    7401214: gallbladder|Mesh_0017.rip|Take 001|BaseLayer
+    7401216: gallbladder|Mesh_0018.rip|Take 001|BaseLayer
+    7401218: gallbladder|Mesh_0019.rip|Take 001|BaseLayer
+    7401220: gallbladder|Mesh_0020.rip|Take 001|BaseLayer
+    7401222: gallbladder|Mesh_0021.rip|Take 001|BaseLayer
+    7401224: gallbladder|Mesh_0022.rip|Take 001|BaseLayer
+    7401226: gallbladder|Mesh_0023.rip|Take 001|BaseLayer
+    7401228: gallbladder|Mesh_0024.rip|Take 001|BaseLayer
+    7401230: gallbladder|Mesh_0025.rip|Take 001|BaseLayer
+    7401232: gallbladder|Mesh_0026.rip|Take 001|BaseLayer
+    7401234: gallbladder|Mesh_0027.rip|Take 001|BaseLayer
+    7401236: gallbladder|Mesh_0028.rip|Take 001|BaseLayer
+    7401238: gallbladder|Mesh_0029.rip|Take 001|BaseLayer
+    7401240: gallbladder|Mesh_0030.rip|Take 001|BaseLayer
+    7401242: gallbladder|Mesh_0031.rip|Take 001|BaseLayer
+    7401244: gallbladder|Mesh_0032.rip|Take 001|BaseLayer
+    7401246: gallbladder|Mesh_0033.rip|Take 001|BaseLayer
+    7401248: gallbladder|Mesh_0034.rip|Take 001|BaseLayer
+    7401250: gallbladder|Mesh_0035.rip|Take 001|BaseLayer
+    7401252: gallbladder|Mesh_0036.rip|Take 001|BaseLayer
+    7401254: gallbladder|Mesh_0037.rip|Take 001|BaseLayer
+    7401256: gallbladder|Mesh_0038.rip|Take 001|BaseLayer
+    7401258: gallbladder|Mesh_0039.rip|Take 001|BaseLayer
+    7401260: gallbladder|Mesh_0040.rip|Take 001|BaseLayer
+    7401262: gallbladder|Mesh_0041.rip|Take 001|BaseLayer
+    7401264: gallbladder|Mesh_0042.rip|Take 001|BaseLayer
+    7401266: gallbladder|Mesh_0043.rip|Take 001|BaseLayer
+    7401268: gallbladder|Mesh_0044.rip|Take 001|BaseLayer
+    7401270: gallbladder|Mesh_0045.rip|Take 001|BaseLayer
+    7401272: gallbladder|Mesh_0046.rip|Take 001|BaseLayer
+    7401274: gallbladder|Mesh_0047.rip|Take 001|BaseLayer
+    7401276: gallbladder|Mesh_0048.rip|Take 001|BaseLayer
+    7401278: gallbladder|Mesh_0049.rip|Take 001|BaseLayer
+    7401280: gallbladder|Mesh_0050.rip|Take 001|BaseLayer
+    7401282: gallbladder|Mesh_0051.rip|Take 001|BaseLayer
+    7401284: gallbladder|Mesh_0052.rip|Take 001|BaseLayer
+    7401286: gallbladder|Mesh_0053.rip|Take 001|BaseLayer
+    7401288: gallbladder|Mesh_0054.rip|Take 001|BaseLayer
+    7401290: gallbladder|Mesh_0055.rip|Take 001|BaseLayer
+    7401292: gallbladder|Mesh_0056.rip|Take 001|BaseLayer
+    7401294: gallbladder|Mesh_0057.rip|Take 001|BaseLayer
+    7401296: gallbladder|Mesh_0058.rip|Take 001|BaseLayer
+    7401298: gallbladder|Mesh_0059.rip|Take 001|BaseLayer
+    7401300: gallbladder|Mesh_0060.rip|Take 001|BaseLayer
+    7401302: gallbladder|Mesh_0061.rip|Take 001|BaseLayer
+    7401304: gallbladder|Mesh_0062.rip|Take 001|BaseLayer
+    7401306: gallbladder|Mesh_0063.rip|Take 001|BaseLayer
+    7401308: gallbladder|Mesh_0064.rip|Take 001|BaseLayer
+    7401310: gallbladder|Mesh_0065.rip|Take 001|BaseLayer
+    7401312: gallbladder|Mesh_0066.rip|Take 001|BaseLayer
+    7401314: gallbladder|Mesh_0067.rip|Take 001|BaseLayer
+    7401316: gallbladder|Mesh_0068.rip|Take 001|BaseLayer
+    7401318: gallbladder|Mesh_0069.rip|Take 001|BaseLayer
+    7401320: gallbladder|Mesh_0070.rip|Take 001|BaseLayer
+    7401322: gallbladder|Mesh_0071.rip|Take 001|BaseLayer
+    7401324: gallbladder|Mesh_0072.rip|Take 001|BaseLayer
+    7401326: gallbladder|Mesh_0073.rip|Take 001|BaseLayer
+    7401328: gallbladder|Mesh_0074.rip|Take 001|BaseLayer
+    7401330: gallbladder|Mesh_0075.rip|Take 001|BaseLayer
+    7401332: gallbladder|Mesh_0076.rip|Take 001|BaseLayer
+    7401334: gallbladder|Mesh_0077.rip|Take 001|BaseLayer
+    7401336: gallbladder|Mesh_0078.rip|Take 001|BaseLayer
+    7401338: gallbladder|Mesh_0079.rip|Take 001|BaseLayer
+    7401340: gallbladder|Mesh_0080.rip|Take 001|BaseLayer
+    7401342: gallbladder|Mesh_0081.rip|Take 001|BaseLayer
+    7401344: gallbladder|Mesh_0082.rip|Take 001|BaseLayer
+    7401346: gallbladder|Mesh_0083.rip|Take 001|BaseLayer
+    7401348: gallbladder|Mesh_0084.rip|Take 001|BaseLayer
+    7401350: gallbladder|Mesh_0085.rip|Take 001|BaseLayer
+    7401352: gallbladder|Mesh_0086.rip|Take 001|BaseLayer
+    7401354: gallbladder|Mesh_0087.rip|Take 001|BaseLayer
+    7401356: gallbladder|Mesh_0088.rip|Take 001|BaseLayer
+    7401358: gallbladder|Mesh_0089.rip|Take 001|BaseLayer
+    7401360: gallbladder|Mesh_0090.rip|Take 001|BaseLayer
+    7401362: gallbladder|Mesh_0091.rip|Take 001|BaseLayer
+    7401364: gallbladder|Mesh_0092.rip|Take 001|BaseLayer
+    7401366: gallbladder|Mesh_0093.rip|Take 001|BaseLayer
+    7401368: gallbladder|Mesh_0094.rip|Take 001|BaseLayer
+    7401370: gallbladder|Mesh_0095.rip|Take 001|BaseLayer
+    7401372: gallbladder|Mesh_0096.rip|Take 001|BaseLayer
+    7401374: gallbladder|Mesh_0097.rip|Take 001|BaseLayer
+    7401376: gallbladder|Mesh_0098.rip|Take 001|BaseLayer
+    7401378: gallbladder|Mesh_0099.rip|Take 001|BaseLayer
+    7401380: gallbladder|Mesh_0100.rip|Take 001|BaseLayer
+    7401382: gallbladder|Mesh_0101.rip|Take 001|BaseLayer
+    7401384: gallbladder|Mesh_0102.rip|Take 001|BaseLayer
+    7401386: gallbladder|Mesh_0103.rip|Take 001|BaseLayer
+    7401388: gallbladder|Mesh_0104.rip|Take 001|BaseLayer
+    7401390: gallbladder|Mesh_0105.rip|Take 001|BaseLayer
+    7401392: gallbladder|Mesh_0106.rip|Take 001|BaseLayer
+    7401394: gallbladder|Mesh_0107.rip|Take 001|BaseLayer
+    7401396: gallbladder|Mesh_0108.rip|Take 001|BaseLayer
+    7401398: gallbladder|Mesh_0109.rip|Take 001|BaseLayer
+    7401400: gallbladder|Mesh_0110.rip|Take 001|BaseLayer
+    7401402: gallbladder|Mesh_0111.rip|Take 001|BaseLayer
+    7401404: gallbladder|Mesh_0112.rip|Take 001|BaseLayer
+    7401406: gallbladder|Mesh_0113.rip|Take 001|BaseLayer
+    7401408: gallbladder|Mesh_0114.rip|Take 001|BaseLayer
+    7401410: gallbladder|Mesh_0115.rip|Take 001|BaseLayer
+    7401412: gallbladder|Mesh_0116.rip|Take 001|BaseLayer
+    7401414: gallbladder|Mesh_0117.rip|Take 001|BaseLayer
+    7401416: esophagus|Mesh_0000.rip|Take 001|BaseLayer
+    7401418: esophagus|Mesh_0001.rip|Take 001|BaseLayer
+    7401420: esophagus|Mesh_0002.rip|Take 001|BaseLayer
+    7401422: esophagus|Mesh_0003.rip|Take 001|BaseLayer
+    7401424: esophagus|Mesh_0004.rip|Take 001|BaseLayer
+    7401426: esophagus|Mesh_0005.rip|Take 001|BaseLayer
+    7401428: esophagus|Mesh_0006.rip|Take 001|BaseLayer
+    7401430: esophagus|Mesh_0007.rip|Take 001|BaseLayer
+    7401432: esophagus|Mesh_0008.rip|Take 001|BaseLayer
+    7401434: esophagus|Mesh_0009.rip|Take 001|BaseLayer
+    7401436: esophagus|Mesh_0010.rip|Take 001|BaseLayer
+    7401438: esophagus|Mesh_0011.rip|Take 001|BaseLayer
+    7401440: esophagus|Mesh_0012.rip|Take 001|BaseLayer
+    7401442: esophagus|Mesh_0013.rip|Take 001|BaseLayer
+    7401444: esophagus|Mesh_0014.rip|Take 001|BaseLayer
+    7401446: esophagus|Mesh_0015.rip|Take 001|BaseLayer
+    7401448: esophagus|Mesh_0016.rip|Take 001|BaseLayer
+    7401450: esophagus|Mesh_0017.rip|Take 001|BaseLayer
+    7401452: esophagus|Mesh_0018.rip|Take 001|BaseLayer
+    7401454: esophagus|Mesh_0019.rip|Take 001|BaseLayer
+    7401456: esophagus|Mesh_0020.rip|Take 001|BaseLayer
+    7401458: esophagus|Mesh_0021.rip|Take 001|BaseLayer
+    7401460: esophagus|Mesh_0022.rip|Take 001|BaseLayer
+    7401462: esophagus|Mesh_0023.rip|Take 001|BaseLayer
+    7401464: esophagus|Mesh_0024.rip|Take 001|BaseLayer
+    7401466: esophagus|Mesh_0025.rip|Take 001|BaseLayer
+    7401468: esophagus|Mesh_0026.rip|Take 001|BaseLayer
+    7401470: esophagus|Mesh_0027.rip|Take 001|BaseLayer
+    7401472: esophagus|Mesh_0028.rip|Take 001|BaseLayer
+    7401474: esophagus|Mesh_0029.rip|Take 001|BaseLayer
+    7401476: esophagus|Mesh_0030.rip|Take 001|BaseLayer
+    7401478: esophagus|Mesh_0031.rip|Take 001|BaseLayer
+    7401480: esophagus|Mesh_0032.rip|Take 001|BaseLayer
+    7401482: esophagus|Mesh_0033.rip|Take 001|BaseLayer
+    7401484: esophagus|Mesh_0034.rip|Take 001|BaseLayer
+    7401486: esophagus|Mesh_0035.rip|Take 001|BaseLayer
+    7401488: esophagus|Mesh_0036.rip|Take 001|BaseLayer
+    7401490: esophagus|Mesh_0037.rip|Take 001|BaseLayer
+    7401492: esophagus|Mesh_0038.rip|Take 001|BaseLayer
+    7401494: esophagus|Mesh_0039.rip|Take 001|BaseLayer
+    7401496: esophagus|Mesh_0040.rip|Take 001|BaseLayer
+    7401498: esophagus|Mesh_0041.rip|Take 001|BaseLayer
+    7401500: esophagus|Mesh_0042.rip|Take 001|BaseLayer
+    7401502: esophagus|Mesh_0043.rip|Take 001|BaseLayer
+    7401504: esophagus|Mesh_0044.rip|Take 001|BaseLayer
+    7401506: esophagus|Mesh_0045.rip|Take 001|BaseLayer
+    7401508: esophagus|Mesh_0046.rip|Take 001|BaseLayer
+    7401510: esophagus|Mesh_0047.rip|Take 001|BaseLayer
+    7401512: esophagus|Mesh_0048.rip|Take 001|BaseLayer
+    7401514: esophagus|Mesh_0049.rip|Take 001|BaseLayer
+    7401516: esophagus|Mesh_0050.rip|Take 001|BaseLayer
+    7401518: esophagus|Mesh_0051.rip|Take 001|BaseLayer
+    7401520: esophagus|Mesh_0052.rip|Take 001|BaseLayer
+    7401522: esophagus|Mesh_0053.rip|Take 001|BaseLayer
+    7401524: esophagus|Mesh_0054.rip|Take 001|BaseLayer
+    7401526: esophagus|Mesh_0055.rip|Take 001|BaseLayer
+    7401528: esophagus|Mesh_0056.rip|Take 001|BaseLayer
+    7401530: esophagus|Mesh_0057.rip|Take 001|BaseLayer
+    7401532: esophagus|Mesh_0058.rip|Take 001|BaseLayer
+    7401534: esophagus|Mesh_0059.rip|Take 001|BaseLayer
+    7401536: esophagus|Mesh_0060.rip|Take 001|BaseLayer
+    7401538: esophagus|Mesh_0061.rip|Take 001|BaseLayer
+    7401540: esophagus|Mesh_0062.rip|Take 001|BaseLayer
+    7401542: esophagus|Mesh_0063.rip|Take 001|BaseLayer
+    7401544: esophagus|Mesh_0064.rip|Take 001|BaseLayer
+    7401546: esophagus|Mesh_0065.rip|Take 001|BaseLayer
+    7401548: esophagus|Mesh_0066.rip|Take 001|BaseLayer
+    7401550: esophagus|Mesh_0067.rip|Take 001|BaseLayer
+    7401552: esophagus|Mesh_0068.rip|Take 001|BaseLayer
+    7401554: esophagus|Mesh_0069.rip|Take 001|BaseLayer
+    7401556: esophagus|Mesh_0070.rip|Take 001|BaseLayer
+    7401558: esophagus|Mesh_0071.rip|Take 001|BaseLayer
+    7401560: esophagus|Mesh_0072.rip|Take 001|BaseLayer
+    7401562: esophagus|Mesh_0073.rip|Take 001|BaseLayer
+    7401564: esophagus|Mesh_0074.rip|Take 001|BaseLayer
+    7401566: esophagus|Mesh_0075.rip|Take 001|BaseLayer
+    7401568: esophagus|Mesh_0076.rip|Take 001|BaseLayer
+    7401570: esophagus|Mesh_0077.rip|Take 001|BaseLayer
+    7401572: esophagus|Mesh_0078.rip|Take 001|BaseLayer
+    7401574: esophagus|Mesh_0079.rip|Take 001|BaseLayer
+    7401576: esophagus|Mesh_0080.rip|Take 001|BaseLayer
+    7401578: esophagus|Mesh_0081.rip|Take 001|BaseLayer
+    7401580: esophagus|Mesh_0082.rip|Take 001|BaseLayer
+    7401582: esophagus|Mesh_0083.rip|Take 001|BaseLayer
+    7401584: esophagus|Mesh_0084.rip|Take 001|BaseLayer
+    7401586: esophagus|Mesh_0085.rip|Take 001|BaseLayer
+    7401588: esophagus|Mesh_0086.rip|Take 001|BaseLayer
+    7401590: esophagus|Mesh_0087.rip|Take 001|BaseLayer
+    7401592: esophagus|Mesh_0088.rip|Take 001|BaseLayer
+    7401594: esophagus|Mesh_0089.rip|Take 001|BaseLayer
+    7401596: esophagus|Mesh_0090.rip|Take 001|BaseLayer
+    7401598: esophagus|Mesh_0091.rip|Take 001|BaseLayer
+    7401600: esophagus|Mesh_0092.rip|Take 001|BaseLayer
+    7401602: esophagus|Mesh_0093.rip|Take 001|BaseLayer
+    7401604: esophagus|Mesh_0094.rip|Take 001|BaseLayer
+    7401606: esophagus|Mesh_0095.rip|Take 001|BaseLayer
+    7401608: esophagus|Mesh_0096.rip|Take 001|BaseLayer
+    7401610: esophagus|Mesh_0097.rip|Take 001|BaseLayer
+    7401612: esophagus|Mesh_0098.rip|Take 001|BaseLayer
+    7401614: esophagus|Mesh_0099.rip|Take 001|BaseLayer
+    7401616: esophagus|Mesh_0100.rip|Take 001|BaseLayer
+    7401618: esophagus|Mesh_0101.rip|Take 001|BaseLayer
+    7401620: esophagus|Mesh_0102.rip|Take 001|BaseLayer
+    7401622: esophagus|Mesh_0103.rip|Take 001|BaseLayer
+    7401624: esophagus|Mesh_0104.rip|Take 001|BaseLayer
+    7401626: esophagus|Mesh_0105.rip|Take 001|BaseLayer
+    7401628: esophagus|Mesh_0106.rip|Take 001|BaseLayer
+    7401630: esophagus|Mesh_0107.rip|Take 001|BaseLayer
+    7401632: esophagus|Mesh_0108.rip|Take 001|BaseLayer
+    7401634: esophagus|Mesh_0109.rip|Take 001|BaseLayer
+    7401636: esophagus|Mesh_0110.rip|Take 001|BaseLayer
+    7401638: esophagus|Mesh_0111.rip|Take 001|BaseLayer
+    7401640: esophagus|Mesh_0112.rip|Take 001|BaseLayer
+    7401642: esophagus|Mesh_0113.rip|Take 001|BaseLayer
+    7401644: esophagus|Mesh_0114.rip|Take 001|BaseLayer
+    7401646: esophagus|Mesh_0115.rip|Take 001|BaseLayer
+    7401648: esophagus|Mesh_0116.rip|Take 001|BaseLayer
+    7401650: esophagus|Mesh_0117.rip|Take 001|BaseLayer
+    7401652: duodenum|Mesh_0000.rip|Take 001|BaseLayer
+    7401654: duodenum|Mesh_0001.rip|Take 001|BaseLayer
+    7401656: duodenum|Mesh_0002.rip|Take 001|BaseLayer
+    7401658: duodenum|Mesh_0003.rip|Take 001|BaseLayer
+    7401660: duodenum|Mesh_0004.rip|Take 001|BaseLayer
+    7401662: duodenum|Mesh_0005.rip|Take 001|BaseLayer
+    7401664: duodenum|Mesh_0006.rip|Take 001|BaseLayer
+    7401666: duodenum|Mesh_0007.rip|Take 001|BaseLayer
+    7401668: duodenum|Mesh_0008.rip|Take 001|BaseLayer
+    7401670: duodenum|Mesh_0009.rip|Take 001|BaseLayer
+    7401672: duodenum|Mesh_0010.rip|Take 001|BaseLayer
+    7401674: duodenum|Mesh_0011.rip|Take 001|BaseLayer
+    7401676: duodenum|Mesh_0012.rip|Take 001|BaseLayer
+    7401678: duodenum|Mesh_0013.rip|Take 001|BaseLayer
+    7401680: duodenum|Mesh_0014.rip|Take 001|BaseLayer
+    7401682: duodenum|Mesh_0015.rip|Take 001|BaseLayer
+    7401684: duodenum|Mesh_0016.rip|Take 001|BaseLayer
+    7401686: duodenum|Mesh_0017.rip|Take 001|BaseLayer
+    7401688: duodenum|Mesh_0018.rip|Take 001|BaseLayer
+    7401690: duodenum|Mesh_0019.rip|Take 001|BaseLayer
+    7401692: duodenum|Mesh_0020.rip|Take 001|BaseLayer
+    7401694: duodenum|Mesh_0021.rip|Take 001|BaseLayer
+    7401696: duodenum|Mesh_0022.rip|Take 001|BaseLayer
+    7401698: duodenum|Mesh_0023.rip|Take 001|BaseLayer
+    7401700: duodenum|Mesh_0024.rip|Take 001|BaseLayer
+    7401702: duodenum|Mesh_0025.rip|Take 001|BaseLayer
+    7401704: duodenum|Mesh_0026.rip|Take 001|BaseLayer
+    7401706: duodenum|Mesh_0027.rip|Take 001|BaseLayer
+    7401708: duodenum|Mesh_0028.rip|Take 001|BaseLayer
+    7401710: duodenum|Mesh_0029.rip|Take 001|BaseLayer
+    7401712: duodenum|Mesh_0030.rip|Take 001|BaseLayer
+    7401714: duodenum|Mesh_0031.rip|Take 001|BaseLayer
+    7401716: duodenum|Mesh_0032.rip|Take 001|BaseLayer
+    7401718: duodenum|Mesh_0033.rip|Take 001|BaseLayer
+    7401720: duodenum|Mesh_0034.rip|Take 001|BaseLayer
+    7401722: duodenum|Mesh_0035.rip|Take 001|BaseLayer
+    7401724: duodenum|Mesh_0036.rip|Take 001|BaseLayer
+    7401726: duodenum|Mesh_0037.rip|Take 001|BaseLayer
+    7401728: duodenum|Mesh_0038.rip|Take 001|BaseLayer
+    7401730: duodenum|Mesh_0039.rip|Take 001|BaseLayer
+    7401732: duodenum|Mesh_0040.rip|Take 001|BaseLayer
+    7401734: duodenum|Mesh_0041.rip|Take 001|BaseLayer
+    7401736: duodenum|Mesh_0042.rip|Take 001|BaseLayer
+    7401738: duodenum|Mesh_0043.rip|Take 001|BaseLayer
+    7401740: duodenum|Mesh_0044.rip|Take 001|BaseLayer
+    7401742: duodenum|Mesh_0045.rip|Take 001|BaseLayer
+    7401744: duodenum|Mesh_0046.rip|Take 001|BaseLayer
+    7401746: duodenum|Mesh_0047.rip|Take 001|BaseLayer
+    7401748: duodenum|Mesh_0048.rip|Take 001|BaseLayer
+    7401750: duodenum|Mesh_0049.rip|Take 001|BaseLayer
+    7401752: duodenum|Mesh_0050.rip|Take 001|BaseLayer
+    7401754: duodenum|Mesh_0051.rip|Take 001|BaseLayer
+    7401756: duodenum|Mesh_0052.rip|Take 001|BaseLayer
+    7401758: duodenum|Mesh_0053.rip|Take 001|BaseLayer
+    7401760: duodenum|Mesh_0054.rip|Take 001|BaseLayer
+    7401762: duodenum|Mesh_0055.rip|Take 001|BaseLayer
+    7401764: duodenum|Mesh_0056.rip|Take 001|BaseLayer
+    7401766: duodenum|Mesh_0057.rip|Take 001|BaseLayer
+    7401768: duodenum|Mesh_0058.rip|Take 001|BaseLayer
+    7401770: duodenum|Mesh_0059.rip|Take 001|BaseLayer
+    7401772: duodenum|Mesh_0060.rip|Take 001|BaseLayer
+    7401774: duodenum|Mesh_0061.rip|Take 001|BaseLayer
+    7401776: duodenum|Mesh_0062.rip|Take 001|BaseLayer
+    7401778: duodenum|Mesh_0063.rip|Take 001|BaseLayer
+    7401780: duodenum|Mesh_0064.rip|Take 001|BaseLayer
+    7401782: duodenum|Mesh_0065.rip|Take 001|BaseLayer
+    7401784: duodenum|Mesh_0066.rip|Take 001|BaseLayer
+    7401786: duodenum|Mesh_0067.rip|Take 001|BaseLayer
+    7401788: duodenum|Mesh_0068.rip|Take 001|BaseLayer
+    7401790: duodenum|Mesh_0069.rip|Take 001|BaseLayer
+    7401792: duodenum|Mesh_0070.rip|Take 001|BaseLayer
+    7401794: duodenum|Mesh_0071.rip|Take 001|BaseLayer
+    7401796: duodenum|Mesh_0072.rip|Take 001|BaseLayer
+    7401798: duodenum|Mesh_0073.rip|Take 001|BaseLayer
+    7401800: duodenum|Mesh_0074.rip|Take 001|BaseLayer
+    7401802: duodenum|Mesh_0075.rip|Take 001|BaseLayer
+    7401804: duodenum|Mesh_0076.rip|Take 001|BaseLayer
+    7401806: duodenum|Mesh_0077.rip|Take 001|BaseLayer
+    7401808: duodenum|Mesh_0078.rip|Take 001|BaseLayer
+    7401810: duodenum|Mesh_0079.rip|Take 001|BaseLayer
+    7401812: duodenum|Mesh_0080.rip|Take 001|BaseLayer
+    7401814: duodenum|Mesh_0081.rip|Take 001|BaseLayer
+    7401816: duodenum|Mesh_0082.rip|Take 001|BaseLayer
+    7401818: duodenum|Mesh_0083.rip|Take 001|BaseLayer
+    7401820: duodenum|Mesh_0084.rip|Take 001|BaseLayer
+    7401822: duodenum|Mesh_0085.rip|Take 001|BaseLayer
+    7401824: duodenum|Mesh_0086.rip|Take 001|BaseLayer
+    7401826: duodenum|Mesh_0087.rip|Take 001|BaseLayer
+    7401828: duodenum|Mesh_0088.rip|Take 001|BaseLayer
+    7401830: duodenum|Mesh_0089.rip|Take 001|BaseLayer
+    7401832: duodenum|Mesh_0090.rip|Take 001|BaseLayer
+    7401834: duodenum|Mesh_0091.rip|Take 001|BaseLayer
+    7401836: duodenum|Mesh_0092.rip|Take 001|BaseLayer
+    7401838: duodenum|Mesh_0093.rip|Take 001|BaseLayer
+    7401840: duodenum|Mesh_0094.rip|Take 001|BaseLayer
+    7401842: duodenum|Mesh_0095.rip|Take 001|BaseLayer
+    7401844: duodenum|Mesh_0096.rip|Take 001|BaseLayer
+    7401846: duodenum|Mesh_0097.rip|Take 001|BaseLayer
+    7401848: duodenum|Mesh_0098.rip|Take 001|BaseLayer
+    7401850: duodenum|Mesh_0099.rip|Take 001|BaseLayer
+    7401852: duodenum|Mesh_0100.rip|Take 001|BaseLayer
+    7401854: duodenum|Mesh_0101.rip|Take 001|BaseLayer
+    7401856: duodenum|Mesh_0102.rip|Take 001|BaseLayer
+    7401858: duodenum|Mesh_0103.rip|Take 001|BaseLayer
+    7401860: duodenum|Mesh_0104.rip|Take 001|BaseLayer
+    7401862: duodenum|Mesh_0105.rip|Take 001|BaseLayer
+    7401864: duodenum|Mesh_0106.rip|Take 001|BaseLayer
+    7401866: duodenum|Mesh_0107.rip|Take 001|BaseLayer
+    7401868: duodenum|Mesh_0108.rip|Take 001|BaseLayer
+    7401870: duodenum|Mesh_0109.rip|Take 001|BaseLayer
+    7401872: duodenum|Mesh_0110.rip|Take 001|BaseLayer
+    7401874: duodenum|Mesh_0111.rip|Take 001|BaseLayer
+    7401876: duodenum|Mesh_0112.rip|Take 001|BaseLayer
+    7401878: duodenum|Mesh_0113.rip|Take 001|BaseLayer
+    7401880: duodenum|Mesh_0114.rip|Take 001|BaseLayer
+    7401882: duodenum|Mesh_0115.rip|Take 001|BaseLayer
+    7401884: duodenum|Mesh_0116.rip|Take 001|BaseLayer
+    7401886: duodenum|Mesh_0117.rip|Take 001|BaseLayer
+    7401888: pancreas|Mesh_0000.rip|Take 001|BaseLayer
+    7401890: pancreas|Mesh_0001.rip|Take 001|BaseLayer
+    7401892: pancreas|Mesh_0002.rip|Take 001|BaseLayer
+    7401894: pancreas|Mesh_0003.rip|Take 001|BaseLayer
+    7401896: pancreas|Mesh_0004.rip|Take 001|BaseLayer
+    7401898: pancreas|Mesh_0005.rip|Take 001|BaseLayer
+    7401900: pancreas|Mesh_0006.rip|Take 001|BaseLayer
+    7401902: pancreas|Mesh_0007.rip|Take 001|BaseLayer
+    7401904: pancreas|Mesh_0008.rip|Take 001|BaseLayer
+    7401906: pancreas|Mesh_0009.rip|Take 001|BaseLayer
+    7401908: pancreas|Mesh_0010.rip|Take 001|BaseLayer
+    7401910: pancreas|Mesh_0011.rip|Take 001|BaseLayer
+    7401912: pancreas|Mesh_0012.rip|Take 001|BaseLayer
+    7401914: pancreas|Mesh_0013.rip|Take 001|BaseLayer
+    7401916: pancreas|Mesh_0014.rip|Take 001|BaseLayer
+    7401918: pancreas|Mesh_0015.rip|Take 001|BaseLayer
+    7401920: pancreas|Mesh_0016.rip|Take 001|BaseLayer
+    7401922: pancreas|Mesh_0017.rip|Take 001|BaseLayer
+    7401924: pancreas|Mesh_0018.rip|Take 001|BaseLayer
+    7401926: pancreas|Mesh_0019.rip|Take 001|BaseLayer
+    7401928: pancreas|Mesh_0020.rip|Take 001|BaseLayer
+    7401930: pancreas|Mesh_0021.rip|Take 001|BaseLayer
+    7401932: pancreas|Mesh_0022.rip|Take 001|BaseLayer
+    7401934: pancreas|Mesh_0023.rip|Take 001|BaseLayer
+    7401936: pancreas|Mesh_0024.rip|Take 001|BaseLayer
+    7401938: pancreas|Mesh_0025.rip|Take 001|BaseLayer
+    7401940: pancreas|Mesh_0026.rip|Take 001|BaseLayer
+    7401942: pancreas|Mesh_0027.rip|Take 001|BaseLayer
+    7401944: pancreas|Mesh_0028.rip|Take 001|BaseLayer
+    7401946: pancreas|Mesh_0029.rip|Take 001|BaseLayer
+    7401948: pancreas|Mesh_0030.rip|Take 001|BaseLayer
+    7401950: pancreas|Mesh_0031.rip|Take 001|BaseLayer
+    7401952: pancreas|Mesh_0032.rip|Take 001|BaseLayer
+    7401954: pancreas|Mesh_0033.rip|Take 001|BaseLayer
+    7401956: pancreas|Mesh_0034.rip|Take 001|BaseLayer
+    7401958: pancreas|Mesh_0035.rip|Take 001|BaseLayer
+    7401960: pancreas|Mesh_0036.rip|Take 001|BaseLayer
+    7401962: pancreas|Mesh_0037.rip|Take 001|BaseLayer
+    7401964: pancreas|Mesh_0038.rip|Take 001|BaseLayer
+    7401966: pancreas|Mesh_0039.rip|Take 001|BaseLayer
+    7401968: pancreas|Mesh_0040.rip|Take 001|BaseLayer
+    7401970: pancreas|Mesh_0041.rip|Take 001|BaseLayer
+    7401972: pancreas|Mesh_0042.rip|Take 001|BaseLayer
+    7401974: pancreas|Mesh_0043.rip|Take 001|BaseLayer
+    7401976: pancreas|Mesh_0044.rip|Take 001|BaseLayer
+    7401978: pancreas|Mesh_0045.rip|Take 001|BaseLayer
+    7401980: pancreas|Mesh_0046.rip|Take 001|BaseLayer
+    7401982: pancreas|Mesh_0047.rip|Take 001|BaseLayer
+    7401984: pancreas|Mesh_0048.rip|Take 001|BaseLayer
+    7401986: pancreas|Mesh_0049.rip|Take 001|BaseLayer
+    7401988: pancreas|Mesh_0050.rip|Take 001|BaseLayer
+    7401990: pancreas|Mesh_0051.rip|Take 001|BaseLayer
+    7401992: pancreas|Mesh_0052.rip|Take 001|BaseLayer
+    7401994: pancreas|Mesh_0053.rip|Take 001|BaseLayer
+    7401996: pancreas|Mesh_0054.rip|Take 001|BaseLayer
+    7401998: pancreas|Mesh_0055.rip|Take 001|BaseLayer
+    7402000: pancreas|Mesh_0056.rip|Take 001|BaseLayer
+    7402002: pancreas|Mesh_0057.rip|Take 001|BaseLayer
+    7402004: pancreas|Mesh_0058.rip|Take 001|BaseLayer
+    7402006: pancreas|Mesh_0059.rip|Take 001|BaseLayer
+    7402008: pancreas|Mesh_0060.rip|Take 001|BaseLayer
+    7402010: pancreas|Mesh_0061.rip|Take 001|BaseLayer
+    7402012: pancreas|Mesh_0062.rip|Take 001|BaseLayer
+    7402014: pancreas|Mesh_0063.rip|Take 001|BaseLayer
+    7402016: pancreas|Mesh_0064.rip|Take 001|BaseLayer
+    7402018: pancreas|Mesh_0065.rip|Take 001|BaseLayer
+    7402020: pancreas|Mesh_0066.rip|Take 001|BaseLayer
+    7402022: pancreas|Mesh_0067.rip|Take 001|BaseLayer
+    7402024: pancreas|Mesh_0068.rip|Take 001|BaseLayer
+    7402026: pancreas|Mesh_0069.rip|Take 001|BaseLayer
+    7402028: pancreas|Mesh_0070.rip|Take 001|BaseLayer
+    7402030: pancreas|Mesh_0071.rip|Take 001|BaseLayer
+    7402032: pancreas|Mesh_0072.rip|Take 001|BaseLayer
+    7402034: pancreas|Mesh_0073.rip|Take 001|BaseLayer
+    7402036: pancreas|Mesh_0074.rip|Take 001|BaseLayer
+    7402038: pancreas|Mesh_0075.rip|Take 001|BaseLayer
+    7402040: pancreas|Mesh_0076.rip|Take 001|BaseLayer
+    7402042: pancreas|Mesh_0077.rip|Take 001|BaseLayer
+    7402044: pancreas|Mesh_0078.rip|Take 001|BaseLayer
+    7402046: pancreas|Mesh_0079.rip|Take 001|BaseLayer
+    7402048: pancreas|Mesh_0080.rip|Take 001|BaseLayer
+    7402050: pancreas|Mesh_0081.rip|Take 001|BaseLayer
+    7402052: pancreas|Mesh_0082.rip|Take 001|BaseLayer
+    7402054: pancreas|Mesh_0083.rip|Take 001|BaseLayer
+    7402056: pancreas|Mesh_0084.rip|Take 001|BaseLayer
+    7402058: pancreas|Mesh_0085.rip|Take 001|BaseLayer
+    7402060: pancreas|Mesh_0086.rip|Take 001|BaseLayer
+    7402062: pancreas|Mesh_0087.rip|Take 001|BaseLayer
+    7402064: pancreas|Mesh_0088.rip|Take 001|BaseLayer
+    7402066: pancreas|Mesh_0089.rip|Take 001|BaseLayer
+    7402068: pancreas|Mesh_0090.rip|Take 001|BaseLayer
+    7402070: pancreas|Mesh_0091.rip|Take 001|BaseLayer
+    7402072: pancreas|Mesh_0092.rip|Take 001|BaseLayer
+    7402074: pancreas|Mesh_0093.rip|Take 001|BaseLayer
+    7402076: pancreas|Mesh_0094.rip|Take 001|BaseLayer
+    7402078: pancreas|Mesh_0095.rip|Take 001|BaseLayer
+    7402080: pancreas|Mesh_0096.rip|Take 001|BaseLayer
+    7402082: pancreas|Mesh_0097.rip|Take 001|BaseLayer
+    7402084: pancreas|Mesh_0098.rip|Take 001|BaseLayer
+    7402086: pancreas|Mesh_0099.rip|Take 001|BaseLayer
+    7402088: pancreas|Mesh_0100.rip|Take 001|BaseLayer
+    7402090: pancreas|Mesh_0101.rip|Take 001|BaseLayer
+    7402092: pancreas|Mesh_0102.rip|Take 001|BaseLayer
+    7402094: pancreas|Mesh_0103.rip|Take 001|BaseLayer
+    7402096: pancreas|Mesh_0104.rip|Take 001|BaseLayer
+    7402098: pancreas|Mesh_0105.rip|Take 001|BaseLayer
+    7402100: pancreas|Mesh_0106.rip|Take 001|BaseLayer
+    7402102: pancreas|Mesh_0107.rip|Take 001|BaseLayer
+    7402104: pancreas|Mesh_0108.rip|Take 001|BaseLayer
+    7402106: pancreas|Mesh_0109.rip|Take 001|BaseLayer
+    7402108: pancreas|Mesh_0110.rip|Take 001|BaseLayer
+    7402110: pancreas|Mesh_0111.rip|Take 001|BaseLayer
+    7402112: pancreas|Mesh_0112.rip|Take 001|BaseLayer
+    7402114: pancreas|Mesh_0113.rip|Take 001|BaseLayer
+    7402116: pancreas|Mesh_0114.rip|Take 001|BaseLayer
+    7402118: pancreas|Mesh_0115.rip|Take 001|BaseLayer
+    7402120: pancreas|Mesh_0116.rip|Take 001|BaseLayer
+    7402122: pancreas|Mesh_0117.rip|Take 001|BaseLayer
+    7402124: rectum|Mesh_0000.rip|Take 001|BaseLayer
+    7402126: rectum|Mesh_0001.rip|Take 001|BaseLayer
+    7402128: rectum|Mesh_0002.rip|Take 001|BaseLayer
+    7402130: rectum|Mesh_0003.rip|Take 001|BaseLayer
+    7402132: rectum|Mesh_0004.rip|Take 001|BaseLayer
+    7402134: rectum|Mesh_0005.rip|Take 001|BaseLayer
+    7402136: rectum|Mesh_0006.rip|Take 001|BaseLayer
+    7402138: rectum|Mesh_0007.rip|Take 001|BaseLayer
+    7402140: rectum|Mesh_0008.rip|Take 001|BaseLayer
+    7402142: rectum|Mesh_0009.rip|Take 001|BaseLayer
+    7402144: rectum|Mesh_0010.rip|Take 001|BaseLayer
+    7402146: rectum|Mesh_0011.rip|Take 001|BaseLayer
+    7402148: rectum|Mesh_0012.rip|Take 001|BaseLayer
+    7402150: rectum|Mesh_0013.rip|Take 001|BaseLayer
+    7402152: rectum|Mesh_0014.rip|Take 001|BaseLayer
+    7402154: rectum|Mesh_0015.rip|Take 001|BaseLayer
+    7402156: rectum|Mesh_0016.rip|Take 001|BaseLayer
+    7402158: rectum|Mesh_0017.rip|Take 001|BaseLayer
+    7402160: rectum|Mesh_0018.rip|Take 001|BaseLayer
+    7402162: rectum|Mesh_0019.rip|Take 001|BaseLayer
+    7402164: rectum|Mesh_0020.rip|Take 001|BaseLayer
+    7402166: rectum|Mesh_0021.rip|Take 001|BaseLayer
+    7402168: rectum|Mesh_0022.rip|Take 001|BaseLayer
+    7402170: rectum|Mesh_0023.rip|Take 001|BaseLayer
+    7402172: rectum|Mesh_0024.rip|Take 001|BaseLayer
+    7402174: rectum|Mesh_0025.rip|Take 001|BaseLayer
+    7402176: rectum|Mesh_0026.rip|Take 001|BaseLayer
+    7402178: rectum|Mesh_0027.rip|Take 001|BaseLayer
+    7402180: rectum|Mesh_0028.rip|Take 001|BaseLayer
+    7402182: rectum|Mesh_0029.rip|Take 001|BaseLayer
+    7402184: rectum|Mesh_0030.rip|Take 001|BaseLayer
+    7402186: rectum|Mesh_0031.rip|Take 001|BaseLayer
+    7402188: rectum|Mesh_0032.rip|Take 001|BaseLayer
+    7402190: rectum|Mesh_0033.rip|Take 001|BaseLayer
+    7402192: rectum|Mesh_0034.rip|Take 001|BaseLayer
+    7402194: rectum|Mesh_0035.rip|Take 001|BaseLayer
+    7402196: rectum|Mesh_0036.rip|Take 001|BaseLayer
+    7402198: rectum|Mesh_0037.rip|Take 001|BaseLayer
+    7402200: rectum|Mesh_0038.rip|Take 001|BaseLayer
+    7402202: rectum|Mesh_0039.rip|Take 001|BaseLayer
+    7402204: rectum|Mesh_0040.rip|Take 001|BaseLayer
+    7402206: rectum|Mesh_0041.rip|Take 001|BaseLayer
+    7402208: rectum|Mesh_0042.rip|Take 001|BaseLayer
+    7402210: rectum|Mesh_0043.rip|Take 001|BaseLayer
+    7402212: rectum|Mesh_0044.rip|Take 001|BaseLayer
+    7402214: rectum|Mesh_0045.rip|Take 001|BaseLayer
+    7402216: rectum|Mesh_0046.rip|Take 001|BaseLayer
+    7402218: rectum|Mesh_0047.rip|Take 001|BaseLayer
+    7402220: rectum|Mesh_0048.rip|Take 001|BaseLayer
+    7402222: rectum|Mesh_0049.rip|Take 001|BaseLayer
+    7402224: rectum|Mesh_0050.rip|Take 001|BaseLayer
+    7402226: rectum|Mesh_0051.rip|Take 001|BaseLayer
+    7402228: rectum|Mesh_0052.rip|Take 001|BaseLayer
+    7402230: rectum|Mesh_0053.rip|Take 001|BaseLayer
+    7402232: rectum|Mesh_0054.rip|Take 001|BaseLayer
+    7402234: rectum|Mesh_0055.rip|Take 001|BaseLayer
+    7402236: rectum|Mesh_0056.rip|Take 001|BaseLayer
+    7402238: rectum|Mesh_0057.rip|Take 001|BaseLayer
+    7402240: rectum|Mesh_0058.rip|Take 001|BaseLayer
+    7402242: rectum|Mesh_0059.rip|Take 001|BaseLayer
+    7402244: rectum|Mesh_0060.rip|Take 001|BaseLayer
+    7402246: rectum|Mesh_0061.rip|Take 001|BaseLayer
+    7402248: rectum|Mesh_0062.rip|Take 001|BaseLayer
+    7402250: rectum|Mesh_0063.rip|Take 001|BaseLayer
+    7402252: rectum|Mesh_0064.rip|Take 001|BaseLayer
+    7402254: rectum|Mesh_0065.rip|Take 001|BaseLayer
+    7402256: rectum|Mesh_0066.rip|Take 001|BaseLayer
+    7402258: rectum|Mesh_0067.rip|Take 001|BaseLayer
+    7402260: rectum|Mesh_0068.rip|Take 001|BaseLayer
+    7402262: rectum|Mesh_0069.rip|Take 001|BaseLayer
+    7402264: rectum|Mesh_0070.rip|Take 001|BaseLayer
+    7402266: rectum|Mesh_0071.rip|Take 001|BaseLayer
+    7402268: rectum|Mesh_0072.rip|Take 001|BaseLayer
+    7402270: rectum|Mesh_0073.rip|Take 001|BaseLayer
+    7402272: rectum|Mesh_0074.rip|Take 001|BaseLayer
+    7402274: rectum|Mesh_0075.rip|Take 001|BaseLayer
+    7402276: rectum|Mesh_0076.rip|Take 001|BaseLayer
+    7402278: rectum|Mesh_0077.rip|Take 001|BaseLayer
+    7402280: rectum|Mesh_0078.rip|Take 001|BaseLayer
+    7402282: rectum|Mesh_0079.rip|Take 001|BaseLayer
+    7402284: rectum|Mesh_0080.rip|Take 001|BaseLayer
+    7402286: rectum|Mesh_0081.rip|Take 001|BaseLayer
+    7402288: rectum|Mesh_0082.rip|Take 001|BaseLayer
+    7402290: rectum|Mesh_0083.rip|Take 001|BaseLayer
+    7402292: rectum|Mesh_0084.rip|Take 001|BaseLayer
+    7402294: rectum|Mesh_0085.rip|Take 001|BaseLayer
+    7402296: rectum|Mesh_0086.rip|Take 001|BaseLayer
+    7402298: rectum|Mesh_0087.rip|Take 001|BaseLayer
+    7402300: rectum|Mesh_0088.rip|Take 001|BaseLayer
+    7402302: rectum|Mesh_0089.rip|Take 001|BaseLayer
+    7402304: rectum|Mesh_0090.rip|Take 001|BaseLayer
+    7402306: rectum|Mesh_0091.rip|Take 001|BaseLayer
+    7402308: rectum|Mesh_0092.rip|Take 001|BaseLayer
+    7402310: rectum|Mesh_0093.rip|Take 001|BaseLayer
+    7402312: rectum|Mesh_0094.rip|Take 001|BaseLayer
+    7402314: rectum|Mesh_0095.rip|Take 001|BaseLayer
+    7402316: rectum|Mesh_0096.rip|Take 001|BaseLayer
+    7402318: rectum|Mesh_0097.rip|Take 001|BaseLayer
+    7402320: rectum|Mesh_0098.rip|Take 001|BaseLayer
+    7402322: rectum|Mesh_0099.rip|Take 001|BaseLayer
+    7402324: rectum|Mesh_0100.rip|Take 001|BaseLayer
+    7402326: rectum|Mesh_0101.rip|Take 001|BaseLayer
+    7402328: rectum|Mesh_0102.rip|Take 001|BaseLayer
+    7402330: rectum|Mesh_0103.rip|Take 001|BaseLayer
+    7402332: rectum|Mesh_0104.rip|Take 001|BaseLayer
+    7402334: rectum|Mesh_0105.rip|Take 001|BaseLayer
+    7402336: rectum|Mesh_0106.rip|Take 001|BaseLayer
+    7402338: rectum|Mesh_0107.rip|Take 001|BaseLayer
+    7402340: rectum|Mesh_0108.rip|Take 001|BaseLayer
+    7402342: rectum|Mesh_0109.rip|Take 001|BaseLayer
+    7402344: rectum|Mesh_0110.rip|Take 001|BaseLayer
+    7402346: rectum|Mesh_0111.rip|Take 001|BaseLayer
+    7402348: rectum|Mesh_0112.rip|Take 001|BaseLayer
+    7402350: rectum|Mesh_0113.rip|Take 001|BaseLayer
+    7402352: rectum|Mesh_0114.rip|Take 001|BaseLayer
+    7402354: rectum|Mesh_0115.rip|Take 001|BaseLayer
+    7402356: rectum|Mesh_0116.rip|Take 001|BaseLayer
+    7402358: rectum|Mesh_0117.rip|Take 001|BaseLayer
+    7402360: appendix|Mesh_0000.rip|Take 001|BaseLayer
+    7402362: appendix|Mesh_0001.rip|Take 001|BaseLayer
+    7402364: appendix|Mesh_0002.rip|Take 001|BaseLayer
+    7402366: appendix|Mesh_0003.rip|Take 001|BaseLayer
+    7402368: appendix|Mesh_0004.rip|Take 001|BaseLayer
+    7402370: appendix|Mesh_0005.rip|Take 001|BaseLayer
+    7402372: appendix|Mesh_0006.rip|Take 001|BaseLayer
+    7402374: appendix|Mesh_0007.rip|Take 001|BaseLayer
+    7402376: appendix|Mesh_0008.rip|Take 001|BaseLayer
+    7402378: appendix|Mesh_0009.rip|Take 001|BaseLayer
+    7402380: appendix|Mesh_0010.rip|Take 001|BaseLayer
+    7402382: appendix|Mesh_0011.rip|Take 001|BaseLayer
+    7402384: appendix|Mesh_0012.rip|Take 001|BaseLayer
+    7402386: appendix|Mesh_0013.rip|Take 001|BaseLayer
+    7402388: appendix|Mesh_0014.rip|Take 001|BaseLayer
+    7402390: appendix|Mesh_0015.rip|Take 001|BaseLayer
+    7402392: appendix|Mesh_0016.rip|Take 001|BaseLayer
+    7402394: appendix|Mesh_0017.rip|Take 001|BaseLayer
+    7402396: appendix|Mesh_0018.rip|Take 001|BaseLayer
+    7402398: appendix|Mesh_0019.rip|Take 001|BaseLayer
+    7402400: appendix|Mesh_0020.rip|Take 001|BaseLayer
+    7402402: appendix|Mesh_0021.rip|Take 001|BaseLayer
+    7402404: appendix|Mesh_0022.rip|Take 001|BaseLayer
+    7402406: appendix|Mesh_0023.rip|Take 001|BaseLayer
+    7402408: appendix|Mesh_0024.rip|Take 001|BaseLayer
+    7402410: appendix|Mesh_0025.rip|Take 001|BaseLayer
+    7402412: appendix|Mesh_0026.rip|Take 001|BaseLayer
+    7402414: appendix|Mesh_0027.rip|Take 001|BaseLayer
+    7402416: appendix|Mesh_0028.rip|Take 001|BaseLayer
+    7402418: appendix|Mesh_0029.rip|Take 001|BaseLayer
+    7402420: appendix|Mesh_0030.rip|Take 001|BaseLayer
+    7402422: appendix|Mesh_0031.rip|Take 001|BaseLayer
+    7402424: appendix|Mesh_0032.rip|Take 001|BaseLayer
+    7402426: appendix|Mesh_0033.rip|Take 001|BaseLayer
+    7402428: appendix|Mesh_0034.rip|Take 001|BaseLayer
+    7402430: appendix|Mesh_0035.rip|Take 001|BaseLayer
+    7402432: appendix|Mesh_0036.rip|Take 001|BaseLayer
+    7402434: appendix|Mesh_0037.rip|Take 001|BaseLayer
+    7402436: appendix|Mesh_0038.rip|Take 001|BaseLayer
+    7402438: appendix|Mesh_0039.rip|Take 001|BaseLayer
+    7402440: appendix|Mesh_0040.rip|Take 001|BaseLayer
+    7402442: appendix|Mesh_0041.rip|Take 001|BaseLayer
+    7402444: appendix|Mesh_0042.rip|Take 001|BaseLayer
+    7402446: appendix|Mesh_0043.rip|Take 001|BaseLayer
+    7402448: appendix|Mesh_0044.rip|Take 001|BaseLayer
+    7402450: appendix|Mesh_0045.rip|Take 001|BaseLayer
+    7402452: appendix|Mesh_0046.rip|Take 001|BaseLayer
+    7402454: appendix|Mesh_0047.rip|Take 001|BaseLayer
+    7402456: appendix|Mesh_0048.rip|Take 001|BaseLayer
+    7402458: appendix|Mesh_0049.rip|Take 001|BaseLayer
+    7402460: appendix|Mesh_0050.rip|Take 001|BaseLayer
+    7402462: appendix|Mesh_0051.rip|Take 001|BaseLayer
+    7402464: appendix|Mesh_0052.rip|Take 001|BaseLayer
+    7402466: appendix|Mesh_0053.rip|Take 001|BaseLayer
+    7402468: appendix|Mesh_0054.rip|Take 001|BaseLayer
+    7402470: appendix|Mesh_0055.rip|Take 001|BaseLayer
+    7402472: appendix|Mesh_0056.rip|Take 001|BaseLayer
+    7402474: appendix|Mesh_0057.rip|Take 001|BaseLayer
+    7402476: appendix|Mesh_0058.rip|Take 001|BaseLayer
+    7402478: appendix|Mesh_0059.rip|Take 001|BaseLayer
+    7402480: appendix|Mesh_0060.rip|Take 001|BaseLayer
+    7402482: appendix|Mesh_0061.rip|Take 001|BaseLayer
+    7402484: appendix|Mesh_0062.rip|Take 001|BaseLayer
+    7402486: appendix|Mesh_0063.rip|Take 001|BaseLayer
+    7402488: appendix|Mesh_0064.rip|Take 001|BaseLayer
+    7402490: appendix|Mesh_0065.rip|Take 001|BaseLayer
+    7402492: appendix|Mesh_0066.rip|Take 001|BaseLayer
+    7402494: appendix|Mesh_0067.rip|Take 001|BaseLayer
+    7402496: appendix|Mesh_0068.rip|Take 001|BaseLayer
+    7402498: appendix|Mesh_0069.rip|Take 001|BaseLayer
+    7402500: appendix|Mesh_0070.rip|Take 001|BaseLayer
+    7402502: appendix|Mesh_0071.rip|Take 001|BaseLayer
+    7402504: appendix|Mesh_0072.rip|Take 001|BaseLayer
+    7402506: appendix|Mesh_0073.rip|Take 001|BaseLayer
+    7402508: appendix|Mesh_0074.rip|Take 001|BaseLayer
+    7402510: appendix|Mesh_0075.rip|Take 001|BaseLayer
+    7402512: appendix|Mesh_0076.rip|Take 001|BaseLayer
+    7402514: appendix|Mesh_0077.rip|Take 001|BaseLayer
+    7402516: appendix|Mesh_0078.rip|Take 001|BaseLayer
+    7402518: appendix|Mesh_0079.rip|Take 001|BaseLayer
+    7402520: appendix|Mesh_0080.rip|Take 001|BaseLayer
+    7402522: appendix|Mesh_0081.rip|Take 001|BaseLayer
+    7402524: appendix|Mesh_0082.rip|Take 001|BaseLayer
+    7402526: appendix|Mesh_0083.rip|Take 001|BaseLayer
+    7402528: appendix|Mesh_0084.rip|Take 001|BaseLayer
+    7402530: appendix|Mesh_0085.rip|Take 001|BaseLayer
+    7402532: appendix|Mesh_0086.rip|Take 001|BaseLayer
+    7402534: appendix|Mesh_0087.rip|Take 001|BaseLayer
+    7402536: appendix|Mesh_0088.rip|Take 001|BaseLayer
+    7402538: appendix|Mesh_0089.rip|Take 001|BaseLayer
+    7402540: appendix|Mesh_0090.rip|Take 001|BaseLayer
+    7402542: appendix|Mesh_0091.rip|Take 001|BaseLayer
+    7402544: appendix|Mesh_0092.rip|Take 001|BaseLayer
+    7402546: appendix|Mesh_0093.rip|Take 001|BaseLayer
+    7402548: appendix|Mesh_0094.rip|Take 001|BaseLayer
+    7402550: appendix|Mesh_0095.rip|Take 001|BaseLayer
+    7402552: appendix|Mesh_0096.rip|Take 001|BaseLayer
+    7402554: appendix|Mesh_0097.rip|Take 001|BaseLayer
+    7402556: appendix|Mesh_0098.rip|Take 001|BaseLayer
+    7402558: appendix|Mesh_0099.rip|Take 001|BaseLayer
+    7402560: appendix|Mesh_0100.rip|Take 001|BaseLayer
+    7402562: appendix|Mesh_0101.rip|Take 001|BaseLayer
+    7402564: appendix|Mesh_0102.rip|Take 001|BaseLayer
+    7402566: appendix|Mesh_0103.rip|Take 001|BaseLayer
+    7402568: appendix|Mesh_0104.rip|Take 001|BaseLayer
+    7402570: appendix|Mesh_0105.rip|Take 001|BaseLayer
+    7402572: appendix|Mesh_0106.rip|Take 001|BaseLayer
+    7402574: appendix|Mesh_0107.rip|Take 001|BaseLayer
+    7402576: appendix|Mesh_0108.rip|Take 001|BaseLayer
+    7402578: appendix|Mesh_0109.rip|Take 001|BaseLayer
+    7402580: appendix|Mesh_0110.rip|Take 001|BaseLayer
+    7402582: appendix|Mesh_0111.rip|Take 001|BaseLayer
+    7402584: appendix|Mesh_0112.rip|Take 001|BaseLayer
+    7402586: appendix|Mesh_0113.rip|Take 001|BaseLayer
+    7402588: appendix|Mesh_0114.rip|Take 001|BaseLayer
+    7402590: appendix|Mesh_0115.rip|Take 001|BaseLayer
+    7402592: appendix|Mesh_0116.rip|Take 001|BaseLayer
+    7402594: appendix|Mesh_0117.rip|Take 001|BaseLayer
+    7402596: sigmoid_colon|Mesh_0000.rip|Take 001|BaseLayer
+    7402598: sigmoid_colon|Mesh_0001.rip|Take 001|BaseLayer
+    7402600: sigmoid_colon|Mesh_0002.rip|Take 001|BaseLayer
+    7402602: sigmoid_colon|Mesh_0003.rip|Take 001|BaseLayer
+    7402604: sigmoid_colon|Mesh_0004.rip|Take 001|BaseLayer
+    7402606: sigmoid_colon|Mesh_0005.rip|Take 001|BaseLayer
+    7402608: sigmoid_colon|Mesh_0006.rip|Take 001|BaseLayer
+    7402610: sigmoid_colon|Mesh_0007.rip|Take 001|BaseLayer
+    7402612: sigmoid_colon|Mesh_0008.rip|Take 001|BaseLayer
+    7402614: sigmoid_colon|Mesh_0009.rip|Take 001|BaseLayer
+    7402616: sigmoid_colon|Mesh_0010.rip|Take 001|BaseLayer
+    7402618: sigmoid_colon|Mesh_0011.rip|Take 001|BaseLayer
+    7402620: sigmoid_colon|Mesh_0012.rip|Take 001|BaseLayer
+    7402622: sigmoid_colon|Mesh_0013.rip|Take 001|BaseLayer
+    7402624: sigmoid_colon|Mesh_0014.rip|Take 001|BaseLayer
+    7402626: sigmoid_colon|Mesh_0015.rip|Take 001|BaseLayer
+    7402628: sigmoid_colon|Mesh_0016.rip|Take 001|BaseLayer
+    7402630: sigmoid_colon|Mesh_0017.rip|Take 001|BaseLayer
+    7402632: sigmoid_colon|Mesh_0018.rip|Take 001|BaseLayer
+    7402634: sigmoid_colon|Mesh_0019.rip|Take 001|BaseLayer
+    7402636: sigmoid_colon|Mesh_0020.rip|Take 001|BaseLayer
+    7402638: sigmoid_colon|Mesh_0021.rip|Take 001|BaseLayer
+    7402640: sigmoid_colon|Mesh_0022.rip|Take 001|BaseLayer
+    7402642: sigmoid_colon|Mesh_0023.rip|Take 001|BaseLayer
+    7402644: sigmoid_colon|Mesh_0024.rip|Take 001|BaseLayer
+    7402646: sigmoid_colon|Mesh_0025.rip|Take 001|BaseLayer
+    7402648: sigmoid_colon|Mesh_0026.rip|Take 001|BaseLayer
+    7402650: sigmoid_colon|Mesh_0027.rip|Take 001|BaseLayer
+    7402652: sigmoid_colon|Mesh_0028.rip|Take 001|BaseLayer
+    7402654: sigmoid_colon|Mesh_0029.rip|Take 001|BaseLayer
+    7402656: sigmoid_colon|Mesh_0030.rip|Take 001|BaseLayer
+    7402658: sigmoid_colon|Mesh_0031.rip|Take 001|BaseLayer
+    7402660: sigmoid_colon|Mesh_0032.rip|Take 001|BaseLayer
+    7402662: sigmoid_colon|Mesh_0033.rip|Take 001|BaseLayer
+    7402664: sigmoid_colon|Mesh_0034.rip|Take 001|BaseLayer
+    7402666: sigmoid_colon|Mesh_0035.rip|Take 001|BaseLayer
+    7402668: sigmoid_colon|Mesh_0036.rip|Take 001|BaseLayer
+    7402670: sigmoid_colon|Mesh_0037.rip|Take 001|BaseLayer
+    7402672: sigmoid_colon|Mesh_0038.rip|Take 001|BaseLayer
+    7402674: sigmoid_colon|Mesh_0039.rip|Take 001|BaseLayer
+    7402676: sigmoid_colon|Mesh_0040.rip|Take 001|BaseLayer
+    7402678: sigmoid_colon|Mesh_0041.rip|Take 001|BaseLayer
+    7402680: sigmoid_colon|Mesh_0042.rip|Take 001|BaseLayer
+    7402682: sigmoid_colon|Mesh_0043.rip|Take 001|BaseLayer
+    7402684: sigmoid_colon|Mesh_0044.rip|Take 001|BaseLayer
+    7402686: sigmoid_colon|Mesh_0045.rip|Take 001|BaseLayer
+    7402688: sigmoid_colon|Mesh_0046.rip|Take 001|BaseLayer
+    7402690: sigmoid_colon|Mesh_0047.rip|Take 001|BaseLayer
+    7402692: sigmoid_colon|Mesh_0048.rip|Take 001|BaseLayer
+    7402694: sigmoid_colon|Mesh_0049.rip|Take 001|BaseLayer
+    7402696: sigmoid_colon|Mesh_0050.rip|Take 001|BaseLayer
+    7402698: sigmoid_colon|Mesh_0051.rip|Take 001|BaseLayer
+    7402700: sigmoid_colon|Mesh_0052.rip|Take 001|BaseLayer
+    7402702: sigmoid_colon|Mesh_0053.rip|Take 001|BaseLayer
+    7402704: sigmoid_colon|Mesh_0054.rip|Take 001|BaseLayer
+    7402706: sigmoid_colon|Mesh_0055.rip|Take 001|BaseLayer
+    7402708: sigmoid_colon|Mesh_0056.rip|Take 001|BaseLayer
+    7402710: sigmoid_colon|Mesh_0057.rip|Take 001|BaseLayer
+    7402712: sigmoid_colon|Mesh_0058.rip|Take 001|BaseLayer
+    7402714: sigmoid_colon|Mesh_0059.rip|Take 001|BaseLayer
+    7402716: sigmoid_colon|Mesh_0060.rip|Take 001|BaseLayer
+    7402718: sigmoid_colon|Mesh_0061.rip|Take 001|BaseLayer
+    7402720: sigmoid_colon|Mesh_0062.rip|Take 001|BaseLayer
+    7402722: sigmoid_colon|Mesh_0063.rip|Take 001|BaseLayer
+    7402724: sigmoid_colon|Mesh_0064.rip|Take 001|BaseLayer
+    7402726: sigmoid_colon|Mesh_0065.rip|Take 001|BaseLayer
+    7402728: sigmoid_colon|Mesh_0066.rip|Take 001|BaseLayer
+    7402730: sigmoid_colon|Mesh_0067.rip|Take 001|BaseLayer
+    7402732: sigmoid_colon|Mesh_0068.rip|Take 001|BaseLayer
+    7402734: sigmoid_colon|Mesh_0069.rip|Take 001|BaseLayer
+    7402736: sigmoid_colon|Mesh_0070.rip|Take 001|BaseLayer
+    7402738: sigmoid_colon|Mesh_0071.rip|Take 001|BaseLayer
+    7402740: sigmoid_colon|Mesh_0072.rip|Take 001|BaseLayer
+    7402742: sigmoid_colon|Mesh_0073.rip|Take 001|BaseLayer
+    7402744: sigmoid_colon|Mesh_0074.rip|Take 001|BaseLayer
+    7402746: sigmoid_colon|Mesh_0075.rip|Take 001|BaseLayer
+    7402748: sigmoid_colon|Mesh_0076.rip|Take 001|BaseLayer
+    7402750: sigmoid_colon|Mesh_0077.rip|Take 001|BaseLayer
+    7402752: sigmoid_colon|Mesh_0078.rip|Take 001|BaseLayer
+    7402754: sigmoid_colon|Mesh_0079.rip|Take 001|BaseLayer
+    7402756: sigmoid_colon|Mesh_0080.rip|Take 001|BaseLayer
+    7402758: sigmoid_colon|Mesh_0081.rip|Take 001|BaseLayer
+    7402760: sigmoid_colon|Mesh_0082.rip|Take 001|BaseLayer
+    7402762: sigmoid_colon|Mesh_0083.rip|Take 001|BaseLayer
+    7402764: sigmoid_colon|Mesh_0084.rip|Take 001|BaseLayer
+    7402766: sigmoid_colon|Mesh_0085.rip|Take 001|BaseLayer
+    7402768: sigmoid_colon|Mesh_0086.rip|Take 001|BaseLayer
+    7402770: sigmoid_colon|Mesh_0087.rip|Take 001|BaseLayer
+    7402772: sigmoid_colon|Mesh_0088.rip|Take 001|BaseLayer
+    7402774: sigmoid_colon|Mesh_0089.rip|Take 001|BaseLayer
+    7402776: sigmoid_colon|Mesh_0090.rip|Take 001|BaseLayer
+    7402778: sigmoid_colon|Mesh_0091.rip|Take 001|BaseLayer
+    7402780: sigmoid_colon|Mesh_0092.rip|Take 001|BaseLayer
+    7402782: sigmoid_colon|Mesh_0093.rip|Take 001|BaseLayer
+    7402784: sigmoid_colon|Mesh_0094.rip|Take 001|BaseLayer
+    7402786: sigmoid_colon|Mesh_0095.rip|Take 001|BaseLayer
+    7402788: sigmoid_colon|Mesh_0096.rip|Take 001|BaseLayer
+    7402790: sigmoid_colon|Mesh_0097.rip|Take 001|BaseLayer
+    7402792: sigmoid_colon|Mesh_0098.rip|Take 001|BaseLayer
+    7402794: sigmoid_colon|Mesh_0099.rip|Take 001|BaseLayer
+    7402796: sigmoid_colon|Mesh_0100.rip|Take 001|BaseLayer
+    7402798: sigmoid_colon|Mesh_0101.rip|Take 001|BaseLayer
+    7402800: sigmoid_colon|Mesh_0102.rip|Take 001|BaseLayer
+    7402802: sigmoid_colon|Mesh_0103.rip|Take 001|BaseLayer
+    7402804: sigmoid_colon|Mesh_0104.rip|Take 001|BaseLayer
+    7402806: sigmoid_colon|Mesh_0105.rip|Take 001|BaseLayer
+    7402808: sigmoid_colon|Mesh_0106.rip|Take 001|BaseLayer
+    7402810: sigmoid_colon|Mesh_0107.rip|Take 001|BaseLayer
+    7402812: sigmoid_colon|Mesh_0108.rip|Take 001|BaseLayer
+    7402814: sigmoid_colon|Mesh_0109.rip|Take 001|BaseLayer
+    7402816: sigmoid_colon|Mesh_0110.rip|Take 001|BaseLayer
+    7402818: sigmoid_colon|Mesh_0111.rip|Take 001|BaseLayer
+    7402820: sigmoid_colon|Mesh_0112.rip|Take 001|BaseLayer
+    7402822: sigmoid_colon|Mesh_0113.rip|Take 001|BaseLayer
+    7402824: sigmoid_colon|Mesh_0114.rip|Take 001|BaseLayer
+    7402826: sigmoid_colon|Mesh_0115.rip|Take 001|BaseLayer
+    7402828: sigmoid_colon|Mesh_0116.rip|Take 001|BaseLayer
+    7402830: sigmoid_colon|Mesh_0117.rip|Take 001|BaseLayer
+    7402832: spleen|Mesh_0000.rip|Take 001|BaseLayer
+    7402834: spleen|Mesh_0001.rip|Take 001|BaseLayer
+    7402836: spleen|Mesh_0002.rip|Take 001|BaseLayer
+    7402838: spleen|Mesh_0003.rip|Take 001|BaseLayer
+    7402840: spleen|Mesh_0004.rip|Take 001|BaseLayer
+    7402842: spleen|Mesh_0005.rip|Take 001|BaseLayer
+    7402844: spleen|Mesh_0006.rip|Take 001|BaseLayer
+    7402846: spleen|Mesh_0007.rip|Take 001|BaseLayer
+    7402848: spleen|Mesh_0008.rip|Take 001|BaseLayer
+    7402850: spleen|Mesh_0009.rip|Take 001|BaseLayer
+    7402852: spleen|Mesh_0010.rip|Take 001|BaseLayer
+    7402854: spleen|Mesh_0011.rip|Take 001|BaseLayer
+    7402856: spleen|Mesh_0012.rip|Take 001|BaseLayer
+    7402858: spleen|Mesh_0013.rip|Take 001|BaseLayer
+    7402860: spleen|Mesh_0014.rip|Take 001|BaseLayer
+    7402862: spleen|Mesh_0015.rip|Take 001|BaseLayer
+    7402864: spleen|Mesh_0016.rip|Take 001|BaseLayer
+    7402866: spleen|Mesh_0017.rip|Take 001|BaseLayer
+    7402868: spleen|Mesh_0018.rip|Take 001|BaseLayer
+    7402870: spleen|Mesh_0019.rip|Take 001|BaseLayer
+    7402872: spleen|Mesh_0020.rip|Take 001|BaseLayer
+    7402874: spleen|Mesh_0021.rip|Take 001|BaseLayer
+    7402876: spleen|Mesh_0022.rip|Take 001|BaseLayer
+    7402878: spleen|Mesh_0023.rip|Take 001|BaseLayer
+    7402880: spleen|Mesh_0024.rip|Take 001|BaseLayer
+    7402882: spleen|Mesh_0025.rip|Take 001|BaseLayer
+    7402884: spleen|Mesh_0026.rip|Take 001|BaseLayer
+    7402886: spleen|Mesh_0027.rip|Take 001|BaseLayer
+    7402888: spleen|Mesh_0028.rip|Take 001|BaseLayer
+    7402890: spleen|Mesh_0029.rip|Take 001|BaseLayer
+    7402892: spleen|Mesh_0030.rip|Take 001|BaseLayer
+    7402894: spleen|Mesh_0031.rip|Take 001|BaseLayer
+    7402896: spleen|Mesh_0032.rip|Take 001|BaseLayer
+    7402898: spleen|Mesh_0033.rip|Take 001|BaseLayer
+    7402900: spleen|Mesh_0034.rip|Take 001|BaseLayer
+    7402902: spleen|Mesh_0035.rip|Take 001|BaseLayer
+    7402904: spleen|Mesh_0036.rip|Take 001|BaseLayer
+    7402906: spleen|Mesh_0037.rip|Take 001|BaseLayer
+    7402908: spleen|Mesh_0038.rip|Take 001|BaseLayer
+    7402910: spleen|Mesh_0039.rip|Take 001|BaseLayer
+    7402912: spleen|Mesh_0040.rip|Take 001|BaseLayer
+    7402914: spleen|Mesh_0041.rip|Take 001|BaseLayer
+    7402916: spleen|Mesh_0042.rip|Take 001|BaseLayer
+    7402918: spleen|Mesh_0043.rip|Take 001|BaseLayer
+    7402920: spleen|Mesh_0044.rip|Take 001|BaseLayer
+    7402922: spleen|Mesh_0045.rip|Take 001|BaseLayer
+    7402924: spleen|Mesh_0046.rip|Take 001|BaseLayer
+    7402926: spleen|Mesh_0047.rip|Take 001|BaseLayer
+    7402928: spleen|Mesh_0048.rip|Take 001|BaseLayer
+    7402930: spleen|Mesh_0049.rip|Take 001|BaseLayer
+    7402932: spleen|Mesh_0050.rip|Take 001|BaseLayer
+    7402934: spleen|Mesh_0051.rip|Take 001|BaseLayer
+    7402936: spleen|Mesh_0052.rip|Take 001|BaseLayer
+    7402938: spleen|Mesh_0053.rip|Take 001|BaseLayer
+    7402940: spleen|Mesh_0054.rip|Take 001|BaseLayer
+    7402942: spleen|Mesh_0055.rip|Take 001|BaseLayer
+    7402944: spleen|Mesh_0056.rip|Take 001|BaseLayer
+    7402946: spleen|Mesh_0057.rip|Take 001|BaseLayer
+    7402948: spleen|Mesh_0058.rip|Take 001|BaseLayer
+    7402950: spleen|Mesh_0059.rip|Take 001|BaseLayer
+    7402952: spleen|Mesh_0060.rip|Take 001|BaseLayer
+    7402954: spleen|Mesh_0061.rip|Take 001|BaseLayer
+    7402956: spleen|Mesh_0062.rip|Take 001|BaseLayer
+    7402958: spleen|Mesh_0063.rip|Take 001|BaseLayer
+    7402960: spleen|Mesh_0064.rip|Take 001|BaseLayer
+    7402962: spleen|Mesh_0065.rip|Take 001|BaseLayer
+    7402964: spleen|Mesh_0066.rip|Take 001|BaseLayer
+    7402966: spleen|Mesh_0067.rip|Take 001|BaseLayer
+    7402968: spleen|Mesh_0068.rip|Take 001|BaseLayer
+    7402970: spleen|Mesh_0069.rip|Take 001|BaseLayer
+    7402972: spleen|Mesh_0070.rip|Take 001|BaseLayer
+    7402974: spleen|Mesh_0071.rip|Take 001|BaseLayer
+    7402976: spleen|Mesh_0072.rip|Take 001|BaseLayer
+    7402978: spleen|Mesh_0073.rip|Take 001|BaseLayer
+    7402980: spleen|Mesh_0074.rip|Take 001|BaseLayer
+    7402982: spleen|Mesh_0075.rip|Take 001|BaseLayer
+    7402984: spleen|Mesh_0076.rip|Take 001|BaseLayer
+    7402986: spleen|Mesh_0077.rip|Take 001|BaseLayer
+    7402988: spleen|Mesh_0078.rip|Take 001|BaseLayer
+    7402990: spleen|Mesh_0079.rip|Take 001|BaseLayer
+    7402992: spleen|Mesh_0080.rip|Take 001|BaseLayer
+    7402994: spleen|Mesh_0081.rip|Take 001|BaseLayer
+    7402996: spleen|Mesh_0082.rip|Take 001|BaseLayer
+    7402998: spleen|Mesh_0083.rip|Take 001|BaseLayer
+    7403000: spleen|Mesh_0084.rip|Take 001|BaseLayer
+    7403002: spleen|Mesh_0085.rip|Take 001|BaseLayer
+    7403004: spleen|Mesh_0086.rip|Take 001|BaseLayer
+    7403006: spleen|Mesh_0087.rip|Take 001|BaseLayer
+    7403008: spleen|Mesh_0088.rip|Take 001|BaseLayer
+    7403010: spleen|Mesh_0089.rip|Take 001|BaseLayer
+    7403012: spleen|Mesh_0090.rip|Take 001|BaseLayer
+    7403014: spleen|Mesh_0091.rip|Take 001|BaseLayer
+    7403016: spleen|Mesh_0092.rip|Take 001|BaseLayer
+    7403018: spleen|Mesh_0093.rip|Take 001|BaseLayer
+    7403020: spleen|Mesh_0094.rip|Take 001|BaseLayer
+    7403022: spleen|Mesh_0095.rip|Take 001|BaseLayer
+    7403024: spleen|Mesh_0096.rip|Take 001|BaseLayer
+    7403026: spleen|Mesh_0097.rip|Take 001|BaseLayer
+    7403028: spleen|Mesh_0098.rip|Take 001|BaseLayer
+    7403030: spleen|Mesh_0099.rip|Take 001|BaseLayer
+    7403032: spleen|Mesh_0100.rip|Take 001|BaseLayer
+    7403034: spleen|Mesh_0101.rip|Take 001|BaseLayer
+    7403036: spleen|Mesh_0102.rip|Take 001|BaseLayer
+    7403038: spleen|Mesh_0103.rip|Take 001|BaseLayer
+    7403040: spleen|Mesh_0104.rip|Take 001|BaseLayer
+    7403042: spleen|Mesh_0105.rip|Take 001|BaseLayer
+    7403044: spleen|Mesh_0106.rip|Take 001|BaseLayer
+    7403046: spleen|Mesh_0107.rip|Take 001|BaseLayer
+    7403048: spleen|Mesh_0108.rip|Take 001|BaseLayer
+    7403050: spleen|Mesh_0109.rip|Take 001|BaseLayer
+    7403052: spleen|Mesh_0110.rip|Take 001|BaseLayer
+    7403054: spleen|Mesh_0111.rip|Take 001|BaseLayer
+    7403056: spleen|Mesh_0112.rip|Take 001|BaseLayer
+    7403058: spleen|Mesh_0113.rip|Take 001|BaseLayer
+    7403060: spleen|Mesh_0114.rip|Take 001|BaseLayer
+    7403062: spleen|Mesh_0115.rip|Take 001|BaseLayer
+    7403064: spleen|Mesh_0116.rip|Take 001|BaseLayer
+    7403066: spleen|Mesh_0117.rip|Take 001|BaseLayer
+    7403068: cecum|Mesh_0000.rip|Take 001|BaseLayer
+    7403070: cecum|Mesh_0001.rip|Take 001|BaseLayer
+    7403072: cecum|Mesh_0002.rip|Take 001|BaseLayer
+    7403074: cecum|Mesh_0003.rip|Take 001|BaseLayer
+    7403076: cecum|Mesh_0004.rip|Take 001|BaseLayer
+    7403078: cecum|Mesh_0005.rip|Take 001|BaseLayer
+    7403080: cecum|Mesh_0006.rip|Take 001|BaseLayer
+    7403082: cecum|Mesh_0007.rip|Take 001|BaseLayer
+    7403084: cecum|Mesh_0008.rip|Take 001|BaseLayer
+    7403086: cecum|Mesh_0009.rip|Take 001|BaseLayer
+    7403088: cecum|Mesh_0010.rip|Take 001|BaseLayer
+    7403090: cecum|Mesh_0011.rip|Take 001|BaseLayer
+    7403092: cecum|Mesh_0012.rip|Take 001|BaseLayer
+    7403094: cecum|Mesh_0013.rip|Take 001|BaseLayer
+    7403096: cecum|Mesh_0014.rip|Take 001|BaseLayer
+    7403098: cecum|Mesh_0015.rip|Take 001|BaseLayer
+    7403100: cecum|Mesh_0016.rip|Take 001|BaseLayer
+    7403102: cecum|Mesh_0017.rip|Take 001|BaseLayer
+    7403104: cecum|Mesh_0018.rip|Take 001|BaseLayer
+    7403106: cecum|Mesh_0019.rip|Take 001|BaseLayer
+    7403108: cecum|Mesh_0020.rip|Take 001|BaseLayer
+    7403110: cecum|Mesh_0021.rip|Take 001|BaseLayer
+    7403112: cecum|Mesh_0022.rip|Take 001|BaseLayer
+    7403114: cecum|Mesh_0023.rip|Take 001|BaseLayer
+    7403116: cecum|Mesh_0024.rip|Take 001|BaseLayer
+    7403118: cecum|Mesh_0025.rip|Take 001|BaseLayer
+    7403120: cecum|Mesh_0026.rip|Take 001|BaseLayer
+    7403122: cecum|Mesh_0027.rip|Take 001|BaseLayer
+    7403124: cecum|Mesh_0028.rip|Take 001|BaseLayer
+    7403126: cecum|Mesh_0029.rip|Take 001|BaseLayer
+    7403128: cecum|Mesh_0030.rip|Take 001|BaseLayer
+    7403130: cecum|Mesh_0031.rip|Take 001|BaseLayer
+    7403132: cecum|Mesh_0032.rip|Take 001|BaseLayer
+    7403134: cecum|Mesh_0033.rip|Take 001|BaseLayer
+    7403136: cecum|Mesh_0034.rip|Take 001|BaseLayer
+    7403138: cecum|Mesh_0035.rip|Take 001|BaseLayer
+    7403140: cecum|Mesh_0036.rip|Take 001|BaseLayer
+    7403142: cecum|Mesh_0037.rip|Take 001|BaseLayer
+    7403144: cecum|Mesh_0038.rip|Take 001|BaseLayer
+    7403146: cecum|Mesh_0039.rip|Take 001|BaseLayer
+    7403148: cecum|Mesh_0040.rip|Take 001|BaseLayer
+    7403150: cecum|Mesh_0041.rip|Take 001|BaseLayer
+    7403152: cecum|Mesh_0042.rip|Take 001|BaseLayer
+    7403154: cecum|Mesh_0043.rip|Take 001|BaseLayer
+    7403156: cecum|Mesh_0044.rip|Take 001|BaseLayer
+    7403158: cecum|Mesh_0045.rip|Take 001|BaseLayer
+    7403160: cecum|Mesh_0046.rip|Take 001|BaseLayer
+    7403162: cecum|Mesh_0047.rip|Take 001|BaseLayer
+    7403164: cecum|Mesh_0048.rip|Take 001|BaseLayer
+    7403166: cecum|Mesh_0049.rip|Take 001|BaseLayer
+    7403168: cecum|Mesh_0050.rip|Take 001|BaseLayer
+    7403170: cecum|Mesh_0051.rip|Take 001|BaseLayer
+    7403172: cecum|Mesh_0052.rip|Take 001|BaseLayer
+    7403174: cecum|Mesh_0053.rip|Take 001|BaseLayer
+    7403176: cecum|Mesh_0054.rip|Take 001|BaseLayer
+    7403178: cecum|Mesh_0055.rip|Take 001|BaseLayer
+    7403180: cecum|Mesh_0056.rip|Take 001|BaseLayer
+    7403182: cecum|Mesh_0057.rip|Take 001|BaseLayer
+    7403184: cecum|Mesh_0058.rip|Take 001|BaseLayer
+    7403186: cecum|Mesh_0059.rip|Take 001|BaseLayer
+    7403188: cecum|Mesh_0060.rip|Take 001|BaseLayer
+    7403190: cecum|Mesh_0061.rip|Take 001|BaseLayer
+    7403192: cecum|Mesh_0062.rip|Take 001|BaseLayer
+    7403194: cecum|Mesh_0063.rip|Take 001|BaseLayer
+    7403196: cecum|Mesh_0064.rip|Take 001|BaseLayer
+    7403198: cecum|Mesh_0065.rip|Take 001|BaseLayer
+    7403200: cecum|Mesh_0066.rip|Take 001|BaseLayer
+    7403202: cecum|Mesh_0067.rip|Take 001|BaseLayer
+    7403204: cecum|Mesh_0068.rip|Take 001|BaseLayer
+    7403206: cecum|Mesh_0069.rip|Take 001|BaseLayer
+    7403208: cecum|Mesh_0070.rip|Take 001|BaseLayer
+    7403210: cecum|Mesh_0071.rip|Take 001|BaseLayer
+    7403212: cecum|Mesh_0072.rip|Take 001|BaseLayer
+    7403214: cecum|Mesh_0073.rip|Take 001|BaseLayer
+    7403216: cecum|Mesh_0074.rip|Take 001|BaseLayer
+    7403218: cecum|Mesh_0075.rip|Take 001|BaseLayer
+    7403220: cecum|Mesh_0076.rip|Take 001|BaseLayer
+    7403222: cecum|Mesh_0077.rip|Take 001|BaseLayer
+    7403224: cecum|Mesh_0078.rip|Take 001|BaseLayer
+    7403226: cecum|Mesh_0079.rip|Take 001|BaseLayer
+    7403228: cecum|Mesh_0080.rip|Take 001|BaseLayer
+    7403230: cecum|Mesh_0081.rip|Take 001|BaseLayer
+    7403232: cecum|Mesh_0082.rip|Take 001|BaseLayer
+    7403234: cecum|Mesh_0083.rip|Take 001|BaseLayer
+    7403236: cecum|Mesh_0084.rip|Take 001|BaseLayer
+    7403238: cecum|Mesh_0085.rip|Take 001|BaseLayer
+    7403240: cecum|Mesh_0086.rip|Take 001|BaseLayer
+    7403242: cecum|Mesh_0087.rip|Take 001|BaseLayer
+    7403244: cecum|Mesh_0088.rip|Take 001|BaseLayer
+    7403246: cecum|Mesh_0089.rip|Take 001|BaseLayer
+    7403248: cecum|Mesh_0090.rip|Take 001|BaseLayer
+    7403250: cecum|Mesh_0091.rip|Take 001|BaseLayer
+    7403252: cecum|Mesh_0092.rip|Take 001|BaseLayer
+    7403254: cecum|Mesh_0093.rip|Take 001|BaseLayer
+    7403256: cecum|Mesh_0094.rip|Take 001|BaseLayer
+    7403258: cecum|Mesh_0095.rip|Take 001|BaseLayer
+    7403260: cecum|Mesh_0096.rip|Take 001|BaseLayer
+    7403262: cecum|Mesh_0097.rip|Take 001|BaseLayer
+    7403264: cecum|Mesh_0098.rip|Take 001|BaseLayer
+    7403266: cecum|Mesh_0099.rip|Take 001|BaseLayer
+    7403268: cecum|Mesh_0100.rip|Take 001|BaseLayer
+    7403270: cecum|Mesh_0101.rip|Take 001|BaseLayer
+    7403272: cecum|Mesh_0102.rip|Take 001|BaseLayer
+    7403274: cecum|Mesh_0103.rip|Take 001|BaseLayer
+    7403276: cecum|Mesh_0104.rip|Take 001|BaseLayer
+    7403278: cecum|Mesh_0105.rip|Take 001|BaseLayer
+    7403280: cecum|Mesh_0106.rip|Take 001|BaseLayer
+    7403282: cecum|Mesh_0107.rip|Take 001|BaseLayer
+    7403284: cecum|Mesh_0108.rip|Take 001|BaseLayer
+    7403286: cecum|Mesh_0109.rip|Take 001|BaseLayer
+    7403288: cecum|Mesh_0110.rip|Take 001|BaseLayer
+    7403290: cecum|Mesh_0111.rip|Take 001|BaseLayer
+    7403292: cecum|Mesh_0112.rip|Take 001|BaseLayer
+    7403294: cecum|Mesh_0113.rip|Take 001|BaseLayer
+    7403296: cecum|Mesh_0114.rip|Take 001|BaseLayer
+    7403298: cecum|Mesh_0115.rip|Take 001|BaseLayer
+    7403300: cecum|Mesh_0116.rip|Take 001|BaseLayer
+    7403302: cecum|Mesh_0117.rip|Take 001|BaseLayer
+    7403304: stomach|Mesh_0000.rip|Take 001|BaseLayer
+    7403306: stomach|Mesh_0001.rip|Take 001|BaseLayer
+    7403308: stomach|Mesh_0002.rip|Take 001|BaseLayer
+    7403310: stomach|Mesh_0003.rip|Take 001|BaseLayer
+    7403312: stomach|Mesh_0004.rip|Take 001|BaseLayer
+    7403314: stomach|Mesh_0005.rip|Take 001|BaseLayer
+    7403316: stomach|Mesh_0006.rip|Take 001|BaseLayer
+    7403318: stomach|Mesh_0007.rip|Take 001|BaseLayer
+    7403320: stomach|Mesh_0008.rip|Take 001|BaseLayer
+    7403322: stomach|Mesh_0009.rip|Take 001|BaseLayer
+    7403324: stomach|Mesh_0010.rip|Take 001|BaseLayer
+    7403326: stomach|Mesh_0011.rip|Take 001|BaseLayer
+    7403328: stomach|Mesh_0012.rip|Take 001|BaseLayer
+    7403330: stomach|Mesh_0013.rip|Take 001|BaseLayer
+    7403332: stomach|Mesh_0014.rip|Take 001|BaseLayer
+    7403334: stomach|Mesh_0015.rip|Take 001|BaseLayer
+    7403336: stomach|Mesh_0016.rip|Take 001|BaseLayer
+    7403338: stomach|Mesh_0017.rip|Take 001|BaseLayer
+    7403340: stomach|Mesh_0018.rip|Take 001|BaseLayer
+    7403342: stomach|Mesh_0019.rip|Take 001|BaseLayer
+    7403344: stomach|Mesh_0020.rip|Take 001|BaseLayer
+    7403346: stomach|Mesh_0021.rip|Take 001|BaseLayer
+    7403348: stomach|Mesh_0022.rip|Take 001|BaseLayer
+    7403350: stomach|Mesh_0023.rip|Take 001|BaseLayer
+    7403352: stomach|Mesh_0024.rip|Take 001|BaseLayer
+    7403354: stomach|Mesh_0025.rip|Take 001|BaseLayer
+    7403356: stomach|Mesh_0026.rip|Take 001|BaseLayer
+    7403358: stomach|Mesh_0027.rip|Take 001|BaseLayer
+    7403360: stomach|Mesh_0028.rip|Take 001|BaseLayer
+    7403362: stomach|Mesh_0029.rip|Take 001|BaseLayer
+    7403364: stomach|Mesh_0030.rip|Take 001|BaseLayer
+    7403366: stomach|Mesh_0031.rip|Take 001|BaseLayer
+    7403368: stomach|Mesh_0032.rip|Take 001|BaseLayer
+    7403370: stomach|Mesh_0033.rip|Take 001|BaseLayer
+    7403372: stomach|Mesh_0034.rip|Take 001|BaseLayer
+    7403374: stomach|Mesh_0035.rip|Take 001|BaseLayer
+    7403376: stomach|Mesh_0036.rip|Take 001|BaseLayer
+    7403378: stomach|Mesh_0037.rip|Take 001|BaseLayer
+    7403380: stomach|Mesh_0038.rip|Take 001|BaseLayer
+    7403382: stomach|Mesh_0039.rip|Take 001|BaseLayer
+    7403384: stomach|Mesh_0040.rip|Take 001|BaseLayer
+    7403386: stomach|Mesh_0041.rip|Take 001|BaseLayer
+    7403388: stomach|Mesh_0042.rip|Take 001|BaseLayer
+    7403390: stomach|Mesh_0043.rip|Take 001|BaseLayer
+    7403392: stomach|Mesh_0044.rip|Take 001|BaseLayer
+    7403394: stomach|Mesh_0045.rip|Take 001|BaseLayer
+    7403396: stomach|Mesh_0046.rip|Take 001|BaseLayer
+    7403398: stomach|Mesh_0047.rip|Take 001|BaseLayer
+    7403400: stomach|Mesh_0048.rip|Take 001|BaseLayer
+    7403402: stomach|Mesh_0049.rip|Take 001|BaseLayer
+    7403404: stomach|Mesh_0050.rip|Take 001|BaseLayer
+    7403406: stomach|Mesh_0051.rip|Take 001|BaseLayer
+    7403408: stomach|Mesh_0052.rip|Take 001|BaseLayer
+    7403410: stomach|Mesh_0053.rip|Take 001|BaseLayer
+    7403412: stomach|Mesh_0054.rip|Take 001|BaseLayer
+    7403414: stomach|Mesh_0055.rip|Take 001|BaseLayer
+    7403416: stomach|Mesh_0056.rip|Take 001|BaseLayer
+    7403418: stomach|Mesh_0057.rip|Take 001|BaseLayer
+    7403420: stomach|Mesh_0058.rip|Take 001|BaseLayer
+    7403422: stomach|Mesh_0059.rip|Take 001|BaseLayer
+    7403424: stomach|Mesh_0060.rip|Take 001|BaseLayer
+    7403426: stomach|Mesh_0061.rip|Take 001|BaseLayer
+    7403428: stomach|Mesh_0062.rip|Take 001|BaseLayer
+    7403430: stomach|Mesh_0063.rip|Take 001|BaseLayer
+    7403432: stomach|Mesh_0064.rip|Take 001|BaseLayer
+    7403434: stomach|Mesh_0065.rip|Take 001|BaseLayer
+    7403436: stomach|Mesh_0066.rip|Take 001|BaseLayer
+    7403438: stomach|Mesh_0067.rip|Take 001|BaseLayer
+    7403440: stomach|Mesh_0068.rip|Take 001|BaseLayer
+    7403442: stomach|Mesh_0069.rip|Take 001|BaseLayer
+    7403444: stomach|Mesh_0070.rip|Take 001|BaseLayer
+    7403446: stomach|Mesh_0071.rip|Take 001|BaseLayer
+    7403448: stomach|Mesh_0072.rip|Take 001|BaseLayer
+    7403450: stomach|Mesh_0073.rip|Take 001|BaseLayer
+    7403452: stomach|Mesh_0074.rip|Take 001|BaseLayer
+    7403454: stomach|Mesh_0075.rip|Take 001|BaseLayer
+    7403456: stomach|Mesh_0076.rip|Take 001|BaseLayer
+    7403458: stomach|Mesh_0077.rip|Take 001|BaseLayer
+    7403460: stomach|Mesh_0078.rip|Take 001|BaseLayer
+    7403462: stomach|Mesh_0079.rip|Take 001|BaseLayer
+    7403464: stomach|Mesh_0080.rip|Take 001|BaseLayer
+    7403466: stomach|Mesh_0081.rip|Take 001|BaseLayer
+    7403468: stomach|Mesh_0082.rip|Take 001|BaseLayer
+    7403470: stomach|Mesh_0083.rip|Take 001|BaseLayer
+    7403472: stomach|Mesh_0084.rip|Take 001|BaseLayer
+    7403474: stomach|Mesh_0085.rip|Take 001|BaseLayer
+    7403476: stomach|Mesh_0086.rip|Take 001|BaseLayer
+    7403478: stomach|Mesh_0087.rip|Take 001|BaseLayer
+    7403480: stomach|Mesh_0088.rip|Take 001|BaseLayer
+    7403482: stomach|Mesh_0089.rip|Take 001|BaseLayer
+    7403484: stomach|Mesh_0090.rip|Take 001|BaseLayer
+    7403486: stomach|Mesh_0091.rip|Take 001|BaseLayer
+    7403488: stomach|Mesh_0092.rip|Take 001|BaseLayer
+    7403490: stomach|Mesh_0093.rip|Take 001|BaseLayer
+    7403492: stomach|Mesh_0094.rip|Take 001|BaseLayer
+    7403494: stomach|Mesh_0095.rip|Take 001|BaseLayer
+    7403496: stomach|Mesh_0096.rip|Take 001|BaseLayer
+    7403498: stomach|Mesh_0097.rip|Take 001|BaseLayer
+    7403500: stomach|Mesh_0098.rip|Take 001|BaseLayer
+    7403502: stomach|Mesh_0099.rip|Take 001|BaseLayer
+    7403504: stomach|Mesh_0100.rip|Take 001|BaseLayer
+    7403506: stomach|Mesh_0101.rip|Take 001|BaseLayer
+    7403508: stomach|Mesh_0102.rip|Take 001|BaseLayer
+    7403510: stomach|Mesh_0103.rip|Take 001|BaseLayer
+    7403512: stomach|Mesh_0104.rip|Take 001|BaseLayer
+    7403514: stomach|Mesh_0105.rip|Take 001|BaseLayer
+    7403516: stomach|Mesh_0106.rip|Take 001|BaseLayer
+    7403518: stomach|Mesh_0107.rip|Take 001|BaseLayer
+    7403520: stomach|Mesh_0108.rip|Take 001|BaseLayer
+    7403522: stomach|Mesh_0109.rip|Take 001|BaseLayer
+    7403524: stomach|Mesh_0110.rip|Take 001|BaseLayer
+    7403526: stomach|Mesh_0111.rip|Take 001|BaseLayer
+    7403528: stomach|Mesh_0112.rip|Take 001|BaseLayer
+    7403530: stomach|Mesh_0113.rip|Take 001|BaseLayer
+    7403532: stomach|Mesh_0114.rip|Take 001|BaseLayer
+    7403534: stomach|Mesh_0115.rip|Take 001|BaseLayer
+    7403536: stomach|Mesh_0116.rip|Take 001|BaseLayer
+    7403538: stomach|Mesh_0117.rip|Take 001|BaseLayer
+    7403540: l_lobe|Mesh_0000.rip|Take 001|BaseLayer
+    7403542: l_lobe|Mesh_0001.rip|Take 001|BaseLayer
+    7403544: l_lobe|Mesh_0002.rip|Take 001|BaseLayer
+    7403546: l_lobe|Mesh_0003.rip|Take 001|BaseLayer
+    7403548: l_lobe|Mesh_0004.rip|Take 001|BaseLayer
+    7403550: l_lobe|Mesh_0005.rip|Take 001|BaseLayer
+    7403552: l_lobe|Mesh_0006.rip|Take 001|BaseLayer
+    7403554: l_lobe|Mesh_0007.rip|Take 001|BaseLayer
+    7403556: l_lobe|Mesh_0008.rip|Take 001|BaseLayer
+    7403558: l_lobe|Mesh_0009.rip|Take 001|BaseLayer
+    7403560: l_lobe|Mesh_0010.rip|Take 001|BaseLayer
+    7403562: l_lobe|Mesh_0011.rip|Take 001|BaseLayer
+    7403564: l_lobe|Mesh_0012.rip|Take 001|BaseLayer
+    7403566: l_lobe|Mesh_0013.rip|Take 001|BaseLayer
+    7403568: l_lobe|Mesh_0014.rip|Take 001|BaseLayer
+    7403570: l_lobe|Mesh_0015.rip|Take 001|BaseLayer
+    7403572: l_lobe|Mesh_0016.rip|Take 001|BaseLayer
+    7403574: l_lobe|Mesh_0017.rip|Take 001|BaseLayer
+    7403576: l_lobe|Mesh_0018.rip|Take 001|BaseLayer
+    7403578: l_lobe|Mesh_0019.rip|Take 001|BaseLayer
+    7403580: l_lobe|Mesh_0020.rip|Take 001|BaseLayer
+    7403582: l_lobe|Mesh_0021.rip|Take 001|BaseLayer
+    7403584: l_lobe|Mesh_0022.rip|Take 001|BaseLayer
+    7403586: l_lobe|Mesh_0023.rip|Take 001|BaseLayer
+    7403588: l_lobe|Mesh_0024.rip|Take 001|BaseLayer
+    7403590: l_lobe|Mesh_0025.rip|Take 001|BaseLayer
+    7403592: l_lobe|Mesh_0026.rip|Take 001|BaseLayer
+    7403594: l_lobe|Mesh_0027.rip|Take 001|BaseLayer
+    7403596: l_lobe|Mesh_0028.rip|Take 001|BaseLayer
+    7403598: l_lobe|Mesh_0029.rip|Take 001|BaseLayer
+    7403600: l_lobe|Mesh_0030.rip|Take 001|BaseLayer
+    7403602: l_lobe|Mesh_0031.rip|Take 001|BaseLayer
+    7403604: l_lobe|Mesh_0032.rip|Take 001|BaseLayer
+    7403606: l_lobe|Mesh_0033.rip|Take 001|BaseLayer
+    7403608: l_lobe|Mesh_0034.rip|Take 001|BaseLayer
+    7403610: l_lobe|Mesh_0035.rip|Take 001|BaseLayer
+    7403612: l_lobe|Mesh_0036.rip|Take 001|BaseLayer
+    7403614: l_lobe|Mesh_0037.rip|Take 001|BaseLayer
+    7403616: l_lobe|Mesh_0038.rip|Take 001|BaseLayer
+    7403618: l_lobe|Mesh_0039.rip|Take 001|BaseLayer
+    7403620: l_lobe|Mesh_0040.rip|Take 001|BaseLayer
+    7403622: l_lobe|Mesh_0041.rip|Take 001|BaseLayer
+    7403624: l_lobe|Mesh_0042.rip|Take 001|BaseLayer
+    7403626: l_lobe|Mesh_0043.rip|Take 001|BaseLayer
+    7403628: l_lobe|Mesh_0044.rip|Take 001|BaseLayer
+    7403630: l_lobe|Mesh_0045.rip|Take 001|BaseLayer
+    7403632: l_lobe|Mesh_0046.rip|Take 001|BaseLayer
+    7403634: l_lobe|Mesh_0047.rip|Take 001|BaseLayer
+    7403636: l_lobe|Mesh_0048.rip|Take 001|BaseLayer
+    7403638: l_lobe|Mesh_0049.rip|Take 001|BaseLayer
+    7403640: l_lobe|Mesh_0050.rip|Take 001|BaseLayer
+    7403642: l_lobe|Mesh_0051.rip|Take 001|BaseLayer
+    7403644: l_lobe|Mesh_0052.rip|Take 001|BaseLayer
+    7403646: l_lobe|Mesh_0053.rip|Take 001|BaseLayer
+    7403648: l_lobe|Mesh_0054.rip|Take 001|BaseLayer
+    7403650: l_lobe|Mesh_0055.rip|Take 001|BaseLayer
+    7403652: l_lobe|Mesh_0056.rip|Take 001|BaseLayer
+    7403654: l_lobe|Mesh_0057.rip|Take 001|BaseLayer
+    7403656: l_lobe|Mesh_0058.rip|Take 001|BaseLayer
+    7403658: l_lobe|Mesh_0059.rip|Take 001|BaseLayer
+    7403660: l_lobe|Mesh_0060.rip|Take 001|BaseLayer
+    7403662: l_lobe|Mesh_0061.rip|Take 001|BaseLayer
+    7403664: l_lobe|Mesh_0062.rip|Take 001|BaseLayer
+    7403666: l_lobe|Mesh_0063.rip|Take 001|BaseLayer
+    7403668: l_lobe|Mesh_0064.rip|Take 001|BaseLayer
+    7403670: l_lobe|Mesh_0065.rip|Take 001|BaseLayer
+    7403672: l_lobe|Mesh_0066.rip|Take 001|BaseLayer
+    7403674: l_lobe|Mesh_0067.rip|Take 001|BaseLayer
+    7403676: l_lobe|Mesh_0068.rip|Take 001|BaseLayer
+    7403678: l_lobe|Mesh_0069.rip|Take 001|BaseLayer
+    7403680: l_lobe|Mesh_0070.rip|Take 001|BaseLayer
+    7403682: l_lobe|Mesh_0071.rip|Take 001|BaseLayer
+    7403684: l_lobe|Mesh_0072.rip|Take 001|BaseLayer
+    7403686: l_lobe|Mesh_0073.rip|Take 001|BaseLayer
+    7403688: l_lobe|Mesh_0074.rip|Take 001|BaseLayer
+    7403690: l_lobe|Mesh_0075.rip|Take 001|BaseLayer
+    7403692: l_lobe|Mesh_0076.rip|Take 001|BaseLayer
+    7403694: l_lobe|Mesh_0077.rip|Take 001|BaseLayer
+    7403696: l_lobe|Mesh_0078.rip|Take 001|BaseLayer
+    7403698: l_lobe|Mesh_0079.rip|Take 001|BaseLayer
+    7403700: l_lobe|Mesh_0080.rip|Take 001|BaseLayer
+    7403702: l_lobe|Mesh_0081.rip|Take 001|BaseLayer
+    7403704: l_lobe|Mesh_0082.rip|Take 001|BaseLayer
+    7403706: l_lobe|Mesh_0083.rip|Take 001|BaseLayer
+    7403708: l_lobe|Mesh_0084.rip|Take 001|BaseLayer
+    7403710: l_lobe|Mesh_0085.rip|Take 001|BaseLayer
+    7403712: l_lobe|Mesh_0086.rip|Take 001|BaseLayer
+    7403714: l_lobe|Mesh_0087.rip|Take 001|BaseLayer
+    7403716: l_lobe|Mesh_0088.rip|Take 001|BaseLayer
+    7403718: l_lobe|Mesh_0089.rip|Take 001|BaseLayer
+    7403720: l_lobe|Mesh_0090.rip|Take 001|BaseLayer
+    7403722: l_lobe|Mesh_0091.rip|Take 001|BaseLayer
+    7403724: l_lobe|Mesh_0092.rip|Take 001|BaseLayer
+    7403726: l_lobe|Mesh_0093.rip|Take 001|BaseLayer
+    7403728: l_lobe|Mesh_0094.rip|Take 001|BaseLayer
+    7403730: l_lobe|Mesh_0095.rip|Take 001|BaseLayer
+    7403732: l_lobe|Mesh_0096.rip|Take 001|BaseLayer
+    7403734: l_lobe|Mesh_0097.rip|Take 001|BaseLayer
+    7403736: l_lobe|Mesh_0098.rip|Take 001|BaseLayer
+    7403738: l_lobe|Mesh_0099.rip|Take 001|BaseLayer
+    7403740: l_lobe|Mesh_0100.rip|Take 001|BaseLayer
+    7403742: l_lobe|Mesh_0101.rip|Take 001|BaseLayer
+    7403744: l_lobe|Mesh_0102.rip|Take 001|BaseLayer
+    7403746: l_lobe|Mesh_0103.rip|Take 001|BaseLayer
+    7403748: l_lobe|Mesh_0104.rip|Take 001|BaseLayer
+    7403750: l_lobe|Mesh_0105.rip|Take 001|BaseLayer
+    7403752: l_lobe|Mesh_0106.rip|Take 001|BaseLayer
+    7403754: l_lobe|Mesh_0107.rip|Take 001|BaseLayer
+    7403756: l_lobe|Mesh_0108.rip|Take 001|BaseLayer
+    7403758: l_lobe|Mesh_0109.rip|Take 001|BaseLayer
+    7403760: l_lobe|Mesh_0110.rip|Take 001|BaseLayer
+    7403762: l_lobe|Mesh_0111.rip|Take 001|BaseLayer
+    7403764: l_lobe|Mesh_0112.rip|Take 001|BaseLayer
+    7403766: l_lobe|Mesh_0113.rip|Take 001|BaseLayer
+    7403768: l_lobe|Mesh_0114.rip|Take 001|BaseLayer
+    7403770: l_lobe|Mesh_0115.rip|Take 001|BaseLayer
+    7403772: l_lobe|Mesh_0116.rip|Take 001|BaseLayer
+    7403774: l_lobe|Mesh_0117.rip|Take 001|BaseLayer
+    7403776: r_Lobe|Mesh_0000.rip|Take 001|BaseLayer
+    7403778: r_Lobe|Mesh_0001.rip|Take 001|BaseLayer
+    7403780: r_Lobe|Mesh_0002.rip|Take 001|BaseLayer
+    7403782: r_Lobe|Mesh_0003.rip|Take 001|BaseLayer
+    7403784: r_Lobe|Mesh_0004.rip|Take 001|BaseLayer
+    7403786: r_Lobe|Mesh_0005.rip|Take 001|BaseLayer
+    7403788: r_Lobe|Mesh_0006.rip|Take 001|BaseLayer
+    7403790: r_Lobe|Mesh_0007.rip|Take 001|BaseLayer
+    7403792: r_Lobe|Mesh_0008.rip|Take 001|BaseLayer
+    7403794: r_Lobe|Mesh_0009.rip|Take 001|BaseLayer
+    7403796: r_Lobe|Mesh_0010.rip|Take 001|BaseLayer
+    7403798: r_Lobe|Mesh_0011.rip|Take 001|BaseLayer
+    7403800: r_Lobe|Mesh_0012.rip|Take 001|BaseLayer
+    7403802: r_Lobe|Mesh_0013.rip|Take 001|BaseLayer
+    7403804: r_Lobe|Mesh_0014.rip|Take 001|BaseLayer
+    7403806: r_Lobe|Mesh_0015.rip|Take 001|BaseLayer
+    7403808: r_Lobe|Mesh_0016.rip|Take 001|BaseLayer
+    7403810: r_Lobe|Mesh_0017.rip|Take 001|BaseLayer
+    7403812: r_Lobe|Mesh_0018.rip|Take 001|BaseLayer
+    7403814: r_Lobe|Mesh_0019.rip|Take 001|BaseLayer
+    7403816: r_Lobe|Mesh_0020.rip|Take 001|BaseLayer
+    7403818: r_Lobe|Mesh_0021.rip|Take 001|BaseLayer
+    7403820: r_Lobe|Mesh_0022.rip|Take 001|BaseLayer
+    7403822: r_Lobe|Mesh_0023.rip|Take 001|BaseLayer
+    7403824: r_Lobe|Mesh_0024.rip|Take 001|BaseLayer
+    7403826: r_Lobe|Mesh_0025.rip|Take 001|BaseLayer
+    7403828: r_Lobe|Mesh_0026.rip|Take 001|BaseLayer
+    7403830: r_Lobe|Mesh_0027.rip|Take 001|BaseLayer
+    7403832: r_Lobe|Mesh_0028.rip|Take 001|BaseLayer
+    7403834: r_Lobe|Mesh_0029.rip|Take 001|BaseLayer
+    7403836: r_Lobe|Mesh_0030.rip|Take 001|BaseLayer
+    7403838: r_Lobe|Mesh_0031.rip|Take 001|BaseLayer
+    7403840: r_Lobe|Mesh_0032.rip|Take 001|BaseLayer
+    7403842: r_Lobe|Mesh_0033.rip|Take 001|BaseLayer
+    7403844: r_Lobe|Mesh_0034.rip|Take 001|BaseLayer
+    7403846: r_Lobe|Mesh_0035.rip|Take 001|BaseLayer
+    7403848: r_Lobe|Mesh_0036.rip|Take 001|BaseLayer
+    7403850: r_Lobe|Mesh_0037.rip|Take 001|BaseLayer
+    7403852: r_Lobe|Mesh_0038.rip|Take 001|BaseLayer
+    7403854: r_Lobe|Mesh_0039.rip|Take 001|BaseLayer
+    7403856: r_Lobe|Mesh_0040.rip|Take 001|BaseLayer
+    7403858: r_Lobe|Mesh_0041.rip|Take 001|BaseLayer
+    7403860: r_Lobe|Mesh_0042.rip|Take 001|BaseLayer
+    7403862: r_Lobe|Mesh_0043.rip|Take 001|BaseLayer
+    7403864: r_Lobe|Mesh_0044.rip|Take 001|BaseLayer
+    7403866: r_Lobe|Mesh_0045.rip|Take 001|BaseLayer
+    7403868: r_Lobe|Mesh_0046.rip|Take 001|BaseLayer
+    7403870: r_Lobe|Mesh_0047.rip|Take 001|BaseLayer
+    7403872: r_Lobe|Mesh_0048.rip|Take 001|BaseLayer
+    7403874: r_Lobe|Mesh_0049.rip|Take 001|BaseLayer
+    7403876: r_Lobe|Mesh_0050.rip|Take 001|BaseLayer
+    7403878: r_Lobe|Mesh_0051.rip|Take 001|BaseLayer
+    7403880: r_Lobe|Mesh_0052.rip|Take 001|BaseLayer
+    7403882: r_Lobe|Mesh_0053.rip|Take 001|BaseLayer
+    7403884: r_Lobe|Mesh_0054.rip|Take 001|BaseLayer
+    7403886: r_Lobe|Mesh_0055.rip|Take 001|BaseLayer
+    7403888: r_Lobe|Mesh_0056.rip|Take 001|BaseLayer
+    7403890: r_Lobe|Mesh_0057.rip|Take 001|BaseLayer
+    7403892: r_Lobe|Mesh_0058.rip|Take 001|BaseLayer
+    7403894: r_Lobe|Mesh_0059.rip|Take 001|BaseLayer
+    7403896: r_Lobe|Mesh_0060.rip|Take 001|BaseLayer
+    7403898: r_Lobe|Mesh_0061.rip|Take 001|BaseLayer
+    7403900: r_Lobe|Mesh_0062.rip|Take 001|BaseLayer
+    7403902: r_Lobe|Mesh_0063.rip|Take 001|BaseLayer
+    7403904: r_Lobe|Mesh_0064.rip|Take 001|BaseLayer
+    7403906: r_Lobe|Mesh_0065.rip|Take 001|BaseLayer
+    7403908: r_Lobe|Mesh_0066.rip|Take 001|BaseLayer
+    7403910: r_Lobe|Mesh_0067.rip|Take 001|BaseLayer
+    7403912: r_Lobe|Mesh_0068.rip|Take 001|BaseLayer
+    7403914: r_Lobe|Mesh_0069.rip|Take 001|BaseLayer
+    7403916: r_Lobe|Mesh_0070.rip|Take 001|BaseLayer
+    7403918: r_Lobe|Mesh_0071.rip|Take 001|BaseLayer
+    7403920: r_Lobe|Mesh_0072.rip|Take 001|BaseLayer
+    7403922: r_Lobe|Mesh_0073.rip|Take 001|BaseLayer
+    7403924: r_Lobe|Mesh_0074.rip|Take 001|BaseLayer
+    7403926: r_Lobe|Mesh_0075.rip|Take 001|BaseLayer
+    7403928: r_Lobe|Mesh_0076.rip|Take 001|BaseLayer
+    7403930: r_Lobe|Mesh_0077.rip|Take 001|BaseLayer
+    7403932: r_Lobe|Mesh_0078.rip|Take 001|BaseLayer
+    7403934: r_Lobe|Mesh_0079.rip|Take 001|BaseLayer
+    7403936: r_Lobe|Mesh_0080.rip|Take 001|BaseLayer
+    7403938: r_Lobe|Mesh_0081.rip|Take 001|BaseLayer
+    7403940: r_Lobe|Mesh_0082.rip|Take 001|BaseLayer
+    7403942: r_Lobe|Mesh_0083.rip|Take 001|BaseLayer
+    7403944: r_Lobe|Mesh_0084.rip|Take 001|BaseLayer
+    7403946: r_Lobe|Mesh_0085.rip|Take 001|BaseLayer
+    7403948: r_Lobe|Mesh_0086.rip|Take 001|BaseLayer
+    7403950: r_Lobe|Mesh_0087.rip|Take 001|BaseLayer
+    7403952: r_Lobe|Mesh_0088.rip|Take 001|BaseLayer
+    7403954: r_Lobe|Mesh_0089.rip|Take 001|BaseLayer
+    7403956: r_Lobe|Mesh_0090.rip|Take 001|BaseLayer
+    7403958: r_Lobe|Mesh_0091.rip|Take 001|BaseLayer
+    7403960: r_Lobe|Mesh_0092.rip|Take 001|BaseLayer
+    7403962: r_Lobe|Mesh_0093.rip|Take 001|BaseLayer
+    7403964: r_Lobe|Mesh_0094.rip|Take 001|BaseLayer
+    7403966: r_Lobe|Mesh_0095.rip|Take 001|BaseLayer
+    7403968: r_Lobe|Mesh_0096.rip|Take 001|BaseLayer
+    7403970: r_Lobe|Mesh_0097.rip|Take 001|BaseLayer
+    7403972: r_Lobe|Mesh_0098.rip|Take 001|BaseLayer
+    7403974: r_Lobe|Mesh_0099.rip|Take 001|BaseLayer
+    7403976: r_Lobe|Mesh_0100.rip|Take 001|BaseLayer
+    7403978: r_Lobe|Mesh_0101.rip|Take 001|BaseLayer
+    7403980: r_Lobe|Mesh_0102.rip|Take 001|BaseLayer
+    7403982: r_Lobe|Mesh_0103.rip|Take 001|BaseLayer
+    7403984: r_Lobe|Mesh_0104.rip|Take 001|BaseLayer
+    7403986: r_Lobe|Mesh_0105.rip|Take 001|BaseLayer
+    7403988: r_Lobe|Mesh_0106.rip|Take 001|BaseLayer
+    7403990: r_Lobe|Mesh_0107.rip|Take 001|BaseLayer
+    7403992: r_Lobe|Mesh_0108.rip|Take 001|BaseLayer
+    7403994: r_Lobe|Mesh_0109.rip|Take 001|BaseLayer
+    7403996: r_Lobe|Mesh_0110.rip|Take 001|BaseLayer
+    7403998: r_Lobe|Mesh_0111.rip|Take 001|BaseLayer
+    7404000: r_Lobe|Mesh_0112.rip|Take 001|BaseLayer
+    7404002: r_Lobe|Mesh_0113.rip|Take 001|BaseLayer
+    7404004: r_Lobe|Mesh_0114.rip|Take 001|BaseLayer
+    7404006: r_Lobe|Mesh_0115.rip|Take 001|BaseLayer
+    7404008: r_Lobe|Mesh_0116.rip|Take 001|BaseLayer
+    7404010: r_Lobe|Mesh_0117.rip|Take 001|BaseLayer
+    7404012: tranverse_colon|Mesh_0000.rip|Take 001|BaseLayer
+    7404014: tranverse_colon|Mesh_0001.rip|Take 001|BaseLayer
+    7404016: tranverse_colon|Mesh_0002.rip|Take 001|BaseLayer
+    7404018: tranverse_colon|Mesh_0003.rip|Take 001|BaseLayer
+    7404020: tranverse_colon|Mesh_0004.rip|Take 001|BaseLayer
+    7404022: tranverse_colon|Mesh_0005.rip|Take 001|BaseLayer
+    7404024: tranverse_colon|Mesh_0006.rip|Take 001|BaseLayer
+    7404026: tranverse_colon|Mesh_0007.rip|Take 001|BaseLayer
+    7404028: tranverse_colon|Mesh_0008.rip|Take 001|BaseLayer
+    7404030: tranverse_colon|Mesh_0009.rip|Take 001|BaseLayer
+    7404032: tranverse_colon|Mesh_0010.rip|Take 001|BaseLayer
+    7404034: tranverse_colon|Mesh_0011.rip|Take 001|BaseLayer
+    7404036: tranverse_colon|Mesh_0012.rip|Take 001|BaseLayer
+    7404038: tranverse_colon|Mesh_0013.rip|Take 001|BaseLayer
+    7404040: tranverse_colon|Mesh_0014.rip|Take 001|BaseLayer
+    7404042: tranverse_colon|Mesh_0015.rip|Take 001|BaseLayer
+    7404044: tranverse_colon|Mesh_0016.rip|Take 001|BaseLayer
+    7404046: tranverse_colon|Mesh_0017.rip|Take 001|BaseLayer
+    7404048: tranverse_colon|Mesh_0018.rip|Take 001|BaseLayer
+    7404050: tranverse_colon|Mesh_0019.rip|Take 001|BaseLayer
+    7404052: tranverse_colon|Mesh_0020.rip|Take 001|BaseLayer
+    7404054: tranverse_colon|Mesh_0021.rip|Take 001|BaseLayer
+    7404056: tranverse_colon|Mesh_0022.rip|Take 001|BaseLayer
+    7404058: tranverse_colon|Mesh_0023.rip|Take 001|BaseLayer
+    7404060: tranverse_colon|Mesh_0024.rip|Take 001|BaseLayer
+    7404062: tranverse_colon|Mesh_0025.rip|Take 001|BaseLayer
+    7404064: tranverse_colon|Mesh_0026.rip|Take 001|BaseLayer
+    7404066: tranverse_colon|Mesh_0027.rip|Take 001|BaseLayer
+    7404068: tranverse_colon|Mesh_0028.rip|Take 001|BaseLayer
+    7404070: tranverse_colon|Mesh_0029.rip|Take 001|BaseLayer
+    7404072: tranverse_colon|Mesh_0030.rip|Take 001|BaseLayer
+    7404074: tranverse_colon|Mesh_0031.rip|Take 001|BaseLayer
+    7404076: tranverse_colon|Mesh_0032.rip|Take 001|BaseLayer
+    7404078: tranverse_colon|Mesh_0033.rip|Take 001|BaseLayer
+    7404080: tranverse_colon|Mesh_0034.rip|Take 001|BaseLayer
+    7404082: tranverse_colon|Mesh_0035.rip|Take 001|BaseLayer
+    7404084: tranverse_colon|Mesh_0036.rip|Take 001|BaseLayer
+    7404086: tranverse_colon|Mesh_0037.rip|Take 001|BaseLayer
+    7404088: tranverse_colon|Mesh_0038.rip|Take 001|BaseLayer
+    7404090: tranverse_colon|Mesh_0039.rip|Take 001|BaseLayer
+    7404092: tranverse_colon|Mesh_0040.rip|Take 001|BaseLayer
+    7404094: tranverse_colon|Mesh_0041.rip|Take 001|BaseLayer
+    7404096: tranverse_colon|Mesh_0042.rip|Take 001|BaseLayer
+    7404098: tranverse_colon|Mesh_0043.rip|Take 001|BaseLayer
+    7404100: tranverse_colon|Mesh_0044.rip|Take 001|BaseLayer
+    7404102: tranverse_colon|Mesh_0045.rip|Take 001|BaseLayer
+    7404104: tranverse_colon|Mesh_0046.rip|Take 001|BaseLayer
+    7404106: tranverse_colon|Mesh_0047.rip|Take 001|BaseLayer
+    7404108: tranverse_colon|Mesh_0048.rip|Take 001|BaseLayer
+    7404110: tranverse_colon|Mesh_0049.rip|Take 001|BaseLayer
+    7404112: tranverse_colon|Mesh_0050.rip|Take 001|BaseLayer
+    7404114: tranverse_colon|Mesh_0051.rip|Take 001|BaseLayer
+    7404116: tranverse_colon|Mesh_0052.rip|Take 001|BaseLayer
+    7404118: tranverse_colon|Mesh_0053.rip|Take 001|BaseLayer
+    7404120: tranverse_colon|Mesh_0054.rip|Take 001|BaseLayer
+    7404122: tranverse_colon|Mesh_0055.rip|Take 001|BaseLayer
+    7404124: tranverse_colon|Mesh_0056.rip|Take 001|BaseLayer
+    7404126: tranverse_colon|Mesh_0057.rip|Take 001|BaseLayer
+    7404128: tranverse_colon|Mesh_0058.rip|Take 001|BaseLayer
+    7404130: tranverse_colon|Mesh_0059.rip|Take 001|BaseLayer
+    7404132: tranverse_colon|Mesh_0060.rip|Take 001|BaseLayer
+    7404134: tranverse_colon|Mesh_0061.rip|Take 001|BaseLayer
+    7404136: tranverse_colon|Mesh_0062.rip|Take 001|BaseLayer
+    7404138: tranverse_colon|Mesh_0063.rip|Take 001|BaseLayer
+    7404140: tranverse_colon|Mesh_0064.rip|Take 001|BaseLayer
+    7404142: tranverse_colon|Mesh_0065.rip|Take 001|BaseLayer
+    7404144: tranverse_colon|Mesh_0066.rip|Take 001|BaseLayer
+    7404146: tranverse_colon|Mesh_0067.rip|Take 001|BaseLayer
+    7404148: tranverse_colon|Mesh_0068.rip|Take 001|BaseLayer
+    7404150: tranverse_colon|Mesh_0069.rip|Take 001|BaseLayer
+    7404152: tranverse_colon|Mesh_0070.rip|Take 001|BaseLayer
+    7404154: tranverse_colon|Mesh_0071.rip|Take 001|BaseLayer
+    7404156: tranverse_colon|Mesh_0072.rip|Take 001|BaseLayer
+    7404158: tranverse_colon|Mesh_0073.rip|Take 001|BaseLayer
+    7404160: tranverse_colon|Mesh_0074.rip|Take 001|BaseLayer
+    7404162: tranverse_colon|Mesh_0075.rip|Take 001|BaseLayer
+    7404164: tranverse_colon|Mesh_0076.rip|Take 001|BaseLayer
+    7404166: tranverse_colon|Mesh_0077.rip|Take 001|BaseLayer
+    7404168: tranverse_colon|Mesh_0078.rip|Take 001|BaseLayer
+    7404170: tranverse_colon|Mesh_0079.rip|Take 001|BaseLayer
+    7404172: tranverse_colon|Mesh_0080.rip|Take 001|BaseLayer
+    7404174: tranverse_colon|Mesh_0081.rip|Take 001|BaseLayer
+    7404176: tranverse_colon|Mesh_0082.rip|Take 001|BaseLayer
+    7404178: tranverse_colon|Mesh_0083.rip|Take 001|BaseLayer
+    7404180: tranverse_colon|Mesh_0084.rip|Take 001|BaseLayer
+    7404182: tranverse_colon|Mesh_0085.rip|Take 001|BaseLayer
+    7404184: tranverse_colon|Mesh_0086.rip|Take 001|BaseLayer
+    7404186: tranverse_colon|Mesh_0087.rip|Take 001|BaseLayer
+    7404188: tranverse_colon|Mesh_0088.rip|Take 001|BaseLayer
+    7404190: tranverse_colon|Mesh_0089.rip|Take 001|BaseLayer
+    7404192: tranverse_colon|Mesh_0090.rip|Take 001|BaseLayer
+    7404194: tranverse_colon|Mesh_0091.rip|Take 001|BaseLayer
+    7404196: tranverse_colon|Mesh_0092.rip|Take 001|BaseLayer
+    7404198: tranverse_colon|Mesh_0093.rip|Take 001|BaseLayer
+    7404200: tranverse_colon|Mesh_0094.rip|Take 001|BaseLayer
+    7404202: tranverse_colon|Mesh_0095.rip|Take 001|BaseLayer
+    7404204: tranverse_colon|Mesh_0096.rip|Take 001|BaseLayer
+    7404206: tranverse_colon|Mesh_0097.rip|Take 001|BaseLayer
+    7404208: tranverse_colon|Mesh_0098.rip|Take 001|BaseLayer
+    7404210: tranverse_colon|Mesh_0099.rip|Take 001|BaseLayer
+    7404212: tranverse_colon|Mesh_0100.rip|Take 001|BaseLayer
+    7404214: tranverse_colon|Mesh_0101.rip|Take 001|BaseLayer
+    7404216: tranverse_colon|Mesh_0102.rip|Take 001|BaseLayer
+    7404218: tranverse_colon|Mesh_0103.rip|Take 001|BaseLayer
+    7404220: tranverse_colon|Mesh_0104.rip|Take 001|BaseLayer
+    7404222: tranverse_colon|Mesh_0105.rip|Take 001|BaseLayer
+    7404224: tranverse_colon|Mesh_0106.rip|Take 001|BaseLayer
+    7404226: tranverse_colon|Mesh_0107.rip|Take 001|BaseLayer
+    7404228: tranverse_colon|Mesh_0108.rip|Take 001|BaseLayer
+    7404230: tranverse_colon|Mesh_0109.rip|Take 001|BaseLayer
+    7404232: tranverse_colon|Mesh_0110.rip|Take 001|BaseLayer
+    7404234: tranverse_colon|Mesh_0111.rip|Take 001|BaseLayer
+    7404236: tranverse_colon|Mesh_0112.rip|Take 001|BaseLayer
+    7404238: tranverse_colon|Mesh_0113.rip|Take 001|BaseLayer
+    7404240: tranverse_colon|Mesh_0114.rip|Take 001|BaseLayer
+    7404242: tranverse_colon|Mesh_0115.rip|Take 001|BaseLayer
+    7404244: tranverse_colon|Mesh_0116.rip|Take 001|BaseLayer
+    7404246: tranverse_colon|Mesh_0117.rip|Take 001|BaseLayer
+    7404248: descending_colon|Mesh_0000.rip|Take 001|BaseLayer
+    7404250: descending_colon|Mesh_0001.rip|Take 001|BaseLayer
+    7404252: descending_colon|Mesh_0002.rip|Take 001|BaseLayer
+    7404254: descending_colon|Mesh_0003.rip|Take 001|BaseLayer
+    7404256: descending_colon|Mesh_0004.rip|Take 001|BaseLayer
+    7404258: descending_colon|Mesh_0005.rip|Take 001|BaseLayer
+    7404260: descending_colon|Mesh_0006.rip|Take 001|BaseLayer
+    7404262: descending_colon|Mesh_0007.rip|Take 001|BaseLayer
+    7404264: descending_colon|Mesh_0008.rip|Take 001|BaseLayer
+    7404266: descending_colon|Mesh_0009.rip|Take 001|BaseLayer
+    7404268: descending_colon|Mesh_0010.rip|Take 001|BaseLayer
+    7404270: descending_colon|Mesh_0011.rip|Take 001|BaseLayer
+    7404272: descending_colon|Mesh_0012.rip|Take 001|BaseLayer
+    7404274: descending_colon|Mesh_0013.rip|Take 001|BaseLayer
+    7404276: descending_colon|Mesh_0014.rip|Take 001|BaseLayer
+    7404278: descending_colon|Mesh_0015.rip|Take 001|BaseLayer
+    7404280: descending_colon|Mesh_0016.rip|Take 001|BaseLayer
+    7404282: descending_colon|Mesh_0017.rip|Take 001|BaseLayer
+    7404284: descending_colon|Mesh_0018.rip|Take 001|BaseLayer
+    7404286: descending_colon|Mesh_0019.rip|Take 001|BaseLayer
+    7404288: descending_colon|Mesh_0020.rip|Take 001|BaseLayer
+    7404290: descending_colon|Mesh_0021.rip|Take 001|BaseLayer
+    7404292: descending_colon|Mesh_0022.rip|Take 001|BaseLayer
+    7404294: descending_colon|Mesh_0023.rip|Take 001|BaseLayer
+    7404296: descending_colon|Mesh_0024.rip|Take 001|BaseLayer
+    7404298: descending_colon|Mesh_0025.rip|Take 001|BaseLayer
+    7404300: descending_colon|Mesh_0026.rip|Take 001|BaseLayer
+    7404302: descending_colon|Mesh_0027.rip|Take 001|BaseLayer
+    7404304: descending_colon|Mesh_0028.rip|Take 001|BaseLayer
+    7404306: descending_colon|Mesh_0029.rip|Take 001|BaseLayer
+    7404308: descending_colon|Mesh_0030.rip|Take 001|BaseLayer
+    7404310: descending_colon|Mesh_0031.rip|Take 001|BaseLayer
+    7404312: descending_colon|Mesh_0032.rip|Take 001|BaseLayer
+    7404314: descending_colon|Mesh_0033.rip|Take 001|BaseLayer
+    7404316: descending_colon|Mesh_0034.rip|Take 001|BaseLayer
+    7404318: descending_colon|Mesh_0035.rip|Take 001|BaseLayer
+    7404320: descending_colon|Mesh_0036.rip|Take 001|BaseLayer
+    7404322: descending_colon|Mesh_0037.rip|Take 001|BaseLayer
+    7404324: descending_colon|Mesh_0038.rip|Take 001|BaseLayer
+    7404326: descending_colon|Mesh_0039.rip|Take 001|BaseLayer
+    7404328: descending_colon|Mesh_0040.rip|Take 001|BaseLayer
+    7404330: descending_colon|Mesh_0041.rip|Take 001|BaseLayer
+    7404332: descending_colon|Mesh_0042.rip|Take 001|BaseLayer
+    7404334: descending_colon|Mesh_0043.rip|Take 001|BaseLayer
+    7404336: descending_colon|Mesh_0044.rip|Take 001|BaseLayer
+    7404338: descending_colon|Mesh_0045.rip|Take 001|BaseLayer
+    7404340: descending_colon|Mesh_0046.rip|Take 001|BaseLayer
+    7404342: descending_colon|Mesh_0047.rip|Take 001|BaseLayer
+    7404344: descending_colon|Mesh_0048.rip|Take 001|BaseLayer
+    7404346: descending_colon|Mesh_0049.rip|Take 001|BaseLayer
+    7404348: descending_colon|Mesh_0050.rip|Take 001|BaseLayer
+    7404350: descending_colon|Mesh_0051.rip|Take 001|BaseLayer
+    7404352: descending_colon|Mesh_0052.rip|Take 001|BaseLayer
+    7404354: descending_colon|Mesh_0053.rip|Take 001|BaseLayer
+    7404356: descending_colon|Mesh_0054.rip|Take 001|BaseLayer
+    7404358: descending_colon|Mesh_0055.rip|Take 001|BaseLayer
+    7404360: descending_colon|Mesh_0056.rip|Take 001|BaseLayer
+    7404362: descending_colon|Mesh_0057.rip|Take 001|BaseLayer
+    7404364: descending_colon|Mesh_0058.rip|Take 001|BaseLayer
+    7404366: descending_colon|Mesh_0059.rip|Take 001|BaseLayer
+    7404368: descending_colon|Mesh_0060.rip|Take 001|BaseLayer
+    7404370: descending_colon|Mesh_0061.rip|Take 001|BaseLayer
+    7404372: descending_colon|Mesh_0062.rip|Take 001|BaseLayer
+    7404374: descending_colon|Mesh_0063.rip|Take 001|BaseLayer
+    7404376: descending_colon|Mesh_0064.rip|Take 001|BaseLayer
+    7404378: descending_colon|Mesh_0065.rip|Take 001|BaseLayer
+    7404380: descending_colon|Mesh_0066.rip|Take 001|BaseLayer
+    7404382: descending_colon|Mesh_0067.rip|Take 001|BaseLayer
+    7404384: descending_colon|Mesh_0068.rip|Take 001|BaseLayer
+    7404386: descending_colon|Mesh_0069.rip|Take 001|BaseLayer
+    7404388: descending_colon|Mesh_0070.rip|Take 001|BaseLayer
+    7404390: descending_colon|Mesh_0071.rip|Take 001|BaseLayer
+    7404392: descending_colon|Mesh_0072.rip|Take 001|BaseLayer
+    7404394: descending_colon|Mesh_0073.rip|Take 001|BaseLayer
+    7404396: descending_colon|Mesh_0074.rip|Take 001|BaseLayer
+    7404398: descending_colon|Mesh_0075.rip|Take 001|BaseLayer
+    7404400: descending_colon|Mesh_0076.rip|Take 001|BaseLayer
+    7404402: descending_colon|Mesh_0077.rip|Take 001|BaseLayer
+    7404404: descending_colon|Mesh_0078.rip|Take 001|BaseLayer
+    7404406: descending_colon|Mesh_0079.rip|Take 001|BaseLayer
+    7404408: descending_colon|Mesh_0080.rip|Take 001|BaseLayer
+    7404410: descending_colon|Mesh_0081.rip|Take 001|BaseLayer
+    7404412: descending_colon|Mesh_0082.rip|Take 001|BaseLayer
+    7404414: descending_colon|Mesh_0083.rip|Take 001|BaseLayer
+    7404416: descending_colon|Mesh_0084.rip|Take 001|BaseLayer
+    7404418: descending_colon|Mesh_0085.rip|Take 001|BaseLayer
+    7404420: descending_colon|Mesh_0086.rip|Take 001|BaseLayer
+    7404422: descending_colon|Mesh_0087.rip|Take 001|BaseLayer
+    7404424: descending_colon|Mesh_0088.rip|Take 001|BaseLayer
+    7404426: descending_colon|Mesh_0089.rip|Take 001|BaseLayer
+    7404428: descending_colon|Mesh_0090.rip|Take 001|BaseLayer
+    7404430: descending_colon|Mesh_0091.rip|Take 001|BaseLayer
+    7404432: descending_colon|Mesh_0092.rip|Take 001|BaseLayer
+    7404434: descending_colon|Mesh_0093.rip|Take 001|BaseLayer
+    7404436: descending_colon|Mesh_0094.rip|Take 001|BaseLayer
+    7404438: descending_colon|Mesh_0095.rip|Take 001|BaseLayer
+    7404440: descending_colon|Mesh_0096.rip|Take 001|BaseLayer
+    7404442: descending_colon|Mesh_0097.rip|Take 001|BaseLayer
+    7404444: descending_colon|Mesh_0098.rip|Take 001|BaseLayer
+    7404446: descending_colon|Mesh_0099.rip|Take 001|BaseLayer
+    7404448: descending_colon|Mesh_0100.rip|Take 001|BaseLayer
+    7404450: descending_colon|Mesh_0101.rip|Take 001|BaseLayer
+    7404452: descending_colon|Mesh_0102.rip|Take 001|BaseLayer
+    7404454: descending_colon|Mesh_0103.rip|Take 001|BaseLayer
+    7404456: descending_colon|Mesh_0104.rip|Take 001|BaseLayer
+    7404458: descending_colon|Mesh_0105.rip|Take 001|BaseLayer
+    7404460: descending_colon|Mesh_0106.rip|Take 001|BaseLayer
+    7404462: descending_colon|Mesh_0107.rip|Take 001|BaseLayer
+    7404464: descending_colon|Mesh_0108.rip|Take 001|BaseLayer
+    7404466: descending_colon|Mesh_0109.rip|Take 001|BaseLayer
+    7404468: descending_colon|Mesh_0110.rip|Take 001|BaseLayer
+    7404470: descending_colon|Mesh_0111.rip|Take 001|BaseLayer
+    7404472: descending_colon|Mesh_0112.rip|Take 001|BaseLayer
+    7404474: descending_colon|Mesh_0113.rip|Take 001|BaseLayer
+    7404476: descending_colon|Mesh_0114.rip|Take 001|BaseLayer
+    7404478: descending_colon|Mesh_0115.rip|Take 001|BaseLayer
+    7404480: descending_colon|Mesh_0116.rip|Take 001|BaseLayer
+    7404482: descending_colon|Mesh_0117.rip|Take 001|BaseLayer
+    7404484: jejunum|Mesh_0000.rip|Take 001|BaseLayer
+    7404486: jejunum|Mesh_0001.rip|Take 001|BaseLayer
+    7404488: jejunum|Mesh_0002.rip|Take 001|BaseLayer
+    7404490: jejunum|Mesh_0003.rip|Take 001|BaseLayer
+    7404492: jejunum|Mesh_0004.rip|Take 001|BaseLayer
+    7404494: jejunum|Mesh_0005.rip|Take 001|BaseLayer
+    7404496: jejunum|Mesh_0006.rip|Take 001|BaseLayer
+    7404498: jejunum|Mesh_0007.rip|Take 001|BaseLayer
+    7404500: jejunum|Mesh_0008.rip|Take 001|BaseLayer
+    7404502: jejunum|Mesh_0009.rip|Take 001|BaseLayer
+    7404504: jejunum|Mesh_0010.rip|Take 001|BaseLayer
+    7404506: jejunum|Mesh_0011.rip|Take 001|BaseLayer
+    7404508: jejunum|Mesh_0012.rip|Take 001|BaseLayer
+    7404510: jejunum|Mesh_0013.rip|Take 001|BaseLayer
+    7404512: jejunum|Mesh_0014.rip|Take 001|BaseLayer
+    7404514: jejunum|Mesh_0015.rip|Take 001|BaseLayer
+    7404516: jejunum|Mesh_0016.rip|Take 001|BaseLayer
+    7404518: jejunum|Mesh_0017.rip|Take 001|BaseLayer
+    7404520: jejunum|Mesh_0018.rip|Take 001|BaseLayer
+    7404522: jejunum|Mesh_0019.rip|Take 001|BaseLayer
+    7404524: jejunum|Mesh_0020.rip|Take 001|BaseLayer
+    7404526: jejunum|Mesh_0021.rip|Take 001|BaseLayer
+    7404528: jejunum|Mesh_0022.rip|Take 001|BaseLayer
+    7404530: jejunum|Mesh_0023.rip|Take 001|BaseLayer
+    7404532: jejunum|Mesh_0024.rip|Take 001|BaseLayer
+    7404534: jejunum|Mesh_0025.rip|Take 001|BaseLayer
+    7404536: jejunum|Mesh_0026.rip|Take 001|BaseLayer
+    7404538: jejunum|Mesh_0027.rip|Take 001|BaseLayer
+    7404540: jejunum|Mesh_0028.rip|Take 001|BaseLayer
+    7404542: jejunum|Mesh_0029.rip|Take 001|BaseLayer
+    7404544: jejunum|Mesh_0030.rip|Take 001|BaseLayer
+    7404546: jejunum|Mesh_0031.rip|Take 001|BaseLayer
+    7404548: jejunum|Mesh_0032.rip|Take 001|BaseLayer
+    7404550: jejunum|Mesh_0033.rip|Take 001|BaseLayer
+    7404552: jejunum|Mesh_0034.rip|Take 001|BaseLayer
+    7404554: jejunum|Mesh_0035.rip|Take 001|BaseLayer
+    7404556: jejunum|Mesh_0036.rip|Take 001|BaseLayer
+    7404558: jejunum|Mesh_0037.rip|Take 001|BaseLayer
+    7404560: jejunum|Mesh_0038.rip|Take 001|BaseLayer
+    7404562: jejunum|Mesh_0039.rip|Take 001|BaseLayer
+    7404564: jejunum|Mesh_0040.rip|Take 001|BaseLayer
+    7404566: jejunum|Mesh_0041.rip|Take 001|BaseLayer
+    7404568: jejunum|Mesh_0042.rip|Take 001|BaseLayer
+    7404570: jejunum|Mesh_0043.rip|Take 001|BaseLayer
+    7404572: jejunum|Mesh_0044.rip|Take 001|BaseLayer
+    7404574: jejunum|Mesh_0045.rip|Take 001|BaseLayer
+    7404576: jejunum|Mesh_0046.rip|Take 001|BaseLayer
+    7404578: jejunum|Mesh_0047.rip|Take 001|BaseLayer
+    7404580: jejunum|Mesh_0048.rip|Take 001|BaseLayer
+    7404582: jejunum|Mesh_0049.rip|Take 001|BaseLayer
+    7404584: jejunum|Mesh_0050.rip|Take 001|BaseLayer
+    7404586: jejunum|Mesh_0051.rip|Take 001|BaseLayer
+    7404588: jejunum|Mesh_0052.rip|Take 001|BaseLayer
+    7404590: jejunum|Mesh_0053.rip|Take 001|BaseLayer
+    7404592: jejunum|Mesh_0054.rip|Take 001|BaseLayer
+    7404594: jejunum|Mesh_0055.rip|Take 001|BaseLayer
+    7404596: jejunum|Mesh_0056.rip|Take 001|BaseLayer
+    7404598: jejunum|Mesh_0057.rip|Take 001|BaseLayer
+    7404600: jejunum|Mesh_0058.rip|Take 001|BaseLayer
+    7404602: jejunum|Mesh_0059.rip|Take 001|BaseLayer
+    7404604: jejunum|Mesh_0060.rip|Take 001|BaseLayer
+    7404606: jejunum|Mesh_0061.rip|Take 001|BaseLayer
+    7404608: jejunum|Mesh_0062.rip|Take 001|BaseLayer
+    7404610: jejunum|Mesh_0063.rip|Take 001|BaseLayer
+    7404612: jejunum|Mesh_0064.rip|Take 001|BaseLayer
+    7404614: jejunum|Mesh_0065.rip|Take 001|BaseLayer
+    7404616: jejunum|Mesh_0066.rip|Take 001|BaseLayer
+    7404618: jejunum|Mesh_0067.rip|Take 001|BaseLayer
+    7404620: jejunum|Mesh_0068.rip|Take 001|BaseLayer
+    7404622: jejunum|Mesh_0069.rip|Take 001|BaseLayer
+    7404624: jejunum|Mesh_0070.rip|Take 001|BaseLayer
+    7404626: jejunum|Mesh_0071.rip|Take 001|BaseLayer
+    7404628: jejunum|Mesh_0072.rip|Take 001|BaseLayer
+    7404630: jejunum|Mesh_0073.rip|Take 001|BaseLayer
+    7404632: jejunum|Mesh_0074.rip|Take 001|BaseLayer
+    7404634: jejunum|Mesh_0075.rip|Take 001|BaseLayer
+    7404636: jejunum|Mesh_0076.rip|Take 001|BaseLayer
+    7404638: jejunum|Mesh_0077.rip|Take 001|BaseLayer
+    7404640: jejunum|Mesh_0078.rip|Take 001|BaseLayer
+    7404642: jejunum|Mesh_0079.rip|Take 001|BaseLayer
+    7404644: jejunum|Mesh_0080.rip|Take 001|BaseLayer
+    7404646: jejunum|Mesh_0081.rip|Take 001|BaseLayer
+    7404648: jejunum|Mesh_0082.rip|Take 001|BaseLayer
+    7404650: jejunum|Mesh_0083.rip|Take 001|BaseLayer
+    7404652: jejunum|Mesh_0084.rip|Take 001|BaseLayer
+    7404654: jejunum|Mesh_0085.rip|Take 001|BaseLayer
+    7404656: jejunum|Mesh_0086.rip|Take 001|BaseLayer
+    7404658: jejunum|Mesh_0087.rip|Take 001|BaseLayer
+    7404660: jejunum|Mesh_0088.rip|Take 001|BaseLayer
+    7404662: jejunum|Mesh_0089.rip|Take 001|BaseLayer
+    7404664: jejunum|Mesh_0090.rip|Take 001|BaseLayer
+    7404666: jejunum|Mesh_0091.rip|Take 001|BaseLayer
+    7404668: jejunum|Mesh_0092.rip|Take 001|BaseLayer
+    7404670: jejunum|Mesh_0093.rip|Take 001|BaseLayer
+    7404672: jejunum|Mesh_0094.rip|Take 001|BaseLayer
+    7404674: jejunum|Mesh_0095.rip|Take 001|BaseLayer
+    7404676: jejunum|Mesh_0096.rip|Take 001|BaseLayer
+    7404678: jejunum|Mesh_0097.rip|Take 001|BaseLayer
+    7404680: jejunum|Mesh_0098.rip|Take 001|BaseLayer
+    7404682: jejunum|Mesh_0099.rip|Take 001|BaseLayer
+    7404684: jejunum|Mesh_0100.rip|Take 001|BaseLayer
+    7404686: jejunum|Mesh_0101.rip|Take 001|BaseLayer
+    7404688: jejunum|Mesh_0102.rip|Take 001|BaseLayer
+    7404690: jejunum|Mesh_0103.rip|Take 001|BaseLayer
+    7404692: jejunum|Mesh_0104.rip|Take 001|BaseLayer
+    7404694: jejunum|Mesh_0105.rip|Take 001|BaseLayer
+    7404696: jejunum|Mesh_0106.rip|Take 001|BaseLayer
+    7404698: jejunum|Mesh_0107.rip|Take 001|BaseLayer
+    7404700: jejunum|Mesh_0108.rip|Take 001|BaseLayer
+    7404702: jejunum|Mesh_0109.rip|Take 001|BaseLayer
+    7404704: jejunum|Mesh_0110.rip|Take 001|BaseLayer
+    7404706: jejunum|Mesh_0111.rip|Take 001|BaseLayer
+    7404708: jejunum|Mesh_0112.rip|Take 001|BaseLayer
+    7404710: jejunum|Mesh_0113.rip|Take 001|BaseLayer
+    7404712: jejunum|Mesh_0114.rip|Take 001|BaseLayer
+    7404714: jejunum|Mesh_0115.rip|Take 001|BaseLayer
+    7404716: jejunum|Mesh_0116.rip|Take 001|BaseLayer
+    7404718: jejunum|Mesh_0117.rip|Take 001|BaseLayer
+    7404720: lleum|Mesh_0000.rip|Take 001|BaseLayer
+    7404722: lleum|Mesh_0001.rip|Take 001|BaseLayer
+    7404724: lleum|Mesh_0002.rip|Take 001|BaseLayer
+    7404726: lleum|Mesh_0003.rip|Take 001|BaseLayer
+    7404728: lleum|Mesh_0004.rip|Take 001|BaseLayer
+    7404730: lleum|Mesh_0005.rip|Take 001|BaseLayer
+    7404732: lleum|Mesh_0006.rip|Take 001|BaseLayer
+    7404734: lleum|Mesh_0007.rip|Take 001|BaseLayer
+    7404736: lleum|Mesh_0008.rip|Take 001|BaseLayer
+    7404738: lleum|Mesh_0009.rip|Take 001|BaseLayer
+    7404740: lleum|Mesh_0010.rip|Take 001|BaseLayer
+    7404742: lleum|Mesh_0011.rip|Take 001|BaseLayer
+    7404744: lleum|Mesh_0012.rip|Take 001|BaseLayer
+    7404746: lleum|Mesh_0013.rip|Take 001|BaseLayer
+    7404748: lleum|Mesh_0014.rip|Take 001|BaseLayer
+    7404750: lleum|Mesh_0015.rip|Take 001|BaseLayer
+    7404752: lleum|Mesh_0016.rip|Take 001|BaseLayer
+    7404754: lleum|Mesh_0017.rip|Take 001|BaseLayer
+    7404756: lleum|Mesh_0018.rip|Take 001|BaseLayer
+    7404758: lleum|Mesh_0019.rip|Take 001|BaseLayer
+    7404760: lleum|Mesh_0020.rip|Take 001|BaseLayer
+    7404762: lleum|Mesh_0021.rip|Take 001|BaseLayer
+    7404764: lleum|Mesh_0022.rip|Take 001|BaseLayer
+    7404766: lleum|Mesh_0023.rip|Take 001|BaseLayer
+    7404768: lleum|Mesh_0024.rip|Take 001|BaseLayer
+    7404770: lleum|Mesh_0025.rip|Take 001|BaseLayer
+    7404772: lleum|Mesh_0026.rip|Take 001|BaseLayer
+    7404774: lleum|Mesh_0027.rip|Take 001|BaseLayer
+    7404776: lleum|Mesh_0028.rip|Take 001|BaseLayer
+    7404778: lleum|Mesh_0029.rip|Take 001|BaseLayer
+    7404780: lleum|Mesh_0030.rip|Take 001|BaseLayer
+    7404782: lleum|Mesh_0031.rip|Take 001|BaseLayer
+    7404784: lleum|Mesh_0032.rip|Take 001|BaseLayer
+    7404786: lleum|Mesh_0033.rip|Take 001|BaseLayer
+    7404788: lleum|Mesh_0034.rip|Take 001|BaseLayer
+    7404790: lleum|Mesh_0035.rip|Take 001|BaseLayer
+    7404792: lleum|Mesh_0036.rip|Take 001|BaseLayer
+    7404794: lleum|Mesh_0037.rip|Take 001|BaseLayer
+    7404796: lleum|Mesh_0038.rip|Take 001|BaseLayer
+    7404798: lleum|Mesh_0039.rip|Take 001|BaseLayer
+    7404800: lleum|Mesh_0040.rip|Take 001|BaseLayer
+    7404802: lleum|Mesh_0041.rip|Take 001|BaseLayer
+    7404804: lleum|Mesh_0042.rip|Take 001|BaseLayer
+    7404806: lleum|Mesh_0043.rip|Take 001|BaseLayer
+    7404808: lleum|Mesh_0044.rip|Take 001|BaseLayer
+    7404810: lleum|Mesh_0045.rip|Take 001|BaseLayer
+    7404812: lleum|Mesh_0046.rip|Take 001|BaseLayer
+    7404814: lleum|Mesh_0047.rip|Take 001|BaseLayer
+    7404816: lleum|Mesh_0048.rip|Take 001|BaseLayer
+    7404818: lleum|Mesh_0049.rip|Take 001|BaseLayer
+    7404820: lleum|Mesh_0050.rip|Take 001|BaseLayer
+    7404822: lleum|Mesh_0051.rip|Take 001|BaseLayer
+    7404824: lleum|Mesh_0052.rip|Take 001|BaseLayer
+    7404826: lleum|Mesh_0053.rip|Take 001|BaseLayer
+    7404828: lleum|Mesh_0054.rip|Take 001|BaseLayer
+    7404830: lleum|Mesh_0055.rip|Take 001|BaseLayer
+    7404832: lleum|Mesh_0056.rip|Take 001|BaseLayer
+    7404834: lleum|Mesh_0057.rip|Take 001|BaseLayer
+    7404836: lleum|Mesh_0058.rip|Take 001|BaseLayer
+    7404838: lleum|Mesh_0059.rip|Take 001|BaseLayer
+    7404840: lleum|Mesh_0060.rip|Take 001|BaseLayer
+    7404842: lleum|Mesh_0061.rip|Take 001|BaseLayer
+    7404844: lleum|Mesh_0062.rip|Take 001|BaseLayer
+    7404846: lleum|Mesh_0063.rip|Take 001|BaseLayer
+    7404848: lleum|Mesh_0064.rip|Take 001|BaseLayer
+    7404850: lleum|Mesh_0065.rip|Take 001|BaseLayer
+    7404852: lleum|Mesh_0066.rip|Take 001|BaseLayer
+    7404854: lleum|Mesh_0067.rip|Take 001|BaseLayer
+    7404856: lleum|Mesh_0068.rip|Take 001|BaseLayer
+    7404858: lleum|Mesh_0069.rip|Take 001|BaseLayer
+    7404860: lleum|Mesh_0070.rip|Take 001|BaseLayer
+    7404862: lleum|Mesh_0071.rip|Take 001|BaseLayer
+    7404864: lleum|Mesh_0072.rip|Take 001|BaseLayer
+    7404866: lleum|Mesh_0073.rip|Take 001|BaseLayer
+    7404868: lleum|Mesh_0074.rip|Take 001|BaseLayer
+    7404870: lleum|Mesh_0075.rip|Take 001|BaseLayer
+    7404872: lleum|Mesh_0076.rip|Take 001|BaseLayer
+    7404874: lleum|Mesh_0077.rip|Take 001|BaseLayer
+    7404876: lleum|Mesh_0078.rip|Take 001|BaseLayer
+    7404878: lleum|Mesh_0079.rip|Take 001|BaseLayer
+    7404880: lleum|Mesh_0080.rip|Take 001|BaseLayer
+    7404882: lleum|Mesh_0081.rip|Take 001|BaseLayer
+    7404884: lleum|Mesh_0082.rip|Take 001|BaseLayer
+    7404886: lleum|Mesh_0083.rip|Take 001|BaseLayer
+    7404888: lleum|Mesh_0084.rip|Take 001|BaseLayer
+    7404890: lleum|Mesh_0085.rip|Take 001|BaseLayer
+    7404892: lleum|Mesh_0086.rip|Take 001|BaseLayer
+    7404894: lleum|Mesh_0087.rip|Take 001|BaseLayer
+    7404896: lleum|Mesh_0088.rip|Take 001|BaseLayer
+    7404898: lleum|Mesh_0089.rip|Take 001|BaseLayer
+    7404900: lleum|Mesh_0090.rip|Take 001|BaseLayer
+    7404902: lleum|Mesh_0091.rip|Take 001|BaseLayer
+    7404904: lleum|Mesh_0092.rip|Take 001|BaseLayer
+    7404906: lleum|Mesh_0093.rip|Take 001|BaseLayer
+    7404908: lleum|Mesh_0094.rip|Take 001|BaseLayer
+    7404910: lleum|Mesh_0095.rip|Take 001|BaseLayer
+    7404912: lleum|Mesh_0096.rip|Take 001|BaseLayer
+    7404914: lleum|Mesh_0097.rip|Take 001|BaseLayer
+    7404916: lleum|Mesh_0098.rip|Take 001|BaseLayer
+    7404918: lleum|Mesh_0099.rip|Take 001|BaseLayer
+    7404920: lleum|Mesh_0100.rip|Take 001|BaseLayer
+    7404922: lleum|Mesh_0101.rip|Take 001|BaseLayer
+    7404924: lleum|Mesh_0102.rip|Take 001|BaseLayer
+    7404926: lleum|Mesh_0103.rip|Take 001|BaseLayer
+    7404928: lleum|Mesh_0104.rip|Take 001|BaseLayer
+    7404930: lleum|Mesh_0105.rip|Take 001|BaseLayer
+    7404932: lleum|Mesh_0106.rip|Take 001|BaseLayer
+    7404934: lleum|Mesh_0107.rip|Take 001|BaseLayer
+    7404936: lleum|Mesh_0108.rip|Take 001|BaseLayer
+    7404938: lleum|Mesh_0109.rip|Take 001|BaseLayer
+    7404940: lleum|Mesh_0110.rip|Take 001|BaseLayer
+    7404942: lleum|Mesh_0111.rip|Take 001|BaseLayer
+    7404944: lleum|Mesh_0112.rip|Take 001|BaseLayer
+    7404946: lleum|Mesh_0113.rip|Take 001|BaseLayer
+    7404948: lleum|Mesh_0114.rip|Take 001|BaseLayer
+    7404950: lleum|Mesh_0115.rip|Take 001|BaseLayer
+    7404952: lleum|Mesh_0116.rip|Take 001|BaseLayer
+    7404954: lleum|Mesh_0117.rip|Take 001|BaseLayer
+    7404956: ascending_colon|Mesh_0000.rip|Take 001|BaseLayer
+    7404958: ascending_colon|Mesh_0001.rip|Take 001|BaseLayer
+    7404960: ascending_colon|Mesh_0002.rip|Take 001|BaseLayer
+    7404962: ascending_colon|Mesh_0003.rip|Take 001|BaseLayer
+    7404964: ascending_colon|Mesh_0004.rip|Take 001|BaseLayer
+    7404966: ascending_colon|Mesh_0005.rip|Take 001|BaseLayer
+    7404968: ascending_colon|Mesh_0006.rip|Take 001|BaseLayer
+    7404970: ascending_colon|Mesh_0007.rip|Take 001|BaseLayer
+    7404972: ascending_colon|Mesh_0008.rip|Take 001|BaseLayer
+    7404974: ascending_colon|Mesh_0009.rip|Take 001|BaseLayer
+    7404976: ascending_colon|Mesh_0010.rip|Take 001|BaseLayer
+    7404978: ascending_colon|Mesh_0011.rip|Take 001|BaseLayer
+    7404980: ascending_colon|Mesh_0012.rip|Take 001|BaseLayer
+    7404982: ascending_colon|Mesh_0013.rip|Take 001|BaseLayer
+    7404984: ascending_colon|Mesh_0014.rip|Take 001|BaseLayer
+    7404986: ascending_colon|Mesh_0015.rip|Take 001|BaseLayer
+    7404988: ascending_colon|Mesh_0016.rip|Take 001|BaseLayer
+    7404990: ascending_colon|Mesh_0017.rip|Take 001|BaseLayer
+    7404992: ascending_colon|Mesh_0018.rip|Take 001|BaseLayer
+    7404994: ascending_colon|Mesh_0019.rip|Take 001|BaseLayer
+    7404996: ascending_colon|Mesh_0020.rip|Take 001|BaseLayer
+    7404998: ascending_colon|Mesh_0021.rip|Take 001|BaseLayer
+    7405000: ascending_colon|Mesh_0022.rip|Take 001|BaseLayer
+    7405002: ascending_colon|Mesh_0023.rip|Take 001|BaseLayer
+    7405004: ascending_colon|Mesh_0024.rip|Take 001|BaseLayer
+    7405006: ascending_colon|Mesh_0025.rip|Take 001|BaseLayer
+    7405008: ascending_colon|Mesh_0026.rip|Take 001|BaseLayer
+    7405010: ascending_colon|Mesh_0027.rip|Take 001|BaseLayer
+    7405012: ascending_colon|Mesh_0028.rip|Take 001|BaseLayer
+    7405014: ascending_colon|Mesh_0029.rip|Take 001|BaseLayer
+    7405016: ascending_colon|Mesh_0030.rip|Take 001|BaseLayer
+    7405018: ascending_colon|Mesh_0031.rip|Take 001|BaseLayer
+    7405020: ascending_colon|Mesh_0032.rip|Take 001|BaseLayer
+    7405022: ascending_colon|Mesh_0033.rip|Take 001|BaseLayer
+    7405024: ascending_colon|Mesh_0034.rip|Take 001|BaseLayer
+    7405026: ascending_colon|Mesh_0035.rip|Take 001|BaseLayer
+    7405028: ascending_colon|Mesh_0036.rip|Take 001|BaseLayer
+    7405030: ascending_colon|Mesh_0037.rip|Take 001|BaseLayer
+    7405032: ascending_colon|Mesh_0038.rip|Take 001|BaseLayer
+    7405034: ascending_colon|Mesh_0039.rip|Take 001|BaseLayer
+    7405036: ascending_colon|Mesh_0040.rip|Take 001|BaseLayer
+    7405038: ascending_colon|Mesh_0041.rip|Take 001|BaseLayer
+    7405040: ascending_colon|Mesh_0042.rip|Take 001|BaseLayer
+    7405042: ascending_colon|Mesh_0043.rip|Take 001|BaseLayer
+    7405044: ascending_colon|Mesh_0044.rip|Take 001|BaseLayer
+    7405046: ascending_colon|Mesh_0045.rip|Take 001|BaseLayer
+    7405048: ascending_colon|Mesh_0046.rip|Take 001|BaseLayer
+    7405050: ascending_colon|Mesh_0047.rip|Take 001|BaseLayer
+    7405052: ascending_colon|Mesh_0048.rip|Take 001|BaseLayer
+    7405054: ascending_colon|Mesh_0049.rip|Take 001|BaseLayer
+    7405056: ascending_colon|Mesh_0050.rip|Take 001|BaseLayer
+    7405058: ascending_colon|Mesh_0051.rip|Take 001|BaseLayer
+    7405060: ascending_colon|Mesh_0052.rip|Take 001|BaseLayer
+    7405062: ascending_colon|Mesh_0053.rip|Take 001|BaseLayer
+    7405064: ascending_colon|Mesh_0054.rip|Take 001|BaseLayer
+    7405066: ascending_colon|Mesh_0055.rip|Take 001|BaseLayer
+    7405068: ascending_colon|Mesh_0056.rip|Take 001|BaseLayer
+    7405070: ascending_colon|Mesh_0057.rip|Take 001|BaseLayer
+    7405072: ascending_colon|Mesh_0058.rip|Take 001|BaseLayer
+    7405074: ascending_colon|Mesh_0059.rip|Take 001|BaseLayer
+    7405076: ascending_colon|Mesh_0060.rip|Take 001|BaseLayer
+    7405078: ascending_colon|Mesh_0061.rip|Take 001|BaseLayer
+    7405080: ascending_colon|Mesh_0062.rip|Take 001|BaseLayer
+    7405082: ascending_colon|Mesh_0063.rip|Take 001|BaseLayer
+    7405084: ascending_colon|Mesh_0064.rip|Take 001|BaseLayer
+    7405086: ascending_colon|Mesh_0065.rip|Take 001|BaseLayer
+    7405088: ascending_colon|Mesh_0066.rip|Take 001|BaseLayer
+    7405090: ascending_colon|Mesh_0067.rip|Take 001|BaseLayer
+    7405092: ascending_colon|Mesh_0068.rip|Take 001|BaseLayer
+    7405094: ascending_colon|Mesh_0069.rip|Take 001|BaseLayer
+    7405096: ascending_colon|Mesh_0070.rip|Take 001|BaseLayer
+    7405098: ascending_colon|Mesh_0071.rip|Take 001|BaseLayer
+    7405100: ascending_colon|Mesh_0072.rip|Take 001|BaseLayer
+    7405102: ascending_colon|Mesh_0073.rip|Take 001|BaseLayer
+    7405104: ascending_colon|Mesh_0074.rip|Take 001|BaseLayer
+    7405106: ascending_colon|Mesh_0075.rip|Take 001|BaseLayer
+    7405108: ascending_colon|Mesh_0076.rip|Take 001|BaseLayer
+    7405110: ascending_colon|Mesh_0077.rip|Take 001|BaseLayer
+    7405112: ascending_colon|Mesh_0078.rip|Take 001|BaseLayer
+    7405114: ascending_colon|Mesh_0079.rip|Take 001|BaseLayer
+    7405116: ascending_colon|Mesh_0080.rip|Take 001|BaseLayer
+    7405118: ascending_colon|Mesh_0081.rip|Take 001|BaseLayer
+    7405120: ascending_colon|Mesh_0082.rip|Take 001|BaseLayer
+    7405122: ascending_colon|Mesh_0083.rip|Take 001|BaseLayer
+    7405124: ascending_colon|Mesh_0084.rip|Take 001|BaseLayer
+    7405126: ascending_colon|Mesh_0085.rip|Take 001|BaseLayer
+    7405128: ascending_colon|Mesh_0086.rip|Take 001|BaseLayer
+    7405130: ascending_colon|Mesh_0087.rip|Take 001|BaseLayer
+    7405132: ascending_colon|Mesh_0088.rip|Take 001|BaseLayer
+    7405134: ascending_colon|Mesh_0089.rip|Take 001|BaseLayer
+    7405136: ascending_colon|Mesh_0090.rip|Take 001|BaseLayer
+    7405138: ascending_colon|Mesh_0091.rip|Take 001|BaseLayer
+    7405140: ascending_colon|Mesh_0092.rip|Take 001|BaseLayer
+    7405142: ascending_colon|Mesh_0093.rip|Take 001|BaseLayer
+    7405144: ascending_colon|Mesh_0094.rip|Take 001|BaseLayer
+    7405146: ascending_colon|Mesh_0095.rip|Take 001|BaseLayer
+    7405148: ascending_colon|Mesh_0096.rip|Take 001|BaseLayer
+    7405150: ascending_colon|Mesh_0097.rip|Take 001|BaseLayer
+    7405152: ascending_colon|Mesh_0098.rip|Take 001|BaseLayer
+    7405154: ascending_colon|Mesh_0099.rip|Take 001|BaseLayer
+    7405156: ascending_colon|Mesh_0100.rip|Take 001|BaseLayer
+    7405158: ascending_colon|Mesh_0101.rip|Take 001|BaseLayer
+    7405160: ascending_colon|Mesh_0102.rip|Take 001|BaseLayer
+    7405162: ascending_colon|Mesh_0103.rip|Take 001|BaseLayer
+    7405164: ascending_colon|Mesh_0104.rip|Take 001|BaseLayer
+    7405166: ascending_colon|Mesh_0105.rip|Take 001|BaseLayer
+    7405168: ascending_colon|Mesh_0106.rip|Take 001|BaseLayer
+    7405170: ascending_colon|Mesh_0107.rip|Take 001|BaseLayer
+    7405172: ascending_colon|Mesh_0108.rip|Take 001|BaseLayer
+    7405174: ascending_colon|Mesh_0109.rip|Take 001|BaseLayer
+    7405176: ascending_colon|Mesh_0110.rip|Take 001|BaseLayer
+    7405178: ascending_colon|Mesh_0111.rip|Take 001|BaseLayer
+    7405180: ascending_colon|Mesh_0112.rip|Take 001|BaseLayer
+    7405182: ascending_colon|Mesh_0113.rip|Take 001|BaseLayer
+    7405184: ascending_colon|Mesh_0114.rip|Take 001|BaseLayer
+    7405186: ascending_colon|Mesh_0115.rip|Take 001|BaseLayer
+    7405188: ascending_colon|Mesh_0116.rip|Take 001|BaseLayer
+    7405190: ascending_colon|Mesh_0117.rip|Take 001|BaseLayer
+    7405192: main_body|Mesh_0000.rip|Take 001|BaseLayer
+    7405194: main_body|Mesh_0001.rip|Take 001|BaseLayer
+    7405196: main_body|Mesh_0002.rip|Take 001|BaseLayer
+    7405198: main_body|Mesh_0003.rip|Take 001|BaseLayer
+    7405200: main_body|Mesh_0004.rip|Take 001|BaseLayer
+    7405202: main_body|Mesh_0005.rip|Take 001|BaseLayer
+    7405204: main_body|Mesh_0006.rip|Take 001|BaseLayer
+    7405206: main_body|Mesh_0007.rip|Take 001|BaseLayer
+    7405208: main_body|Mesh_0008.rip|Take 001|BaseLayer
+    7405210: main_body|Mesh_0009.rip|Take 001|BaseLayer
+    7405212: main_body|Mesh_0010.rip|Take 001|BaseLayer
+    7405214: main_body|Mesh_0011.rip|Take 001|BaseLayer
+    7405216: main_body|Mesh_0012.rip|Take 001|BaseLayer
+    7405218: main_body|Mesh_0013.rip|Take 001|BaseLayer
+    7405220: main_body|Mesh_0014.rip|Take 001|BaseLayer
+    7405222: main_body|Mesh_0015.rip|Take 001|BaseLayer
+    7405224: main_body|Mesh_0016.rip|Take 001|BaseLayer
+    7405226: main_body|Mesh_0017.rip|Take 001|BaseLayer
+    7405228: main_body|Mesh_0018.rip|Take 001|BaseLayer
+    7405230: main_body|Mesh_0019.rip|Take 001|BaseLayer
+    7405232: main_body|Mesh_0020.rip|Take 001|BaseLayer
+    7405234: main_body|Mesh_0021.rip|Take 001|BaseLayer
+    7405236: main_body|Mesh_0022.rip|Take 001|BaseLayer
+    7405238: main_body|Mesh_0023.rip|Take 001|BaseLayer
+    7405240: main_body|Mesh_0024.rip|Take 001|BaseLayer
+    7405242: main_body|Mesh_0025.rip|Take 001|BaseLayer
+    7405244: main_body|Mesh_0026.rip|Take 001|BaseLayer
+    7405246: main_body|Mesh_0027.rip|Take 001|BaseLayer
+    7405248: main_body|Mesh_0028.rip|Take 001|BaseLayer
+    7405250: main_body|Mesh_0029.rip|Take 001|BaseLayer
+    7405252: main_body|Mesh_0030.rip|Take 001|BaseLayer
+    7405254: main_body|Mesh_0031.rip|Take 001|BaseLayer
+    7405256: main_body|Mesh_0032.rip|Take 001|BaseLayer
+    7405258: main_body|Mesh_0033.rip|Take 001|BaseLayer
+    7405260: main_body|Mesh_0034.rip|Take 001|BaseLayer
+    7405262: main_body|Mesh_0035.rip|Take 001|BaseLayer
+    7405264: main_body|Mesh_0036.rip|Take 001|BaseLayer
+    7405266: main_body|Mesh_0037.rip|Take 001|BaseLayer
+    7405268: main_body|Mesh_0038.rip|Take 001|BaseLayer
+    7405270: main_body|Mesh_0039.rip|Take 001|BaseLayer
+    7405272: main_body|Mesh_0040.rip|Take 001|BaseLayer
+    7405274: main_body|Mesh_0041.rip|Take 001|BaseLayer
+    7405276: main_body|Mesh_0042.rip|Take 001|BaseLayer
+    7405278: main_body|Mesh_0043.rip|Take 001|BaseLayer
+    7405280: main_body|Mesh_0044.rip|Take 001|BaseLayer
+    7405282: main_body|Mesh_0045.rip|Take 001|BaseLayer
+    7405284: main_body|Mesh_0046.rip|Take 001|BaseLayer
+    7405286: main_body|Mesh_0047.rip|Take 001|BaseLayer
+    7405288: main_body|Mesh_0048.rip|Take 001|BaseLayer
+    7405290: main_body|Mesh_0049.rip|Take 001|BaseLayer
+    7405292: main_body|Mesh_0050.rip|Take 001|BaseLayer
+    7405294: main_body|Mesh_0051.rip|Take 001|BaseLayer
+    7405296: main_body|Mesh_0052.rip|Take 001|BaseLayer
+    7405298: main_body|Mesh_0053.rip|Take 001|BaseLayer
+    7405300: main_body|Mesh_0054.rip|Take 001|BaseLayer
+    7405302: main_body|Mesh_0055.rip|Take 001|BaseLayer
+    7405304: main_body|Mesh_0056.rip|Take 001|BaseLayer
+    7405306: main_body|Mesh_0057.rip|Take 001|BaseLayer
+    7405308: main_body|Mesh_0058.rip|Take 001|BaseLayer
+    7405310: main_body|Mesh_0059.rip|Take 001|BaseLayer
+    7405312: main_body|Mesh_0060.rip|Take 001|BaseLayer
+    7405314: main_body|Mesh_0061.rip|Take 001|BaseLayer
+    7405316: main_body|Mesh_0062.rip|Take 001|BaseLayer
+    7405318: main_body|Mesh_0063.rip|Take 001|BaseLayer
+    7405320: main_body|Mesh_0064.rip|Take 001|BaseLayer
+    7405322: main_body|Mesh_0065.rip|Take 001|BaseLayer
+    7405324: main_body|Mesh_0066.rip|Take 001|BaseLayer
+    7405326: main_body|Mesh_0067.rip|Take 001|BaseLayer
+    7405328: main_body|Mesh_0068.rip|Take 001|BaseLayer
+    7405330: main_body|Mesh_0069.rip|Take 001|BaseLayer
+    7405332: main_body|Mesh_0070.rip|Take 001|BaseLayer
+    7405334: main_body|Mesh_0071.rip|Take 001|BaseLayer
+    7405336: main_body|Mesh_0072.rip|Take 001|BaseLayer
+    7405338: main_body|Mesh_0073.rip|Take 001|BaseLayer
+    7405340: main_body|Mesh_0074.rip|Take 001|BaseLayer
+    7405342: main_body|Mesh_0075.rip|Take 001|BaseLayer
+    7405344: main_body|Mesh_0076.rip|Take 001|BaseLayer
+    7405346: main_body|Mesh_0077.rip|Take 001|BaseLayer
+    7405348: main_body|Mesh_0078.rip|Take 001|BaseLayer
+    7405350: main_body|Mesh_0079.rip|Take 001|BaseLayer
+    7405352: main_body|Mesh_0080.rip|Take 001|BaseLayer
+    7405354: main_body|Mesh_0081.rip|Take 001|BaseLayer
+    7405356: main_body|Mesh_0082.rip|Take 001|BaseLayer
+    7405358: main_body|Mesh_0083.rip|Take 001|BaseLayer
+    7405360: main_body|Mesh_0084.rip|Take 001|BaseLayer
+    7405362: main_body|Mesh_0085.rip|Take 001|BaseLayer
+    7405364: main_body|Mesh_0086.rip|Take 001|BaseLayer
+    7405366: main_body|Mesh_0087.rip|Take 001|BaseLayer
+    7405368: main_body|Mesh_0088.rip|Take 001|BaseLayer
+    7405370: main_body|Mesh_0089.rip|Take 001|BaseLayer
+    7405372: main_body|Mesh_0090.rip|Take 001|BaseLayer
+    7405374: main_body|Mesh_0091.rip|Take 001|BaseLayer
+    7405376: main_body|Mesh_0092.rip|Take 001|BaseLayer
+    7405378: main_body|Mesh_0093.rip|Take 001|BaseLayer
+    7405380: main_body|Mesh_0094.rip|Take 001|BaseLayer
+    7405382: main_body|Mesh_0095.rip|Take 001|BaseLayer
+    7405384: main_body|Mesh_0096.rip|Take 001|BaseLayer
+    7405386: main_body|Mesh_0097.rip|Take 001|BaseLayer
+    7405388: main_body|Mesh_0098.rip|Take 001|BaseLayer
+    7405390: main_body|Mesh_0099.rip|Take 001|BaseLayer
+    7405392: main_body|Mesh_0100.rip|Take 001|BaseLayer
+    7405394: main_body|Mesh_0101.rip|Take 001|BaseLayer
+    7405396: main_body|Mesh_0102.rip|Take 001|BaseLayer
+    7405398: main_body|Mesh_0103.rip|Take 001|BaseLayer
+    7405400: main_body|Mesh_0104.rip|Take 001|BaseLayer
+    7405402: main_body|Mesh_0105.rip|Take 001|BaseLayer
+    7405404: main_body|Mesh_0106.rip|Take 001|BaseLayer
+    7405406: main_body|Mesh_0107.rip|Take 001|BaseLayer
+    7405408: main_body|Mesh_0108.rip|Take 001|BaseLayer
+    7405410: main_body|Mesh_0109.rip|Take 001|BaseLayer
+    7405412: main_body|Mesh_0110.rip|Take 001|BaseLayer
+    7405414: main_body|Mesh_0111.rip|Take 001|BaseLayer
+    7405416: main_body|Mesh_0112.rip|Take 001|BaseLayer
+    7405418: main_body|Mesh_0113.rip|Take 001|BaseLayer
+    7405420: main_body|Mesh_0114.rip|Take 001|BaseLayer
+    7405422: main_body|Mesh_0115.rip|Take 001|BaseLayer
+    7405424: main_body|Mesh_0116.rip|Take 001|BaseLayer
+    7405426: main_body|Mesh_0117.rip|Take 001|BaseLayer
+    7405428: Mesh_0108.rip|Mesh_0000.rip|Take 001|BaseLayer
+    7405430: Mesh_0108.rip|Mesh_0001.rip|Take 001|BaseLayer
+    7405432: Mesh_0108.rip|Mesh_0002.rip|Take 001|BaseLayer
+    7405434: Mesh_0108.rip|Mesh_0003.rip|Take 001|BaseLayer
+    7405436: Mesh_0108.rip|Mesh_0004.rip|Take 001|BaseLayer
+    7405438: Mesh_0108.rip|Mesh_0005.rip|Take 001|BaseLayer
+    7405440: Mesh_0108.rip|Mesh_0006.rip|Take 001|BaseLayer
+    7405442: Mesh_0108.rip|Mesh_0007.rip|Take 001|BaseLayer
+    7405444: Mesh_0108.rip|Mesh_0008.rip|Take 001|BaseLayer
+    7405446: Mesh_0108.rip|Mesh_0009.rip|Take 001|BaseLayer
+    7405448: Mesh_0108.rip|Mesh_0010.rip|Take 001|BaseLayer
+    7405450: Mesh_0108.rip|Mesh_0011.rip|Take 001|BaseLayer
+    7405452: Mesh_0108.rip|Mesh_0012.rip|Take 001|BaseLayer
+    7405454: Mesh_0108.rip|Mesh_0013.rip|Take 001|BaseLayer
+    7405456: Mesh_0108.rip|Mesh_0014.rip|Take 001|BaseLayer
+    7405458: Mesh_0108.rip|Mesh_0015.rip|Take 001|BaseLayer
+    7405460: Mesh_0108.rip|Mesh_0016.rip|Take 001|BaseLayer
+    7405462: Mesh_0108.rip|Mesh_0017.rip|Take 001|BaseLayer
+    7405464: Mesh_0108.rip|Mesh_0018.rip|Take 001|BaseLayer
+    7405466: Mesh_0108.rip|Mesh_0019.rip|Take 001|BaseLayer
+    7405468: Mesh_0108.rip|Mesh_0020.rip|Take 001|BaseLayer
+    7405470: Mesh_0108.rip|Mesh_0021.rip|Take 001|BaseLayer
+    7405472: Mesh_0108.rip|Mesh_0022.rip|Take 001|BaseLayer
+    7405474: Mesh_0108.rip|Mesh_0023.rip|Take 001|BaseLayer
+    7405476: Mesh_0108.rip|Mesh_0024.rip|Take 001|BaseLayer
+    7405478: Mesh_0108.rip|Mesh_0025.rip|Take 001|BaseLayer
+    7405480: Mesh_0108.rip|Mesh_0026.rip|Take 001|BaseLayer
+    7405482: Mesh_0108.rip|Mesh_0027.rip|Take 001|BaseLayer
+    7405484: Mesh_0108.rip|Mesh_0028.rip|Take 001|BaseLayer
+    7405486: Mesh_0108.rip|Mesh_0029.rip|Take 001|BaseLayer
+    7405488: Mesh_0108.rip|Mesh_0030.rip|Take 001|BaseLayer
+    7405490: Mesh_0108.rip|Mesh_0031.rip|Take 001|BaseLayer
+    7405492: Mesh_0108.rip|Mesh_0032.rip|Take 001|BaseLayer
+    7405494: Mesh_0108.rip|Mesh_0033.rip|Take 001|BaseLayer
+    7405496: Mesh_0108.rip|Mesh_0034.rip|Take 001|BaseLayer
+    7405498: Mesh_0108.rip|Mesh_0035.rip|Take 001|BaseLayer
+    7405500: Mesh_0108.rip|Mesh_0036.rip|Take 001|BaseLayer
+    7405502: Mesh_0108.rip|Mesh_0037.rip|Take 001|BaseLayer
+    7405504: Mesh_0108.rip|Mesh_0038.rip|Take 001|BaseLayer
+    7405506: Mesh_0108.rip|Mesh_0039.rip|Take 001|BaseLayer
+    7405508: Mesh_0108.rip|Mesh_0040.rip|Take 001|BaseLayer
+    7405510: Mesh_0108.rip|Mesh_0041.rip|Take 001|BaseLayer
+    7405512: Mesh_0108.rip|Mesh_0042.rip|Take 001|BaseLayer
+    7405514: Mesh_0108.rip|Mesh_0043.rip|Take 001|BaseLayer
+    7405516: Mesh_0108.rip|Mesh_0044.rip|Take 001|BaseLayer
+    7405518: Mesh_0108.rip|Mesh_0045.rip|Take 001|BaseLayer
+    7405520: Mesh_0108.rip|Mesh_0046.rip|Take 001|BaseLayer
+    7405522: Mesh_0108.rip|Mesh_0047.rip|Take 001|BaseLayer
+    7405524: Mesh_0108.rip|Mesh_0048.rip|Take 001|BaseLayer
+    7405526: Mesh_0108.rip|Mesh_0049.rip|Take 001|BaseLayer
+    7405528: Mesh_0108.rip|Mesh_0050.rip|Take 001|BaseLayer
+    7405530: Mesh_0108.rip|Mesh_0051.rip|Take 001|BaseLayer
+    7405532: Mesh_0108.rip|Mesh_0052.rip|Take 001|BaseLayer
+    7405534: Mesh_0108.rip|Mesh_0053.rip|Take 001|BaseLayer
+    7405536: Mesh_0108.rip|Mesh_0054.rip|Take 001|BaseLayer
+    7405538: Mesh_0108.rip|Mesh_0055.rip|Take 001|BaseLayer
+    7405540: Mesh_0108.rip|Mesh_0056.rip|Take 001|BaseLayer
+    7405542: Mesh_0108.rip|Mesh_0057.rip|Take 001|BaseLayer
+    7405544: Mesh_0108.rip|Mesh_0058.rip|Take 001|BaseLayer
+    7405546: Mesh_0108.rip|Mesh_0059.rip|Take 001|BaseLayer
+    7405548: Mesh_0108.rip|Mesh_0060.rip|Take 001|BaseLayer
+    7405550: Mesh_0108.rip|Mesh_0061.rip|Take 001|BaseLayer
+    7405552: Mesh_0108.rip|Mesh_0062.rip|Take 001|BaseLayer
+    7405554: Mesh_0108.rip|Mesh_0063.rip|Take 001|BaseLayer
+    7405556: Mesh_0108.rip|Mesh_0064.rip|Take 001|BaseLayer
+    7405558: Mesh_0108.rip|Mesh_0065.rip|Take 001|BaseLayer
+    7405560: Mesh_0108.rip|Mesh_0066.rip|Take 001|BaseLayer
+    7405562: Mesh_0108.rip|Mesh_0067.rip|Take 001|BaseLayer
+    7405564: Mesh_0108.rip|Mesh_0068.rip|Take 001|BaseLayer
+    7405566: Mesh_0108.rip|Mesh_0069.rip|Take 001|BaseLayer
+    7405568: Mesh_0108.rip|Mesh_0070.rip|Take 001|BaseLayer
+    7405570: Mesh_0108.rip|Mesh_0071.rip|Take 001|BaseLayer
+    7405572: Mesh_0108.rip|Mesh_0072.rip|Take 001|BaseLayer
+    7405574: Mesh_0108.rip|Mesh_0073.rip|Take 001|BaseLayer
+    7405576: Mesh_0108.rip|Mesh_0074.rip|Take 001|BaseLayer
+    7405578: Mesh_0108.rip|Mesh_0075.rip|Take 001|BaseLayer
+    7405580: Mesh_0108.rip|Mesh_0076.rip|Take 001|BaseLayer
+    7405582: Mesh_0108.rip|Mesh_0077.rip|Take 001|BaseLayer
+    7405584: Mesh_0108.rip|Mesh_0078.rip|Take 001|BaseLayer
+    7405586: Mesh_0108.rip|Mesh_0079.rip|Take 001|BaseLayer
+    7405588: Mesh_0108.rip|Mesh_0080.rip|Take 001|BaseLayer
+    7405590: Mesh_0108.rip|Mesh_0081.rip|Take 001|BaseLayer
+    7405592: Mesh_0108.rip|Mesh_0082.rip|Take 001|BaseLayer
+    7405594: Mesh_0108.rip|Mesh_0083.rip|Take 001|BaseLayer
+    7405596: Mesh_0108.rip|Mesh_0084.rip|Take 001|BaseLayer
+    7405598: Mesh_0108.rip|Mesh_0085.rip|Take 001|BaseLayer
+    7405600: Mesh_0108.rip|Mesh_0086.rip|Take 001|BaseLayer
+    7405602: Mesh_0108.rip|Mesh_0087.rip|Take 001|BaseLayer
+    7405604: Mesh_0108.rip|Mesh_0088.rip|Take 001|BaseLayer
+    7405606: Mesh_0108.rip|Mesh_0089.rip|Take 001|BaseLayer
+    7405608: Mesh_0108.rip|Mesh_0090.rip|Take 001|BaseLayer
+    7405610: Mesh_0108.rip|Mesh_0091.rip|Take 001|BaseLayer
+    7405612: Mesh_0108.rip|Mesh_0092.rip|Take 001|BaseLayer
+    7405614: Mesh_0108.rip|Mesh_0093.rip|Take 001|BaseLayer
+    7405616: Mesh_0108.rip|Mesh_0094.rip|Take 001|BaseLayer
+    7405618: Mesh_0108.rip|Mesh_0095.rip|Take 001|BaseLayer
+    7405620: Mesh_0108.rip|Mesh_0096.rip|Take 001|BaseLayer
+    7405622: Mesh_0108.rip|Mesh_0097.rip|Take 001|BaseLayer
+    7405624: Mesh_0108.rip|Mesh_0098.rip|Take 001|BaseLayer
+    7405626: Mesh_0108.rip|Mesh_0099.rip|Take 001|BaseLayer
+    7405628: Mesh_0108.rip|Mesh_0100.rip|Take 001|BaseLayer
+    7405630: Mesh_0108.rip|Mesh_0101.rip|Take 001|BaseLayer
+    7405632: Mesh_0108.rip|Mesh_0102.rip|Take 001|BaseLayer
+    7405634: Mesh_0108.rip|Mesh_0103.rip|Take 001|BaseLayer
+    7405636: Mesh_0108.rip|Mesh_0104.rip|Take 001|BaseLayer
+    7405638: Mesh_0108.rip|Mesh_0105.rip|Take 001|BaseLayer
+    7405640: Mesh_0108.rip|Mesh_0106.rip|Take 001|BaseLayer
+    7405642: Mesh_0108.rip|Mesh_0107.rip|Take 001|BaseLayer
+    7405644: Mesh_0108.rip|Mesh_0108.rip|Take 001|BaseLayer
+    7405646: Mesh_0108.rip|Mesh_0109.rip|Take 001|BaseLayer
+    7405648: Mesh_0108.rip|Mesh_0110.rip|Take 001|BaseLayer
+    7405650: Mesh_0108.rip|Mesh_0111.rip|Take 001|BaseLayer
+    7405652: Mesh_0108.rip|Mesh_0112.rip|Take 001|BaseLayer
+    7405654: Mesh_0108.rip|Mesh_0113.rip|Take 001|BaseLayer
+    7405656: Mesh_0108.rip|Mesh_0114.rip|Take 001|BaseLayer
+    7405658: Mesh_0108.rip|Mesh_0115.rip|Take 001|BaseLayer
+    7405660: Mesh_0108.rip|Mesh_0116.rip|Take 001|BaseLayer
+    7405662: Mesh_0108.rip|Mesh_0117.rip|Take 001|BaseLayer
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: digestive
+    second: {fileID: 2100000, guid: 8602fcd9ff7e4cf488de462bd99fdb15, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2.5
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

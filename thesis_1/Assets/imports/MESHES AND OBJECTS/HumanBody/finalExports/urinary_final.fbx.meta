@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 41086cbc0d6b1ad4ca3fb95bd34b90ed
+timeCreated: 1538651389
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Mesh_0075.rip
+    100002: Mesh_0077.rip
+    100004: Mesh_0123.rip.002
+    100006: Mesh_0123.rip.003
+    100008: Mesh_0123.rip.004
+    100010: Mesh_0123.rip.006
+    100012: Mesh_0123.rip.007
+    100014: Mesh_0123.rip.008
+    100016: Mesh_0123.rip.009
+    100018: Mesh_0123.rip.010
+    100020: Mesh_0123.rip.011
+    100022: Mesh_0123.rip.012
+    100024: Mesh_0123.rip.013
+    100026: Mesh_0123.rip.014
+    100028: Mesh_0123.rip.015
+    100030: Mesh_0123.rip.016
+    100032: Mesh_0123.rip.017
+    100034: Mesh_0123.rip.018
+    100036: Mesh_0123.rip.019
+    100038: Mesh_0123.rip.020
+    100040: Mesh_0123.rip.021
+    100042: //RootNode
+    400000: Mesh_0075.rip
+    400002: Mesh_0077.rip
+    400004: Mesh_0123.rip.002
+    400006: Mesh_0123.rip.003
+    400008: Mesh_0123.rip.004
+    400010: Mesh_0123.rip.006
+    400012: Mesh_0123.rip.007
+    400014: Mesh_0123.rip.008
+    400016: Mesh_0123.rip.009
+    400018: Mesh_0123.rip.010
+    400020: Mesh_0123.rip.011
+    400022: Mesh_0123.rip.012
+    400024: Mesh_0123.rip.013
+    400026: Mesh_0123.rip.014
+    400028: Mesh_0123.rip.015
+    400030: Mesh_0123.rip.016
+    400032: Mesh_0123.rip.017
+    400034: Mesh_0123.rip.018
+    400036: Mesh_0123.rip.019
+    400038: Mesh_0123.rip.020
+    400040: Mesh_0123.rip.021
+    400042: //RootNode
+    2100000: reproductive
+    2100002: urinary
+    2100004: bone1
+    2100006: bone2
+    2300000: Mesh_0075.rip
+    2300002: Mesh_0077.rip
+    2300004: Mesh_0123.rip.002
+    2300006: Mesh_0123.rip.003
+    2300008: Mesh_0123.rip.004
+    2300010: Mesh_0123.rip.006
+    2300012: Mesh_0123.rip.007
+    2300014: Mesh_0123.rip.008
+    2300016: Mesh_0123.rip.009
+    2300018: Mesh_0123.rip.010
+    2300020: Mesh_0123.rip.011
+    2300022: Mesh_0123.rip.012
+    2300024: Mesh_0123.rip.013
+    2300026: Mesh_0123.rip.014
+    2300028: Mesh_0123.rip.015
+    2300030: Mesh_0123.rip.016
+    2300032: Mesh_0123.rip.017
+    2300034: Mesh_0123.rip.018
+    2300036: Mesh_0123.rip.019
+    2300038: Mesh_0123.rip.020
+    2300040: Mesh_0123.rip.021
+    3300000: Mesh_0075.rip
+    3300002: Mesh_0077.rip
+    3300004: Mesh_0123.rip.002
+    3300006: Mesh_0123.rip.003
+    3300008: Mesh_0123.rip.004
+    3300010: Mesh_0123.rip.006
+    3300012: Mesh_0123.rip.007
+    3300014: Mesh_0123.rip.008
+    3300016: Mesh_0123.rip.009
+    3300018: Mesh_0123.rip.010
+    3300020: Mesh_0123.rip.011
+    3300022: Mesh_0123.rip.012
+    3300024: Mesh_0123.rip.013
+    3300026: Mesh_0123.rip.014
+    3300028: Mesh_0123.rip.015
+    3300030: Mesh_0123.rip.016
+    3300032: Mesh_0123.rip.017
+    3300034: Mesh_0123.rip.018
+    3300036: Mesh_0123.rip.019
+    3300038: Mesh_0123.rip.020
+    3300040: Mesh_0123.rip.021
+    4300000: Mesh_0123.rip.021
+    4300002: Mesh_0123.rip.020
+    4300004: Mesh_0123.rip.019
+    4300006: Mesh_0123.rip.018
+    4300008: Mesh_0123.rip.017
+    4300010: Mesh_0123.rip.016
+    4300012: Mesh_0123.rip.015
+    4300014: Mesh_0123.rip.014
+    4300016: Mesh_0123.rip.013
+    4300018: Mesh_0123.rip.012
+    4300020: Mesh_0123.rip.011
+    4300022: Mesh_0123.rip.010
+    4300024: Mesh_0123.rip.009
+    4300026: Mesh_0123.rip.008
+    4300028: Mesh_0123.rip.007
+    4300030: Mesh_0123.rip.006
+    4300032: Mesh_0123.rip.004
+    4300034: Mesh_0123.rip.003
+    4300036: Mesh_0123.rip.002
+    4300038: Mesh_0077.rip
+    4300040: Mesh_0075.rip
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bone1
+    second: {fileID: 2100000, guid: 556c9fd2447a0df4584b69d6592d62e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bone2
+    second: {fileID: 2100000, guid: accd0163766b9b0439fbd81c7c382200, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reproductive
+    second: {fileID: 2100000, guid: 8602fcd9ff7e4cf488de462bd99fdb15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: urinary
+    second: {fileID: 2100000, guid: 18d45a5b1b11c1c4b99aa36c2ff7d63a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

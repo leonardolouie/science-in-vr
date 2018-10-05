@@ -5,7 +5,7 @@ public class anatomyCamTransitions : MonoBehaviour {
 	protected Transform xFormaParent;
 
 	protected Vector3 localRotation;
-	protected float cameraDistance = 1.68f;
+	protected float cameraDistance = 10f;
 
 	public float mouseSensitivity = 4f;
 	public float scrollSensitivity = 2f;

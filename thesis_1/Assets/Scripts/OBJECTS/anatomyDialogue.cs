@@ -21,8 +21,10 @@ public class anatomyDialogue : MonoBehaviour {
 	public static int selectedOrgans = -1; 
 
 	anatomyCamTransitions camTransition;
+	anatomyManager anam;
 	int organNo;
 	void Start(){
+		anam = FindObjectOfType<anatomyManager> ();
 		camTransition = FindObjectOfType<anatomyCamTransitions> ();
 		defaultView ();
 	}
@@ -39,6 +41,7 @@ public class anatomyDialogue : MonoBehaviour {
 	}
 	public void PointerEnter(){
 		if (VrOn.isVROn) {
+			anam.selectOrgansForVr ();
 			gazeAt = true;
 			ret = true;
 		}
@@ -58,6 +61,7 @@ public class anatomyDialogue : MonoBehaviour {
 	public void PointerExit(){
 		if (VrOn.isVROn)
 		{
+			anam.deselectOrgansForVr ();
 			timer = 0f;
 			gazeAt = false;
 			ret = false;

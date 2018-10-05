@@ -31,4 +31,11 @@ public class MainMenu : MonoBehaviour {
 	public void backFromQuiz(){
 		SceneManager.LoadScene (1);
 	}
+
+	public void humanAnatomy(int systemNo){
+		PlayerPrefs.SetInt ("whatSystem", systemNo);
+		SceneManager.LoadScene ("Splash");
+		PlayerPrefs.SetInt ("isVrOn",0);
+		load = "HumanAnatomy";
+	}
 }

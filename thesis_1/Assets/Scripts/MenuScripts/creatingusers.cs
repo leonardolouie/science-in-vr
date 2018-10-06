@@ -149,6 +149,7 @@ public class creatingusers : MonoBehaviour {
 					else
 					{
 						errorfield.text = www.downloadHandler.text;
+						canvasLoad.SetActive (false);
 					}
 
 

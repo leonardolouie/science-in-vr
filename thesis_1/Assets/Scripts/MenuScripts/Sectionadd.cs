@@ -65,7 +65,7 @@ public class Sectionadd : MonoBehaviour {
 	}
 
 
-	IEnumerator  Changepass(string section_code, string username)
+	IEnumerator  Changepass(string section_id, string username)
 	{
 
 
@@ -87,7 +87,7 @@ public class Sectionadd : MonoBehaviour {
 			//Checking web server response
 			WWWForm form = new WWWForm ();
 
-			form.AddField ("section_code", section_code);
+			form.AddField ("section_id", section_id);
 			form.AddField ("name", username );
 
 
@@ -124,6 +124,7 @@ public class Sectionadd : MonoBehaviour {
 					else
 					{
 						errorfield.text = www.downloadHandler.text;
+						canvasLoad.SetActive(false);
 					}
 
 

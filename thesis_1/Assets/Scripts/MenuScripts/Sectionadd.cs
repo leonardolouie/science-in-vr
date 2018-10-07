@@ -110,18 +110,43 @@ public class Sectionadd : MonoBehaviour {
 					Validation1.UserDetail userDetail = JsonUtility.FromJson<Validation1.UserDetail> (www.downloadHandler.text);
 					//reponse details			
 					if (userDetail.status == 1) 
-					{
-						lblLoader.text = userDetail.message;
+					{   
+
+						errorfield.text = "";
+						lblLoader.text = "Sucessfully Added Section";
 						yield return new WaitForSeconds (2f); 
 						canvasLoad.SetActive(false);
 
 						txtcode.text = "";
 
 
+					} 
 
+					else if (userDetail.status == 2) 
+					{   
+
+						errorfield.text = "";
+						lblLoader.text = "SECTION CODE IS NOT EXISTED!";
+						yield return new WaitForSeconds (2f); 
+						canvasLoad.SetActive(false);
+
+						txtcode.text = "";
 
 
 					} 
+					else if (userDetail.status == 3) 
+					{   
+
+						errorfield.text = "";
+						lblLoader.text = "Account already existed in section";
+						yield return new WaitForSeconds (2f); 
+						canvasLoad.SetActive(false);
+
+						txtcode.text = "";
+
+
+					} 
+
 					else
 					{
 						errorfield.text = www.downloadHandler.text;

@@ -76,6 +76,7 @@ public class changepass : MonoBehaviour {
 	IEnumerator  Changepass(string passworda, string username)
 	{
 
+		errorfield.text = "";
 
 		string ChangepassUrl="https://scivre.herokuapp.com/api/webapichangepass";
 
@@ -117,10 +118,12 @@ public class changepass : MonoBehaviour {
 				Validation1.UserDetail userDetail = JsonUtility.FromJson<Validation1.UserDetail> (www.downloadHandler.text);
 				//reponse details			
 				if (userDetail.status == 1) 
-				{
+				{     
+						errorfield.text = "";
 					lblLoader.text = userDetail.message;
 				    yield return new WaitForSeconds (2f); 
 					canvasLoad.SetActive(false);
+
 
 						password.text = "";
 						retype.text = "";

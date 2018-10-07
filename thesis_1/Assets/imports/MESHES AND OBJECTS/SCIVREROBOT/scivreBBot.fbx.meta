@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 06e001cd694eb5249a3fdc551ffb395c
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: Armature
     100002: body
@@ -84,7 +84,7 @@ ModelImporter:
     7400004: Armature|Action.001
     7400006: Armature|Action.002
     7400008: Armature|Action.003
-    7400010: Armature|handGesture
+    7400010: handIdle
     7400012: HEADIDLE
     7400014: Armature|ROBOT_IDLE
     7400016: RESPAWN
@@ -136,7 +136,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -286,7 +285,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|handGesture
+      name: handIdle
       takeName: Armature|handGesture
       firstFrame: 0
       lastFrame: 74
@@ -448,8 +447,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

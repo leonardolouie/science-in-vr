@@ -8,7 +8,7 @@ public class humanAnatomyManager : MonoBehaviour {
 	public GameObject[] anatomySystemsPrefabs;
 	public Material onClikMat;
 	anatomyManager anatomymanager;
-	public Transform spawnPointVr;
+	public Transform spawnPointVr,humanBase;
 	void Awake(){
 		if (!VrOn.isVROn) {
 			whatSystem = PlayerPrefs.GetInt ("whatSystem", 0);
@@ -26,7 +26,7 @@ public class humanAnatomyManager : MonoBehaviour {
 				break;
 			}
 
-			Instantiate (anatomySystemsPrefabs [whatSystem], Camera.main.transform.parent.position, anatomySystemsPrefabs [whatSystem].transform.rotation);
+			Instantiate (anatomySystemsPrefabs [whatSystem],humanBase.position, anatomySystemsPrefabs [whatSystem].transform.rotation);
 			anatomymanager = FindObjectOfType<anatomyManager> ();
 		}
 	}

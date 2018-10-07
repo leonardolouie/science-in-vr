@@ -5,7 +5,7 @@ public class anatomyCamTransitions : MonoBehaviour {
 	protected Transform xFormaParent;
 
 	protected Vector3 localRotation;
-	protected float cameraDistance = 10f;
+	protected float cameraDistance = 17f;
 
 	public float mouseSensitivity = 4f;
 	public float scrollSensitivity = 2f;
@@ -13,21 +13,30 @@ public class anatomyCamTransitions : MonoBehaviour {
 	public float scrollDampening = 6f;
 	public bool cameraDisabled = false;
 	public Vector3 offset;
-
+	private GameObject anatomySystem;
 	//USE FOR CHANGING THE PIVOT
-	public Transform[] views;
 	public float transSpeed = 2f;
 	public Transform currentView;
 	// Use this for initialization
 	void Start () {
+			anatomySystem = GameObject.FindWithTag ("system");
 			this.xFormCamera = this.transform;
-			this.xFormaParent = this.transform.parent;;
-
+			this.xFormaParent = this.transform.parent;
 	}
 	void Update()
 	{
+		if (!VrOn.isVROn && anatomyDialogue.hasSelect) {
+			for (int i = 0; i < anatomySystem.transform.childCount; i++) {
+				if (anatomyManager.selectedOrgan == i) {
+					Debug.Log ("hey" + i);
+					currentView = anatomySystem.transform.GetChild (i);
+				}
+				else {
+				}
+			}
+			FindObjectOfType<anatomyDialogue> ().hasSelected (false);
+		} 
 	}
-
 	// Update is called once per frame
 	void LateUpdate () {
 		if (!VrOn.isVROn) {

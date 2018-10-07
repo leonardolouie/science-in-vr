@@ -7,10 +7,9 @@ using UnityEngine.Networking;
 
 public class creatingusers : MonoBehaviour {
 
-		//site
-		//string CreateUserUrl="localhost:81/superweb/webscivre/public/api/webscivreapiregister";
+
 	string CreateUserUrl = "https://scivre.herokuapp.com/api/webscivreapiregister";
-	//string CreateUserUrl = "http://localhost/scivre/public/api/webscivreapiregister";
+
 
 		public InputField txtstudent_id;
 		public  InputField txtfname;
@@ -150,6 +149,7 @@ public class creatingusers : MonoBehaviour {
 					else
 					{
 						errorfield.text = www.downloadHandler.text;
+						canvasLoad.SetActive (false);
 					}
 
 

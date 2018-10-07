@@ -1,64 +1,43 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class anatomyManager : MonoBehaviour {
 	public static int selectedOrgan = -1;
 	private GameObject organSystem;
 	humanAnatomyManager manager;
-	public static Material currentMaterial,onClickMat,defaultMat;
+	Material currentMaterial,onClickMat;
 	anatomyCamTransitions act;
 	// Use this for initialization
 	void Start () {
-			
 		organSystem = GameObject.FindWithTag ("system");
 		manager = FindObjectOfType<humanAnatomyManager> ();
 		currentMaterial = gameObject.GetComponent<MeshRenderer> ().material;
 		act = FindObjectOfType<anatomyCamTransitions> ();
 		onClickMat = manager.onClikMat;
-		defaultMat = gameObject.GetComponent<MeshRenderer> ().material;
+		//defaultMat = gameObject.GetComponent<MeshRenderer> ().material;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 	void OnMouseDown(){
 		if (!VrOn.isVROn) {
-			if (currentMaterial == onClickMat) {
-				currentMaterial = defaultMat;
-				gameObject.GetComponent<MeshRenderer> ().material = defaultMat;
+			if (gameObject.GetComponent<MeshRenderer> ().material == onClickMat) {
+				gameObject.GetComponent<MeshRenderer> ().material = currentMaterial;
 				selectedOrgan = -1;
 			} else {
 				for (int i = 0; i < organSystem.transform.childCount; i++) {
-					organSystem.transform.GetChild (i).GetComponent<MeshRenderer> ().material = defaultMat;
+					organSystem.transform.GetChild (i).GetComponent<MeshRenderer> ().material = organSystem.transform.GetChild (i).GetComponent<anatomyManager> ().currentMaterial;
 				}
-				currentMaterial = onClickMat;
 				gameObject.GetComponent<MeshRenderer> ().material = onClickMat;
-
 				selectedOrgan = transform.GetSiblingIndex ();
-				//act.selectOrgan (selectedOrgan);
 			}
 		}
 	}
-
-
 	public void selectOrgansForVr(){
-		selectedOrgan = this.transform.GetSiblingIndex ();
+		selectedOrgan = transform.GetSiblingIndex ();
 		organSystem.transform.GetChild (selectedOrgan).GetComponent<MeshRenderer> ().material = onClickMat;
 	}
 
 	public void deselectOrgansForVr ()
 	{
-		organSystem.transform.GetChild (selectedOrgan).GetComponent<MeshRenderer> ().material = defaultMat;
+		organSystem.transform.GetChild (selectedOrgan).GetComponent<MeshRenderer> ().material = currentMaterial;
 	}
-
-
-
-
-
-
 	public void showOrgans(){
 		for (int i = 0; i < organSystem.transform.childCount; i++) {
 				organSystem.transform.GetChild (i).gameObject.SetActive (true);

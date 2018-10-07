@@ -51,7 +51,7 @@ public class anatomyDialogue : MonoBehaviour {
 			//means the vr is on , here you can add all the events when ur in vr mode
 			gazeAt = false;
 		} else {
-			//selectedOrgans = transform.GetSiblingIndex ();
+			hasSelected (true);
 			FindObjectOfType<DialogueManager> ().StartDialogue (dialogue);
 			//dito pwede ung double tap ilagay this is the change of pivot
 			//lerp = true;

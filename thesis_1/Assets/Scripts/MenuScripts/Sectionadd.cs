@@ -101,6 +101,7 @@ public class Sectionadd : MonoBehaviour {
 				if (www.error != null)
 				{
 					errorfield.text = "Error webserver request error: "+ www.error;
+					canvasLoad.SetActive(false);
 				}
 				else
 				{ 

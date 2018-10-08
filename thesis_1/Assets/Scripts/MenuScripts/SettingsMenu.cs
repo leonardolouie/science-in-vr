@@ -9,6 +9,12 @@ public class SettingsMenu : MonoBehaviour {
 	public AudioMixer audioMixer;
 
 
+
+	public void VolumeControl(float volumeControl) {
+		AudioListener.volume = volumeControl; 
+	}
+
+
 	public void SetVolume(float volume)
 	{
 		audioMixer.SetFloat ("vfxVolume", volume);

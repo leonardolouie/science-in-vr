@@ -109,7 +109,7 @@ public class robotPatrol : MonoBehaviour {
 		Vector3 direction = (target[index].position - transform.position).normalized;
 		lookAt = Quaternion.LookRotation (direction);
 	
-		transform.rotation.y = Quaternion.RotateTowards (transform.rotation, lookAt, rotSpeed * Time.deltaTime).y;
+		/*transform.rotation.y = Quaternion.RotateTowards (transform.rotation, lookAt, rotSpeed * Time.deltaTime).y;
 		if (transform.rotation.y == lookAt.y) {
 			isTurning = false;
 			robotAnim.SetInteger ("anim", 0);
@@ -121,7 +121,7 @@ public class robotPatrol : MonoBehaviour {
 				animationRandom = Random.Range (1, 10);
 				idling = true;
 			}
-		}
+		}*/
 	}
 
 	IEnumerator waitForSeconds(){

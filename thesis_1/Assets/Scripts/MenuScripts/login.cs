@@ -7,7 +7,6 @@ using UnityEngine.Networking;
 public class login : MonoBehaviour {
 
 	string LoginUrl="https://scivre.herokuapp.com/api/webscivreapilogin";
-	//string LoginUrl="http://localhost/scivre/public/api/webscivreapilogin";
 	public InputField name;
 	public InputField password;
 	public Text id;
@@ -208,7 +207,7 @@ public class login : MonoBehaviour {
 		mainMenuPanel.SetActive (true);
 		Hello.text = "WELCOME BACK "+PlayerPrefs.GetString ("first_name");
 		fullname.text = PlayerPrefs.GetString ("first_name")+" "+PlayerPrefs.GetString ("middle_name")+" "+PlayerPrefs.GetString ("last_name");
-		student_id.text = PlayerPrefs.GetString ("id")+" ";
+		//student_id.text = PlayerPrefs.GetString ("id")+" ";
 		user.text = PlayerPrefs.GetString ("name")+" ";
 
 	}

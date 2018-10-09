@@ -178,7 +178,7 @@ public class creatingusers : MonoBehaviour {
 
 		Hello.text = "WELCOME " + txtfname.text;
 		fullname.text = txtfname.text + " " + txtmname.text + " " + txtlname.text;
-		student_id.text = txtstudent_id.text;
+		//student_id.text = txtstudent_id.text;
 		user.text = txtusername.text;
 
 

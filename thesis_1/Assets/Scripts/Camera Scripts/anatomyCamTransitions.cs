@@ -39,7 +39,7 @@ public class anatomyCamTransitions : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void LateUpdate () {
-		if (!VrOn.isVROn) {
+		if (!VrOn.isVROn){
 			if (Input.GetKeyDown (KeyCode.LeftShift)) {
 				cameraDisabled = !cameraDisabled;
 			}
@@ -57,7 +57,7 @@ public class anatomyCamTransitions : MonoBehaviour {
 					localRotation.y -= t.deltaPosition.y * mouseSensitivity;
 
 					//clamp the y rotation to horizon  and not flipping over at the top
-					localRotation.y = Mathf.Clamp (localRotation.y, 0f, 90f);
+					localRotation.y = Mathf.Clamp (localRotation.y, -90f, 90f);
 				}
 				break;
 			case 2:
@@ -67,7 +67,7 @@ public class anatomyCamTransitions : MonoBehaviour {
 				scrollAmount *= (this.cameraDistance * 0.3f);
 				this.cameraDistance += scrollAmount * -1f;
 				//this is the boundaries
-				this.cameraDistance = Mathf.Clamp (this.cameraDistance, planetDialogue.minZoom, planetDialogue.maxZoom);
+				this.cameraDistance = Mathf.Clamp (this.cameraDistance, 3f, 6f);
 				break;
 			}
 

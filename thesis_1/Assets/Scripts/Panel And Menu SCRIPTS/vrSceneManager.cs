@@ -10,7 +10,7 @@ public class vrSceneManager : MonoBehaviour {
 
 
 
-
+	public GameObject spawnPointSolar,solarSystemPrefabs;
 	public GameObject splashPanel,text,planetSpawner,fade;
 	public Image vrOffSplashImage,FADEPHOTO;
 	MainMenu m;
@@ -27,9 +27,26 @@ public class vrSceneManager : MonoBehaviour {
 	}
 
 
+
+
+
 	//will be held to all buttons for parameters
 	public void selectThePlanet(int a){
+		if(spawnPointSolar.transform.childCount > 0)
+			Destroy (spawnPointSolar.transform.GetChild (0).gameObject);
 		StartCoroutine (showPlanet (a));
+	}
+
+
+	public void moreInfoVr(){
+		if (spawnPointSolar.transform.childCount == 0) {
+			if (planetSpawner.transform.childCount > 0) {
+				DestroyImmediate (planetSpawner.transform.GetChild (0).gameObject);
+			}
+			GameObject solarSystem = Instantiate (solarSystemPrefabs, spawnPointSolar.transform.position,Quaternion.identity)as GameObject;
+			solarSystem.transform.SetParent (spawnPointSolar.transform);
+			//solarSystem.transform.position = Vector3.zero;
+		}
 	}
 		
 	IEnumerator showPlanet(int planetNo){
@@ -40,8 +57,13 @@ public class vrSceneManager : MonoBehaviour {
 		if (planetSpawner.transform.childCount > 0) {
 			DestroyImmediate (planetSpawner.transform.GetChild (0).gameObject);
 		}
-		GameObject b = Instantiate (planetPrefabs [planetNo - 1], planetSpawner.transform.position,Quaternion.identity) as GameObject;
-		b.transform.SetParent (planetSpawner.transform);
+		if (planetNo == 9) {
+			//for the sun
+		} 
+		else {
+			GameObject b = Instantiate (planetPrefabs [planetNo - 1], planetSpawner.transform.position, Quaternion.identity) as GameObject;
+			b.transform.SetParent (planetSpawner.transform);
+		}
 		yield return new WaitForSeconds (2f);
 		FADEPHOTO.CrossFadeAlpha (0f, 3f, false);
 		yield return new WaitForSeconds (3f);

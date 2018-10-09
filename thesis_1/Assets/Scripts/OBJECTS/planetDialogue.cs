@@ -16,11 +16,12 @@ public class planetDialogue : MonoBehaviour {
 
   	float gazeTime = 2f;
     private float timer;
-
+	PanelAnim panelAnim;
 	public static float minZoom,maxZoom;
     public static int selectedPlanet;
     public int planetNo;
 	void Start(){
+		panelAnim = FindObjectOfType<PanelAnim> ();
 		defaultView ();
 	}
 	void Update () {
@@ -46,6 +47,8 @@ public class planetDialogue : MonoBehaviour {
 			hasSelect = true;
 			gazeAt = false;
 			selectedPlanet = planetNo;
+			panelAnim.newPanel (selectedPlanet);
+
 		} else {
 			FindObjectOfType<DialogueManager> ().StartDialogue (dialogue);
 			//dito pwede ung double tap ilagay this is the change of pivot

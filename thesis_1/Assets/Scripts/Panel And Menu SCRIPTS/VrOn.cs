@@ -23,6 +23,7 @@ public class VrOn : MonoBehaviour {
 	}
 	public IEnumerator activatorVr(string vrOn){
 		//canvas splash screen goes here
+		isVROn = true;
 		canvasSplash.SetActive(true);
 		text.SetActive (true);
 		yield return new WaitForSeconds (5f);
@@ -37,7 +38,7 @@ public class VrOn : MonoBehaviour {
 		yield return new WaitForSeconds(2f);
 		text.SetActive (false);
 		canvasSplash.SetActive (false);
-		isVROn = true;
+
 		//SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
 
 		UnityEngine.XR.XRSettings.LoadDeviceByName (vrOn);

@@ -8,15 +8,16 @@ public class glaze : MonoBehaviour {
 	public float gazeTime = 2f;
 	private float timer;
 	private bool gazeAt;
-
-
+	anatomyDialogue anaDiag;
+	humanAnatomyManager anaManager;
 	public GameObject canvasPlanets, canvasInfo;
 	public Dialogue dialogue;
 	public Text planetName,planetInfo;
-	public bool planet = false;
+	public bool planet = false,anatomyButton = false;
 	// Use this for initialization
 	void Start () {
-
+		anaManager = FindObjectOfType<humanAnatomyManager> ();
+		anaDiag = FindObjectOfType<anatomyDialogue> ();
 	}
 	public void try1(){
 		
@@ -43,12 +44,27 @@ public class glaze : MonoBehaviour {
 			canvasInfo.SetActive (true);
 			canvasPlanets.SetActive (false);
 		}
+		if (anatomyButton) {
+				
+		}
 	}
-
 	public void PointerExit(){
 		timer = 0f;
 		gazeAt = false;
 		ret = false;
 	}
 		
+	public void hideOrgansInVr(){
+		GameObject.FindWithTag ("system").transform.GetChild (anatomyDialogue.selectedOrgans).gameObject.SetActive (false);
+		GameObject panelAnim = GameObject.FindWithTag ("animcanvas");
+		panelAnim.GetComponent<Animator> ().SetTrigger ("show");
+		Destroy (panelAnim, .25f);
+		anaManager.playRotation (true);
+		anaDiag.hasSelected (false);
+
+	}
+
+	public void Show(){
+		anaManager.showMoreInfo ();
+	}
 }

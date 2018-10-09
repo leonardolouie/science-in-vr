@@ -3,14 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 public class humanAnatomyManager : MonoBehaviour {
-	public Text header;
+	public GameObject animPanelShow;
+	private bool startOrganRotation = false,strSlctdOrgnRot;
+	float organSpeedRotation = 3f;
+	public Text header,organName,organDesc;
+	Text nameOrgan;
 	int whatSystem;
 	public GameObject[] anatomySystemsPrefabs;
 	public Material onClikMat;
 	anatomyManager anatomymanager;
-	public Transform spawnPointVr,humanBase;
+	public Transform spawnPointVr,humanBase,spawnPointOrgan;
 	void Awake(){
-		if (!VrOn.isVROn) {
+		if(!VrOn.isVROn) {
 			whatSystem = PlayerPrefs.GetInt ("whatSystem", 0);
 			switch (whatSystem) {
 			case 0:
@@ -25,9 +29,35 @@ public class humanAnatomyManager : MonoBehaviour {
 			default:
 				break;
 			}
-
 			Instantiate (anatomySystemsPrefabs [whatSystem],humanBase.position, anatomySystemsPrefabs [whatSystem].transform.rotation);
-			anatomymanager = FindObjectOfType<anatomyManager> ();
+
+		}
+		anatomymanager = FindObjectOfType<anatomyManager> ();
+	
+	}
+	public void playRotation(bool start){
+		startOrganRotation = start;
+	}
+
+	public void setSpeedRotation(float speed){
+		organSpeedRotation = Mathf.Lerp (organSpeedRotation, speed, 1.5f);
+	}
+		
+	public void showMoreInfo(){
+		GameObject system = GameObject.FindWithTag ("system");
+		strSlctdOrgnRot = true;
+		GameObject organ = Instantiate (system.transform.GetChild (anatomyDialogue.selectedOrgans).gameObject,spawnPointOrgan)as GameObject;
+		organ.transform.position = spawnPointOrgan.position;
+		organ.GetComponent<anatomyDialogue> ().enabled = false;
+
+	}
+
+	void Update(){
+		if (startOrganRotation) {
+			spawnPointVr.RotateAround (spawnPointVr.transform.position, Vector3.up, organSpeedRotation * Time.deltaTime);
+		}
+		if (strSlctdOrgnRot) {
+			spawnPointOrgan.Rotate(25f * Time.deltaTime,0f,0f);
 		}
 	}
 	public void hide(){
@@ -36,11 +66,27 @@ public class humanAnatomyManager : MonoBehaviour {
 	public void showAll(){
 		anatomymanager.showOrgans ();
 	}
-		
+	public void showAllVr(){
+		GameObject system = GameObject.FindWithTag ("system");
+		for (int i = 0; i < system.transform.childCount; i++) {
+			system.transform.GetChild (i).gameObject.SetActive (true);
+		}
+	}
+
 	public void vrOn(){
 		Destroy (GameObject.FindWithTag ("system"));
 		//Invoke ("a", 10f);
 		GameObject a = Instantiate (anatomySystemsPrefabs [whatSystem], spawnPointVr.position, anatomySystemsPrefabs [whatSystem].transform.rotation) as GameObject;
 		a.transform.SetParent (spawnPointVr);
+		a.transform.localScale = new Vector3 (2, 2.4f, 2);
+	}
+	public void robotMenu(){
+	}
+	public void infoScreen(string name, string desc){
+		organName.text = name;
+		organDesc.text = desc;
+		GameObject.FindWithTag ("organName").GetComponent<Text> ().text = name;
+
+	
 	}
 }

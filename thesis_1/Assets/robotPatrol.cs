@@ -19,7 +19,7 @@ public class robotPatrol : MonoBehaviour {
 	Animator robotAnim;
 
 	public static bool isLookingAt;
-	public Transform pathParent,lookParent;
+	public Transform pathParent;//,lookParent;
 	public Transform[] target;
 
 	Transform targetPoint;
@@ -56,8 +56,8 @@ public class robotPatrol : MonoBehaviour {
 		timer = 0f;
 		gazeAt = false;
 		robotAnim.SetInteger ("anim", 0);
-		float x = Random.Range (1f, 4f);
-		Invoke ("lookAway", x);
+		float y = Random.Range (1f, 4f);
+		Invoke ("lookAway", y);
 		//ret = false;
 	}
 
@@ -66,7 +66,7 @@ public class robotPatrol : MonoBehaviour {
 		isTurning = true;
 	}
 
-	void OnDrawGizmos()
+	/*void OnDrawGizmos()
 	{
 		Vector3 from;
 		Vector3 to;
@@ -77,9 +77,9 @@ public class robotPatrol : MonoBehaviour {
 			Gizmos.color = new Color (1, 50, 0);
 			Gizmos.DrawLine (from, to);
 		}
-	}
+	}*/
 	void Start () {
-		vrCamera = GameObject.FindWithTag ("MainCamera").transform;
+		vrCamera = GameObject.FindWithTag ("vrCamera").transform;
 		robotAnim = GetComponent<Animator> ();
 		idling = true;
 	}
@@ -107,9 +107,10 @@ public class robotPatrol : MonoBehaviour {
 
 	void rotateRobot(){
 		Vector3 direction = (target[index].position - transform.position).normalized;
+		direction.y = 0;
 		lookAt = Quaternion.LookRotation (direction);
 	
-		transform.rotation.y = Quaternion.RotateTowards (transform.rotation, lookAt, rotSpeed * Time.deltaTime).y;
+		transform.rotation = Quaternion.RotateTowards (transform.rotation, lookAt, rotSpeed * Time.deltaTime);
 		if (transform.rotation.y == lookAt.y) {
 			isTurning = false;
 			robotAnim.SetInteger ("anim", 0);
@@ -130,6 +131,7 @@ public class robotPatrol : MonoBehaviour {
 
 		isWalking = true;
 		robotAnim.SetInteger("anim",3);
+		StopAllCoroutines ();
 	}
 
 
@@ -167,6 +169,8 @@ public class robotPatrol : MonoBehaviour {
 			isTurning = true;
 
 		}
+
+		StopAllCoroutines ();
 	}
 		
 
@@ -201,13 +205,14 @@ public class robotPatrol : MonoBehaviour {
 	void lookAtPlayer(){
 		robotAnim.SetInteger ("anim", 3);
 		Vector3 direction = (Camera.main.transform.position - transform.position).normalized;
+		direction.y = 0;
 		lookAt = Quaternion.LookRotation (direction);
 		transform.rotation = Quaternion.RotateTowards (transform.rotation, lookAt, rotSpeed * Time.deltaTime);
 		if (transform.rotation == lookAt) {
 			//move towards
 			if (robotSelected) {
 				transform.position = Vector3.MoveTowards (transform.position, vrCamera.position, speed * Time.deltaTime);
-				if (Vector3.Distance(transform.position,vrCamera.position) < 2f) {
+				if (Vector3.Distance(transform.position,vrCamera.position) <15f) {
 					StartCoroutine (delayy ());
 				}
 			}
@@ -215,9 +220,10 @@ public class robotPatrol : MonoBehaviour {
 	}
 
 	IEnumerator delayy(){
+		robotSelected = false;
 		float x = Random.Range (15f, 20f);
 		yield return new WaitForSeconds (x);
-		robotSelected = false;
+		StopAllCoroutines ();
 	}
 	
 }

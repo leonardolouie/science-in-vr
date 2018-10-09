@@ -68,6 +68,7 @@ public class GvrReticlePointer : GvrBasePointer {
   public override float MaxPointerDistance { get { return maxReticleDistance; } }
 
   public override void OnPointerEnter(RaycastResult raycastResultResult, bool isInteractive) {
+		
     SetPointerTarget(raycastResultResult.worldPosition, isInteractive);
   }
 

@@ -16,16 +16,19 @@ public class PanelAnim : MonoBehaviour {
 
 	void Update ()
 	{
-		if (fadeOut)
-			canvasGroup.alpha -= fadeFactor * Time.deltaTime;
-		if (fadeIn) 
-		{
-			canvasGroup.alpha += fadeFactor * Time.deltaTime;
-		}
+			if (fadeOut) {
+				canvasGroup.alpha -= fadeFactor * Time.deltaTime;
+			}
+			if (fadeIn) {
+				canvasGroup.alpha += fadeFactor * Time.deltaTime;
+			}
+		
+			
 	}
 
 	public void newPanel(int newPage)
 	{
+		
 		if (newPage != currentPanelIndex)
 			StartCoroutine (ChangePage(newPage));
 	}

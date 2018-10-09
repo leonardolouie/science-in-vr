@@ -29,14 +29,13 @@ public class anatomyManager : MonoBehaviour {
 			}
 		}
 	}
-	public void selectOrgansForVr(){
-		selectedOrgan = transform.GetSiblingIndex ();
-		organSystem.transform.GetChild (selectedOrgan).GetComponent<MeshRenderer> ().material = onClickMat;
+	public void selectOrgansForVr(int index){
+		organSystem.transform.GetChild (index).GetComponent<MeshRenderer> ().material = onClickMat;
 	}
 
-	public void deselectOrgansForVr ()
+	public void deselectOrgansForVr (int index)
 	{
-		organSystem.transform.GetChild (selectedOrgan).GetComponent<MeshRenderer> ().material = currentMaterial;
+		organSystem.transform.GetChild (index).GetComponent<MeshRenderer> ().material = organSystem.transform.GetChild (index).GetComponent<anatomyManager> ().currentMaterial;
 	}
 	public void showOrgans(){
 		for (int i = 0; i < organSystem.transform.childCount; i++) {

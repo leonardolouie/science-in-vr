@@ -26,7 +26,9 @@ public class MainMenu : MonoBehaviour {
 
 	public void Quiz(int a){
 		PlayerPrefs.SetInt ("quizNo", a);
-		SceneManager.LoadScene (3);
+		SceneManager.LoadScene ("Splash");
+		load = "Quiz";
+
 	}
 	public void backFromQuiz(){
 		SceneManager.LoadScene (1);

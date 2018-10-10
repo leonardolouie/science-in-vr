@@ -28,6 +28,7 @@ public class textcontrol : MonoBehaviour {
 	public Questions[] circulatory;
 	public Questions[] urinary;
 	public Questions[] nervous;
+	public Questions[] endocrine;
 
 
 
@@ -127,6 +128,11 @@ public class textcontrol : MonoBehaviour {
 				unansweredQuestion = urinary.ToList<Questions> ();
 				quizName.text= "NERVOUS SYSTEM";
 			}
+			if (PlayerPrefs.GetInt ("quizNo") == 9) {
+				unansweredQuestion = endocrine.ToList<Questions> ();
+				quizName.text= "ENDOCRINE SYSTEM";
+			}
+
 
 
 		
@@ -216,6 +222,11 @@ public class textcontrol : MonoBehaviour {
 			if (PlayerPrefs.GetInt ("quizNo") == 8) {
 				PlayerPrefs.SetInt ("Score8", correctanswer);
 				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 8));
+			}
+
+			if (PlayerPrefs.GetInt ("quizNo") == 9) {
+				PlayerPrefs.SetInt ("Score9", correctanswer);
+				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 9));
 			}
 				
 

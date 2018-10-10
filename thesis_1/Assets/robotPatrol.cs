@@ -3,34 +3,55 @@ using System.Collections;
 using UnityEngine.EventSystems;
 public class robotPatrol : MonoBehaviour {
 
+	private int randomizer = 0;
+
+	private bool isLooking;
 
 
-	//public static bool ret;
-	private bool gazeAt;
+	private int state;
+	public int index = 0;
+
+	private bool gazeAt,robotStart;
 	bool robotSelected;
-	float gazeTime = 2f;
-	private float timer,timers;
-
-	Transform vrCamera;
-
-
-
-
-	Animator robotAnim;
-
-	public static bool isLookingAt;
-	public Transform pathParent;//,lookParent;
-	public Transform[] target;
-
-	Transform targetPoint;
-	public int index = 0,flag;
 
 	public float speed = 3f;
 	public float rotSpeed = 50f;
+
+	float gazeTime = 2f;
+	private float timer,timerLook;
+
+
+	Transform vrCamera;
+	Animator robotAnim;
+	public Transform pathParent;//,lookParent; for gizmoz
+	public Transform[] target;
+	Transform targetPoint;
 	Quaternion lookAt;
 
-	public bool isWalking,isTurning,idling;
-	public int animationRandom;
+	public void PointerEnter(){
+		gazeAt = true;
+	}
+	public void PointerDown(){
+		gazeAt = false;
+		robotSelected = true;
+		isLooking = true;
+	}
+	public void PointerExit(){
+		timer = 0f;
+		gazeAt = false;
+	}
+
+	void Start () {
+		vrCamera = GameObject.FindWithTag ("vrCamera").transform;
+		robotAnim = GetComponent<Animator> ();
+		StartCoroutine (startRobot ());
+	}
+
+	IEnumerator startRobot(){
+		yield return new WaitForSeconds (robotAnim.GetCurrentAnimatorStateInfo (0).length + 5);
+		robotStart = true;
+		state = 1;
+	}
 
 	void Update () {
 		if (gazeAt) {
@@ -40,31 +61,60 @@ public class robotPatrol : MonoBehaviour {
 				timer = 0f;
 			}
 		}
-	}
-	public void PointerEnter(){
-		gazeAt = true;
-		isLookingAt = true;
-		robotAnim.SetInteger ("anim", 0);
-		//ret = true;
-	}
-	public void PointerDown(){
-		gazeAt = false;
-		robotSelected = true;
-	}
-	public void PointerExit(){
-		timers = 0f;
-		timer = 0f;
-		gazeAt = false;
-		robotAnim.SetInteger ("anim", 0);
-		float y = Random.Range (1f, 4f);
-		Invoke ("lookAway", y);
-		//ret = false;
+			
+		if (!isLooking) {
+			if (robotStart) {
+				switch (state) {
+				case 1:
+					robotAnim.SetInteger ("anim", 1);
+					rotateRobot ();
+					break;
+				case 2:
+			//idle goes heer
+						robotAnim.SetInteger ("anim", 0);
+						StartCoroutine (idling ());
+					
+					break;
+				default:
+					robotAnim.SetInteger ("anim", 1);
+					moveRobot ();
+					break;
+				}
+			}
+		} else {
+			robotAnim.SetInteger ("anim", 1);
+			robotAnim.speed = 1.5f;
+			Vector3 direction = (vrCamera.position - transform.position).normalized;
+			lookAt = Quaternion.LookRotation (direction);
+			direction.y = 0;
+			transform.rotation = Quaternion.RotateTowards (transform.rotation, lookAt, rotSpeed * Time.deltaTime);
+			if (transform.rotation == lookAt) {
+				transform.position = Vector3.MoveTowards (transform.position,vrCamera.position, speed * Time.deltaTime);
+				
+				robotAnim.speed = 1f;
+				if (Vector3.Distance (transform.position, vrCamera.position) < 10f) {
+					robotAnim.SetInteger ("anim", 0);
+					timerLook += Time.deltaTime;
+					if (timerLook > 30f){
+						state = 1;
+						isLooking = false;
+						timerLook = 0f;
+					}
+				}
+
+			}
+		}
+		
 	}
 
-	void lookAway(){
-		isLookingAt = false;
-		isTurning = true;
+	IEnumerator idling(){
+		int x = Random.Range (1, 10);
+		yield return new WaitForSeconds (x);
+		state = 0;
 	}
+
+
+
 
 	void OnDrawGizmos()
 	{
@@ -78,154 +128,29 @@ public class robotPatrol : MonoBehaviour {
 			Gizmos.DrawLine (from, to);
 		}
 	}
-	void Start () {
-		vrCamera = GameObject.FindWithTag ("vrCamera").transform;
-		robotAnim = GetComponent<Animator> ();
-		idling = true;
-	}
+
 	void moveRobot(){
-
-		//animation walking goes here
-
-		if (transform.position != target [index].position) {
-			transform.position = Vector3.MoveTowards (transform.position, target [index].position, speed * Time.deltaTime);
-		} else {
-			robotAnim.SetInteger ("anim", 0);
-			index = (index + 1) % target.Length;
-			isWalking = false;
-			animationRandom = Random.Range (1, 4);
-			if (animationRandom < 3) {
-				animationRandom = Random.Range (1, 15);
-				idling = true;
-			} else {
-				robotAnim.SetInteger ("anim", 3);
-				isTurning = true;
+			if (transform.position != target [index].position) {
+			
+				transform.position = Vector3.MoveTowards (transform.position, target [index].position, speed * Time.deltaTime);
+			} 
+			else
+			{
+				
+				index = (index + 1) % target.Length;
+				state = 1;
 			}
-		}
 	}
-		
-
 	void rotateRobot(){
+		robotAnim.speed = 1.5f;
 		Vector3 direction = (target[index].position - transform.position).normalized;
-		direction.y = 0;
 		lookAt = Quaternion.LookRotation (direction);
-	
-/*<<<<<<< HEAD
-		transform.rotation = Quaternion.RotateTowards (transform.rotation, lookAt, rotSpeed * Time.deltaTime);
-=======
-		*/
+		direction.y = 0;
 		transform.rotation = Quaternion.RotateTowards (transform.rotation, lookAt, rotSpeed * Time.deltaTime);
 		if (transform.rotation == lookAt) {
-			isTurning = false;
-			robotAnim.SetInteger ("anim", 0);
-			//Debug.Log ("turning");
-			animationRandom = Random.Range (1, 4);
-			if (animationRandom != 3) {
-				StartCoroutine (waitForSeconds());
-			} else {
-				animationRandom = Random.Range (1, 10);
-				idling = true;
-			}
+			robotAnim.speed = 1f;
+			state = 0;
+				
 		}
 	}
-
-	IEnumerator waitForSeconds(){
-		float a = Random.Range (1f, 10f);
-		yield return new WaitForSeconds (a);
-
-		isWalking = true;
-		robotAnim.SetInteger("anim",3);
-		StopAllCoroutines ();
-	}
-
-
-
-	void idleRobot(){
-		if (animationRandom < 5) {
-			StartCoroutine (animateIdle ());
-		} 
-		else{
-			isTurning = true;
-			robotAnim.SetInteger ("anim", 3);
-		}
-	}
-
-	IEnumerator animateIdle(){
-
-		yield return new WaitForSeconds (2f);
-
-		int idleRandom = Random.Range (1,3);
-		robotAnim.SetInteger ("anim", idleRandom);
-		//AnimatorClipInfo[] currentClip = robotAnim.GetCurrentAnimatorClipInfo (0);
-		Debug.Log ("idle animating....");
-		yield return new WaitForSeconds (5f);
-
-		robotAnim.SetInteger ("anim", 0);
-		Debug.Log ("done idling");
-		int r = Random.Range (1, 3);
-		if (r == 1) {
-			idleRobot ();
-		}
-		else {
-			float j = Random.Range (0, 5f);
-			yield return new WaitForSeconds (j);
-			robotAnim.SetInteger ("anim", 3);
-			isTurning = true;
-
-		}
-
-		StopAllCoroutines ();
-	}
-		
-
-
-
-
-
-	void LateUpdate () {
-
-		if (!isLookingAt) {
-			if (isWalking) {
-				moveRobot ();
-			} else if (isTurning) {
-				rotateRobot ();
-			} else if (idling) {
-				idleRobot ();
-				idling = false;
-			}
-		} else {
-			isTurning = false;
-			isWalking = false;
-			idling = false;
-			timers += Time.deltaTime;
-			if (timers >= 2f){
-				lookAtPlayer ();
-				timers = 0f;
-			}
-
-		}
-	}
-	void lookAtPlayer(){
-		robotAnim.SetInteger ("anim", 3);
-		Vector3 direction = (Camera.main.transform.position - transform.position).normalized;
-		direction.y = 0;
-		lookAt = Quaternion.LookRotation (direction);
-		transform.rotation = Quaternion.RotateTowards (transform.rotation, lookAt, rotSpeed * Time.deltaTime);
-		if (transform.rotation == lookAt) {
-			//move towards
-			if (robotSelected) {
-				transform.position = Vector3.MoveTowards (transform.position, vrCamera.position, speed * Time.deltaTime);
-				if (Vector3.Distance(transform.position,vrCamera.position) <15f) {
-					StartCoroutine (delayy ());
-				}
-			}
-		}
-	}
-	IEnumerator delayy(){
-		robotSelected = false;
-		float x = Random.Range (15f, 20f);
-		yield return new WaitForSeconds (x);
-		StopAllCoroutines ();
-	}
-	
 }

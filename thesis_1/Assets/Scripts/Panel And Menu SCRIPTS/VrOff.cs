@@ -12,6 +12,7 @@ public class VrOff : MonoBehaviour {
 			vrOff ();
 		}
 
+
 		anim.GetComponent<Animator> ().SetTrigger ("Pressed");
 	}
 	public void vrOff(){

@@ -66,7 +66,7 @@ public class robotPatrol : MonoBehaviour {
 		isTurning = true;
 	}
 
-	/*void OnDrawGizmos()
+	void OnDrawGizmos()
 	{
 		Vector3 from;
 		Vector3 to;
@@ -77,7 +77,7 @@ public class robotPatrol : MonoBehaviour {
 			Gizmos.color = new Color (1, 50, 0);
 			Gizmos.DrawLine (from, to);
 		}
-	}*/
+	}
 	void Start () {
 		vrCamera = GameObject.FindWithTag ("vrCamera").transform;
 		robotAnim = GetComponent<Animator> ();
@@ -110,12 +110,12 @@ public class robotPatrol : MonoBehaviour {
 		direction.y = 0;
 		lookAt = Quaternion.LookRotation (direction);
 	
-<<<<<<< HEAD
+/*<<<<<<< HEAD
 		transform.rotation = Quaternion.RotateTowards (transform.rotation, lookAt, rotSpeed * Time.deltaTime);
 =======
-		/*transform.rotation.y = Quaternion.RotateTowards (transform.rotation, lookAt, rotSpeed * Time.deltaTime).y;
->>>>>>> 76fc9caa430f9fc3e03126136d5de475f580dd16
-		if (transform.rotation.y == lookAt.y) {
+		*/
+		transform.rotation = Quaternion.RotateTowards (transform.rotation, lookAt, rotSpeed * Time.deltaTime);
+		if (transform.rotation == lookAt) {
 			isTurning = false;
 			robotAnim.SetInteger ("anim", 0);
 			//Debug.Log ("turning");
@@ -126,7 +126,7 @@ public class robotPatrol : MonoBehaviour {
 				animationRandom = Random.Range (1, 10);
 				idling = true;
 			}
-		}*/
+		}
 	}
 
 	IEnumerator waitForSeconds(){
@@ -194,14 +194,13 @@ public class robotPatrol : MonoBehaviour {
 				idling = false;
 			}
 		} else {
-			StopAllCoroutines ();
 			isTurning = false;
 			isWalking = false;
 			idling = false;
 			timers += Time.deltaTime;
 			if (timers >= 2f){
 				lookAtPlayer ();
-				timer = 0f;
+				timers = 0f;
 			}
 
 		}
@@ -222,7 +221,6 @@ public class robotPatrol : MonoBehaviour {
 			}
 		}
 	}
-
 	IEnumerator delayy(){
 		robotSelected = false;
 		float x = Random.Range (15f, 20f);

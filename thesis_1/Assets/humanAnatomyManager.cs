@@ -26,10 +26,21 @@ public class humanAnatomyManager : MonoBehaviour {
 			case 2:
 				header.text = "Urinary System";
 				break;
+			case 3:
+				header.text = "Skeletal System";
+				break;
+			case 4:
+				header.text = "Muscular System";
+				break;
 			default:
 				break;
 			}
-			Instantiate (anatomySystemsPrefabs [whatSystem],humanBase.position, anatomySystemsPrefabs [whatSystem].transform.rotation);
+			if (whatSystem > 2) {
+				Instantiate (anatomySystemsPrefabs [whatSystem], humanBase.position, anatomySystemsPrefabs [whatSystem].transform.rotation);
+				humanBase.gameObject.SetActive (false);
+			} else {
+				Instantiate (anatomySystemsPrefabs [whatSystem], humanBase.position, anatomySystemsPrefabs [whatSystem].transform.rotation);
+			}
 
 		}
 		anatomymanager = FindObjectOfType<anatomyManager> ();

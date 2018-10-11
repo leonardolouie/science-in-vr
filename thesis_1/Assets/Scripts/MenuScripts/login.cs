@@ -50,10 +50,11 @@ public class login : MonoBehaviour {
 
 
 	void Start(){
-		if (PlayerPrefs.GetInt ("isLogged") == 1) {
+		if (PlayerPrefs.GetInt ("isLogged",0) == 1) {
 			StartCoroutine (loadbackFetch ());
 			// dito ilalagay ung syncing ng data kung naka save, at nakapag Login na thru internet
 		}
+		Debug.Log (PlayerPrefs.GetInt ("isLogged", 0).ToString ());
 	}
 
 

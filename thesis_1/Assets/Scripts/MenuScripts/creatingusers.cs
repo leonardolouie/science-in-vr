@@ -24,7 +24,7 @@ public class creatingusers : MonoBehaviour {
 		public GameObject loginPanel, registerPanel,mainMenuPanel;
 		public Text Hello;
 		public Text fullname;
-		public Text student_id;
+		//public Text student_id;
 		public Text user;
 
 	 
@@ -72,6 +72,7 @@ public class creatingusers : MonoBehaviour {
 
 
 			if (Validation1.CheckPasswordMatch(txtpassword.text, txtretype.text) == true) {
+
 				StartCoroutine (CreateUser (txtstudent_id.text, txtpassword.text, txtfname.text, txtmname.text, txtlname.text, txtusername.text));
 			} else {
 				errorfield.text = "Password did not match";
@@ -103,6 +104,7 @@ public class creatingusers : MonoBehaviour {
 		{
 
 			errorfield.text = "Error: Internet Connection";
+			canvasLoad.SetActive (false);
 		} 
 		else 
 
@@ -143,6 +145,8 @@ public class creatingusers : MonoBehaviour {
 					errorfield.text = userDetail.message;
 					StartCoroutine (loadaftercreate ());
 
+					
+
 					     
 					       
 					} 
@@ -168,6 +172,9 @@ public class creatingusers : MonoBehaviour {
 	IEnumerator loadaftercreate()
 	{
 
+
+
+
 		loginPanel.SetActive (false);
 		registerPanel.SetActive (false);
 		canvasLoad.SetActive (true);
@@ -183,12 +190,15 @@ public class creatingusers : MonoBehaviour {
 
 
 
-		PlayerPrefs.SetString ("id", student_id.text);
+		PlayerPrefs.SetString ("id", txtstudent_id.text);
 		PlayerPrefs.SetString ("first_name",txtfname.text);
 		PlayerPrefs.SetString ("middle_name", txtmname.text);
 		PlayerPrefs.SetString ("last_name", txtlname.text);
 		PlayerPrefs.SetString ("name", txtusername.text);
 		PlayerPrefs.SetInt ("isLogged", 1);
+
+		Debug.Log (PlayerPrefs.GetInt ("isLogged").ToString () +"qweqeqeqqe");
+
 
 
 	}

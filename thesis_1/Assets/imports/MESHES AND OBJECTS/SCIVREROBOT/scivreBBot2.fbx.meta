@@ -137,7 +137,32 @@ ModelImporter:
     7400060: Armature|IDLE
     9500000: //RootNode
     13700000: bot_head
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chest.001
+    second: {fileID: 2100000, guid: 8bfe86592fb602e42aa4589acda81048, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chestMid.001
+    second: {fileID: 2100000, guid: 54808400c7ecdf843bea0b2d382d39cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes.001
+    second: {fileID: 2100000, guid: 48b2e415838e8724786c83c775024d9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hands.001
+    second: {fileID: 2100000, guid: 7d898441fb912614b9d9cac1cd2646bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main.001
+    second: {fileID: 2100000, guid: aa15f3c8f32c91348831604483997445, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

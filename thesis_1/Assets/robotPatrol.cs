@@ -3,6 +3,8 @@ using System.Collections;
 using UnityEngine.EventSystems;
 public class robotPatrol : MonoBehaviour {
 
+	public int distance;
+
 	private int randomizer = 0;
 
 	private bool isLooking;
@@ -92,7 +94,7 @@ public class robotPatrol : MonoBehaviour {
 				transform.position = Vector3.MoveTowards (transform.position,vrCamera.position, speed * Time.deltaTime);
 				
 				robotAnim.speed = 1f;
-				if (Vector3.Distance (transform.position, vrCamera.position) < 10f) {
+				if (Vector3.Distance (transform.position, vrCamera.position) < distance) {
 					robotAnim.SetInteger ("anim", 0);
 					timerLook += Time.deltaTime;
 					if (timerLook > 30f){

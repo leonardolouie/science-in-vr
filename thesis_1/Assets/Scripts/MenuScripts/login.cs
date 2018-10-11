@@ -18,9 +18,10 @@ public class login : MonoBehaviour {
 	public Text user;
 
 
-
+	public Animator startAppAnim;
 
 	public GameObject canvasLoad;
+	public GameObject tutorialpanel;
 	public Text lblLoader;
 	public RectTransform main;
 	public float timeStep;
@@ -50,6 +51,25 @@ public class login : MonoBehaviour {
 
 
 	void Start(){
+
+
+		Debug.Log (PlayerPrefs.GetInt ("isInstall"));
+		PlayerPrefs.SetInt ("isInstall", 0);
+		if (PlayerPrefs.GetInt ("isInstall") == 0) {
+			
+			PlayerPrefs.SetInt ("isInstall", 1);
+
+
+			startAppAnim.SetTrigger ("startApp");
+
+	
+		}
+		else 
+		{
+			tutorialpanel.SetActive (false);
+		}
+
+
 		if (PlayerPrefs.GetInt ("isLogged",0) == 1) {
 			StartCoroutine (loadbackFetch ());
 			// dito ilalagay ung syncing ng data kung naka save, at nakapag Login na thru internet

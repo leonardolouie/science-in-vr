@@ -7,8 +7,9 @@ public class MainMenu : MonoBehaviour {
 
 	public static string load;
 	public void SolarSystem(){
+		PlayerPrefs.SetInt ("isQuiz", 1); 
 		SceneManager.LoadScene ("Splash");
-		PlayerPrefs.SetInt ("isVrOn",0);
+
 		load = "SolarSystem";
 	}
 
@@ -20,11 +21,13 @@ public class MainMenu : MonoBehaviour {
 
 	public void logOut(){
 		PlayerPrefs.DeleteAll ();
+		PlayerPrefs.SetInt ("isInstall", 1);
 		SceneManager.LoadScene ("Splash");
 		load = "SCIVREUI";
 	}
 
 	public void Quiz(int a){
+		PlayerPrefs.SetInt ("isQuiz", 1); 
 		PlayerPrefs.SetInt ("quizNo", a);
 		SceneManager.LoadScene ("Splash");
 		load = "Quiz";
@@ -35,6 +38,7 @@ public class MainMenu : MonoBehaviour {
 	}
 
 	public void humanAnatomy(int systemNo){
+		PlayerPrefs.SetInt ("isQuiz",2); 
 		PlayerPrefs.SetInt ("whatSystem", systemNo);
 		SceneManager.LoadScene ("Splash");
 		PlayerPrefs.SetInt ("isVrOn",0);

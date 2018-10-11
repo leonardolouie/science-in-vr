@@ -53,7 +53,7 @@ public class login : MonoBehaviour {
 	void Start(){
 
 
-		Debug.Log (PlayerPrefs.GetInt ("isInstall"));
+		/*Debug.Log (PlayerPrefs.GetInt ("isInstall"));
 		PlayerPrefs.SetInt ("isInstall", 0);
 		if (PlayerPrefs.GetInt ("isInstall") == 0) {
 			
@@ -67,7 +67,7 @@ public class login : MonoBehaviour {
 		else 
 		{
 			tutorialpanel.SetActive (false);
-		}
+		}*/
 
 
 		if (PlayerPrefs.GetInt ("isLogged",0) == 1) {

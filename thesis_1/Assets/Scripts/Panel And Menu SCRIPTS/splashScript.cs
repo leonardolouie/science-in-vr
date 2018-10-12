@@ -57,7 +57,7 @@ public class splashScript : MonoBehaviour {
         else
         {  
 			//if quiz is selected
-			if (PlayerPrefs.GetInt("isQuiz") == 1) {
+			if (PlayerPrefs.GetInt("isQuiz") == 1)  {
 
 
 				StartCoroutine (LoadAsynchronously (MainMenu.load));

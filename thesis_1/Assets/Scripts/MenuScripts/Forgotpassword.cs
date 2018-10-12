@@ -114,6 +114,7 @@ public class Forgotpassword : MonoBehaviour {
 						StartCoroutine (fetch (lrn));
 
 
+
 					} 
 					else
 					{
@@ -170,6 +171,7 @@ public class Forgotpassword : MonoBehaviour {
 					yield return new WaitForSeconds (3f);
 
 					checkPanel.SetActive (false);
+					loginPanel.SetActive (false);
 					changePanel.SetActive (true);
 					canvasLoad.SetActive (false);
 

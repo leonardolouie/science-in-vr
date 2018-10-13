@@ -186,7 +186,9 @@ public class textcontrol : MonoBehaviour {
             txtcorrectanswer.text = correctanswer.ToString();
             txtwronganswer.text = wronganswer.ToString();
 			float a = (float)correctanswer;
-			txtAverage.text = ((a / 15) * 100).ToString("0") + "%";
+		
+		
+			txtAverage.text = ((a / 15) * 50 + 50).ToString("0") + "%";
 		
 
 		

@@ -4,26 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 public class dashPanel : MonoBehaviour {
 
-
+	public bool home;
 	public GameObject[] progress;
-	int index;
 	float timeBetween = 5f, nextTime = 3f;
-	// Use this for initialization
-	void Start () {
-		//StartCoroutine (loadProgress ());
-	}
-	
-	// Update is called once per frame
 	void Update () {
-		if (Time.time > timeBetween) {
-			
-			progress[index].transform.GetChild(2).gameObject.GetComponent<Image>().fillAmount += 1f / 3f * Time.deltaTime;
-			if (Time.time > nextTime) {
-				index++;
-				timeBetween += Time.time;
+			for (int i = 0; i < progress.Length; i++) {
+				if (progress [i].transform.GetChild (2).gameObject.GetComponent<Image> ().fillAmount * 100 < PlayerPrefs.GetInt ("Score" + (i + 1), 13) / 15 * 50 + 50) {
+					progress [i].transform.GetChild (2).gameObject.GetComponent<Image> ().fillAmount += 1 / 3f * Time.deltaTime;
+				}
 			}
-		}
 	}
-
+	public void reset(){
+		for (int i = 0; i < progress.Length; i++) 
+			progress [i].transform.GetChild (2).gameObject.GetComponent<Image> ().fillAmount = 0f;
+		
+	}
 
 }

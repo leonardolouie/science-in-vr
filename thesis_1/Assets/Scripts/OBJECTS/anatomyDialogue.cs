@@ -92,8 +92,8 @@ public class anatomyDialogue : MonoBehaviour {
 					StartCoroutine (destroyPanel (panel));
 				}
 				anamManager.infoScreen (dialogue.name, dialogue.sentences);
-
-			  
+				ts.pause ();
+			  	
 			}
 		} else {
 			

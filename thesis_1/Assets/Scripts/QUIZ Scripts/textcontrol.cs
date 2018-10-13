@@ -188,6 +188,8 @@ public class textcontrol : MonoBehaviour {
 			float a = (float)correctanswer;
 			txtAverage.text = ((a / 15) * 100).ToString("0") + "%";
 		
+
+		
 			if (PlayerPrefs.GetInt ("quizNo") == 1) {
 				PlayerPrefs.SetInt ("Score1", correctanswer);
 				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 1));
@@ -228,6 +230,7 @@ public class textcontrol : MonoBehaviour {
 				PlayerPrefs.SetInt ("Score9", correctanswer);
 				StartCoroutine(sendscore(PlayerPrefs.GetString("name"),correctanswer, 9));
 			}
+
 				
 
 			for (int x = 1; x <= 4; x++) {

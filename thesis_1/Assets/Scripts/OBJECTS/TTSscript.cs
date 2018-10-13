@@ -33,6 +33,14 @@ public class TTSscript : MonoBehaviour {
 
 	}
 
+	public void pause()
+	{
+
+		voice = new SpVoice();
+		voice.Pause ();
+
+	}
+
 
 
 

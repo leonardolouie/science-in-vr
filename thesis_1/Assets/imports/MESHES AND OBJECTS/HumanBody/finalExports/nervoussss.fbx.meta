@@ -228,7 +228,12 @@ ModelImporter:
     4300082: Mesh_0061.rip
     4300084: Mesh_0060.rip
     4300086: Mesh_0058.rip
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1
+    second: {fileID: 2100000, guid: d752ebe4d3d32004188ece5a354d12bc, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -98,8 +98,8 @@ public class textcontrol : MonoBehaviour {
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 2) {
 				unansweredQuestion = digistive.ToList<Questions> ();
-				quizName.text= "DIGISTIVE SYSTEM";
-				quizkoto.text="DIGISTIVE SYSTEM";
+				quizName.text= "DIGESTIVE SYSTEM";
+				quizkoto.text="DIGESTIVE SYSTEM";
 			}
 
 

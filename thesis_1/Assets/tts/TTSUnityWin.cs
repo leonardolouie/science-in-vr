@@ -21,7 +21,6 @@ using System.IO;
 public class TTSUnityWin : MonoBehaviour {
 
 	private SpVoice voice;
-	
 
 
 /// CODE FOR LOAD XML OR OTHER TEXT FILES IN THE SISTEM FROM THE FOLDER RESOURCE
@@ -60,6 +59,21 @@ public class TTSUnityWin : MonoBehaviour {
 	
 		//Set a voice (if not using XML)
 	//	voice.Voice = (tokens.Item (3)); // Comment this line if you use XML parser for choice voices, force a voice over the def one.
+
+	}
+
+	public void speak()
+	{
+
+		voice = new SpVoice();
+		//TextAsset txt = (TextAsset)Resources.Load("readme", typeof(TextAsset));
+		//	TextAsset txt = (TextAsset)Resources.Load("builtIn.xml", typeof(XmlText));
+		//	TextAsset textXML = (TextAsset)Resources.Load("builtIn", typeof(TextAsset));
+		//	BuiltAsset = textXML.text;
+		//TextAsset textAsset = (TextAsset) Resources.Load("builtIn.xml");  
+
+		voice.Speak ("Pogi ni Leonardo sobra talaga hahahaqweqweha", SpeechVoiceSpeakFlags.SVSFlagsAsync);
+		voice.Speak ("Pogi ni Leonardo sobra talaga Arjay", SpeechVoiceSpeakFlags.SVSFlagsAsync);
 
 	}
 
@@ -123,6 +137,10 @@ public class TTSUnityWin : MonoBehaviour {
 		
 		
 	}
+
+
+
 }
+
 
 

@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using SpeechLib;
+using System.Xml;
+using System.IO;
 
 public class planetDialogue : MonoBehaviour {
 
 	//THIS GLAZE IS FOR THE DESCRIPTION 
 	//OF ALL THE OJEBJECTS IN 3D MODE
+
+	private SpVoice voice;
 	public Dialogue dialogue;
 
 	public static bool ret;
@@ -53,6 +58,8 @@ public class planetDialogue : MonoBehaviour {
 			FindObjectOfType<DialogueManager> ().StartDialogue (dialogue);
 			//dito pwede ung double tap ilagay this is the change of pivot
 			//lerp = true;
+			anatomyDialogue.textToBeSpeech = dialogue.sentences;
+
 			hasSelect = true;
             selectedPlanet = planetNo;
 
@@ -86,4 +93,37 @@ public class planetDialogue : MonoBehaviour {
 	public void planetNumber(int a){
 		planetNo = a;
 	}
+
+
+
+
+
+	/*public void speak(string message)
+	{
+
+		voice = new SpVoice();
+		voice.Rate = -2;
+
+
+		voice.Speak (message, SpeechVoiceSpeakFlags.SVSFlagsAsync);
+
+
+	}
+
+
+
+
+	/// CODE FOR LOAD XML OR OTHER TEXT FILES IN THE SISTEM FROM THE FOLDER RESOURCE
+
+	string loadXMLStandalone (string fileName) {
+
+		string path  = Path.Combine("Resources", fileName);
+		path = Path.Combine (Application.dataPath, path);
+		Debug.Log ("Path:  " + path);
+		StreamReader streamReader = new StreamReader (path);
+		string streamString = streamReader.ReadToEnd();
+		Debug.Log ("STREAM XML STRING: " + streamString);
+		return streamString;
+	}*/
+
 }

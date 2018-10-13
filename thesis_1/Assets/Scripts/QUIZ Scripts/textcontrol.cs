@@ -125,7 +125,7 @@ public class textcontrol : MonoBehaviour {
 				quizName.text= "URINARY SYSTEM";
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 8) {
-				unansweredQuestion = urinary.ToList<Questions> ();
+				unansweredQuestion = nervous.ToList<Questions> ();
 				quizName.text= "NERVOUS SYSTEM";
 			}
 			if (PlayerPrefs.GetInt ("quizNo") == 9) {

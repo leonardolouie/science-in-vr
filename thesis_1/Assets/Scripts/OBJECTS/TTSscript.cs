@@ -15,21 +15,25 @@ public class TTSscript : MonoBehaviour {
 	private SpVoice voice;
 
 
+
+
+	void Start(){
+		voice = new SpVoice ();
+		//voice = new SpVoice();
+	}
 	public void speak()
 	{
-
-		voice = new SpVoice();
-
+		
 		voice.Rate = -2;
-		Debug.Log (anatomyDialogue.textToBeSpeech);
-
+		voice.Speak (anatomyDialogue.textToBeSpeech, SpeechVoiceSpeakFlags.SVSFlagsAsync);
+	
+		/*
 		if (anatomyDialogue.textToBeSpeech != null) {
-			voice.Speak (anatomyDialogue.textToBeSpeech, SpeechVoiceSpeakFlags.SVSFlagsAsync);
+			
 		} else {
-
 			voice.Pause ();
 		}
-
+		*/
 
 	}
 
@@ -38,7 +42,6 @@ public class TTSscript : MonoBehaviour {
 
 		voice = new SpVoice();
 		voice.Pause ();
-
 	}
 
 

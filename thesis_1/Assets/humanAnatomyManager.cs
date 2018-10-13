@@ -32,10 +32,19 @@ public class humanAnatomyManager : MonoBehaviour {
 			case 4:
 				header.text = "Muscular System";
 				break;
+			case 5:
+				header.text = "Circulatory System";
+				break;
+			case 6:
+				header.text = "Nervous System";
+				break;
+			case 7:
+				header.text = "Endocrine System";
+				break;
 			default:
 				break;
 			}
-			if (whatSystem > 2) {
+			if (whatSystem == 3 || whatSystem == 4 || whatSystem == 5) {
 				Instantiate (anatomySystemsPrefabs [whatSystem], humanBase.position, anatomySystemsPrefabs [whatSystem].transform.rotation);
 				humanBase.gameObject.SetActive (false);
 			} else {

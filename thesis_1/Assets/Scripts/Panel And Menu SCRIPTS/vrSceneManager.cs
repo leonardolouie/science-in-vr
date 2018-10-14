@@ -8,7 +8,7 @@ public class vrSceneManager : MonoBehaviour {
 
 	public GameObject[] planetPrefabs;
 
-
+	public static int planetNumber;
 
 	public GameObject spawnPointSolar,solarSystemPrefabs;
 	public GameObject splashPanel,text,planetSpawner,fade;
@@ -35,6 +35,7 @@ public class vrSceneManager : MonoBehaviour {
 		if(spawnPointSolar.transform.childCount > 0)
 			Destroy (spawnPointSolar.transform.GetChild (0).gameObject);
 		StartCoroutine (showPlanet (a));
+		planetNumber = a;
 	}
 
 
@@ -78,18 +79,16 @@ public class vrSceneManager : MonoBehaviour {
 
 
 	IEnumerator turningOff(){
-
-		yield return null;
-
-		splashPanel.SetActive (true);
 		text.SetActive (true);
 		yield return new WaitForSeconds (10f);
-		vrOffSplashImage.CrossFadeAlpha (0f, 2f, false);
-		yield return new WaitForSeconds (2f);
-		text.SetActive (false);
+		//text.transform.GetChild(0).gameObject.GetComponent<Image>().CrossFadeAlpha (0f, 2f, false);
+		//text.SetActive (false);
+	
 		UnityEngine.XR.XRSettings.LoadDeviceByName ("none");
 		UnityEngine.XR.XRSettings.enabled = false;
 		//going to main menu
 		m.Home ();
+
+
 	}
 }

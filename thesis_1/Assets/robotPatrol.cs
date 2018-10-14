@@ -3,17 +3,20 @@ using System.Collections;
 using UnityEngine.EventSystems;
 public class robotPatrol : MonoBehaviour {
 
-	public int distance;
+	public float distance;
 
-	private int randomizer = 0;
 
 	private bool isLooking;
+	public bool robotStart {
+		get;
+		set;
+	}
 
 
-	private int state;
+	public int state{ get; set;}
 	public int index = 0;
 
-	private bool gazeAt,robotStart;
+	private bool gazeAt;
 	bool robotSelected;
 
 	public float speed = 3f;
@@ -21,10 +24,10 @@ public class robotPatrol : MonoBehaviour {
 
 	float gazeTime = 2f;
 	private float timer,timerLook;
-
+	vrSceneManager vrscm;
 
 	Transform vrCamera;
-	Animator robotAnim;
+	Animator robotAnim,robotPanel;
 	public Transform pathParent;//,lookParent; for gizmoz
 	public Transform[] target;
 	Transform targetPoint;
@@ -43,16 +46,19 @@ public class robotPatrol : MonoBehaviour {
 		gazeAt = false;
 	}
 
-	void Start () {
+	public void Start () {
 		vrCamera = GameObject.FindWithTag ("vrCamera").transform;
+		vrscm = FindObjectOfType<vrSceneManager> ();
 		robotAnim = GetComponent<Animator> ();
+		robotPanel = transform.GetChild (0).gameObject.GetComponent<Animator> ();
+
 		StartCoroutine (startRobot ());
 	}
 
 	IEnumerator startRobot(){
 		yield return new WaitForSeconds (robotAnim.GetCurrentAnimatorStateInfo (0).length + 5);
 		robotStart = true;
-		state = 1;
+		state = 2;
 	}
 
 	void Update () {
@@ -74,7 +80,7 @@ public class robotPatrol : MonoBehaviour {
 				case 2:
 			//idle goes heer
 						robotAnim.SetInteger ("anim", 0);
-						StartCoroutine (idling ());
+
 					
 					break;
 				default:
@@ -92,16 +98,12 @@ public class robotPatrol : MonoBehaviour {
 			transform.rotation = Quaternion.RotateTowards (transform.rotation, lookAt, rotSpeed * Time.deltaTime);
 			if (transform.rotation == lookAt) {
 				transform.position = Vector3.MoveTowards (transform.position,vrCamera.position, speed * Time.deltaTime);
-				
 				robotAnim.speed = 1f;
-				if (Vector3.Distance (transform.position, vrCamera.position) < distance) {
+				if (Vector3.Distance (vrCamera.position, transform.position) < distance) {
+					isLooking = false;
+					robotStart = false;
 					robotAnim.SetInteger ("anim", 0);
-					timerLook += Time.deltaTime;
-					if (timerLook > 30f){
-						state = 1;
-						isLooking = false;
-						timerLook = 0f;
-					}
+					StartCoroutine (inPosition ());
 				}
 
 			}
@@ -109,11 +111,16 @@ public class robotPatrol : MonoBehaviour {
 		
 	}
 
-	IEnumerator idling(){
-		int x = Random.Range (1, 10);
-		yield return new WaitForSeconds (x);
-		state = 0;
+	IEnumerator inPosition(){
+		yield return new WaitForSeconds (.5f);
+		robotPanel.SetTrigger ("show");
+		GetComponent<CapsuleCollider> ().enabled = false;
+		yield return new WaitForSeconds (20f);
+		GetComponent<CapsuleCollider> ().enabled = true;
+		robotStart = true;
 	}
+
+
 
 
 
@@ -152,7 +159,16 @@ public class robotPatrol : MonoBehaviour {
 		if (transform.rotation == lookAt) {
 			robotAnim.speed = 1f;
 			state = 0;
-				
+		}
+	}
+
+
+
+	public void nextPlanet (){
+		if (vrSceneManager.planetNumber < 9 && vrSceneManager.planetNumber > 1) {
+			vrscm.selectThePlanet (vrSceneManager.planetNumber);
+		} else if (vrSceneManager.planetNumber == 0) {
+			vrscm.selectThePlanet (1);
 		}
 	}
 }

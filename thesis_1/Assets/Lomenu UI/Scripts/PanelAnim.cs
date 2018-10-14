@@ -26,12 +26,13 @@ public class PanelAnim : MonoBehaviour {
 
 
 	void Start(){
-		if (PlayerPrefs.GetInt ("tutorial", 0) == 0) {
-			tutorialAnim ();
-			PlayerPrefs.SetInt ("tutorial", 1);
+		if (PlayerPrefs.GetInt ("scene", 0) == 0) {
+			if (PlayerPrefs.GetInt ("tutorial", 0) == 0) {
+				tutorialAnim ();
+				PlayerPrefs.SetInt ("tutorial", 1);
+			} else
+				start.transform.parent.gameObject.SetActive (false);
 		}
-		else 
-			start.transform.parent.gameObject.SetActive (false);
 		
 	}
 	void Update ()

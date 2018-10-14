@@ -6,14 +6,19 @@ using UnityEngine.UI;
 public class VrOff : MonoBehaviour {
 	public GameObject[] objects;
 	public Animator anim;
+
+	void Awake(){
+		PlayerPrefs.SetInt ("scene", 1);
+	}
 	void Start(){
 		if (PlayerPrefs.GetInt ("isVrOn", 0) == 0) {
 			//if we select in the main menu the vr mode
 			vrOff ();
+			anim.GetComponent<Animator> ().SetTrigger ("Pressed");
 		}
 
 
-		anim.GetComponent<Animator> ().SetTrigger ("Pressed");
+
 	}
 	public void vrOff(){
 		StartCoroutine (activatorVr ("none"));

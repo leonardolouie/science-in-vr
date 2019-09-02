@@ -3,16 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 public class humanAnatomyManager : MonoBehaviour {
-	public GameObject animPanelShow;
+	public GameObject animPanelShow,text;
 	private bool startOrganRotation = false,strSlctdOrgnRot;
 	float organSpeedRotation = 3f;
 	public Text header,organName,organDesc;
+	MainMenu m;
 	Text nameOrgan;
 	int whatSystem;
 	public GameObject[] anatomySystemsPrefabs;
 	public Material onClikMat;
 	anatomyManager anatomymanager;
 	public Transform spawnPointVr,humanBase,spawnPointOrgan;
+
+	void Start(){
+		m = FindObjectOfType<MainMenu> ();
+	}
 	void Awake(){
 		if(!VrOn.isVROn) {
 			whatSystem = PlayerPrefs.GetInt ("whatSystem", 0);
@@ -108,5 +113,18 @@ public class humanAnatomyManager : MonoBehaviour {
 		GameObject.FindWithTag ("organName").GetComponent<Text> ().text = name;
 
 	
+	}
+
+
+	public IEnumerator turnOff(){
+		text.SetActive (true);
+		yield return new WaitForSeconds (10f);
+		//text.transform.GetChild(0).gameObject.GetComponent<Image>().CrossFadeAlpha (0f, 2f, false);
+		//text.SetActive (false);
+
+		UnityEngine.XR.XRSettings.LoadDeviceByName ("none");
+		UnityEngine.XR.XRSettings.enabled = false;
+		//going to main menu
+		m.Home ();
 	}
 }
